@@ -49,5 +49,4 @@ def read_fasta(contigs_file):
     print("bin_edges:")
     print(bin_edges)"""
 
-
 read_fasta("../contigs-outputs/basic_k-mer24/basic_try_k-mer24.contigs.fa")
