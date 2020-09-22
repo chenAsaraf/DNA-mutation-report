@@ -1,206 +1,206 @@
 start to parsing each contig
 parsing windows for contig number: 0
-0
+test: insert the contig number 0 to the right cell: True
 parsing windows for contig number: 1
-1
+test: insert the contig number 1 to the right cell: True
 parsing windows for contig number: 2
-2
+test: insert the contig number 2 to the right cell: True
 parsing windows for contig number: 3
-3
+test: insert the contig number 3 to the right cell: True
 parsing windows for contig number: 4
-4
+test: insert the contig number 4 to the right cell: True
 parsing windows for contig number: 5
-5
+test: insert the contig number 5 to the right cell: True
 parsing windows for contig number: 6
-6
+test: insert the contig number 6 to the right cell: True
 parsing windows for contig number: 7
-7
+test: insert the contig number 7 to the right cell: True
 parsing windows for contig number: 8
-8
+test: insert the contig number 8 to the right cell: True
 parsing windows for contig number: 9
-9
+test: insert the contig number 9 to the right cell: True
 parsing windows for contig number: 11
-11
+test: insert the contig number 10 to the right cell: True
 parsing windows for contig number: 12
-12
+test: insert the contig number 11 to the right cell: True
 parsing windows for contig number: 13
-13
+test: insert the contig number 12 to the right cell: True
 parsing windows for contig number: 14
-14
+test: insert the contig number 13 to the right cell: True
 parsing windows for contig number: 15
-15
+test: insert the contig number 14 to the right cell: True
 parsing windows for contig number: 16
-16
+test: insert the contig number 15 to the right cell: True
 parsing windows for contig number: 17
-17
+test: insert the contig number 16 to the right cell: True
 parsing windows for contig number: 18
-18
+test: insert the contig number 17 to the right cell: True
 parsing windows for contig number: 19
-19
+test: insert the contig number 18 to the right cell: True
 parsing windows for contig number: 20
-20
+test: insert the contig number 19 to the right cell: True
 parsing windows for contig number: 21
-21
+test: insert the contig number 20 to the right cell: True
 parsing windows for contig number: 22
-22
+test: insert the contig number 21 to the right cell: True
 parsing windows for contig number: 23
-23
+test: insert the contig number 22 to the right cell: True
 parsing windows for contig number: 24
-24
+test: insert the contig number 23 to the right cell: True
 parsing windows for contig number: 25
-25
+test: insert the contig number 24 to the right cell: True
 parsing windows for contig number: 26
-26
+test: insert the contig number 25 to the right cell: True
 parsing windows for contig number: 27
-27
+test: insert the contig number 26 to the right cell: True
 parsing windows for contig number: 29
-29
+test: insert the contig number 27 to the right cell: True
 parsing windows for contig number: 30
-30
+test: insert the contig number 28 to the right cell: True
 parsing windows for contig number: 31
-31
+test: insert the contig number 29 to the right cell: True
 parsing windows for contig number: 32
-32
+test: insert the contig number 30 to the right cell: True
 parsing windows for contig number: 33
-33
+test: insert the contig number 31 to the right cell: True
 parsing windows for contig number: 34
-34
+test: insert the contig number 32 to the right cell: True
 parsing windows for contig number: 35
-35
+test: insert the contig number 33 to the right cell: True
 parsing windows for contig number: 36
-36
+test: insert the contig number 34 to the right cell: True
 parsing windows for contig number: 37
-37
+test: insert the contig number 35 to the right cell: True
 parsing windows for contig number: 38
-38
+test: insert the contig number 36 to the right cell: True
 parsing windows for contig number: 39
-39
+test: insert the contig number 37 to the right cell: True
 parsing windows for contig number: 40
-40
+test: insert the contig number 38 to the right cell: True
 parsing windows for contig number: 41
-41
+test: insert the contig number 39 to the right cell: True
 parsing windows for contig number: 42
-42
+test: insert the contig number 40 to the right cell: True
 parsing windows for contig number: 43
-43
+test: insert the contig number 41 to the right cell: True
 parsing windows for contig number: 44
-44
+test: insert the contig number 42 to the right cell: True
 parsing windows for contig number: 45
-45
+test: insert the contig number 43 to the right cell: True
 parsing windows for contig number: 46
-46
+test: insert the contig number 44 to the right cell: True
 parsing windows for contig number: 47
-47
+test: insert the contig number 45 to the right cell: True
 parsing windows for contig number: 48
-48
+test: insert the contig number 46 to the right cell: True
 parsing windows for contig number: 49
-49
+test: insert the contig number 47 to the right cell: True
 parsing windows for contig number: 50
-50
+test: insert the contig number 48 to the right cell: True
 parsing windows for contig number: 51
-51
+test: insert the contig number 49 to the right cell: True
 parsing windows for contig number: 52
-52
+test: insert the contig number 50 to the right cell: True
 parsing windows for contig number: 53
-53
+test: insert the contig number 51 to the right cell: True
 parsing windows for contig number: 55
-55
+test: insert the contig number 52 to the right cell: True
 parsing windows for contig number: 56
-56
+test: insert the contig number 53 to the right cell: True
 parsing windows for contig number: 57
-57
+test: insert the contig number 54 to the right cell: True
 parsing windows for contig number: 59
-59
+test: insert the contig number 55 to the right cell: True
 parsing windows for contig number: 60
-60
+test: insert the contig number 56 to the right cell: True
 parsing windows for contig number: 61
-61
+test: insert the contig number 57 to the right cell: True
 parsing windows for contig number: 62
-62
+test: insert the contig number 58 to the right cell: True
 parsing windows for contig number: 63
-63
+test: insert the contig number 59 to the right cell: True
 parsing windows for contig number: 64
-64
+test: insert the contig number 60 to the right cell: True
 parsing windows for contig number: 65
-65
+test: insert the contig number 61 to the right cell: True
 parsing windows for contig number: 66
-66
+test: insert the contig number 62 to the right cell: True
 parsing windows for contig number: 67
-67
+test: insert the contig number 63 to the right cell: True
 parsing windows for contig number: 68
-68
+test: insert the contig number 64 to the right cell: True
 parsing windows for contig number: 69
-69
+test: insert the contig number 65 to the right cell: True
 parsing windows for contig number: 70
-70
+test: insert the contig number 66 to the right cell: True
 parsing windows for contig number: 71
-71
+test: insert the contig number 67 to the right cell: True
 parsing windows for contig number: 72
-72
+test: insert the contig number 68 to the right cell: True
 parsing windows for contig number: 73
-73
+test: insert the contig number 69 to the right cell: True
 parsing windows for contig number: 74
-74
+test: insert the contig number 70 to the right cell: True
 parsing windows for contig number: 75
-75
+test: insert the contig number 71 to the right cell: True
 parsing windows for contig number: 76
-76
+test: insert the contig number 72 to the right cell: True
 parsing windows for contig number: 77
-77
+test: insert the contig number 73 to the right cell: True
 parsing windows for contig number: 78
-78
+test: insert the contig number 74 to the right cell: True
 parsing windows for contig number: 79
-79
+test: insert the contig number 75 to the right cell: True
 parsing windows for contig number: 80
-80
+test: insert the contig number 76 to the right cell: True
 parsing windows for contig number: 81
-81
+test: insert the contig number 77 to the right cell: True
 parsing windows for contig number: 82
-82
+test: insert the contig number 78 to the right cell: True
 parsing windows for contig number: 83
-83
+test: insert the contig number 79 to the right cell: True
 parsing windows for contig number: 84
-84
+test: insert the contig number 80 to the right cell: True
 parsing windows for contig number: 85
-85
+test: insert the contig number 81 to the right cell: True
 parsing windows for contig number: 86
-86
+test: insert the contig number 82 to the right cell: True
 parsing windows for contig number: 87
-87
+test: insert the contig number 83 to the right cell: True
 parsing windows for contig number: 88
-88
+test: insert the contig number 84 to the right cell: True
 parsing windows for contig number: 89
-89
+test: insert the contig number 85 to the right cell: True
 parsing windows for contig number: 90
-90
+test: insert the contig number 86 to the right cell: True
 parsing windows for contig number: 91
-91
+test: insert the contig number 87 to the right cell: True
 parsing windows for contig number: 92
-92
+test: insert the contig number 88 to the right cell: True
 parsing windows for contig number: 93
-93
+test: insert the contig number 89 to the right cell: True
 parsing windows for contig number: 94
-94
+test: insert the contig number 90 to the right cell: True
 parsing windows for contig number: 95
-95
+test: insert the contig number 91 to the right cell: True
 parsing windows for contig number: 96
-96
+test: insert the contig number 92 to the right cell: True
 parsing windows for contig number: 97
-97
+test: insert the contig number 93 to the right cell: True
 parsing windows for contig number: 98
-98
+test: insert the contig number 94 to the right cell: True
 parsing windows for contig number: 99
-99
+test: insert the contig number 95 to the right cell: True
 parsing windows for contig number: 100
-100
+test: insert the contig number 96 to the right cell: True
 parsing windows for contig number: 101
-101
+test: insert the contig number 97 to the right cell: True
 parsing windows for contig number: 102
-102
+test: insert the contig number 98 to the right cell: True
 parsing windows for contig number: 103
-103
+test: insert the contig number 99 to the right cell: True
 parsing windows for contig number: 104
-104
+test: insert the contig number 100 to the right cell: True
 
 test:
 GTTCCGTTGC ->
@@ -1263,10150 +1263,10150 @@ TCTGGAACCA ->
 	 9
 	 	 13
 CCAGGAGTTC ->
-	 11
+	 10
 	 	 0
 CAGGAGTTCG ->
-	 11
+	 10
 	 	 1
 AGGAGTTCGA ->
-	 11
+	 10
 	 	 2
 GGAGTTCGAC ->
-	 11
+	 10
 	 	 3
 GAGTTCGACG ->
-	 11
+	 10
 	 	 4
 AGTTCGACGT ->
-	 11
+	 10
 	 	 5
 GTTCGACGTT ->
-	 11
+	 10
 	 	 6
 TTCGACGTTG ->
-	 11
+	 10
 	 	 7
 TCGACGTTGC ->
-	 11
+	 10
 	 	 8
 CGACGTTGCA ->
-	 11
+	 10
 	 	 9
 GACGTTGCAG ->
-	 11
+	 10
 	 	 10
 ACGTTGCAGT ->
-	 11
+	 10
 	 	 11
 CGTTGCAGTG ->
-	 11
+	 10
 	 	 12
 GTTGCAGTGA ->
-	 11
+	 10
 	 	 13
 TTGCAGTGAG ->
-	 11
+	 10
 	 	 14
 CACTGCAACG ->
-	 12
+	 11
 	 	 0
 ACTGCAACGT ->
-	 12
+	 11
 	 	 1
 CTGCAACGTC ->
-	 12
+	 11
 	 	 2
 TGCAACGTCG ->
-	 12
+	 11
 	 	 3
 GCAACGTCGA ->
-	 12
+	 11
 	 	 4
 CAACGTCGAA ->
-	 12
+	 11
 	 	 5
 AACGTCGAAC ->
-	 12
+	 11
 	 	 6
 ACGTCGAACT ->
-	 12
+	 11
 	 	 7
 CGTCGAACTC ->
-	 12
+	 11
 	 	 8
 GTCGAACTCC ->
-	 12
+	 11
 	 	 9
 TCGAACTCCT ->
-	 12
+	 11
 	 	 10
 CGAACTCCTG ->
-	 12
+	 11
 	 	 11
 GAACTCCTGG ->
-	 12
+	 11
 	 	 12
 AACTCCTGGG ->
-	 12
+	 11
 	 	 13
 ACTCCTGGGC ->
-	 12
+	 11
 	 	 14
 CTCCTGGGCT ->
-	 12
+	 11
 	 	 15
 TCCTGGGCTC ->
-	 12
+	 11
 	 	 16
 CCTGGGCTCA ->
-	 12
+	 11
 	 	 17
 CTGGGCTCAA ->
-	 12
+	 11
 	 	 18
 TGGGCTCAAG ->
-	 12
+	 11
 	 	 19
 GGGCTCAAGG ->
-	 12
+	 11
 	 	 20
 ATTTCGGCTC ->
-	 13
+	 12
 	 	 0
 TTTCGGCTCA ->
-	 13
+	 12
 	 	 1
 TTCGGCTCAC ->
-	 13
+	 12
 	 	 2
 TCGGCTCACT ->
-	 13
+	 12
 	 	 3
 CGGCTCACTG ->
-	 13
+	 12
 	 	 4
 GGCTCACTGC ->
-	 13
+	 12
 	 	 5
 GCTCACTGCA ->
-	 13
+	 12
 	 	 6
 CTCACTGCAA ->
-	 13
+	 12
 	 	 7
 TCACTGCAAC ->
-	 13
+	 12
 	 	 8
 CACTGCAACC ->
-	 13
+	 12
 	 	 9
 ACTGCAACCG ->
-	 13
+	 12
 	 	 10
 CTGCAACCGC ->
-	 13
+	 12
 	 	 11
 TGCAACCGCC ->
-	 13
+	 12
 	 	 12
 GCAACCGCCG ->
-	 13
+	 12
 	 	 13
 CAACCGCCGA ->
-	 13
+	 12
 	 	 14
 AACCGCCGAC ->
-	 13
+	 12
 	 	 15
 ACCGCCGACT ->
-	 13
+	 12
 	 	 16
 CCGCCGACTC ->
-	 13
+	 12
 	 	 17
 CGCCGACTCC ->
-	 13
+	 12
 	 	 18
 GCCGACTCCT ->
-	 13
+	 12
 	 	 19
 CCGACTCCTG ->
-	 13
+	 12
 	 	 20
 CGACTCCTGG ->
-	 13
+	 12
 	 	 21
 GACTCCTGGG ->
-	 13
+	 12
 	 	 22
 ACTCCTGGGT ->
-	 13
+	 12
 	 	 23
 CTCCTGGGTT ->
-	 13
+	 12
 	 	 24
 TCCTGGGTTT ->
-	 13
+	 12
 	 	 25
 CCTGGGTTTA ->
-	 13
+	 12
 	 	 26
 CTGGGTTTAA ->
-	 13
+	 12
 	 	 27
 TGGGTTTAAA ->
-	 13
+	 12
 	 	 28
 GGGTTTAAAT ->
-	 13
+	 12
 	 	 29
 GGTTTAAATG ->
-	 13
+	 12
 	 	 30
 GTTTAAATGA ->
-	 13
+	 12
 	 	 31
 TTTAAATGAT ->
-	 13
+	 12
 	 	 32
 CCCAGGAGTT ->
-	 14
+	 13
 	 	 0
 CAATCACAGC ->
-	 15
+	 14
 	 	 0
 AATCACAGCT ->
-	 15
+	 14
 	 	 1
 ATCACAGCTC ->
-	 15
+	 14
 	 	 2
 TCACAGCTCA ->
-	 15
+	 14
 	 	 3
 CACAGCTCAC ->
-	 15
+	 14
 	 	 4
 ACAGCTCACT ->
-	 15
+	 14
 	 	 5
 CAGCTCACTG ->
-	 15
+	 14
 	 	 6
 AGCTCACTGC ->
-	 15
+	 14
 	 	 7
 AAGGGGGCGG ->
-	 16
+	 15
 	 	 0
 AGGGGGCGGA ->
-	 16
+	 15
 	 	 1
 GGGGGCGGAT ->
-	 16
+	 15
 	 	 2
 GGGGCGGATC ->
-	 16
+	 15
 	 	 3
 GGGCGGATCA ->
-	 16
+	 15
 	 	 4
 GGCGGATCAC ->
-	 16
+	 15
 	 	 5
 GCGGATCACC ->
-	 16
+	 15
 	 	 6
 CGGATCACCT ->
-	 16
+	 15
 	 	 7
 GGATCACCTG ->
-	 16
+	 15
 	 	 8
 GATCACCTGA ->
-	 16
+	 15
 	 	 9
 ATCACCTGAG ->
-	 16
+	 15
 	 	 10
 TCACCTGAGA ->
-	 16
+	 15
 	 	 11
 CACCTGAGAT ->
-	 16
+	 15
 	 	 12
 ACCTGAGATC ->
-	 16
+	 15
 	 	 13
 CCTGAGATCG ->
-	 16
+	 15
 	 	 14
 CTGAGATCGC ->
-	 16
+	 15
 	 	 15
 TGAGATCGCG ->
-	 16
+	 15
 	 	 16
 GAGATCGCGA ->
-	 16
+	 15
 	 	 17
 AGATCGCGAG ->
-	 16
+	 15
 	 	 18
 GATCGCGAGT ->
-	 16
+	 15
 	 	 19
 ATCGCGAGTT ->
-	 16
+	 15
 	 	 20
 TCGCGAGTTC ->
-	 16
+	 15
 	 	 21
 CGCGAGTTCG ->
-	 16
+	 15
 	 	 22
 GCGAGTTCGA ->
-	 16
+	 15
 	 	 23
 CGAGTTCGAG ->
-	 16
+	 15
 	 	 24
 GAGTTCGAGA ->
-	 16
+	 15
 	 	 25
 AGTTCGAGAC ->
-	 16
+	 15
 	 	 26
 GTTCGAGACC ->
-	 16
+	 15
 	 	 27
 TTCGAGACCA ->
-	 16
+	 15
 	 	 28
 TCGAGACCAG ->
-	 16
+	 15
 	 	 29
 CGAGACCAGC ->
-	 16
+	 15
 	 	 30
 GAGACCAGCC ->
-	 16
+	 15
 	 	 31
 AGACCAGCCT ->
-	 16
+	 15
 	 	 32
 AAAAAACGCT ->
-	 17
+	 16
 	 	 0
 AAAAACGCTC ->
-	 17
+	 16
 	 	 1
 AAAACGCTCG ->
-	 17
+	 16
 	 	 2
 AAACGCTCGA ->
-	 17
+	 16
 	 	 3
 AACGCTCGAC ->
-	 17
+	 16
 	 	 4
 ACGCTCGACA ->
-	 17
+	 16
 	 	 5
 CGCTCGACAT ->
-	 17
+	 16
 	 	 6
 GCTCGACATC ->
-	 17
+	 16
 	 	 7
 CTCGACATCA ->
-	 17
+	 16
 	 	 8
 TCGACATCAC ->
-	 17
+	 16
 	 	 9
 CGACATCACT ->
-	 17
+	 16
 	 	 10
 GACATCACTA ->
-	 17
+	 16
 	 	 11
 ACATCACTAA ->
-	 17
+	 16
 	 	 12
 CATCACTAAT ->
-	 17
+	 16
 	 	 13
 ATCACTAATC ->
-	 17
+	 16
 	 	 14
 TCACTAATCA ->
-	 17
+	 16
 	 	 15
 CACTAATCAT ->
-	 17
+	 16
 	 	 16
 ACTAATCATT ->
-	 17
+	 16
 	 	 17
 CTAATCATTT ->
-	 17
+	 16
 	 	 18
 TAATCATTTG ->
-	 17
+	 16
 	 	 19
 AATCATTTGA ->
-	 17
+	 16
 	 	 20
 ATCATTTGAA ->
-	 17
+	 16
 	 	 21
 TCATTTGAAA ->
-	 17
+	 16
 	 	 22
 CATTTGAAAA ->
-	 17
+	 16
 	 	 23
 ATTTGAAAAA ->
-	 17
+	 16
 	 	 24
 AGAGCCTGGG ->
-	 18
+	 17
 	 	 0
 GAGCCTGGGA ->
-	 18
+	 17
 	 	 1
 AGCCTGGGAG ->
-	 18
+	 17
 	 	 2
 GCCTGGGAGA ->
-	 18
+	 17
 	 	 3
 CCTGGGAGAT ->
-	 18
+	 17
 	 	 4
 CTGGGAGATG ->
-	 18
+	 17
 	 	 5
 TGGGAGATGC ->
-	 18
+	 17
 	 	 6
 GGGAGATGCC ->
-	 18
+	 17
 	 	 7
 GGAGATGCCG ->
-	 18
+	 17
 	 	 8
 GAGATGCCGG ->
-	 18
+	 17
 	 	 9
 AGATGCCGGA ->
-	 18
+	 17
 	 	 10
 GATGCCGGAC ->
-	 18
+	 17
 	 	 11
 ATGCCGGACT ->
-	 18
+	 17
 	 	 12
 TGCCGGACTC ->
-	 18
+	 17
 	 	 13
 GCCGGACTCG ->
-	 18
+	 17
 	 	 14
 CCGGACTCGA ->
-	 18
+	 17
 	 	 15
 CGGACTCGAA ->
-	 18
+	 17
 	 	 16
 GGACTCGAAC ->
-	 18
+	 17
 	 	 17
 GACTCGAACT ->
-	 18
+	 17
 	 	 18
 ACTCGAACTC ->
-	 18
+	 17
 	 	 19
 CTCGAACTCG ->
-	 18
+	 17
 	 	 20
 TCGAACTCGT ->
-	 18
+	 17
 	 	 21
 CGAACTCGTC ->
-	 18
+	 17
 	 	 22
 GAACTCGTCC ->
-	 18
+	 17
 	 	 23
 AACTCGTCCG ->
-	 18
+	 17
 	 	 24
 ACTCGTCCGG ->
-	 18
+	 17
 	 	 25
 CTCGTCCGGC ->
-	 18
+	 17
 	 	 26
 TCGTCCGGCT ->
-	 18
+	 17
 	 	 27
 CGTCCGGCTT ->
-	 18
+	 17
 	 	 28
 GTCCGGCTTC ->
-	 18
+	 17
 	 	 29
 TCCGGCTTCT ->
-	 18
+	 17
 	 	 30
 CCGGCTTCTC ->
-	 18
+	 17
 	 	 31
 CGGCTTCTCG ->
-	 18
+	 17
 	 	 32
 GGCTTCTCGC ->
-	 18
+	 17
 	 	 33
 GCTTCTCGCC ->
-	 18
+	 17
 	 	 34
 CTTCTCGCCA ->
-	 18
+	 17
 	 	 35
 TTCTCGCCAT ->
-	 18
+	 17
 	 	 36
 TCTCGCCATT ->
-	 18
+	 17
 	 	 37
 CTCGCCATTG ->
-	 18
+	 17
 	 	 38
 TCGCCATTGG ->
-	 18
+	 17
 	 	 39
 CGCCATTGGG ->
-	 18
+	 17
 	 	 40
 GCCATTGGGC ->
-	 18
+	 17
 	 	 41
 CCATTGGGCT ->
-	 18
+	 17
 	 	 42
 CATTGGGCTT ->
-	 18
+	 17
 	 	 43
 ATTGGGCTTC ->
-	 18
+	 17
 	 	 44
 TTGGGCTTCA ->
-	 18
+	 17
 	 	 45
 TGGGCTTCAC ->
-	 18
+	 17
 	 	 46
 GGGCTTCACG ->
-	 18
+	 17
 	 	 47
 GGCTTCACGA ->
-	 18
+	 17
 	 	 48
 GCTTCACGAT ->
-	 18
+	 17
 	 	 49
 CTTCACGATC ->
-	 18
+	 17
 	 	 50
 TTCACGATCT ->
-	 18
+	 17
 	 	 51
 TCACGATCTT ->
-	 18
+	 17
 	 	 52
 CACGATCTTG ->
-	 18
+	 17
 	 	 53
 GACCAGCCTG ->
-	 19
+	 18
 	 	 1
 ACCAGCCTGG ->
-	 19
+	 18
 	 	 2
 CCAGCCTGGG ->
-	 19
+	 18
 	 	 3
 CAGCCTGGGC ->
-	 19
+	 18
 	 	 4
 AGCCTGGGCA ->
-	 19
+	 18
 	 	 5
 GCCTGGGCAA ->
-	 19
+	 18
 	 	 6
 CCTGGGCAAC ->
-	 19
+	 18
 	 	 7
 CTGGGCAACG ->
-	 19
+	 18
 	 	 8
 TGGGCAACGT ->
-	 19
+	 18
 	 	 9
 GGGCAACGTG ->
-	 19
+	 18
 	 	 10
 GGCAACGTGT ->
-	 19
+	 18
 	 	 11
 GCAACGTGTC ->
-	 19
+	 18
 	 	 12
 CAACGTGTCG ->
-	 19
+	 18
 	 	 13
 AACGTGTCGA ->
-	 19
+	 18
 	 	 14
 ACGTGTCGAA ->
-	 19
+	 18
 	 	 15
 CGTGTCGAAA ->
-	 19
+	 18
 	 	 16
 GTGTCGAAAC ->
-	 19
+	 18
 	 	 17
 TGTCGAAACC ->
-	 19
+	 18
 	 	 18
 GTCGAAACCC ->
-	 20
+	 19
 	 	 6
 TCGAAACCCC ->
-	 20
+	 19
 	 	 7
 CGAAACCCCG ->
-	 20
+	 19
 	 	 8
 GAAACCCCGT ->
-	 20
+	 19
 	 	 9
 AAACCCCGTC ->
-	 20
+	 19
 	 	 10
 AACCCCGTCT ->
-	 20
+	 19
 	 	 11
 ACCCCGTCTC ->
-	 20
+	 19
 	 	 12
 CCCCGTCTCT ->
-	 20
+	 19
 	 	 13
 CCCGTCTCTA ->
-	 20
+	 19
 	 	 14
 CCGTCTCTAC ->
-	 20
+	 19
 	 	 15
 CGTCTCTACT ->
-	 20
+	 19
 	 	 16
 GTCTCTACTA ->
-	 20
+	 19
 	 	 17
 TCGAAACCCT ->
-	 21
+	 20
 	 	 14
 CGAAACCCTG ->
-	 21
+	 20
 	 	 15
 GAAACCCTGT ->
-	 21
+	 20
 	 	 16
 AAACCCTGTC ->
-	 21
+	 20
 	 	 17
 AACCCTGTCT ->
-	 21
+	 20
 	 	 18
 ACCCTGTCTC ->
-	 21
+	 20
 	 	 19
 CCCTGTCTCT ->
-	 21
+	 20
 	 	 20
 CCAGCCTGGC ->
-	 23
+	 22
 	 	 3
 CAGCCTGGCC ->
-	 23
+	 22
 	 	 4
 AGCCTGGCCA ->
-	 23
+	 22
 	 	 5
 GCCTGGCCAA ->
-	 23
+	 22
 	 	 6
 CCTGGCCAAC ->
-	 23
+	 22
 	 	 7
 CTGGCCAACG ->
-	 23
+	 22
 	 	 8
 TGGCCAACGT ->
-	 23
+	 22
 	 	 9
 GGCCAACGTG ->
-	 23
+	 22
 	 	 10
 GCCAACGTGT ->
-	 23
+	 22
 	 	 11
 CCAACGTGTC ->
-	 23
+	 22
 	 	 12
 AGCTTTGTTC ->
-	 25
+	 24
 	 	 0
 GCTTTGTTCT ->
-	 25
+	 24
 	 	 1
 CTTTGTTCTC ->
-	 25
+	 24
 	 	 2
 TTTGTTCTCT ->
-	 25
+	 24
 	 	 3
 TTGTTCTCTT ->
-	 25
+	 24
 	 	 4
 TGTTCTCTTT ->
-	 25
+	 24
 	 	 5
 GTTCTCTTTT ->
-	 25
+	 24
 	 	 6
 TTCTCTTTTC ->
-	 25
+	 24
 	 	 7
 TCTCTTTTCT ->
-	 25
+	 24
 	 	 8
 CTCTTTTCTT ->
-	 25
+	 24
 	 	 9
 TCTTTTCTTT ->
-	 25
+	 24
 	 	 10
 CTTTTCTTTC ->
-	 25
+	 24
 	 	 11
 TTTTCTTTCA ->
-	 25
+	 24
 	 	 12
 TTTCTTTCAA ->
-	 25
+	 24
 	 	 13
 TTCTTTCAAA ->
-	 25
+	 24
 	 	 14
 TCTTTCAAAG ->
-	 25
+	 24
 	 	 15
 CTTTCAAAGA ->
-	 25
+	 24
 	 	 16
 TTTCAAAGAT ->
-	 25
+	 24
 	 	 17
 TTCAAAGATC ->
-	 25
+	 24
 	 	 18
 TCAAAGATCC ->
-	 25
+	 24
 	 	 19
 CAAAGATCCT ->
-	 25
+	 24
 	 	 20
 AAAGATCCTG ->
-	 25
+	 24
 	 	 21
 AAGATCCTGG ->
-	 25
+	 24
 	 	 22
 AGATCCTGGA ->
-	 25
+	 24
 	 	 23
 GATCCTGGAA ->
-	 25
+	 24
 	 	 24
 ATCCTGGAAG ->
-	 25
+	 24
 	 	 25
 TCCTGGAAGT ->
-	 25
+	 24
 	 	 26
 CCTGGAAGTT ->
-	 25
+	 24
 	 	 27
 CTGGAAGTTT ->
-	 25
+	 24
 	 	 28
 TGGAAGTTTT ->
-	 25
+	 24
 	 	 29
 GGAAGTTTTA ->
-	 25
+	 24
 	 	 30
 GAAGTTTTAA ->
-	 25
+	 24
 	 	 31
 AAGTTTTAAC ->
-	 25
+	 24
 	 	 32
 AGTTTTAACT ->
-	 25
+	 24
 	 	 33
 GTTTTAACTT ->
-	 25
+	 24
 	 	 34
 TTTTAACTTC ->
-	 25
+	 24
 	 	 35
 TTTAACTTCG ->
-	 25
+	 24
 	 	 36
 TTAACTTCGC ->
-	 25
+	 24
 	 	 37
 TAACTTCGCG ->
-	 25
+	 24
 	 	 38
 AACTTCGCGC ->
-	 25
+	 24
 	 	 39
 ACTTCGCGCC ->
-	 25
+	 24
 	 	 40
 CTTCGCGCCC ->
-	 25
+	 24
 	 	 41
 TTCGCGCCCC ->
-	 25
+	 24
 	 	 42
 TCGCGCCCCG ->
-	 25
+	 24
 	 	 43
 CGCGCCCCGC ->
-	 25
+	 24
 	 	 44
 GCGCCCCGCC ->
-	 25
+	 24
 	 	 45
 CGCCCCGCCT ->
-	 25
+	 24
 	 	 46
 GCCCCGCCTG ->
-	 25
+	 24
 	 	 47
 CCCCGCCTGT ->
-	 25
+	 24
 	 	 48
 CCCGCCTGTT ->
-	 25
+	 24
 	 	 49
 CCGCCTGTTC ->
-	 25
+	 24
 	 	 50
 CGCCTGTTCA ->
-	 25
+	 24
 	 	 51
 GCCTGTTCAT ->
-	 25
+	 24
 	 	 52
 CCTGTTCATC ->
-	 25
+	 24
 	 	 53
 CTGTTCATCC ->
-	 25
+	 24
 	 	 54
 TGTTCATCCT ->
-	 25
+	 24
 	 	 55
 GTTCATCCTC ->
-	 25
+	 24
 	 	 56
 TTCATCCTCA ->
-	 25
+	 24
 	 	 57
 TCATCCTCAG ->
-	 25
+	 24
 	 	 58
 CATCCTCAGC ->
-	 25
+	 24
 	 	 59
 ATCCTCAGCA ->
-	 25
+	 24
 	 	 60
 TCCTCAGCAG ->
-	 25
+	 24
 	 	 61
 CCTCAGCAGC ->
-	 25
+	 24
 	 	 62
 CTCAGCAGCT ->
-	 25
+	 24
 	 	 63
 TCAGCAGCTC ->
-	 25
+	 24
 	 	 64
 CAGCAGCTCC ->
-	 25
+	 24
 	 	 65
 AGCAGCTCCT ->
-	 25
+	 24
 	 	 66
 GCAGCTCCTC ->
-	 25
+	 24
 	 	 67
 CAGCTCCTCT ->
-	 25
+	 24
 	 	 68
 AGCTCCTCTG ->
-	 25
+	 24
 	 	 69
 GCTCCTCTGG ->
-	 25
+	 24
 	 	 70
 CTCCTCTGGG ->
-	 25
+	 24
 	 	 71
 TCCTCTGGGG ->
-	 25
+	 24
 	 	 72
 CCTCTGGGGA ->
-	 25
+	 24
 	 	 73
 CTCTGGGGAT ->
-	 25
+	 24
 	 	 74
 TCTGGGGATT ->
-	 25
+	 24
 	 	 75
 CTGGGGATTT ->
-	 25
+	 24
 	 	 76
 TGGGGATTTT ->
-	 25
+	 24
 	 	 77
 GGGGATTTTG ->
-	 25
+	 24
 	 	 78
 GGGATTTTGC ->
-	 25
+	 24
 	 	 79
 GGATTTTGCA ->
-	 25
+	 24
 	 	 80
 GATTTTGCAG ->
-	 25
+	 24
 	 	 81
 ATTTTGCAGC ->
-	 25
+	 24
 	 	 82
 TTTTGCAGCC ->
-	 25
+	 24
 	 	 83
 TTTGCAGCCA ->
-	 25
+	 24
 	 	 84
 TTGCAGCCAC ->
-	 25
+	 24
 	 	 85
 TGCAGCCACA ->
-	 25
+	 24
 	 	 86
 GCAGCCACAG ->
-	 25
+	 24
 	 	 87
 CAGCCACAGA ->
-	 25
+	 24
 	 	 88
 AGCCACAGAG ->
-	 25
+	 24
 	 	 89
 GCCACAGAGT ->
-	 25
+	 24
 	 	 90
 CCACAGAGTT ->
-	 25
+	 24
 	 	 91
 CACAGAGTTT ->
-	 25
+	 24
 	 	 92
 ACAGAGTTTG ->
-	 25
+	 24
 	 	 93
 CAGAGTTTGT ->
-	 25
+	 24
 	 	 94
 AGAGTTTGTG ->
-	 25
+	 24
 	 	 95
 GAGTTTGTGT ->
-	 25
+	 24
 	 	 96
 AGTTTGTGTA ->
-	 25
+	 24
 	 	 97
 GTTTGTGTAC ->
-	 25
+	 24
 	 	 98
 TTTGTGTACC ->
-	 25
+	 24
 	 	 99
 TTGTGTACCC ->
-	 25
+	 24
 	 	 100
 TGTGTACCCT ->
-	 25
+	 24
 	 	 101
 GTGTACCCTG ->
-	 25
+	 24
 	 	 102
 TGTACCCTGC ->
-	 25
+	 24
 	 	 103
 GTACCCTGCC ->
-	 25
+	 24
 	 	 104
 TACCCTGCCC ->
-	 25
+	 24
 	 	 105
 ACCCTGCCCG ->
-	 25
+	 24
 	 	 106
 CCCTGCCCGA ->
-	 25
+	 24
 	 	 107
 CCTGCCCGAG ->
-	 25
+	 24
 	 	 108
 CTGCCCGAGC ->
-	 25
+	 24
 	 	 109
 TGCCCGAGCC ->
-	 25
+	 24
 	 	 110
 GCCCGAGCCC ->
-	 25
+	 24
 	 	 111
 CCCGAGCCCC ->
-	 25
+	 24
 	 	 112
 CCGAGCCCCC ->
-	 25
+	 24
 	 	 113
 CGAGCCCCCT ->
-	 25
+	 24
 	 	 114
 GAGCCCCCTC ->
-	 25
+	 24
 	 	 115
 AGCCCCCTCT ->
-	 25
+	 24
 	 	 116
 GCCCCCTCTG ->
-	 25
+	 24
 	 	 117
 CCCCCTCTGT ->
-	 25
+	 24
 	 	 118
 CCCCTCTGTG ->
-	 25
+	 24
 	 	 119
 CCCTCTGTGG ->
-	 25
+	 24
 	 	 120
 CCTCTGTGGT ->
-	 25
+	 24
 	 	 121
 CTCTGTGGTC ->
-	 25
+	 24
 	 	 122
 TCTGTGGTCA ->
-	 25
+	 24
 	 	 123
 CTGTGGTCAG ->
-	 25
+	 24
 	 	 124
 TGTGGTCAGT ->
-	 25
+	 24
 	 	 125
 GTGGTCAGTT ->
-	 25
+	 24
 	 	 126
 TGGTCAGTTC ->
-	 25
+	 24
 	 	 127
 GGTCAGTTCC ->
-	 25
+	 24
 	 	 128
 GTCAGTTCCA ->
-	 25
+	 24
 	 	 129
 TCAGTTCCAT ->
-	 25
+	 24
 	 	 130
 CAGTTCCATG ->
-	 25
+	 24
 	 	 131
 AGTTCCATGC ->
-	 25
+	 24
 	 	 132
 GTTCCATGCC ->
-	 25
+	 24
 	 	 133
 TTCCATGCCC ->
-	 25
+	 24
 	 	 134
 TCCATGCCCT ->
-	 25
+	 24
 	 	 135
 CCATGCCCTT ->
-	 25
+	 24
 	 	 136
 CATGCCCTTC ->
-	 25
+	 24
 	 	 137
 ATGCCCTTCC ->
-	 25
+	 24
 	 	 138
 TGCCCTTCCT ->
-	 25
+	 24
 	 	 139
 GCCCTTCCTG ->
-	 25
+	 24
 	 	 140
 CCCTTCCTGC ->
-	 25
+	 24
 	 	 141
 CCTTCCTGCA ->
-	 25
+	 24
 	 	 142
 CTTCCTGCAG ->
-	 25
+	 24
 	 	 143
 TTCCTGCAGG ->
-	 25
+	 24
 	 	 144
 TCCTGCAGGA ->
-	 25
+	 24
 	 	 145
 CCTGCAGGAA ->
-	 25
+	 24
 	 	 146
 CTGCAGGAAG ->
-	 25
+	 24
 	 	 147
 TGCAGGAAGA ->
-	 25
+	 24
 	 	 148
 GCAGGAAGAT ->
-	 25
+	 24
 	 	 149
 CAGGAAGATC ->
-	 25
+	 24
 	 	 150
 AGGAAGATCT ->
-	 25
+	 24
 	 	 151
 GGAAGATCTA ->
-	 25
+	 24
 	 	 152
 GAAGATCTAT ->
-	 25
+	 24
 	 	 153
 AAGATCTATA ->
-	 25
+	 24
 	 	 154
 AGATCTATAC ->
-	 25
+	 24
 	 	 155
 GATCTATACA ->
-	 25
+	 24
 	 	 156
 ATCTATACAG ->
-	 25
+	 24
 	 	 157
 TCTATACAGC ->
-	 25
+	 24
 	 	 158
 CTATACAGCG ->
-	 25
+	 24
 	 	 159
 TATACAGCGT ->
-	 25
+	 24
 	 	 160
 ATACAGCGTG ->
-	 25
+	 24
 	 	 161
 TACAGCGTGC ->
-	 25
+	 24
 	 	 162
 ACAGCGTGCC ->
-	 25
+	 24
 	 	 163
 CAGCGTGCCC ->
-	 25
+	 24
 	 	 164
 AGCGTGCCCC ->
-	 25
+	 24
 	 	 165
 GCGTGCCCCA ->
-	 25
+	 24
 	 	 166
 CGTGCCCCAG ->
-	 25
+	 24
 	 	 167
 GTGCCCCAGC ->
-	 25
+	 24
 	 	 168
 TGCCCCAGCC ->
-	 25
+	 24
 	 	 169
 GCCCCAGCCA ->
-	 25
+	 24
 	 	 170
 CCCCAGCCAG ->
-	 25
+	 24
 	 	 171
 CCCAGCCAGG ->
-	 25
+	 24
 	 	 172
 CCAGCCAGGT ->
-	 25
+	 24
 	 	 173
 CAGCCAGGTA ->
-	 25
+	 24
 	 	 174
 AGCCAGGTAA ->
-	 25
+	 24
 	 	 175
 GCCAGGTAAG ->
-	 25
+	 24
 	 	 176
 CCAGGTAAGG ->
-	 25
+	 24
 	 	 177
 CAGGTAAGGC ->
-	 25
+	 24
 	 	 178
 AGGTAAGGCC ->
-	 25
+	 24
 	 	 179
 GGTAAGGCCT ->
-	 25
+	 24
 	 	 180
 GTAAGGCCTG ->
-	 25
+	 24
 	 	 181
 TAAGGCCTGC ->
-	 25
+	 24
 	 	 182
 AAGGCCTGCA ->
-	 25
+	 24
 	 	 183
 AGGCCTGCAG ->
-	 25
+	 24
 	 	 184
 GGCCTGCAGG ->
-	 25
+	 24
 	 	 185
 GCCTGCAGGG ->
-	 25
+	 24
 	 	 186
 CCTGCAGGGG ->
-	 25
+	 24
 	 	 187
 CTGCAGGGGG ->
-	 25
+	 24
 	 	 188
 TGCAGGGGGC ->
-	 25
+	 24
 	 	 189
 GCAGGGGGCA ->
-	 25
+	 24
 	 	 190
 CAGGGGGCAG ->
-	 25
+	 24
 	 	 191
 AGGGGGCAGC ->
-	 25
+	 24
 	 	 192
 GGGGGCAGCT ->
-	 25
+	 24
 	 	 193
 GGGGCAGCTA ->
-	 25
+	 24
 	 	 194
 GGGCAGCTAT ->
-	 25
+	 24
 	 	 195
 GGCAGCTATG ->
-	 25
+	 24
 	 	 196
 GCAGCTATGC ->
-	 25
+	 24
 	 	 197
 CAGCTATGCT ->
-	 25
+	 24
 	 	 198
 AGCTATGCTG ->
-	 25
+	 24
 	 	 199
 GCTATGCTGA ->
-	 25
+	 24
 	 	 200
 CTATGCTGAG ->
-	 25
+	 24
 	 	 201
 TATGCTGAGC ->
-	 25
+	 24
 	 	 202
 ATGCTGAGCA ->
-	 25
+	 24
 	 	 203
 TTGTTGTTCT ->
-	 26
+	 25
 	 	 0
 TGTTGTTCTT ->
-	 26
+	 25
 	 	 1
 GTTGTTCTTT ->
-	 26
+	 25
 	 	 2
 TTGTTCTTTT ->
-	 26
+	 25
 	 	 3
 TGTTCTTTTC ->
-	 26
+	 25
 	 	 4
 GTTCTTTTCT ->
-	 26
+	 25
 	 	 5
 TTCTTTTCTG ->
-	 26
+	 25
 	 	 6
 TCTTTTCTGA ->
-	 26
+	 25
 	 	 7
 CTTTTCTGAA ->
-	 26
+	 25
 	 	 8
 TTTTCTGAAA ->
-	 26
+	 25
 	 	 9
 TTTCTGAAAT ->
-	 26
+	 25
 	 	 10
 TTCTGAAATA ->
-	 26
+	 25
 	 	 11
 TCTGAAATAA ->
-	 26
+	 25
 	 	 12
 CTGAAATAAT ->
-	 26
+	 25
 	 	 13
 TGAAATAATC ->
-	 26
+	 25
 	 	 14
 GAAATAATCT ->
-	 26
+	 25
 	 	 15
 AAATAATCTG ->
-	 26
+	 25
 	 	 16
 AATAATCTGT ->
-	 26
+	 25
 	 	 17
 ATAATCTGTC ->
-	 26
+	 25
 	 	 18
 TAATCTGTCT ->
-	 26
+	 25
 	 	 19
 AATCTGTCTC ->
-	 26
+	 25
 	 	 20
 ATCTGTCTCA ->
-	 26
+	 25
 	 	 21
 TCTGTCTCAG ->
-	 26
+	 25
 	 	 22
 CTGTCTCAGT ->
-	 26
+	 25
 	 	 23
 TGTCTCAGTC ->
-	 26
+	 25
 	 	 24
 GTCTCAGTCA ->
-	 26
+	 25
 	 	 25
 TCTCAGTCAA ->
-	 26
+	 25
 	 	 26
 CTCAGTCAAA ->
-	 26
+	 25
 	 	 27
 TCAGTCAAAG ->
-	 26
+	 25
 	 	 28
 CAGTCAAAGT ->
-	 26
+	 25
 	 	 29
 AGTCAAAGTT ->
-	 26
+	 25
 	 	 30
 GTCAAAGTTG ->
-	 26
+	 25
 	 	 31
 TCAAAGTTGT ->
-	 26
+	 25
 	 	 32
 CAAAGTTGTT ->
-	 26
+	 25
 	 	 33
 AAAGTTGTTT ->
-	 26
+	 25
 	 	 34
 AAGTTGTTTT ->
-	 26
+	 25
 	 	 35
 AGTTGTTTTT ->
-	 26
+	 25
 	 	 36
 GTTGTTTTTG ->
-	 26
+	 25
 	 	 37
 TTGTTTTTGG ->
-	 26
+	 25
 	 	 38
 TGTTTTTGGT ->
-	 26
+	 25
 	 	 39
 GTTTTTGGTT ->
-	 26
+	 25
 	 	 40
 TTTTTGGTTG ->
-	 26
+	 25
 	 	 41
 TTTTGGTTGC ->
-	 26
+	 25
 	 	 42
 TTTGGTTGCA ->
-	 26
+	 25
 	 	 43
 TTGGTTGCAG ->
-	 26
+	 25
 	 	 44
 TGGTTGCAGA ->
-	 26
+	 25
 	 	 45
 GGTTGCAGAT ->
-	 26
+	 25
 	 	 46
 GTTGCAGATA ->
-	 26
+	 25
 	 	 47
 TTGCAGATAA ->
-	 26
+	 25
 	 	 48
 TGCAGATAAT ->
-	 26
+	 25
 	 	 49
 GCAGATAATG ->
-	 26
+	 25
 	 	 50
 CAGATAATGT ->
-	 26
+	 25
 	 	 51
 AGATAATGTA ->
-	 26
+	 25
 	 	 52
 GATAATGTAA ->
-	 26
+	 25
 	 	 53
 ATAATGTAAA ->
-	 26
+	 25
 	 	 54
 TAATGTAAAT ->
-	 26
+	 25
 	 	 55
 AATGTAAATT ->
-	 26
+	 25
 	 	 56
 ATGTAAATTC ->
-	 26
+	 25
 	 	 57
 TGTAAATTCA ->
-	 26
+	 25
 	 	 58
 GTAAATTCAA ->
-	 26
+	 25
 	 	 59
 TAAATTCAAC ->
-	 26
+	 25
 	 	 60
 AAATTCAACT ->
-	 26
+	 25
 	 	 61
 AATTCAACTC ->
-	 26
+	 25
 	 	 62
 ATTCAACTCA ->
-	 26
+	 25
 	 	 63
 TTCAACTCAA ->
-	 26
+	 25
 	 	 64
 TCAACTCAAA ->
-	 26
+	 25
 	 	 65
 CAACTCAAAA ->
-	 26
+	 25
 	 	 66
 AACTCAAAAT ->
-	 26
+	 25
 	 	 67
 ACTCAAAATA ->
-	 26
+	 25
 	 	 68
 CTCAAAATAG ->
-	 26
+	 25
 	 	 69
 TCAAAATAGC ->
-	 26
+	 25
 	 	 70
 CAAAATAGCA ->
-	 26
+	 25
 	 	 71
 AAAATAGCAT ->
-	 26
+	 25
 	 	 72
 AAATAGCATT ->
-	 26
+	 25
 	 	 73
 AATAGCATTA ->
-	 26
+	 25
 	 	 74
 ATAGCATTAG ->
-	 26
+	 25
 	 	 75
 TAGCATTAGC ->
-	 26
+	 25
 	 	 76
 AGCATTAGCA ->
-	 26
+	 25
 	 	 77
 GCATTAGCAA ->
-	 26
+	 25
 	 	 78
 CATTAGCAAA ->
-	 26
+	 25
 	 	 79
 ATTAGCAAAC ->
-	 26
+	 25
 	 	 80
 TTAGCAAACT ->
-	 26
+	 25
 	 	 81
 TAGCAAACTT ->
-	 26
+	 25
 	 	 82
 AGCAAACTTT ->
-	 26
+	 25
 	 	 83
 GCAAACTTTA ->
-	 26
+	 25
 	 	 84
 CAAACTTTAT ->
-	 26
+	 25
 	 	 85
 AAACTTTATT ->
-	 26
+	 25
 	 	 86
 AACTTTATTG ->
-	 26
+	 25
 	 	 87
 ACTTTATTGG ->
-	 26
+	 25
 	 	 88
 CTTTATTGGC ->
-	 26
+	 25
 	 	 89
 TTTATTGGCT ->
-	 26
+	 25
 	 	 90
 TTATTGGCTT ->
-	 26
+	 25
 	 	 91
 TATTGGCTTG ->
-	 26
+	 25
 	 	 92
 ATTGGCTTGC ->
-	 26
+	 25
 	 	 93
 TTGGCTTGCA ->
-	 26
+	 25
 	 	 94
 TGGCTTGCAT ->
-	 26
+	 25
 	 	 95
 GGCTTGCATA ->
-	 26
+	 25
 	 	 96
 GCTTGCATAA ->
-	 26
+	 25
 	 	 97
 CTTGCATAAC ->
-	 26
+	 25
 	 	 98
 TTGCATAACC ->
-	 26
+	 25
 	 	 99
 TGCATAACCC ->
-	 26
+	 25
 	 	 100
 GCATAACCCA ->
-	 26
+	 25
 	 	 101
 CATAACCCAA ->
-	 26
+	 25
 	 	 102
 ATAACCCAAT ->
-	 26
+	 25
 	 	 103
 TAACCCAATC ->
-	 26
+	 25
 	 	 104
 AACCCAATCG ->
-	 26
+	 25
 	 	 105
 ACCCAATCGC ->
-	 26
+	 25
 	 	 106
 CCCAATCGCG ->
-	 26
+	 25
 	 	 107
 CCAATCGCGG ->
-	 26
+	 25
 	 	 108
 CAATCGCGGA ->
-	 26
+	 25
 	 	 109
 AATCGCGGAC ->
-	 26
+	 25
 	 	 110
 ATCGCGGACA ->
-	 26
+	 25
 	 	 111
 TCGCGGACAG ->
-	 26
+	 25
 	 	 112
 CGCGGACAGG ->
-	 26
+	 25
 	 	 113
 GCGGACAGGC ->
-	 26
+	 25
 	 	 114
 CGGACAGGCA ->
-	 26
+	 25
 	 	 115
 GGACAGGCAG ->
-	 26
+	 25
 	 	 116
 GACAGGCAGG ->
-	 26
+	 25
 	 	 117
 ACAGGCAGGA ->
-	 26
+	 25
 	 	 118
 CAGGCAGGAG ->
-	 26
+	 25
 	 	 119
 AGGCAGGAGG ->
-	 26
+	 25
 	 	 120
 GGCAGGAGGA ->
-	 26
+	 25
 	 	 121
 GCAGGAGGAG ->
-	 26
+	 25
 	 	 122
 CAGGAGGAGG ->
-	 26
+	 25
 	 	 123
 AGGAGGAGGT ->
-	 26
+	 25
 	 	 124
 GGAGGAGGTT ->
-	 26
+	 25
 	 	 125
 GAGGAGGTTT ->
-	 26
+	 25
 	 	 126
 AGGAGGTTTG ->
-	 26
+	 25
 	 	 127
 GGAGGTTTGT ->
-	 26
+	 25
 	 	 128
 GAGGTTTGTT ->
-	 26
+	 25
 	 	 129
 AGGTTTGTTT ->
-	 26
+	 25
 	 	 130
 GGTTTGTTTT ->
-	 26
+	 25
 	 	 131
 GTTTGTTTTT ->
-	 26
+	 25
 	 	 132
 TTTGTTTTTA ->
-	 26
+	 25
 	 	 133
 TTGTTTTTAC ->
-	 26
+	 25
 	 	 134
 TGTTTTTACC ->
-	 26
+	 25
 	 	 135
 GTTTTTACCG ->
-	 26
+	 25
 	 	 136
 TTTTTACCGA ->
-	 26
+	 25
 	 	 137
 TTTTACCGAT ->
-	 26
+	 25
 	 	 138
 TTTACCGATG ->
-	 26
+	 25
 	 	 139
 TTACCGATGC ->
-	 26
+	 25
 	 	 140
 TACCGATGCT ->
-	 26
+	 25
 	 	 141
 ACCGATGCTT ->
-	 26
+	 25
 	 	 142
 CCGATGCTTG ->
-	 26
+	 25
 	 	 143
 CGATGCTTGG ->
-	 26
+	 25
 	 	 144
 GATGCTTGGA ->
-	 26
+	 25
 	 	 145
 ATGCTTGGAT ->
-	 26
+	 25
 	 	 146
 TGCTTGGATG ->
-	 26
+	 25
 	 	 147
 GCTTGGATGT ->
-	 26
+	 25
 	 	 148
 CTTGGATGTA ->
-	 26
+	 25
 	 	 149
 TTGGATGTAG ->
-	 26
+	 25
 	 	 150
 TGGATGTAGG ->
-	 26
+	 25
 	 	 151
 GGATGTAGGG ->
-	 26
+	 25
 	 	 152
 GATGTAGGGA ->
-	 26
+	 25
 	 	 153
 ATGTAGGGAC ->
-	 26
+	 25
 	 	 154
 TGTAGGGACT ->
-	 26
+	 25
 	 	 155
 GTAGGGACTA ->
-	 26
+	 25
 	 	 156
 TAGGGACTAG ->
-	 26
+	 25
 	 	 157
 AGGGACTAGA ->
-	 26
+	 25
 	 	 158
 GGGACTAGAA ->
-	 26
+	 25
 	 	 159
 GGACTAGAAA ->
-	 26
+	 25
 	 	 160
 GACTAGAAAA ->
-	 26
+	 25
 	 	 161
 ACTAGAAAAC ->
-	 26
+	 25
 	 	 162
 CTAGAAAACT ->
-	 26
+	 25
 	 	 163
 TAGAAAACTG ->
-	 26
+	 25
 	 	 164
 AGAAAACTGT ->
-	 26
+	 25
 	 	 165
 GAAAACTGTC ->
-	 26
+	 25
 	 	 166
 AAAACTGTCT ->
-	 26
+	 25
 	 	 167
 AAACTGTCTA ->
-	 26
+	 25
 	 	 168
 AACTGTCTAT ->
-	 26
+	 25
 	 	 169
 ACTGTCTATC ->
-	 26
+	 25
 	 	 170
 CTGTCTATCA ->
-	 26
+	 25
 	 	 171
 TGTCTATCAT ->
-	 26
+	 25
 	 	 172
 GTCTATCATC ->
-	 26
+	 25
 	 	 173
 TCTATCATCC ->
-	 26
+	 25
 	 	 174
 CTATCATCCA ->
-	 26
+	 25
 	 	 175
 TATCATCCAC ->
-	 26
+	 25
 	 	 176
 ATCATCCACT ->
-	 26
+	 25
 	 	 177
 TCATCCACTT ->
-	 26
+	 25
 	 	 178
 CATCCACTTA ->
-	 26
+	 25
 	 	 179
 ATCCACTTAT ->
-	 26
+	 25
 	 	 180
 TCCACTTATG ->
-	 26
+	 25
 	 	 181
 CCACTTATGC ->
-	 26
+	 25
 	 	 182
 CACTTATGCT ->
-	 26
+	 25
 	 	 183
 ACTTATGCTT ->
-	 26
+	 25
 	 	 184
 CTTATGCTTC ->
-	 26
+	 25
 	 	 185
 TTATGCTTCT ->
-	 26
+	 25
 	 	 186
 TATGCTTCTC ->
-	 26
+	 25
 	 	 187
 ATGCTTCTCT ->
-	 26
+	 25
 	 	 188
 TGCTTCTCTC ->
-	 26
+	 25
 	 	 189
 GCTTCTCTCA ->
-	 26
+	 25
 	 	 190
 CTTCTCTCAG ->
-	 26
+	 25
 	 	 191
 TTCTCTCAGT ->
-	 26
+	 25
 	 	 192
 TCTCTCAGTT ->
-	 26
+	 25
 	 	 193
 CTCTCAGTTT ->
-	 26
+	 25
 	 	 194
 TCTCAGTTTA ->
-	 26
+	 25
 	 	 195
 CTCAGTTTAC ->
-	 26
+	 25
 	 	 196
 TCAGTTTACT ->
-	 26
+	 25
 	 	 197
 CAGTTTACTG ->
-	 26
+	 25
 	 	 198
 AGTTTACTGG ->
-	 26
+	 25
 	 	 199
 GTTTACTGGC ->
-	 26
+	 25
 	 	 200
 TTTACTGGCT ->
-	 26
+	 25
 	 	 201
 TTACTGGCTC ->
-	 26
+	 25
 	 	 202
 TACTGGCTCT ->
-	 26
+	 25
 	 	 203
 ACTGGCTCTG ->
-	 26
+	 25
 	 	 204
 CTGGCTCTGT ->
-	 26
+	 25
 	 	 205
 TGGCTCTGTT ->
-	 26
+	 25
 	 	 206
 GGCTCTGTTC ->
-	 26
+	 25
 	 	 207
 GCTCTGTTCT ->
-	 26
+	 25
 	 	 208
 CTCTGTTCTC ->
-	 26
+	 25
 	 	 209
 TCTGTTCTCT ->
-	 26
+	 25
 	 	 210
 CTGTTCTCTT ->
-	 26
+	 25
 	 	 211
 TGTTCTCTTC ->
-	 26
+	 25
 	 	 212
 GTTCTCTTCC ->
-	 26
+	 25
 	 	 213
 TTCTCTTCCA ->
-	 26
+	 25
 	 	 214
 TCTCTTCCAC ->
-	 26
+	 25
 	 	 215
 CTCTTCCACT ->
-	 26
+	 25
 	 	 216
 TCTTCCACTC ->
-	 26
+	 25
 	 	 217
 CTTCCACTCC ->
-	 26
+	 25
 	 	 218
 TTCCACTCCA ->
-	 26
+	 25
 	 	 219
 TCCACTCCAC ->
-	 26
+	 25
 	 	 220
 CCACTCCACG ->
-	 26
+	 25
 	 	 221
 CACTCCACGT ->
-	 26
+	 25
 	 	 222
 ACTCCACGTG ->
-	 26
+	 25
 	 	 223
 CTCCACGTGA ->
-	 26
+	 25
 	 	 224
 TCCACGTGAA ->
-	 26
+	 25
 	 	 225
 CCACGTGAAT ->
-	 26
+	 25
 	 	 226
 CACGTGAATT ->
-	 26
+	 25
 	 	 227
 ACGTGAATTT ->
-	 26
+	 25
 	 	 228
 CGTGAATTTT ->
-	 26
+	 25
 	 	 229
 GTGAATTTTG ->
-	 26
+	 25
 	 	 230
 TGAATTTTGT ->
-	 26
+	 25
 	 	 231
 GAATTTTGTC ->
-	 26
+	 25
 	 	 232
 AATTTTGTCC ->
-	 26
+	 25
 	 	 233
 ATTTTGTCCA ->
-	 26
+	 25
 	 	 234
 TTTTGTCCAT ->
-	 26
+	 25
 	 	 235
 TTTGTCCATG ->
-	 26
+	 25
 	 	 236
 TTGTCCATGA ->
-	 26
+	 25
 	 	 237
 TGTCCATGAC ->
-	 26
+	 25
 	 	 238
 GTCCATGACC ->
-	 26
+	 25
 	 	 239
 TCCATGACCT ->
-	 26
+	 25
 	 	 240
 CCATGACCTG ->
-	 26
+	 25
 	 	 241
 CATGACCTGA ->
-	 26
+	 25
 	 	 242
 ATGACCTGAT ->
-	 26
+	 25
 	 	 243
 TGACCTGATA ->
-	 26
+	 25
 	 	 244
 GACCTGATAG ->
-	 26
+	 25
 	 	 245
 ACCTGATAGG ->
-	 26
+	 25
 	 	 246
 CCTGATAGGA ->
-	 26
+	 25
 	 	 247
 CTGATAGGAT ->
-	 26
+	 25
 	 	 248
 TGATAGGATG ->
-	 26
+	 25
 	 	 249
 GATAGGATGA ->
-	 26
+	 25
 	 	 250
 ATAGGATGAC ->
-	 26
+	 25
 	 	 251
 TAGGATGACT ->
-	 26
+	 25
 	 	 252
 AGGATGACTT ->
-	 26
+	 25
 	 	 253
 GGATGACTTT ->
-	 26
+	 25
 	 	 254
 GATGACTTTA ->
-	 26
+	 25
 	 	 255
 ATGACTTTAA ->
-	 26
+	 25
 	 	 256
 TGACTTTAAG ->
-	 26
+	 25
 	 	 257
 GACTTTAAGT ->
-	 26
+	 25
 	 	 258
 ACTTTAAGTT ->
-	 26
+	 25
 	 	 259
 CTTTAAGTTT ->
-	 26
+	 25
 	 	 260
 TTTAAGTTTC ->
-	 26
+	 25
 	 	 261
 TTAAGTTTCT ->
-	 26
+	 25
 	 	 262
 TAAGTTTCTC ->
-	 26
+	 25
 	 	 263
 AAGTTTCTCT ->
-	 26
+	 25
 	 	 264
 AGTTTCTCTG ->
-	 26
+	 25
 	 	 265
 GTTTCTCTGA ->
-	 26
+	 25
 	 	 266
 TTTCTCTGAT ->
-	 26
+	 25
 	 	 267
 TTCTCTGATT ->
-	 26
+	 25
 	 	 268
 TCTCTGATTC ->
-	 26
+	 25
 	 	 269
 CTCTGATTCC ->
-	 26
+	 25
 	 	 270
 TCTGATTCCA ->
-	 26
+	 25
 	 	 271
 CTGATTCCAG ->
-	 26
+	 25
 	 	 272
 TGATTCCAGG ->
-	 26
+	 25
 	 	 273
 GATTCCAGGA ->
-	 26
+	 25
 	 	 274
 ATTCCAGGAG ->
-	 26
+	 25
 	 	 275
 TTCCAGGAGA ->
-	 26
+	 25
 	 	 276
 TCCAGGAGAC ->
-	 26
+	 25
 	 	 277
 CCAGGAGACA ->
-	 26
+	 25
 	 	 278
 CAGGAGACAT ->
-	 26
+	 25
 	 	 279
 AGGAGACATA ->
-	 26
+	 25
 	 	 280
 GGAGACATAG ->
-	 26
+	 25
 	 	 281
 GAGACATAGC ->
-	 26
+	 25
 	 	 282
 AGACATAGCT ->
-	 26
+	 25
 	 	 283
 GACATAGCTC ->
-	 26
+	 25
 	 	 284
 ACATAGCTCT ->
-	 26
+	 25
 	 	 285
 CATAGCTCTA ->
-	 26
+	 25
 	 	 286
 ATAGCTCTAC ->
-	 26
+	 25
 	 	 287
 TAGCTCTACT ->
-	 26
+	 25
 	 	 288
 AGCTCTACTC ->
-	 26
+	 25
 	 	 289
 GCTCTACTCT ->
-	 26
+	 25
 	 	 290
 CTCTACTCTC ->
-	 26
+	 25
 	 	 291
 TCTACTCTCT ->
-	 26
+	 25
 	 	 292
 CTACTCTCTA ->
-	 26
+	 25
 	 	 293
 TACTCTCTAT ->
-	 26
+	 25
 	 	 294
 ACTCTCTATC ->
-	 26
+	 25
 	 	 295
 CTCTCTATCA ->
-	 26
+	 25
 	 	 296
 TCTCTATCAT ->
-	 26
+	 25
 	 	 297
 CTCTATCATA ->
-	 26
+	 25
 	 	 298
 TCTATCATAT ->
-	 26
+	 25
 	 	 299
 CTATCATATC ->
-	 26
+	 25
 	 	 300
 TATCATATCA ->
-	 26
+	 25
 	 	 301
 	 	 306
 	 	 311
 ATCATATCAT ->
-	 26
+	 25
 	 	 302
 	 	 307
 TCATATCATA ->
-	 26
+	 25
 	 	 303
 	 	 308
 CATATCATAT ->
-	 26
+	 25
 	 	 304
 	 	 309
 ATATCATATC ->
-	 26
+	 25
 	 	 305
 	 	 310
 GGGACCCCAC ->
-	 27
+	 26
 	 	 0
 GGACCCCACT ->
-	 27
+	 26
 	 	 1
 GACCCCACTG ->
-	 27
+	 26
 	 	 2
 ACCCCACTGA ->
-	 27
+	 26
 	 	 3
 CCCCACTGAA ->
-	 27
+	 26
 	 	 4
 CCCACTGAAA ->
-	 27
+	 26
 	 	 5
 CCACTGAAAA ->
-	 27
+	 26
 	 	 6
 CACTGAAAAT ->
-	 27
+	 26
 	 	 7
 ACTGAAAATC ->
-	 27
+	 26
 	 	 8
 CTGAAAATCG ->
-	 27
+	 26
 	 	 9
 TGAAAATCGG ->
-	 27
+	 26
 	 	 10
 GAAAATCGGA ->
-	 27
+	 26
 	 	 11
 AAAATCGGAC ->
-	 27
+	 26
 	 	 12
 AAATCGGACC ->
-	 27
+	 26
 	 	 13
 AATCGGACCG ->
-	 27
+	 26
 	 	 14
 ATCGGACCGT ->
-	 27
+	 26
 	 	 15
 TCGGACCGTT ->
-	 27
+	 26
 	 	 16
 CGGACCGTTC ->
-	 27
+	 26
 	 	 17
 GGACCGTTCA ->
-	 27
+	 26
 	 	 18
 GACCGTTCAA ->
-	 27
+	 26
 	 	 19
 ACCGTTCAAC ->
-	 27
+	 26
 	 	 20
 CCGTTCAACT ->
-	 27
+	 26
 	 	 21
 CGTTCAACTC ->
-	 27
+	 26
 	 	 22
 GTTCAACTCA ->
-	 27
+	 26
 	 	 23
 TTCAACTCAC ->
-	 27
+	 26
 	 	 24
 TCAACTCACC ->
-	 27
+	 26
 	 	 25
 TGCCCCCGCC ->
-	 29
+	 27
 	 	 0
 GCCCCCGCCG ->
-	 29
+	 27
 	 	 1
 CCCCCGCCGC ->
-	 29
+	 27
 	 	 2
 CCCCGCCGCC ->
-	 29
+	 27
 	 	 3
 CCCGCCGCCG ->
-	 29
+	 27
 	 	 4
 CCGCCGCCGT ->
-	 29
+	 27
 	 	 5
 CGCCGCCGTT ->
-	 29
+	 27
 	 	 6
 GCCGCCGTTG ->
-	 29
+	 27
 	 	 7
 CCGCCGTTGC ->
-	 29
+	 27
 	 	 8
 CGCCGTTGCT ->
-	 29
+	 27
 	 	 9
 GCCGTTGCTT ->
-	 29
+	 27
 	 	 10
 CCGTTGCTTT ->
-	 29
+	 27
 	 	 11
 CGTTGCTTTC ->
-	 29
+	 27
 	 	 12
 GTTGCTTTCT ->
-	 29
+	 27
 	 	 13
 TTGCTTTCTG ->
-	 29
+	 27
 	 	 14
 TGCTTTCTGC ->
-	 29
+	 27
 	 	 15
 ACCCCACTGG ->
-	 30
+	 28
 	 	 3
 CCCCACTGGA ->
-	 30
+	 28
 	 	 4
 CCCACTGGAA ->
-	 30
+	 28
 	 	 5
 CCACTGGAAA ->
-	 30
+	 28
 	 	 6
 CACTGGAAAT ->
-	 30
+	 28
 	 	 7
 ACTGGAAATC ->
-	 30
+	 28
 	 	 8
 CTGGAAATCG ->
-	 30
+	 28
 	 	 9
 TGGAAATCGG ->
-	 30
+	 28
 	 	 10
 GGAAATCGGA ->
-	 30
+	 28
 	 	 11
 GAAATCGGAC ->
-	 30
+	 28
 	 	 12
 CCAAGATCTC ->
-	 31
+	 29
 	 	 0
 CAAGATCTCA ->
-	 31
+	 29
 	 	 1
 AAGATCTCAG ->
-	 31
+	 29
 	 	 2
 AGATCTCAGC ->
-	 31
+	 29
 	 	 3
 GATCTCAGCC ->
-	 31
+	 29
 	 	 4
 ATCTCAGCCA ->
-	 31
+	 29
 	 	 5
 TCTCAGCCAG ->
-	 31
+	 29
 	 	 6
 CTCAGCCAGA ->
-	 31
+	 29
 	 	 7
 TCAGCCAGAA ->
-	 31
+	 29
 	 	 8
 CAGCCAGAAA ->
-	 31
+	 29
 	 	 9
 AGCCAGAAAG ->
-	 31
+	 29
 	 	 10
 GCCAGAAAGA ->
-	 31
+	 29
 	 	 11
 CCAGAAAGAG ->
-	 31
+	 29
 	 	 12
 CAGAAAGAGA ->
-	 31
+	 29
 	 	 13
 AGAAAGAGAA ->
-	 31
+	 29
 	 	 14
 GAAAGAGAAA ->
-	 31
+	 29
 	 	 15
 AAAGAGAAAT ->
-	 31
+	 29
 	 	 16
 AAGAGAAATC ->
-	 31
+	 29
 	 	 17
 AGAGAAATCC ->
-	 31
+	 29
 	 	 18
 GAGAAATCCG ->
-	 31
+	 29
 	 	 19
 AGAAATCCGC ->
-	 31
+	 29
 	 	 20
 GAAATCCGCG ->
-	 31
+	 29
 	 	 21
 AAATCCGCGC ->
-	 31
+	 29
 	 	 22
 AATCCGCGCG ->
-	 31
+	 29
 	 	 23
 ATCCGCGCGG ->
-	 31
+	 29
 	 	 24
 TCCGCGCGGC ->
-	 31
+	 29
 	 	 25
 CCGCGCGGCG ->
-	 31
+	 29
 	 	 26
 CGCGCGGCGG ->
-	 31
+	 29
 	 	 27
 GCGCGGCGGC ->
-	 31
+	 29
 	 	 28
 CGCGGCGGCC ->
-	 31
+	 29
 	 	 29
 GCGGCGGCCT ->
-	 31
+	 29
 	 	 30
 CGGCGGCCTC ->
-	 31
+	 29
 	 	 31
 GGCGGCCTCT ->
-	 31
+	 29
 	 	 32
 GCGGCCTCTT ->
-	 31
+	 29
 	 	 33
 GCATGGTGGC ->
-	 32
+	 30
 	 	 0
 CATGGTGGCG ->
-	 32
+	 30
 	 	 1
 ATGGTGGCGC ->
-	 32
+	 30
 	 	 2
 TGGTGGCGCG ->
-	 32
+	 30
 	 	 3
 GGTGGCGCGT ->
-	 32
+	 30
 	 	 4
 GTGGCGCGTA ->
-	 32
+	 30
 	 	 5
 TGGCGCGTAC ->
-	 32
+	 30
 	 	 6
 GGCGCGTACC ->
-	 32
+	 30
 	 	 7
 GCGCGTACCT ->
-	 32
+	 30
 	 	 8
 CGCGTACCTT ->
-	 32
+	 30
 	 	 9
 GCGTACCTTA ->
-	 32
+	 30
 	 	 10
 CGTACCTTAG ->
-	 32
+	 30
 	 	 11
 GTACCTTAGT ->
-	 32
+	 30
 	 	 12
 TACCTTAGTC ->
-	 32
+	 30
 	 	 13
 ACCTTAGTCC ->
-	 32
+	 30
 	 	 14
 CCTTAGTCCC ->
-	 32
+	 30
 	 	 15
 CTTAGTCCCA ->
-	 32
+	 30
 	 	 16
 TTAGTCCCAG ->
-	 32
+	 30
 	 	 17
 TAGTCCCAGC ->
-	 32
+	 30
 	 	 18
 AGTCCCAGCT ->
-	 32
+	 30
 	 	 19
 GTCCCAGCTA ->
-	 32
+	 30
 	 	 20
 TCCCAGCTAT ->
-	 32
+	 30
 	 	 21
 CCCAGCTATT ->
-	 32
+	 30
 	 	 22
 CCAGCTATTC ->
-	 32
+	 30
 	 	 23
 CAGCTATTCA ->
-	 32
+	 30
 	 	 24
 AGCTATTCAG ->
-	 32
+	 30
 	 	 25
 GCTATTCAGG ->
-	 32
+	 30
 	 	 26
 TCAGGGGAAA ->
-	 33
+	 31
 	 	 0
 CAGGGGAAAG ->
-	 33
+	 31
 	 	 1
 AGGGGAAAGC ->
-	 33
+	 31
 	 	 2
 GGGGAAAGCG ->
-	 33
+	 31
 	 	 3
 GGGAAAGCGC ->
-	 33
+	 31
 	 	 4
 GGAAAGCGCG ->
-	 33
+	 31
 	 	 5
 GAAAGCGCGA ->
-	 33
+	 31
 	 	 6
 AAAGCGCGAA ->
-	 33
+	 31
 	 	 7
 AAGCGCGAAT ->
-	 33
+	 31
 	 	 8
 AGCGCGAATG ->
-	 33
+	 31
 	 	 9
 GCGCGAATGC ->
-	 33
+	 31
 	 	 10
 CGCGAATGCA ->
-	 33
+	 31
 	 	 11
 GCGAATGCAG ->
-	 33
+	 31
 	 	 12
 CGAATGCAGT ->
-	 33
+	 31
 	 	 13
 TCCCCAGTCC ->
-	 34
+	 32
 	 	 0
 CCCCAGTCCC ->
-	 34
+	 32
 	 	 1
 CCCAGTCCCC ->
-	 34
+	 32
 	 	 2
 CCAGTCCCCG ->
-	 34
+	 32
 	 	 3
 CAGTCCCCGC ->
-	 34
+	 32
 	 	 4
 AGTCCCCGCG ->
-	 34
+	 32
 	 	 5
 GTCCCCGCGT ->
-	 34
+	 32
 	 	 6
 TCCCCGCGTA ->
-	 34
+	 32
 	 	 7
 CCCCGCGTAC ->
-	 34
+	 32
 	 	 8
 CCCGCGTACC ->
-	 34
+	 32
 	 	 9
 CCGCGTACCT ->
-	 34
+	 32
 	 	 10
 GCGTACCTTG ->
-	 34
+	 32
 	 	 12
 CGTACCTTGC ->
-	 34
+	 32
 	 	 13
 GTACCTTGCC ->
-	 34
+	 32
 	 	 14
 TACCTTGCCG ->
-	 34
+	 32
 	 	 15
 ACCTTGCCGT ->
-	 34
+	 32
 	 	 16
 CCTTGCCGTT ->
-	 34
+	 32
 	 	 17
 CTTGCCGTTC ->
-	 34
+	 32
 	 	 18
 TTGCCGTTCA ->
-	 34
+	 32
 	 	 19
 TGCCGTTCAG ->
-	 34
+	 32
 	 	 20
 GCCGTTCAGG ->
-	 34
+	 32
 	 	 21
 CCGTTCAGGA ->
-	 34
+	 32
 	 	 22
 CGTTCAGGAC ->
-	 34
+	 32
 	 	 23
 GTTCAGGACG ->
-	 34
+	 32
 	 	 24
 TTCAGGACGC ->
-	 34
+	 32
 	 	 25
 TCAGGACGCC ->
-	 34
+	 32
 	 	 26
 CAGGACGCCC ->
-	 34
+	 32
 	 	 27
 AGGACGCCCT ->
-	 34
+	 32
 	 	 28
 GGACGCCCTC ->
-	 34
+	 32
 	 	 29
 GACGCCCTCC ->
-	 34
+	 32
 	 	 30
 ACGCCCTCCC ->
-	 34
+	 32
 	 	 31
 CGCCCTCCCT ->
-	 34
+	 32
 	 	 32
 GCCCTCCCTG ->
-	 34
+	 32
 	 	 33
 CCCTCCCTGT ->
-	 34
+	 32
 	 	 34
 CCTCCCTGTC ->
-	 34
+	 32
 	 	 35
 CTCCCTGTCC ->
-	 34
+	 32
 	 	 36
 TCCCTGTCCC ->
-	 34
+	 32
 	 	 37
 CCCTGTCCCC ->
-	 34
+	 32
 	 	 38
 CCTGTCCCCA ->
-	 34
+	 32
 	 	 39
 CTGTCCCCAG ->
-	 34
+	 32
 	 	 40
 AGGCTGGAGT ->
-	 35
+	 33
 	 	 0
 GGCTGGAGTG ->
-	 35
+	 33
 	 	 1
 GCTGGAGTGC ->
-	 35
+	 33
 	 	 2
 CTGGAGTGCA ->
-	 35
+	 33
 	 	 3
 TGGAGTGCAA ->
-	 35
+	 33
 	 	 4
 GGAGTGCAAA ->
-	 35
+	 33
 	 	 5
 GAGTGCAAAA ->
-	 35
+	 33
 	 	 6
 AGTGCAAAAG ->
-	 35
+	 33
 	 	 7
 GTGCAAAAGC ->
-	 35
+	 33
 	 	 8
 TGCAAAAGCG ->
-	 35
+	 33
 	 	 9
 GCAAAAGCGC ->
-	 35
+	 33
 	 	 10
 CAAAAGCGCG ->
-	 35
+	 33
 	 	 11
 AAAAGCGCGA ->
-	 35
+	 33
 	 	 12
 AAAGCGCGAT ->
-	 35
+	 33
 	 	 13
 AAGCGCGATC ->
-	 35
+	 33
 	 	 14
 AGCGCGATCT ->
-	 35
+	 33
 	 	 15
 GCGCGATCTC ->
-	 35
+	 33
 	 	 16
 CGCGATCTCG ->
-	 35
+	 33
 	 	 17
 GCGATCTCGG ->
-	 35
+	 33
 	 	 18
 CGATCTCGGC ->
-	 35
+	 33
 	 	 19
 GATCTCGGCT ->
-	 35
+	 33
 	 	 20
 ATCTCGGCTC ->
-	 35
+	 33
 	 	 21
 TCTCGGCTCA ->
-	 35
+	 33
 	 	 22
 CTCGGCTCAC ->
-	 35
+	 33
 	 	 23
 GTGAGCCGAG ->
-	 36
+	 34
 	 	 0
 TGAGCCGAGA ->
-	 36
+	 34
 	 	 1
 GAGCCGAGAT ->
-	 36
+	 34
 	 	 2
 AGCCGAGATC ->
-	 36
+	 34
 	 	 3
 GCCGAGATCG ->
-	 36
+	 34
 	 	 4
 CCGAGATCGC ->
-	 36
+	 34
 	 	 5
 CGAGATCGCG ->
-	 36
+	 34
 	 	 6
 GAGATCGCGC ->
-	 36
+	 34
 	 	 7
 AGATCGCGCT ->
-	 36
+	 34
 	 	 8
 GATCGCGCTT ->
-	 36
+	 34
 	 	 9
 ATCGCGCTTC ->
-	 36
+	 34
 	 	 10
 TCGCGCTTCT ->
-	 36
+	 34
 	 	 11
 CGCGCTTCTG ->
-	 36
+	 34
 	 	 12
 GCGCTTCTGC ->
-	 36
+	 34
 	 	 13
 CGCTTCTGCA ->
-	 36
+	 34
 	 	 14
 GCTTCTGCAC ->
-	 36
+	 34
 	 	 15
 CTTCTGCACT ->
-	 36
+	 34
 	 	 16
 TTCTGCACTC ->
-	 36
+	 34
 	 	 17
 TCTGCACTCC ->
-	 36
+	 34
 	 	 18
 CTGCACTCCA ->
-	 36
+	 34
 	 	 19
 TGCACTCCAG ->
-	 36
+	 34
 	 	 20
 GCACTCCAGC ->
-	 36
+	 34
 	 	 21
 CACTCCAGCC ->
-	 36
+	 34
 	 	 22
 ACTCCAGCCT ->
-	 36
+	 34
 	 	 23
 CTCCAGCCTG ->
-	 36
+	 34
 	 	 24
 TCCAGCCTGG ->
-	 36
+	 34
 	 	 25
 TGCAGTGAGC ->
-	 37
+	 35
 	 	 0
 GCAGTGAGCC ->
-	 37
+	 35
 	 	 1
 CAGTGAGCCG ->
-	 37
+	 35
 	 	 2
 AGTGAGCCGA ->
-	 37
+	 35
 	 	 3
 AGTGCTCCTC ->
-	 39
+	 37
 	 	 0
 GTGCTCCTCG ->
-	 39
+	 37
 	 	 1
 TGCTCCTCGT ->
-	 39
+	 37
 	 	 2
 GCTCCTCGTC ->
-	 39
+	 37
 	 	 3
 CTCCTCGTCG ->
-	 39
+	 37
 	 	 4
 TCCTCGTCGT ->
-	 39
+	 37
 	 	 5
 CCTCGTCGTC ->
-	 39
+	 37
 	 	 6
 CTCGTCGTCG ->
-	 39
+	 37
 	 	 7
 TCGTCGTCGG ->
-	 39
+	 37
 	 	 8
 CGTCGTCGGT ->
-	 39
+	 37
 	 	 9
 GTCGTCGGTG ->
-	 39
+	 37
 	 	 10
 TCGTCGGTGA ->
-	 39
+	 37
 	 	 11
 CGTCGGTGAG ->
-	 39
+	 37
 	 	 12
 GTCGGTGAGA ->
-	 39
+	 37
 	 	 13
 TCGGTGAGAA ->
-	 39
+	 37
 	 	 14
 CGGTGAGAAG ->
-	 39
+	 37
 	 	 15
 GGTGAGAAGG ->
-	 39
+	 37
 	 	 16
 GTGAGAAGGG ->
-	 39
+	 37
 	 	 17
 TGAGAAGGGG ->
-	 39
+	 37
 	 	 18
 GAGAAGGGGC ->
-	 39
+	 37
 	 	 19
 AGAAGGGGCG ->
-	 39
+	 37
 	 	 20
 GAAGGGGCGG ->
-	 39
+	 37
 	 	 21
 AAGGGGCGGC ->
-	 39
+	 37
 	 	 22
 AGGGGCGGCC ->
-	 39
+	 37
 	 	 23
 GGGGCGGCCA ->
-	 39
+	 37
 	 	 24
 GGGCGGCCAC ->
-	 39
+	 37
 	 	 25
 GGCGGCCACG ->
-	 39
+	 37
 	 	 26
 GCGGCCACGG ->
-	 39
+	 37
 	 	 27
 CGGCCACGGT ->
-	 39
+	 37
 	 	 28
 CCCCCACAAC ->
-	 40
+	 38
 	 	 0
 CCCCACAACG ->
-	 40
+	 38
 	 	 1
 CCCACAACGC ->
-	 40
+	 38
 	 	 2
 CCACAACGCG ->
-	 40
+	 38
 	 	 3
 CACAACGCGC ->
-	 40
+	 38
 	 	 4
 ACAACGCGCG ->
-	 40
+	 38
 	 	 5
 CAACGCGCGC ->
-	 40
+	 38
 	 	 6
 AACGCGCGCA ->
-	 40
+	 38
 	 	 7
 ACGCGCGCAC ->
-	 40
+	 38
 	 	 8
 CGCGCGCACA ->
-	 40
+	 38
 	 	 9
 GCGCGCACAC ->
-	 40
+	 38
 	 	 10
 CGCGCACACA ->
-	 40
+	 38
 	 	 11
 GCGCACACAC ->
-	 40
+	 38
 	 	 12
 CGCACACACA ->
-	 40
+	 38
 	 	 13
 GCACACACAC ->
-	 40
+	 38
 	 	 14
 CACACACACA ->
-	 40
+	 38
 	 	 15
 ACACACACAC ->
-	 40
+	 38
 	 	 16
 TCTCACCGAC ->
-	 41
+	 39
 	 	 0
 CTCACCGACG ->
-	 41
+	 39
 	 	 1
 TCACCGACGA ->
-	 41
+	 39
 	 	 2
 CACCGACGAC ->
-	 41
+	 39
 	 	 3
 ACCGACGACG ->
-	 41
+	 39
 	 	 4
 CCGACGACGA ->
-	 41
+	 39
 	 	 5
 CGACGACGAG ->
-	 41
+	 39
 	 	 6
 GACGACGAGG ->
-	 41
+	 39
 	 	 7
 ACGACGAGGA ->
-	 41
+	 39
 	 	 8
 CGACGAGGAG ->
-	 41
+	 39
 	 	 9
 GACGAGGAGC ->
-	 41
+	 39
 	 	 10
 ACGAGGAGCA ->
-	 41
+	 39
 	 	 11
 CGAGGAGCAC ->
-	 41
+	 39
 	 	 12
 GAGGAGCACT ->
-	 41
+	 39
 	 	 13
 AGGAGCACTG ->
-	 41
+	 39
 	 	 14
 GGAGCACTGC ->
-	 41
+	 39
 	 	 15
 GAGCACTGCG ->
-	 41
+	 39
 	 	 16
 AGCACTGCGA ->
-	 41
+	 39
 	 	 17
 TCGGTGAGAG ->
-	 42
+	 40
 	 	 14
 CGGTGAGAGG ->
-	 42
+	 40
 	 	 15
 GGTGAGAGGG ->
-	 42
+	 40
 	 	 16
 GTGAGAGGGG ->
-	 42
+	 40
 	 	 17
 TGAGAGGGGG ->
-	 42
+	 40
 	 	 18
 GAGAGGGGGC ->
-	 42
+	 40
 	 	 19
 AGAGGGGGCG ->
-	 42
+	 40
 	 	 20
 GAGGGGGCGG ->
-	 42
+	 40
 	 	 21
 AGGGGGCGGC ->
-	 42
+	 40
 	 	 22
 GGGGGCGGCC ->
-	 42
+	 40
 	 	 23
 GGCCACGGTG ->
-	 42
+	 40
 	 	 29
 GCCACGGTGC ->
-	 42
+	 40
 	 	 30
 CCACGGTGCA ->
-	 42
+	 40
 	 	 31
 CACGGTGCAG ->
-	 42
+	 40
 	 	 32
 ACGGTGCAGA ->
-	 42
+	 40
 	 	 33
 CCGTCCCGCC ->
-	 43
+	 41
 	 	 0
 CGTCCCGCCC ->
-	 43
+	 41
 	 	 1
 GTCCCGCCCG ->
-	 43
+	 41
 	 	 2
 TCCCGCCCGC ->
-	 43
+	 41
 	 	 3
 CCCGCCCGCC ->
-	 43
+	 41
 	 	 4
 CCGCCCGCCG ->
-	 43
+	 41
 	 	 5
 CGCCCGCCGC ->
-	 43
+	 41
 	 	 6
 GCCCGCCGCC ->
-	 43
+	 41
 	 	 7
 CCCGCCGCCT ->
-	 43
+	 41
 	 	 8
 CCGCCGCCTT ->
-	 43
+	 41
 	 	 9
 CGCCGCCTTC ->
-	 43
+	 41
 	 	 10
 GCCGCCTTCT ->
-	 43
+	 41
 	 	 11
 CCGCCTTCTG ->
-	 43
+	 41
 	 	 12
 CGCCTTCTGC ->
-	 43
+	 41
 	 	 13
 GCCTTCTGCG ->
-	 43
+	 41
 	 	 14
 CCTTCTGCGT ->
-	 43
+	 41
 	 	 15
 CTTCTGCGTC ->
-	 43
+	 41
 	 	 16
 TTCTGCGTCG ->
-	 43
+	 41
 	 	 17
 TCTGCGTCGC ->
-	 43
+	 41
 	 	 18
 CTGCGTCGCG ->
-	 43
+	 41
 	 	 19
 TGCGTCGCGG ->
-	 43
+	 41
 	 	 20
 GCGTCGCGGG ->
-	 43
+	 41
 	 	 21
 CGTCGCGGGT ->
-	 43
+	 41
 	 	 22
 GTCGCGGGTG ->
-	 43
+	 41
 	 	 23
 TCGCGGGTGC ->
-	 43
+	 41
 	 	 24
 CGCGGGTGCG ->
-	 43
+	 41
 	 	 25
 GCGGGTGCGG ->
-	 43
+	 41
 	 	 26
 CGGGTGCGGG ->
-	 43
+	 41
 	 	 27
 GGGTGCGGGC ->
-	 43
+	 41
 	 	 28
 GGTGCGGGCC ->
-	 43
+	 41
 	 	 29
 GTGCGGGCCG ->
-	 43
+	 41
 	 	 30
 TGCGGGCCGG ->
-	 43
+	 41
 	 	 31
 GCGGGCCGGC ->
-	 43
+	 41
 	 	 32
 CGGGCCGGCG ->
-	 43
+	 41
 	 	 33
 GGGCCGGCGG ->
-	 43
+	 41
 	 	 34
 GGCCGGCGGG ->
-	 43
+	 41
 	 	 35
 CGCCCTCGCG ->
-	 44
+	 42
 	 	 0
 GCCCTCGCGT ->
-	 44
+	 42
 	 	 1
 CCCTCGCGTC ->
-	 44
+	 42
 	 	 2
 CCTCGCGTCG ->
-	 44
+	 42
 	 	 3
 CTCGCGTCGG ->
-	 44
+	 42
 	 	 4
 TCGCGTCGGT ->
-	 44
+	 42
 	 	 5
 CGCGTCGGTG ->
-	 44
+	 42
 	 	 6
 GCGTCGGTGC ->
-	 44
+	 42
 	 	 7
 CGTCGGTGCG ->
-	 44
+	 42
 	 	 8
 GTCGGTGCGC ->
-	 44
+	 42
 	 	 9
 TCGGTGCGCC ->
-	 44
+	 42
 	 	 10
 CGGTGCGCCG ->
-	 44
+	 42
 	 	 11
 GGTGCGCCGC ->
-	 44
+	 42
 	 	 12
 GTGCGCCGCA ->
-	 44
+	 42
 	 	 13
 TGCGCCGCAG ->
-	 44
+	 42
 	 	 14
 GCGCCGCAGC ->
-	 44
+	 42
 	 	 15
 CGCCGCAGCG ->
-	 44
+	 42
 	 	 16
 GCCGCAGCGT ->
-	 44
+	 42
 	 	 17
 CCGCAGCGTC ->
-	 44
+	 42
 	 	 18
 CGCAGCGTCC ->
-	 44
+	 42
 	 	 19
 GCAGCGTCCG ->
-	 44
+	 42
 	 	 20
 CAGCGTCCGG ->
-	 44
+	 42
 	 	 21
 AGCGTCCGGC ->
-	 44
+	 42
 	 	 22
 GCGTCCGGCG ->
-	 44
+	 42
 	 	 23
 CGTCCGGCGG ->
-	 44
+	 42
 	 	 24
 GTCCGGCGGC ->
-	 44
+	 42
 	 	 25
 CCTAACCACT ->
-	 45
+	 43
 	 	 0
 CTAACCACTA ->
-	 45
+	 43
 	 	 1
 TAACCACTAG ->
-	 45
+	 43
 	 	 2
 AACCACTAGA ->
-	 45
+	 43
 	 	 3
 ACCACTAGAC ->
-	 45
+	 43
 	 	 4
 CCACTAGACC ->
-	 45
+	 43
 	 	 5
 CACTAGACCA ->
-	 45
+	 43
 	 	 6
 ACTAGACCAC ->
-	 45
+	 43
 	 	 7
 CTAGACCACC ->
-	 45
+	 43
 	 	 8
 TAGACCACCA ->
-	 45
+	 43
 	 	 9
 AGACCACCAG ->
-	 45
+	 43
 	 	 10
 GACCACCAGG ->
-	 45
+	 43
 	 	 11
 ACCACCAGGG ->
-	 45
+	 43
 	 	 12
 CCACCAGGGA ->
-	 45
+	 43
 	 	 13
 CACCAGGGAG ->
-	 45
+	 43
 	 	 14
 ACCAGGGAGA ->
-	 45
+	 43
 	 	 15
 CCAGGGAGAG ->
-	 45
+	 43
 	 	 16
 CAGGGAGAGG ->
-	 45
+	 43
 	 	 17
 AGGGAGAGGC ->
-	 45
+	 43
 	 	 18
 GGGAGAGGCG ->
-	 45
+	 43
 	 	 19
 GGAGAGGCGG ->
-	 45
+	 43
 	 	 20
 GAGAGGCGGC ->
-	 45
+	 43
 	 	 21
 AGAGGCGGCT ->
-	 45
+	 43
 	 	 22
 GAGGCGGCTT ->
-	 45
+	 43
 	 	 23
 AGGCGGCTTC ->
-	 45
+	 43
 	 	 24
 GGCGGCTTCA ->
-	 45
+	 43
 	 	 25
 GCGGCTTCAG ->
-	 45
+	 43
 	 	 26
 CGGCTTCAGG ->
-	 45
+	 43
 	 	 27
 GGCTTCAGGG ->
-	 45
+	 43
 	 	 28
 GCTTCAGGGC ->
-	 45
+	 43
 	 	 29
 CTTCAGGGCC ->
-	 45
+	 43
 	 	 30
 TTCAGGGCCC ->
-	 45
+	 43
 	 	 31
 TCAGGGCCCG ->
-	 45
+	 43
 	 	 32
 CAGGGCCCGG ->
-	 45
+	 43
 	 	 33
 AGGGCCCGGC ->
-	 45
+	 43
 	 	 34
 GGGCCCGGCT ->
-	 45
+	 43
 	 	 35
 GGCCCGGCTT ->
-	 45
+	 43
 	 	 36
 GCCCGGCTTG ->
-	 45
+	 43
 	 	 37
 CCCGGCTTGC ->
-	 45
+	 43
 	 	 38
 CCGGCTTGCG ->
-	 45
+	 43
 	 	 39
 CGGCTTGCGC ->
-	 45
+	 43
 	 	 40
 GGCTTGCGCC ->
-	 45
+	 43
 	 	 41
 GCTTGCGCCT ->
-	 45
+	 43
 	 	 42
 CTTGCGCCTC ->
-	 45
+	 43
 	 	 43
 TTGCGCCTCC ->
-	 45
+	 43
 	 	 44
 TGCGCCTCCT ->
-	 45
+	 43
 	 	 45
 GCGCCTCCTG ->
-	 45
+	 43
 	 	 46
 CGCCTCCTGG ->
-	 45
+	 43
 	 	 47
 GCCTCCTGGC ->
-	 45
+	 43
 	 	 48
 CCTCCTGGCC ->
-	 45
+	 43
 	 	 49
 CTCCTGGCCC ->
-	 45
+	 43
 	 	 50
 TCCTGGCCCC ->
-	 45
+	 43
 	 	 51
 CCTGGCCCCA ->
-	 45
+	 43
 	 	 52
 CTGGCCCCAG ->
-	 45
+	 43
 	 	 53
 	 	 68
 TGGCCCCAGC ->
-	 45
+	 43
 	 	 54
 	 	 69
 GGCCCCAGCG ->
-	 45
+	 43
 	 	 55
 GCCCCAGCGC ->
-	 45
+	 43
 	 	 56
 CCCCAGCGCC ->
-	 45
+	 43
 	 	 57
 CCCAGCGCCT ->
-	 45
+	 43
 	 	 58
 CCAGCGCCTC ->
-	 45
+	 43
 	 	 59
 CAGCGCCTCT ->
-	 45
+	 43
 	 	 60
 AGCGCCTCTG ->
-	 45
+	 43
 	 	 61
 GCGCCTCTGG ->
-	 45
+	 43
 	 	 62
 CGCCTCTGGC ->
-	 45
+	 43
 	 	 63
 GCCTCTGGCC ->
-	 45
+	 43
 	 	 64
 CCTCTGGCCC ->
-	 45
+	 43
 	 	 65
 CTCTGGCCCC ->
-	 45
+	 43
 	 	 66
 TCTGGCCCCA ->
-	 45
+	 43
 	 	 67
 GGCCCCAGCA ->
-	 45
+	 43
 	 	 70
 GCCCCAGCAC ->
-	 45
+	 43
 	 	 71
 CCCCAGCACT ->
-	 45
+	 43
 	 	 72
 CCCAGCACTG ->
-	 45
+	 43
 	 	 73
 CCAGCACTGG ->
-	 45
+	 43
 	 	 74
 CAGCACTGGG ->
-	 45
+	 43
 	 	 75
 AGCACTGGGC ->
-	 45
+	 43
 	 	 76
 GCACTGGGCG ->
-	 45
+	 43
 	 	 77
 CACTGGGCGC ->
-	 45
+	 43
 	 	 78
 ACTGGGCGCT ->
-	 45
+	 43
 	 	 79
 CTGGGCGCTA ->
-	 45
+	 43
 	 	 80
 TGGGCGCTAC ->
-	 45
+	 43
 	 	 81
 GGGCGCTACC ->
-	 45
+	 43
 	 	 82
 GGCGCTACCT ->
-	 45
+	 43
 	 	 83
 GCGCTACCTT ->
-	 45
+	 43
 	 	 84
 CGCTACCTTG ->
-	 45
+	 43
 	 	 85
 GCTACCTTGG ->
-	 45
+	 43
 	 	 86
 CTACCTTGGC ->
-	 45
+	 43
 	 	 87
 TACCTTGGCG ->
-	 45
+	 43
 	 	 88
 ACCTTGGCGC ->
-	 45
+	 43
 	 	 89
 CCTTGGCGCC ->
-	 45
+	 43
 	 	 90
 CTTGGCGCCT ->
-	 45
+	 43
 	 	 91
 TTGGCGCCTG ->
-	 45
+	 43
 	 	 92
 TGGCGCCTGT ->
-	 45
+	 43
 	 	 93
 GGCGCCTGTC ->
-	 45
+	 43
 	 	 94
 GCGCCTGTCC ->
-	 45
+	 43
 	 	 95
 CGCCTGTCCC ->
-	 45
+	 43
 	 	 96
 GCCTGTCCCC ->
-	 45
+	 43
 	 	 97
 CCTGTCCCCT ->
-	 45
+	 43
 	 	 98
 CTGTCCCCTG ->
-	 45
+	 43
 	 	 99
 TGTCCCCTGC ->
-	 45
+	 43
 	 	 100
 GTCCCCTGCT ->
-	 45
+	 43
 	 	 101
 TCCCCTGCTT ->
-	 45
+	 43
 	 	 102
 CCCCTGCTTC ->
-	 45
+	 43
 	 	 103
 CCCTGCTTCG ->
-	 45
+	 43
 	 	 104
 CCTGCTTCGC ->
-	 45
+	 43
 	 	 105
 CTGCTTCGCT ->
-	 45
+	 43
 	 	 106
 TGCTTCGCTT ->
-	 45
+	 43
 	 	 107
 GCTTCGCTTT ->
-	 45
+	 43
 	 	 108
 CTTCGCTTTA ->
-	 45
+	 43
 	 	 109
 TTCGCTTTAA ->
-	 45
+	 43
 	 	 110
 TCGCTTTAAA ->
-	 45
+	 43
 	 	 111
 CGCTTTAAAA ->
-	 45
+	 43
 	 	 112
 GCTTTAAAAC ->
-	 45
+	 43
 	 	 113
 CTTTAAAACA ->
-	 45
+	 43
 	 	 114
 TTTAAAACAA ->
-	 45
+	 43
 	 	 115
 TTAAAACAAA ->
-	 45
+	 43
 	 	 116
 TAAAACAAAC ->
-	 45
+	 43
 	 	 117
 AAAACAAACA ->
-	 45
+	 43
 	 	 118
 AAACAAACAC ->
-	 45
+	 43
 	 	 119
 AACAAACACC ->
-	 45
+	 43
 	 	 120
 ACAAACACCC ->
-	 45
+	 43
 	 	 121
 CAAACACCCG ->
-	 45
+	 43
 	 	 122
 AAACACCCGC ->
-	 45
+	 43
 	 	 123
 AACACCCGCA ->
-	 45
+	 43
 	 	 124
 ACACCCGCAA ->
-	 45
+	 43
 	 	 125
 CACCCGCAAC ->
-	 45
+	 43
 	 	 126
 ACCCGCAACC ->
-	 45
+	 43
 	 	 127
 CCCGCAACCA ->
-	 45
+	 43
 	 	 128
 CCGCAACCAG ->
-	 45
+	 43
 	 	 129
 CGCAACCAGC ->
-	 45
+	 43
 	 	 130
 GCAACCAGCC ->
-	 45
+	 43
 	 	 131
 CAACCAGCCC ->
-	 45
+	 43
 	 	 132
 AACCAGCCCC ->
-	 45
+	 43
 	 	 133
 ACCAGCCCCC ->
-	 45
+	 43
 	 	 134
 CCAGCCCCCG ->
-	 45
+	 43
 	 	 135
 CAGCCCCCGC ->
-	 45
+	 43
 	 	 136
 AGCCCCCGCG ->
-	 45
+	 43
 	 	 137
 GCCCCCGCGA ->
-	 45
+	 43
 	 	 138
 CCCCCGCGAC ->
-	 45
+	 43
 	 	 139
 CCCCGCGACG ->
-	 45
+	 43
 	 	 140
 CCCGCGACGC ->
-	 45
+	 43
 	 	 141
 CCGCGACGCC ->
-	 45
+	 43
 	 	 142
 CGCGACGCCG ->
-	 45
+	 43
 	 	 143
 GCGACGCCGG ->
-	 45
+	 43
 	 	 144
 CGACGCCGGC ->
-	 45
+	 43
 	 	 145
 GACGCCGGCG ->
-	 45
+	 43
 	 	 146
 ACGCCGGCGG ->
-	 45
+	 43
 	 	 147
 CGCCGGCGGC ->
-	 45
+	 43
 	 	 148
 GCCGGCGGCA ->
-	 45
+	 43
 	 	 149
 CCGGCGGCAA ->
-	 45
+	 43
 	 	 150
 CGGCGGCAAC ->
-	 45
+	 43
 	 	 151
 GGCGGCAACC ->
-	 45
+	 43
 	 	 152
 GCGGCAACCG ->
-	 45
+	 43
 	 	 153
 CGGCAACCGG ->
-	 45
+	 43
 	 	 154
 GGCAACCGGC ->
-	 45
+	 43
 	 	 155
 GCAACCGGCC ->
-	 45
+	 43
 	 	 156
 CAACCGGCCT ->
-	 45
+	 43
 	 	 157
 AACCGGCCTG ->
-	 45
+	 43
 	 	 158
 ACCGGCCTGC ->
-	 45
+	 43
 	 	 159
 CCGGCCTGCC ->
-	 45
+	 43
 	 	 160
 CGGCCTGCCC ->
-	 45
+	 43
 	 	 161
 GGCCTGCCCT ->
-	 45
+	 43
 	 	 162
 GCCTGCCCTC ->
-	 45
+	 43
 	 	 163
 CCTGCCCTCA ->
-	 45
+	 43
 	 	 164
 CTGCCCTCAC ->
-	 45
+	 43
 	 	 165
 TGCCCTCACG ->
-	 45
+	 43
 	 	 166
 GCCCTCACGA ->
-	 45
+	 43
 	 	 167
 CCCTCACGAG ->
-	 45
+	 43
 	 	 168
 CCTCACGAGC ->
-	 45
+	 43
 	 	 169
 CTCACGAGCA ->
-	 45
+	 43
 	 	 170
 TCACGAGCAG ->
-	 45
+	 43
 	 	 171
 CACGAGCAGC ->
-	 45
+	 43
 	 	 172
 ACGAGCAGCT ->
-	 45
+	 43
 	 	 173
 CGAGCAGCTC ->
-	 45
+	 43
 	 	 174
 GAGCAGCTCT ->
-	 45
+	 43
 	 	 175
 AGCAGCTCTG ->
-	 45
+	 43
 	 	 176
 GCAGCTCTGG ->
-	 45
+	 43
 	 	 177
 CAGCTCTGGC ->
-	 45
+	 43
 	 	 178
 AGCTCTGGCC ->
-	 45
+	 43
 	 	 179
 GCTCTGGCCC ->
-	 45
+	 43
 	 	 180
 CTCTGGCCCT ->
-	 45
+	 43
 	 	 181
 TCTGGCCCTG ->
-	 45
+	 43
 	 	 182
 CTGGCCCTGT ->
-	 45
+	 43
 	 	 183
 TGGCCCTGTT ->
-	 45
+	 43
 	 	 184
 GGCCCTGTTC ->
-	 45
+	 43
 	 	 185
 GCCCTGTTCG ->
-	 45
+	 43
 	 	 186
 CCCTGTTCGC ->
-	 45
+	 43
 	 	 187
 CCTGTTCGCA ->
-	 45
+	 43
 	 	 188
 CTGTTCGCAG ->
-	 45
+	 43
 	 	 189
 TGTTCGCAGC ->
-	 45
+	 43
 	 	 190
 GTTCGCAGCA ->
-	 45
+	 43
 	 	 191
 TTCGCAGCAC ->
-	 45
+	 43
 	 	 192
 TCGCAGCACA ->
-	 45
+	 43
 	 	 193
 CGCAGCACAC ->
-	 45
+	 43
 	 	 194
 GCAGCACACC ->
-	 45
+	 43
 	 	 195
 CAGCACACCC ->
-	 45
+	 43
 	 	 196
 AGCACACCCT ->
-	 45
+	 43
 	 	 197
 GCACACCCTC ->
-	 45
+	 43
 	 	 198
 CACACCCTCC ->
-	 45
+	 43
 	 	 199
 ACACCCTCCA ->
-	 45
+	 43
 	 	 200
 CACCCTCCAA ->
-	 45
+	 43
 	 	 201
 ACCCTCCAAA ->
-	 45
+	 43
 	 	 202
 CCCTCCAAAC ->
-	 45
+	 43
 	 	 203
 CCTCCAAACA ->
-	 45
+	 43
 	 	 204
 CTCCAAACAC ->
-	 45
+	 43
 	 	 205
 TCCAAACACC ->
-	 45
+	 43
 	 	 206
 CCAAACACCG ->
-	 45
+	 43
 	 	 207
 CAAACACCGC ->
-	 45
+	 43
 	 	 208
 AAACACCGCG ->
-	 45
+	 43
 	 	 209
 AACACCGCGC ->
-	 45
+	 43
 	 	 210
 ACACCGCGCG ->
-	 45
+	 43
 	 	 211
 CACCGCGCGC ->
-	 45
+	 43
 	 	 212
 ACCGCGCGCC ->
-	 45
+	 43
 	 	 213
 CCGCGCGCCT ->
-	 45
+	 43
 	 	 214
 CGCGCGCCTC ->
-	 45
+	 43
 	 	 215
 GCGCGCCTCC ->
-	 45
+	 43
 	 	 216
 CGCGCCTCCT ->
-	 45
+	 43
 	 	 217
 GCGCCTCCTT ->
-	 45
+	 43
 	 	 218
 CGCCTCCTTC ->
-	 45
+	 43
 	 	 219
 GCCTCCTTCC ->
-	 45
+	 43
 	 	 220
 CCTCCTTCCC ->
-	 45
+	 43
 	 	 221
 CTCCTTCCCC ->
-	 45
+	 43
 	 	 222
 TCCTTCCCCG ->
-	 45
+	 43
 	 	 223
 CCTTCCCCGG ->
-	 45
+	 43
 	 	 224
 CTTCCCCGGC ->
-	 45
+	 43
 	 	 225
 TTCCCCGGCG ->
-	 45
+	 43
 	 	 226
 TCCCCGGCGC ->
-	 45
+	 43
 	 	 227
 CCCCGGCGCA ->
-	 45
+	 43
 	 	 228
 CCCGGCGCAC ->
-	 45
+	 43
 	 	 229
 CCGGCGCACA ->
-	 45
+	 43
 	 	 230
 CGGCGCACAG ->
-	 45
+	 43
 	 	 231
 GGCGCACAGG ->
-	 45
+	 43
 	 	 232
 GCGCACAGGC ->
-	 45
+	 43
 	 	 233
 CGCACAGGCA ->
-	 45
+	 43
 	 	 234
 GCACAGGCAC ->
-	 45
+	 43
 	 	 235
 CACAGGCACG ->
-	 45
+	 43
 	 	 236
 ACAGGCACGC ->
-	 45
+	 43
 	 	 237
 CAGGCACGCA ->
-	 45
+	 43
 	 	 238
 AGGCACGCAG ->
-	 45
+	 43
 	 	 239
 GGCACGCAGC ->
-	 45
+	 43
 	 	 240
 GCACGCAGCC ->
-	 45
+	 43
 	 	 241
 CACGCAGCCA ->
-	 45
+	 43
 	 	 242
 ACGCAGCCAC ->
-	 45
+	 43
 	 	 243
 CGCAGCCACA ->
-	 45
+	 43
 	 	 244
 CAGCCACAGG ->
-	 45
+	 43
 	 	 246
 AGCCACAGGC ->
-	 45
+	 43
 	 	 247
 GCCACAGGCC ->
-	 45
+	 43
 	 	 248
 CCACAGGCCA ->
-	 45
+	 43
 	 	 249
 CACAGGCCAA ->
-	 45
+	 43
 	 	 250
 ACAGGCCAAG ->
-	 45
+	 43
 	 	 251
 CAGGCCAAGC ->
-	 45
+	 43
 	 	 252
 AGGCCAAGCT ->
-	 45
+	 43
 	 	 253
 GGCCAAGCTG ->
-	 45
+	 43
 	 	 254
 GCCAAGCTGC ->
-	 45
+	 43
 	 	 255
 CCAAGCTGCG ->
-	 45
+	 43
 	 	 256
 CAAGCTGCGA ->
-	 45
+	 43
 	 	 257
 AAGCTGCGAC ->
-	 45
+	 43
 	 	 258
 AGCTGCGACG ->
-	 45
+	 43
 	 	 259
 GCTGCGACGC ->
-	 45
+	 43
 	 	 260
 CTGCGACGCG ->
-	 45
+	 43
 	 	 261
 TGCGACGCGA ->
-	 45
+	 43
 	 	 262
 GCGACGCGAG ->
-	 45
+	 43
 	 	 263
 CGACGCGAGC ->
-	 45
+	 43
 	 	 264
 GACGCGAGCT ->
-	 45
+	 43
 	 	 265
 ACGCGAGCTC ->
-	 45
+	 43
 	 	 266
 CGCGAGCTCC ->
-	 45
+	 43
 	 	 267
 GCGAGCTCCG ->
-	 45
+	 43
 	 	 268
 CGAGCTCCGC ->
-	 45
+	 43
 	 	 269
 GAGCTCCGCG ->
-	 45
+	 43
 	 	 270
 AGCTCCGCGA ->
-	 45
+	 43
 	 	 271
 GCTCCGCGAC ->
-	 45
+	 43
 	 	 272
 CTCCGCGACG ->
-	 45
+	 43
 	 	 273
 TCCGCGACGG ->
-	 45
+	 43
 	 	 274
 CCGCGACGGG ->
-	 45
+	 43
 	 	 275
 CGCGACGGGG ->
-	 45
+	 43
 	 	 276
 GCGACGGGGA ->
-	 45
+	 43
 	 	 277
 CGACGGGGAC ->
-	 45
+	 43
 	 	 278
 GACGGGGACC ->
-	 45
+	 43
 	 	 279
 ACGGGGACCT ->
-	 45
+	 43
 	 	 280
 CGGGGACCTC ->
-	 45
+	 43
 	 	 281
 GGGGACCTCC ->
-	 45
+	 43
 	 	 282
 GGGACCTCCG ->
-	 45
+	 43
 	 	 283
 GGACCTCCGC ->
-	 45
+	 43
 	 	 284
 GACCTCCGCA ->
-	 45
+	 43
 	 	 285
 ACCTCCGCAA ->
-	 45
+	 43
 	 	 286
 CCTCCGCAAA ->
-	 45
+	 43
 	 	 287
 CTCCGCAAAA ->
-	 45
+	 43
 	 	 288
 TCCGCAAAAG ->
-	 45
+	 43
 	 	 289
 CCGCAAAAGG ->
-	 45
+	 43
 	 	 290
 CGCAAAAGGT ->
-	 45
+	 43
 	 	 291
 GCAAAAGGTC ->
-	 45
+	 43
 	 	 292
 CAAAAGGTCC ->
-	 45
+	 43
 	 	 293
 AAAAGGTCCG ->
-	 45
+	 43
 	 	 294
 AAAGGTCCGC ->
-	 45
+	 43
 	 	 295
 AAGGTCCGCC ->
-	 45
+	 43
 	 	 296
 AGGTCCGCCC ->
-	 45
+	 43
 	 	 297
 GGTCCGCCCG ->
-	 45
+	 43
 	 	 298
 GTCCGCCCGC ->
-	 45
+	 43
 	 	 299
 TCCGCCCGCT ->
-	 45
+	 43
 	 	 300
 CCGCCCGCTG ->
-	 45
+	 43
 	 	 301
 CGCCCGCTGC ->
-	 45
+	 43
 	 	 302
 GCCCGCTGCG ->
-	 45
+	 43
 	 	 303
 CCCGCTGCGT ->
-	 45
+	 43
 	 	 304
 CCGCTGCGTT ->
-	 45
+	 43
 	 	 305
 CGCTGCGTTG ->
-	 45
+	 43
 	 	 306
 GCTGCGTTGG ->
-	 45
+	 43
 	 	 307
 CTGCGTTGGC ->
-	 45
+	 43
 	 	 308
 TGCGTTGGCC ->
-	 45
+	 43
 	 	 309
 GCGTTGGCCG ->
-	 45
+	 43
 	 	 310
 CGTTGGCCGG ->
-	 45
+	 43
 	 	 311
 GTTGGCCGGG ->
-	 45
+	 43
 	 	 312
 TTGGCCGGGA ->
-	 45
+	 43
 	 	 313
 TGGCCGGGAA ->
-	 45
+	 43
 	 	 314
 GGCCGGGAAT ->
-	 45
+	 43
 	 	 315
 GCCGGGAATC ->
-	 45
+	 43
 	 	 316
 CCGGGAATCG ->
-	 45
+	 43
 	 	 317
 CGGGAATCGA ->
-	 45
+	 43
 	 	 318
 GGGAATCGAA ->
-	 45
+	 43
 	 	 319
 GGAATCGAAC ->
-	 45
+	 43
 	 	 320
 GGCCGGTGGA ->
-	 46
+	 44
 	 	 0
 GCCGGTGGAG ->
-	 46
+	 44
 	 	 1
 CCGGTGGAGG ->
-	 46
+	 44
 	 	 2
 CGGTGGAGGT ->
-	 46
+	 44
 	 	 3
 GGTGGAGGTC ->
-	 46
+	 44
 	 	 4
 GTGGAGGTCG ->
-	 46
+	 44
 	 	 5
 TGGAGGTCGC ->
-	 46
+	 44
 	 	 6
 GGAGGTCGCG ->
-	 46
+	 44
 	 	 7
 GAGGTCGCGG ->
-	 46
+	 44
 	 	 8
 AGGTCGCGGG ->
-	 46
+	 44
 	 	 9
 GGTCGCGGGC ->
-	 46
+	 44
 	 	 10
 GTCGCGGGCG ->
-	 46
+	 44
 	 	 11
 TCGCGGGCGC ->
-	 46
+	 44
 	 	 12
 CGCGGGCGCG ->
-	 46
+	 44
 	 	 13
 GCGGGCGCGT ->
-	 46
+	 44
 	 	 14
 CGGGCGCGTG ->
-	 46
+	 44
 	 	 15
 GGGCGCGTGA ->
-	 46
+	 44
 	 	 16
 GGCGCGTGAA ->
-	 46
+	 44
 	 	 17
 GCGCGTGAAC ->
-	 46
+	 44
 	 	 18
 CGCGTGAACG ->
-	 46
+	 44
 	 	 19
 GCGTGAACGG ->
-	 46
+	 44
 	 	 20
 CGTGAACGGG ->
-	 46
+	 44
 	 	 21
 GTGAACGGGA ->
-	 46
+	 44
 	 	 22
 TGAACGGGAA ->
-	 46
+	 44
 	 	 23
 GAACGGGAAT ->
-	 46
+	 44
 	 	 24
 AACGGGAATC ->
-	 46
+	 44
 	 	 25
 ACGGGAATCA ->
-	 46
+	 44
 	 	 26
 CGGGAATCAG ->
-	 46
+	 44
 	 	 27
 GGGAATCAGC ->
-	 46
+	 44
 	 	 28
 GGAATCAGCG ->
-	 46
+	 44
 	 	 29
 GAATCAGCGC ->
-	 46
+	 44
 	 	 30
 AATCAGCGCC ->
-	 46
+	 44
 	 	 31
 ATCAGCGCCC ->
-	 46
+	 44
 	 	 32
 TCAGCGCCCT ->
-	 46
+	 44
 	 	 33
 CAGCGCCCTC ->
-	 46
+	 44
 	 	 34
 AGCGCCCTCG ->
-	 46
+	 44
 	 	 35
 GCGCCCTCGC ->
-	 46
+	 44
 	 	 36
 GGAATCGACG ->
-	 47
+	 45
 	 	 0
 GAATCGACGC ->
-	 47
+	 45
 	 	 1
 AATCGACGCC ->
-	 47
+	 45
 	 	 2
 ATCGACGCCC ->
-	 47
+	 45
 	 	 3
 TCGACGCCCT ->
-	 47
+	 45
 	 	 4
 CGACGCCCTC ->
-	 47
+	 45
 	 	 5
 GACGCCCTCG ->
-	 47
+	 45
 	 	 6
 ACGCCCTCGC ->
-	 47
+	 45
 	 	 7
 TTTTCACCCC ->
-	 48
+	 46
 	 	 0
 TTTCACCCCG ->
-	 48
+	 46
 	 	 1
 TTCACCCCGC ->
-	 48
+	 46
 	 	 2
 TCACCCCGCC ->
-	 48
+	 46
 	 	 3
 CACCCCGCCG ->
-	 48
+	 46
 	 	 4
 ACCCCGCCGT ->
-	 48
+	 46
 	 	 5
 CCCCGCCGTC ->
-	 48
+	 46
 	 	 6
 CCCGCCGTCG ->
-	 48
+	 46
 	 	 7
 CCGCCGTCGC ->
-	 48
+	 46
 	 	 8
 CGCCGTCGCG ->
-	 48
+	 46
 	 	 9
 GCCGTCGCGG ->
-	 48
+	 46
 	 	 10
 CCGTCGCGGG ->
-	 48
+	 46
 	 	 11
 GTCGCGGGTT ->
-	 48
+	 46
 	 	 13
 TCGCGGGTTT ->
-	 48
+	 46
 	 	 14
 CGCGGGTTTT ->
-	 48
+	 46
 	 	 15
 GCGGGTTTTT ->
-	 48
+	 46
 	 	 16
 CGGGTTTTTG ->
-	 48
+	 46
 	 	 17
 GGGTTTTTGC ->
-	 48
+	 46
 	 	 18
 GGTTTTTGCC ->
-	 48
+	 46
 	 	 19
 GTTTTTGCCC ->
-	 48
+	 46
 	 	 20
 CGCGGCGCAC ->
-	 51
+	 49
 	 	 0
 GCGGCGCACC ->
-	 51
+	 49
 	 	 1
 CGGCGCACCG ->
-	 51
+	 49
 	 	 2
 GGCGCACCGA ->
-	 51
+	 49
 	 	 3
 GCGCACCGAC ->
-	 51
+	 49
 	 	 4
 CGCACCGACG ->
-	 51
+	 49
 	 	 5
 GCACCGACGC ->
-	 51
+	 49
 	 	 6
 CACCGACGCG ->
-	 51
+	 49
 	 	 7
 ACCGACGCGA ->
-	 51
+	 49
 	 	 8
 CCGACGCGAG ->
-	 51
+	 49
 	 	 9
 CGACGCGAGG ->
-	 51
+	 49
 	 	 10
 GACGCGAGGG ->
-	 51
+	 49
 	 	 11
 ACGCGAGGGC ->
-	 51
+	 49
 	 	 12
 CGCGAGGGCG ->
-	 51
+	 49
 	 	 13
 TGCGGCGCAC ->
-	 52
+	 50
 	 	 0
 GCCCAGGGGG ->
-	 53
+	 51
 	 	 0
 CCCAGGGGGG ->
-	 53
+	 51
 	 	 1
 CCAGGGGGGC ->
-	 53
+	 51
 	 	 2
 CAGGGGGGCC ->
-	 53
+	 51
 	 	 3
 AGGGGGGCCA ->
-	 53
+	 51
 	 	 4
 GGGGGGCCAT ->
-	 53
+	 51
 	 	 5
 GGGGGCCATT ->
-	 53
+	 51
 	 	 6
 GGGGCCATTC ->
-	 53
+	 51
 	 	 7
 GGGCCATTCA ->
-	 53
+	 51
 	 	 8
 GGCCATTCAT ->
-	 53
+	 51
 	 	 9
 GCCATTCATA ->
-	 53
+	 51
 	 	 10
 CCATTCATAG ->
-	 53
+	 51
 	 	 11
 CATTCATAGG ->
-	 53
+	 51
 	 	 12
 ATTCATAGGC ->
-	 53
+	 51
 	 	 13
 TTCATAGGCC ->
-	 53
+	 51
 	 	 14
 TCATAGGCCT ->
-	 53
+	 51
 	 	 15
 CATAGGCCTA ->
-	 53
+	 51
 	 	 16
 ATAGGCCTAC ->
-	 53
+	 51
 	 	 17
 TAGGCCTACC ->
-	 53
+	 51
 	 	 18
 AGGCCTACCC ->
-	 53
+	 51
 	 	 19
 GGCCTACCCC ->
-	 53
+	 51
 	 	 20
 GCCTACCCCC ->
-	 53
+	 51
 	 	 21
 CCTACCCCCA ->
-	 53
+	 51
 	 	 22
 CTACCCCCAG ->
-	 53
+	 51
 	 	 23
 TACCCCCAGG ->
-	 53
+	 51
 	 	 24
 ACCCCCAGGC ->
-	 53
+	 51
 	 	 25
 CCCCCAGGCG ->
-	 53
+	 51
 	 	 26
 CCCCAGGCGC ->
-	 53
+	 51
 	 	 27
 CCCAGGCGCG ->
-	 53
+	 51
 	 	 28
 CCAGGCGCGC ->
-	 53
+	 51
 	 	 29
 CAGGCGCGCA ->
-	 53
+	 51
 	 	 30
 AGGCGCGCAT ->
-	 53
+	 51
 	 	 31
 GGCGCGCATT ->
-	 53
+	 51
 	 	 32
 GCGCGCATTC ->
-	 53
+	 51
 	 	 33
 CGCGCATTCT ->
-	 53
+	 51
 	 	 34
 GCGCATTCTC ->
-	 53
+	 51
 	 	 35
 CGCATTCTCT ->
-	 53
+	 51
 	 	 36
 GCATTCTCTT ->
-	 53
+	 51
 	 	 37
 CATTCTCTTT ->
-	 53
+	 51
 	 	 38
 ATTCTCTTTC ->
-	 53
+	 51
 	 	 39
 TTCTCTTTCT ->
-	 53
+	 51
 	 	 40
 TCTCTTTCTC ->
-	 53
+	 51
 	 	 41
 CTCTTTCTCA ->
-	 53
+	 51
 	 	 42
 TCTTTCTCAG ->
-	 53
+	 51
 	 	 43
 CTTTCTCAGA ->
-	 53
+	 51
 	 	 44
 TTTCTCAGAG ->
-	 53
+	 51
 	 	 45
 TTCTCAGAGA ->
-	 53
+	 51
 	 	 46
 TCTCAGAGAT ->
-	 53
+	 51
 	 	 47
 CTCAGAGATG ->
-	 53
+	 51
 	 	 48
 TCAGAGATGT ->
-	 53
+	 51
 	 	 49
 CAGAGATGTT ->
-	 53
+	 51
 	 	 50
 AGAGATGTTT ->
-	 53
+	 51
 	 	 51
 GAGATGTTTC ->
-	 53
+	 51
 	 	 52
 AGATGTTTCT ->
-	 53
+	 51
 	 	 53
 GATGTTTCTT ->
-	 53
+	 51
 	 	 54
 ATGTTTCTTG ->
-	 53
+	 51
 	 	 55
 TGTTTCTTGC ->
-	 53
+	 51
 	 	 56
 GTTTCTTGCT ->
-	 53
+	 51
 	 	 57
 TTTCTTGCTG ->
-	 53
+	 51
 	 	 58
 TTCTTGCTGA ->
-	 53
+	 51
 	 	 59
 TCTTGCTGAG ->
-	 53
+	 51
 	 	 60
 CTTGCTGAGA ->
-	 53
+	 51
 	 	 61
 TTGCTGAGAA ->
-	 53
+	 51
 	 	 62
 TGCTGAGAAA ->
-	 53
+	 51
 	 	 63
 GCTGAGAAAA ->
-	 53
+	 51
 	 	 64
 CTGAGAAAAC ->
-	 53
+	 51
 	 	 65
 TGAGAAAACG ->
-	 53
+	 51
 	 	 66
 GAGAAAACGA ->
-	 53
+	 51
 	 	 67
 AGAAAACGAA ->
-	 53
+	 51
 	 	 68
 GCAATGCGCG ->
-	 55
+	 52
 	 	 0
 CAATGCGCGC ->
-	 55
+	 52
 	 	 1
 AATGCGCGCC ->
-	 55
+	 52
 	 	 2
 ATGCGCGCCT ->
-	 55
+	 52
 	 	 3
 TGCGCGCCTG ->
-	 55
+	 52
 	 	 4
 GCGCGCCTGT ->
-	 55
+	 52
 	 	 5
 CGCGCCTGTA ->
-	 55
+	 52
 	 	 6
 GCGCCTGTAA ->
-	 55
+	 52
 	 	 7
 CGCCTGTAAT ->
-	 55
+	 52
 	 	 8
 GCCTGTAATC ->
-	 55
+	 52
 	 	 9
 CCTGTAATCC ->
-	 55
+	 52
 	 	 10
 CTGTAATCCC ->
-	 55
+	 52
 	 	 11
 TGTAATCCCA ->
-	 55
+	 52
 	 	 12
 GTAATCCCAG ->
-	 55
+	 52
 	 	 13
 TAATCCCAGC ->
-	 55
+	 52
 	 	 14
 AATCCCAGCT ->
-	 55
+	 52
 	 	 15
 GTCCCGGAAT ->
-	 56
+	 53
 	 	 0
 TCCCGGAATC ->
-	 56
+	 53
 	 	 1
 CCCGGAATCG ->
-	 56
+	 53
 	 	 2
 CCGGAATCGC ->
-	 56
+	 53
 	 	 3
 CGGAATCGCA ->
-	 56
+	 53
 	 	 4
 GGAATCGCAG ->
-	 56
+	 53
 	 	 5
 GAATCGCAGG ->
-	 56
+	 53
 	 	 6
 AATCGCAGGC ->
-	 56
+	 53
 	 	 7
 ATCGCAGGCG ->
-	 56
+	 53
 	 	 8
 TCGCAGGCGC ->
-	 56
+	 53
 	 	 9
 CGCAGGCGCG ->
-	 56
+	 53
 	 	 10
 GCAGGCGCGC ->
-	 56
+	 53
 	 	 11
 CGCGCATTCC ->
-	 56
+	 53
 	 	 16
 GCGCATTCCT ->
-	 56
+	 53
 	 	 17
 CGCATTCCTT ->
-	 56
+	 53
 	 	 18
 GCATTCCTTC ->
-	 56
+	 53
 	 	 19
 CATTCCTTCC ->
-	 56
+	 53
 	 	 20
 ATTCCTTCCC ->
-	 56
+	 53
 	 	 21
 TTCCTTCCCG ->
-	 56
+	 53
 	 	 22
 TCCTTCCCGC ->
-	 56
+	 53
 	 	 23
 CCTTCCCGCC ->
-	 56
+	 53
 	 	 24
 CTTCCCGCCT ->
-	 56
+	 53
 	 	 25
 TTCCCGCCTG ->
-	 56
+	 53
 	 	 26
 TCCCGCCTGA ->
-	 56
+	 53
 	 	 27
 CCCGCCTGAG ->
-	 56
+	 53
 	 	 28
 CCGCCTGAGG ->
-	 56
+	 53
 	 	 29
 CGCCTGAGGG ->
-	 56
+	 53
 	 	 30
 GCCTGAGGGC ->
-	 56
+	 53
 	 	 31
 CCTGAGGGCC ->
-	 56
+	 53
 	 	 32
 CTGAGGGCCC ->
-	 56
+	 53
 	 	 33
 TGAGGGCCCG ->
-	 56
+	 53
 	 	 34
 GAGGGCCCGC ->
-	 56
+	 53
 	 	 35
 AGGGCCCGCC ->
-	 56
+	 53
 	 	 36
 GGGCCCGCCT ->
-	 56
+	 53
 	 	 37
 GGCCCGCCTG ->
-	 56
+	 53
 	 	 38
 GCCCGCCTGG ->
-	 56
+	 53
 	 	 39
 CCCGCCTGGC ->
-	 56
+	 53
 	 	 40
 CCGCCTGGCC ->
-	 56
+	 53
 	 	 41
 CGCCTGGCCG ->
-	 56
+	 53
 	 	 42
 GCCTGGCCGT ->
-	 56
+	 53
 	 	 43
 CCTGGCCGTG ->
-	 56
+	 53
 	 	 44
 CTGGCCGTGA ->
-	 56
+	 53
 	 	 45
 TGGCCGTGAC ->
-	 56
+	 53
 	 	 46
 GGCCGTGACT ->
-	 56
+	 53
 	 	 47
 GCCGTGACTC ->
-	 56
+	 53
 	 	 48
 CCGTGACTCC ->
-	 56
+	 53
 	 	 49
 CGTGACTCCC ->
-	 56
+	 53
 	 	 50
 GTGACTCCCG ->
-	 56
+	 53
 	 	 51
 TGACTCCCGC ->
-	 56
+	 53
 	 	 52
 GACTCCCGCC ->
-	 56
+	 53
 	 	 53
 ACTCCCGCCC ->
-	 56
+	 53
 	 	 54
 CTCCCGCCCC ->
-	 56
+	 53
 	 	 55
 TCCCGCCCCT ->
-	 56
+	 53
 	 	 56
 CCCGCCCCTC ->
-	 56
+	 53
 	 	 57
 CCGCCCCTCT ->
-	 56
+	 53
 	 	 58
 CGCCCCTCTC ->
-	 56
+	 53
 	 	 59
 GCCCCTCTCC ->
-	 56
+	 53
 	 	 60
 CCCCTCTCCT ->
-	 56
+	 53
 	 	 61
 CCCTCTCCTC ->
-	 56
+	 53
 	 	 62
 CCTCTCCTCC ->
-	 56
+	 53
 	 	 63
 CTCTCCTCCT ->
-	 56
+	 53
 	 	 64
 TCTCCTCCTC ->
-	 56
+	 53
 	 	 65
 CTCCTCCTCC ->
-	 56
+	 53
 	 	 66
 TCCTCCTCCG ->
-	 56
+	 53
 	 	 67
 CCTCCTCCGA ->
-	 56
+	 53
 	 	 68
 CTCCTCCGAA ->
-	 56
+	 53
 	 	 69
 TCCTCCGAAG ->
-	 56
+	 53
 	 	 70
 CCTCCGAAGA ->
-	 56
+	 53
 	 	 71
 CTCCGAAGAG ->
-	 56
+	 53
 	 	 72
 TCCGAAGAGA ->
-	 56
+	 53
 	 	 73
 CCGAAGAGAG ->
-	 56
+	 53
 	 	 74
 CGAAGAGAGA ->
-	 56
+	 53
 	 	 75
 GAAGAGAGAT ->
-	 56
+	 53
 	 	 76
 AAGAGAGATC ->
-	 56
+	 53
 	 	 77
 AGAGAGATCG ->
-	 56
+	 53
 	 	 78
 GAGAGATCGG ->
-	 56
+	 53
 	 	 79
 AGAGATCGGG ->
-	 56
+	 53
 	 	 80
 GAGATCGGGG ->
-	 56
+	 53
 	 	 81
 AGATCGGGGC ->
-	 56
+	 53
 	 	 82
 GATCGGGGCC ->
-	 56
+	 53
 	 	 83
 ATCGGGGCCG ->
-	 56
+	 53
 	 	 84
 GACCTCAGGT ->
-	 57
+	 54
 	 	 0
 ACCTCAGGTG ->
-	 57
+	 54
 	 	 1
 CCTCAGGTGA ->
-	 57
+	 54
 	 	 2
 CTCAGGTGAT ->
-	 57
+	 54
 	 	 3
 TCAGGTGATC ->
-	 57
+	 54
 	 	 4
 CAGGTGATCC ->
-	 57
+	 54
 	 	 5
 AGGTGATCCA ->
-	 57
+	 54
 	 	 6
 GGTGATCCAC ->
-	 57
+	 54
 	 	 7
 GTGATCCACC ->
-	 57
+	 54
 	 	 8
 TGATCCACCC ->
-	 57
+	 54
 	 	 9
 GATCCACCCG ->
-	 57
+	 54
 	 	 10
 ATCCACCCGT ->
-	 57
+	 54
 	 	 11
 TCCACCCGTA ->
-	 57
+	 54
 	 	 12
 CCACCCGTAT ->
-	 57
+	 54
 	 	 13
 CACCCGTATC ->
-	 57
+	 54
 	 	 14
 ACCCGTATCG ->
-	 57
+	 54
 	 	 15
 CCCGTATCGG ->
-	 57
+	 54
 	 	 16
 CCGTATCGGC ->
-	 57
+	 54
 	 	 17
 CGTATCGGCC ->
-	 57
+	 54
 	 	 18
 GTATCGGCCT ->
-	 57
+	 54
 	 	 19
 TATCGGCCTC ->
-	 57
+	 54
 	 	 20
 ATCGGCCTCC ->
-	 57
+	 54
 	 	 21
 TCGGCCTCCC ->
-	 57
+	 54
 	 	 22
 CGGCCTCCCA ->
-	 57
+	 54
 	 	 23
 GGCCTCCCAA ->
-	 57
+	 54
 	 	 24
 GCCTCCCAAA ->
-	 57
+	 54
 	 	 25
 CCTCCCAAAG ->
-	 57
+	 54
 	 	 26
 CTCCCAAAGT ->
-	 57
+	 54
 	 	 27
 TCCCAAAGTG ->
-	 57
+	 54
 	 	 28
 TCGTGGACAC ->
-	 59
+	 55
 	 	 0
 	 	 38
 CGTGGACACA ->
-	 59
+	 55
 	 	 1
 	 	 39
 GTGGACACAC ->
-	 59
+	 55
 	 	 2
 	 	 40
 TGGACACACA ->
-	 59
+	 55
 	 	 3
 	 	 41
 GGACACACAC ->
-	 59
+	 55
 	 	 4
 	 	 23
 GACACACACT ->
-	 59
+	 55
 	 	 5
 ACACACACTG ->
-	 59
+	 55
 	 	 6
 CACACACTGC ->
-	 59
+	 55
 	 	 7
 ACACACTGCC ->
-	 59
+	 55
 	 	 8
 CACACTGCCA ->
-	 59
+	 55
 	 	 9
 ACACTGCCAT ->
-	 59
+	 55
 	 	 10
 CACTGCCATC ->
-	 59
+	 55
 	 	 11
 ACTGCCATCT ->
-	 59
+	 55
 	 	 12
 CTGCCATCTG ->
-	 59
+	 55
 	 	 13
 TGCCATCTGG ->
-	 59
+	 55
 	 	 14
 GCCATCTGGG ->
-	 59
+	 55
 	 	 15
 CCATCTGGGA ->
-	 59
+	 55
 	 	 16
 CATCTGGGAC ->
-	 59
+	 55
 	 	 17
 ATCTGGGACA ->
-	 59
+	 55
 	 	 18
 TCTGGGACAC ->
-	 59
+	 55
 	 	 19
 CTGGGACACA ->
-	 59
+	 55
 	 	 20
 TGGGACACAC ->
-	 59
+	 55
 	 	 21
 GGGACACACA ->
-	 59
+	 55
 	 	 22
 GACACACACC ->
-	 59
+	 55
 	 	 24
 ACACACACCG ->
-	 59
+	 55
 	 	 25
 CACACACCGT ->
-	 59
+	 55
 	 	 26
 ACACACCGTC ->
-	 59
+	 55
 	 	 27
 CACACCGTCG ->
-	 59
+	 55
 	 	 28
 ACACCGTCGT ->
-	 59
+	 55
 	 	 29
 CACCGTCGTC ->
-	 59
+	 55
 	 	 30
 ACCGTCGTCG ->
-	 59
+	 55
 	 	 31
 CCGTCGTCGT ->
-	 59
+	 55
 	 	 32
 CGTCGTCGTG ->
-	 59
+	 55
 	 	 33
 GTCGTCGTGG ->
-	 59
+	 55
 	 	 34
 TCGTCGTGGA ->
-	 59
+	 55
 	 	 35
 CGTCGTGGAC ->
-	 59
+	 55
 	 	 36
 GTCGTGGACA ->
-	 59
+	 55
 	 	 37
 CAGACACCAA ->
-	 60
+	 56
 	 	 0
 AGACACCAAA ->
-	 60
+	 56
 	 	 1
 GACACCAAAG ->
-	 60
+	 56
 	 	 2
 ACACCAAAGG ->
-	 60
+	 56
 	 	 3
 CACCAAAGGC ->
-	 60
+	 56
 	 	 4
 ACCAAAGGCC ->
-	 60
+	 56
 	 	 5
 CCAAAGGCCA ->
-	 60
+	 56
 	 	 6
 CAAAGGCCAC ->
-	 60
+	 56
 	 	 7
 AAAGGCCACA ->
-	 60
+	 56
 	 	 8
 AAGGCCACAC ->
-	 60
+	 56
 	 	 9
 AGGCCACACA ->
-	 60
+	 56
 	 	 10
 GGCCACACAG ->
-	 60
+	 56
 	 	 11
 GCCACACAGG ->
-	 60
+	 56
 	 	 12
 CCACACAGGG ->
-	 60
+	 56
 	 	 13
 CACACAGGGT ->
-	 60
+	 56
 	 	 14
 ACACAGGGTA ->
-	 60
+	 56
 	 	 15
 CACAGGGTAA ->
-	 60
+	 56
 	 	 16
 ACAGGGTAAG ->
-	 60
+	 56
 	 	 17
 CAGGGTAAGT ->
-	 60
+	 56
 	 	 18
 AGGGTAAGTA ->
-	 60
+	 56
 	 	 19
 GGGTAAGTAT ->
-	 60
+	 56
 	 	 20
 GGTAAGTATT ->
-	 60
+	 56
 	 	 21
 GTAAGTATTC ->
-	 60
+	 56
 	 	 22
 TAAGTATTCT ->
-	 60
+	 56
 	 	 23
 AAGTATTCTA ->
-	 60
+	 56
 	 	 24
 AGTATTCTAT ->
-	 60
+	 56
 	 	 25
 GTATTCTATG ->
-	 60
+	 56
 	 	 26
 TATTCTATGC ->
-	 60
+	 56
 	 	 27
 ATTCTATGCA ->
-	 60
+	 56
 	 	 28
 TTCTATGCAC ->
-	 60
+	 56
 	 	 29
 TCTATGCACA ->
-	 60
+	 56
 	 	 30
 CTATGCACAG ->
-	 60
+	 56
 	 	 31
 TATGCACAGA ->
-	 60
+	 56
 	 	 32
 ATGCACAGAA ->
-	 60
+	 56
 	 	 33
 TGCACAGAAA ->
-	 60
+	 56
 	 	 34
 GCACAGAAAA ->
-	 60
+	 56
 	 	 35
 CACAGAAAAC ->
-	 60
+	 56
 	 	 36
 ACAGAAAACC ->
-	 60
+	 56
 	 	 37
 CAGAAAACCT ->
-	 60
+	 56
 	 	 38
 AGAAAACCTG ->
-	 60
+	 56
 	 	 39
 GAAAACCTGC ->
-	 60
+	 56
 	 	 40
 AAAACCTGCC ->
-	 60
+	 56
 	 	 41
 AAACCTGCCG ->
-	 60
+	 56
 	 	 42
 AACCTGCCGA ->
-	 60
+	 56
 	 	 43
 ACCTGCCGAA ->
-	 60
+	 56
 	 	 44
 CCTGCCGAAC ->
-	 60
+	 56
 	 	 45
 CTGCCGAACT ->
-	 60
+	 56
 	 	 46
 TGCCGAACTG ->
-	 60
+	 56
 	 	 47
 GCCGAACTGG ->
-	 60
+	 56
 	 	 48
 CCGAACTGGC ->
-	 60
+	 56
 	 	 49
 CGAACTGGCA ->
-	 60
+	 56
 	 	 50
 GAACTGGCAA ->
-	 60
+	 56
 	 	 51
 AACTGGCAAG ->
-	 60
+	 56
 	 	 52
 ACTGGCAAGT ->
-	 60
+	 56
 	 	 53
 CTGGCAAGTC ->
-	 60
+	 56
 	 	 54
 TGGCAAGTCC ->
-	 60
+	 56
 	 	 55
 GGCAAGTCCC ->
-	 60
+	 56
 	 	 56
 GCAAGTCCCC ->
-	 60
+	 56
 	 	 57
 CAAGTCCCCA ->
-	 60
+	 56
 	 	 58
 AAGTCCCCAG ->
-	 60
+	 56
 	 	 59
 AGTCCCCAGA ->
-	 60
+	 56
 	 	 60
 GTCCCCAGAG ->
-	 60
+	 56
 	 	 61
 TCCCCAGAGG ->
-	 60
+	 56
 	 	 62
 CCCCAGAGGA ->
-	 60
+	 56
 	 	 63
 CCCAGAGGAC ->
-	 60
+	 56
 	 	 64
 CCAGAGGACA ->
-	 60
+	 56
 	 	 65
 CAGAGGACAA ->
-	 60
+	 56
 	 	 66
 AGAGGACAAT ->
-	 60
+	 56
 	 	 67
 GAGGACAATG ->
-	 60
+	 56
 	 	 68
 AGGACAATGG ->
-	 60
+	 56
 	 	 69
 GGACAATGGC ->
-	 60
+	 56
 	 	 70
 GACAATGGCG ->
-	 60
+	 56
 	 	 71
 ACAATGGCGG ->
-	 60
+	 56
 	 	 72
 CAATGGCGGA ->
-	 60
+	 56
 	 	 73
 AATGGCGGAG ->
-	 60
+	 56
 	 	 74
 ATGGCGGAGA ->
-	 60
+	 56
 	 	 75
 	 	 105
 	 	 118
 TGGCGGAGAC ->
-	 60
+	 56
 	 	 76
 	 	 106
 	 	 119
 GGCGGAGACA ->
-	 60
+	 56
 	 	 77
 	 	 107
 GCGGAGACAG ->
-	 60
+	 56
 	 	 78
 	 	 108
 CGGAGACAGA ->
-	 60
+	 56
 	 	 79
 	 	 109
 GGAGACAGAC ->
-	 60
+	 56
 	 	 80
 GAGACAGACC ->
-	 60
+	 56
 	 	 81
 AGACAGACCA ->
-	 60
+	 56
 	 	 82
 GACAGACCAA ->
-	 60
+	 56
 	 	 83
 ACAGACCAAT ->
-	 60
+	 56
 	 	 84
 CAGACCAATG ->
-	 60
+	 56
 	 	 85
 AGACCAATGG ->
-	 60
+	 56
 	 	 86
 	 	 125
 GACCAATGGC ->
-	 60
+	 56
 	 	 87
 	 	 126
 ACCAATGGCA ->
-	 60
+	 56
 	 	 88
 	 	 127
 CCAATGGCAG ->
-	 60
+	 56
 	 	 89
 	 	 128
 CAATGGCAGA ->
-	 60
+	 56
 	 	 90
 	 	 129
 AATGGCAGAG ->
-	 60
+	 56
 	 	 91
 	 	 130
 ATGGCAGAGA ->
-	 60
+	 56
 	 	 92
 TGGCAGAGAC ->
-	 60
+	 56
 	 	 93
 GGCAGAGACC ->
-	 60
+	 56
 	 	 94
 GCAGAGACCG ->
-	 60
+	 56
 	 	 95
 CAGAGACCGA ->
-	 60
+	 56
 	 	 96
 AGAGACCGAT ->
-	 60
+	 56
 	 	 97
 GAGACCGATG ->
-	 60
+	 56
 	 	 98
 AGACCGATGG ->
-	 60
+	 56
 	 	 99
 GACCGATGGC ->
-	 60
+	 56
 	 	 100
 ACCGATGGCG ->
-	 60
+	 56
 	 	 101
 CCGATGGCGG ->
-	 60
+	 56
 	 	 102
 CGATGGCGGA ->
-	 60
+	 56
 	 	 103
 GATGGCGGAG ->
-	 60
+	 56
 	 	 104
 	 	 117
 GGAGACAGAT ->
-	 60
+	 56
 	 	 110
 GAGACAGATG ->
-	 60
+	 56
 	 	 111
 AGACAGATGG ->
-	 60
+	 56
 	 	 112
 GACAGATGGC ->
-	 60
+	 56
 	 	 113
 ACAGATGGCG ->
-	 60
+	 56
 	 	 114
 CAGATGGCGG ->
-	 60
+	 56
 	 	 115
 AGATGGCGGA ->
-	 60
+	 56
 	 	 116
 GGCGGAGACC ->
-	 60
+	 56
 	 	 120
 GCGGAGACCA ->
-	 60
+	 56
 	 	 121
 CGGAGACCAA ->
-	 60
+	 56
 	 	 122
 GGAGACCAAT ->
-	 60
+	 56
 	 	 123
 GAGACCAATG ->
-	 60
+	 56
 	 	 124
 ATGGCAGAGT ->
-	 60
+	 56
 	 	 131
 TGGCAGAGTG ->
-	 60
+	 56
 	 	 132
 GGCAGAGTGG ->
-	 60
+	 56
 	 	 133
 GCAGAGTGGT ->
-	 60
+	 56
 	 	 134
 CAGAGTGGTG ->
-	 60
+	 56
 	 	 135
 AGAGTGGTGG ->
-	 60
+	 56
 	 	 136
 GAGTGGTGGT ->
-	 60
+	 56
 	 	 137
 AGTGGTGGTT ->
-	 60
+	 56
 	 	 138
 GTGGTGGTTG ->
-	 60
+	 56
 	 	 139
 	 	 210
 TGGTGGTTGG ->
-	 60
+	 56
 	 	 140
 GGTGGTTGGC ->
-	 60
+	 56
 	 	 141
 GTGGTTGGCA ->
-	 60
+	 56
 	 	 142
 TGGTTGGCAG ->
-	 60
+	 56
 	 	 143
 GGTTGGCAGG ->
-	 60
+	 56
 	 	 144
 GTTGGCAGGG ->
-	 60
+	 56
 	 	 145
 TTGGCAGGGC ->
-	 60
+	 56
 	 	 146
 TGGCAGGGCT ->
-	 60
+	 56
 	 	 147
 GGCAGGGCTG ->
-	 60
+	 56
 	 	 148
 GCAGGGCTGA ->
-	 60
+	 56
 	 	 149
 CAGGGCTGAT ->
-	 60
+	 56
 	 	 150
 AGGGCTGATG ->
-	 60
+	 56
 	 	 151
 GGGCTGATGG ->
-	 60
+	 56
 	 	 152
 GGCTGATGGG ->
-	 60
+	 56
 	 	 153
 GCTGATGGGT ->
-	 60
+	 56
 	 	 154
 CTGATGGGTA ->
-	 60
+	 56
 	 	 155
 TGATGGGTAA ->
-	 60
+	 56
 	 	 156
 GATGGGTAAG ->
-	 60
+	 56
 	 	 157
 ATGGGTAAGG ->
-	 60
+	 56
 	 	 158
 TGGGTAAGGG ->
-	 60
+	 56
 	 	 159
 GGGTAAGGGG ->
-	 60
+	 56
 	 	 160
 GGTAAGGGGT ->
-	 60
+	 56
 	 	 161
 GTAAGGGGTC ->
-	 60
+	 56
 	 	 162
 TAAGGGGTCT ->
-	 60
+	 56
 	 	 163
 AAGGGGTCTC ->
-	 60
+	 56
 	 	 164
 AGGGGTCTCC ->
-	 60
+	 56
 	 	 165
 GGGGTCTCCT ->
-	 60
+	 56
 	 	 166
 GGGTCTCCTC ->
-	 60
+	 56
 	 	 167
 GGTCTCCTCC ->
-	 60
+	 56
 	 	 168
 GTCTCCTCCT ->
-	 60
+	 56
 	 	 169
 TCTCCTCCTG ->
-	 60
+	 56
 	 	 170
 CTCCTCCTGG ->
-	 60
+	 56
 	 	 171
 TCCTCCTGGG ->
-	 60
+	 56
 	 	 172
 CCTCCTGGGG ->
-	 60
+	 56
 	 	 173
 CTCCTGGGGA ->
-	 60
+	 56
 	 	 174
 TCCTGGGGAT ->
-	 60
+	 56
 	 	 175
 CCTGGGGATG ->
-	 60
+	 56
 	 	 176
 CTGGGGATGA ->
-	 60
+	 56
 	 	 177
 TGGGGATGAG ->
-	 60
+	 56
 	 	 178
 GGGGATGAGG ->
-	 60
+	 56
 	 	 179
 GGGATGAGGA ->
-	 60
+	 56
 	 	 180
 GGATGAGGAT ->
-	 60
+	 56
 	 	 181
 GATGAGGATG ->
-	 60
+	 56
 	 	 182
 ATGAGGATGT ->
-	 60
+	 56
 	 	 183
 TGAGGATGTT ->
-	 60
+	 56
 	 	 184
 GAGGATGTTT ->
-	 60
+	 56
 	 	 185
 AGGATGTTTT ->
-	 60
+	 56
 	 	 186
 GGATGTTTTG ->
-	 60
+	 56
 	 	 187
 GATGTTTTGG ->
-	 60
+	 56
 	 	 188
 ATGTTTTGGA ->
-	 60
+	 56
 	 	 189
 TGTTTTGGAA ->
-	 60
+	 56
 	 	 190
 GTTTTGGAAC ->
-	 60
+	 56
 	 	 191
 TTTTGGAACC ->
-	 60
+	 56
 	 	 192
 TTTGGAACCA ->
-	 60
+	 56
 	 	 193
 TTGGAACCAG ->
-	 60
+	 56
 	 	 194
 TGGAACCAGA ->
-	 60
+	 56
 	 	 195
 GGAACCAGAC ->
-	 60
+	 56
 	 	 196
 GAACCAGACA ->
-	 60
+	 56
 	 	 197
 AACCAGACAG ->
-	 60
+	 56
 	 	 198
 ACCAGACAGT ->
-	 60
+	 56
 	 	 199
 CCAGACAGTG ->
-	 60
+	 56
 	 	 200
 CAGACAGTGG ->
-	 60
+	 56
 	 	 201
 AGACAGTGGT ->
-	 60
+	 56
 	 	 202
 GACAGTGGTG ->
-	 60
+	 56
 	 	 203
 ACAGTGGTGG ->
-	 60
+	 56
 	 	 204
 CAGTGGTGGT ->
-	 60
+	 56
 	 	 205
 AGTGGTGGTG ->
-	 60
+	 56
 	 	 206
 GTGGTGGTGG ->
-	 60
+	 56
 	 	 207
 TGGTGGTGGT ->
-	 60
+	 56
 	 	 208
 GGTGGTGGTT ->
-	 60
+	 56
 	 	 209
 TGGTGGTTGC ->
-	 60
+	 56
 	 	 211
 GGTGGTTGCA ->
-	 60
+	 56
 	 	 212
 GTGGTTGCAT ->
-	 60
+	 56
 	 	 213
 TGGTTGCATG ->
-	 60
+	 56
 	 	 214
 GGTTGCATGC ->
-	 60
+	 56
 	 	 215
 GTTGCATGCC ->
-	 60
+	 56
 	 	 216
 TTGCATGCCG ->
-	 60
+	 56
 	 	 217
 TGCATGCCGT ->
-	 60
+	 56
 	 	 218
 GCATGCCGTT ->
-	 60
+	 56
 	 	 219
 CATGCCGTTT ->
-	 60
+	 56
 	 	 220
 ATGCCGTTTC ->
-	 60
+	 56
 	 	 221
 TGCCGTTTCT ->
-	 60
+	 56
 	 	 222
 GCCGTTTCTA ->
-	 60
+	 56
 	 	 223
 CCGTTTCTAA ->
-	 60
+	 56
 	 	 224
 CGTTTCTAAG ->
-	 60
+	 56
 	 	 225
 GTTTCTAAGG ->
-	 60
+	 56
 	 	 226
 TTTCTAAGGG ->
-	 60
+	 56
 	 	 227
 TTCTAAGGGA ->
-	 60
+	 56
 	 	 228
 TCTAAGGGAC ->
-	 60
+	 56
 	 	 229
 CTAAGGGACG ->
-	 60
+	 56
 	 	 230
 TAAGGGACGA ->
-	 60
+	 56
 	 	 231
 AAGGGACGAA ->
-	 60
+	 56
 	 	 232
 AGGGACGAAC ->
-	 60
+	 56
 	 	 233
 GGGACGAACC ->
-	 60
+	 56
 	 	 234
 GGACGAACCG ->
-	 60
+	 56
 	 	 235
 GACGAACCGC ->
-	 60
+	 56
 	 	 236
 ACGAACCGCT ->
-	 60
+	 56
 	 	 237
 CGAACCGCTA ->
-	 60
+	 56
 	 	 238
 GAACCGCTAC ->
-	 60
+	 56
 	 	 239
 AACCGCTACT ->
-	 60
+	 56
 	 	 240
 ACCGCTACTG ->
-	 60
+	 56
 	 	 241
 CCGCTACTGA ->
-	 60
+	 56
 	 	 242
 CGCTACTGAA ->
-	 60
+	 56
 	 	 243
 GCTACTGAAT ->
-	 60
+	 56
 	 	 244
 CTACTGAATT ->
-	 60
+	 56
 	 	 245
 TACTGAATTG ->
-	 60
+	 56
 	 	 246
 ACTGAATTGC ->
-	 60
+	 56
 	 	 247
 CTGAATTGCT ->
-	 60
+	 56
 	 	 248
 TGAATTGCTG ->
-	 60
+	 56
 	 	 249
 GAATTGCTGA ->
-	 60
+	 56
 	 	 250
 AATTGCTGAA ->
-	 60
+	 56
 	 	 251
 ATTGCTGAAT ->
-	 60
+	 56
 	 	 252
 TTGCTGAATT ->
-	 60
+	 56
 	 	 253
 TGCTGAATTT ->
-	 60
+	 56
 	 	 254
 GCTGAATTTA ->
-	 60
+	 56
 	 	 255
 CTGAATTTAA ->
-	 60
+	 56
 	 	 256
 TGAATTTAAA ->
-	 60
+	 56
 	 	 257
 GAATTTAAAA ->
-	 60
+	 56
 	 	 258
 AATTTAAAAT ->
-	 60
+	 56
 	 	 259
 ATTTAAAATG ->
-	 60
+	 56
 	 	 260
 TTTAAAATGG ->
-	 60
+	 56
 	 	 261
 TTAAAATGGT ->
-	 60
+	 56
 	 	 262
 TAAAATGGTG ->
-	 60
+	 56
 	 	 263
 AAAATGGTGA ->
-	 60
+	 56
 	 	 264
 AAATGGTGAA ->
-	 60
+	 56
 	 	 265
 AATGGTGAAT ->
-	 60
+	 56
 	 	 266
 ATGGTGAATT ->
-	 60
+	 56
 	 	 267
 TGGTGAATTG ->
-	 60
+	 56
 	 	 268
 GGTGAATTGT ->
-	 60
+	 56
 	 	 269
 GTGAATTGTA ->
-	 60
+	 56
 	 	 270
 TGAATTGTAT ->
-	 60
+	 56
 	 	 271
 GAATTGTATG ->
-	 60
+	 56
 	 	 272
 AATTGTATGT ->
-	 60
+	 56
 	 	 273
 ATTGTATGTG ->
-	 60
+	 56
 	 	 274
 TTGTATGTGA ->
-	 60
+	 56
 	 	 275
 TGTATGTGAT ->
-	 60
+	 56
 	 	 276
 GTATGTGATG ->
-	 60
+	 56
 	 	 277
 TATGTGATGT ->
-	 60
+	 56
 	 	 278
 ATGTGATGTG ->
-	 60
+	 56
 	 	 279
 TGTGATGTGG ->
-	 60
+	 56
 	 	 280
 GTGATGTGGA ->
-	 60
+	 56
 	 	 281
 TGATGTGGAT ->
-	 60
+	 56
 	 	 282
 GATGTGGATG ->
-	 60
+	 56
 	 	 283
 ATGTGGATGT ->
-	 60
+	 56
 	 	 284
 TGTGGATGTC ->
-	 60
+	 56
 	 	 285
 GTGGATGTCA ->
-	 60
+	 56
 	 	 286
 TGGATGTCAC ->
-	 60
+	 56
 	 	 287
 GGATGTCACC ->
-	 60
+	 56
 	 	 288
 GATGTCACCA ->
-	 60
+	 56
 	 	 289
 ATGTCACCAC ->
-	 60
+	 56
 	 	 290
 TGTCACCACA ->
-	 60
+	 56
 	 	 291
 GTCACCACAA ->
-	 60
+	 56
 	 	 292
 TCACCACAAT ->
-	 60
+	 56
 	 	 293
 CACCACAATC ->
-	 60
+	 56
 	 	 294
 ACCACAATCA ->
-	 60
+	 56
 	 	 295
 CCACAATCAC ->
-	 60
+	 56
 	 	 296
 CACAATCACA ->
-	 60
+	 56
 	 	 297
 ACAATCACAA ->
-	 60
+	 56
 	 	 298
 CAATCACAAT ->
-	 60
+	 56
 	 	 299
 AATCACAATC ->
-	 60
+	 56
 	 	 300
 ATCACAATCA ->
-	 60
+	 56
 	 	 301
 TCACAATCAA ->
-	 60
+	 56
 	 	 302
 CACAATCAAA ->
-	 60
+	 56
 	 	 303
 ACAATCAAAA ->
-	 60
+	 56
 	 	 304
 CAATCAAAAG ->
-	 60
+	 56
 	 	 305
 AATCAAAAGC ->
-	 60
+	 56
 	 	 306
 ATCAAAAGCG ->
-	 60
+	 56
 	 	 307
 TCAAAAGCGA ->
-	 60
+	 56
 	 	 308
 CAAAAGCGAC ->
-	 60
+	 56
 	 	 309
 AAAAGCGACA ->
-	 60
+	 56
 	 	 310
 AAAGCGACAG ->
-	 60
+	 56
 	 	 311
 AAGCGACAGG ->
-	 60
+	 56
 	 	 312
 AGCGACAGGA ->
-	 60
+	 56
 	 	 313
 GCGACAGGAC ->
-	 60
+	 56
 	 	 314
 CGACAGGACG ->
-	 60
+	 56
 	 	 315
 GACAGGACGG ->
-	 60
+	 56
 	 	 316
 ACAGGACGGG ->
-	 60
+	 56
 	 	 317
 CAGGACGGGG ->
-	 60
+	 56
 	 	 318
 AGGACGGGGA ->
-	 60
+	 56
 	 	 319
 GGACGGGGAG ->
-	 60
+	 56
 	 	 320
 GACGGGGAGA ->
-	 60
+	 56
 	 	 321
 ACGGGGAGAA ->
-	 60
+	 56
 	 	 322
 CGGGGAGAAT ->
-	 60
+	 56
 	 	 323
 GGGGAGAATA ->
-	 60
+	 56
 	 	 324
 GGGAGAATAC ->
-	 60
+	 56
 	 	 325
 GGAGAATACA ->
-	 60
+	 56
 	 	 326
 GAGAATACAG ->
-	 60
+	 56
 	 	 327
 AGAATACAGA ->
-	 60
+	 56
 	 	 328
 GAATACAGAC ->
-	 60
+	 56
 	 	 329
 AATACAGACC ->
-	 60
+	 56
 	 	 330
 ATACAGACCT ->
-	 60
+	 56
 	 	 331
 TACAGACCTG ->
-	 60
+	 56
 	 	 332
 ACAGACCTGA ->
-	 60
+	 56
 	 	 333
 CAGACCTGAC ->
-	 60
+	 56
 	 	 334
 AGACCTGACC ->
-	 60
+	 56
 	 	 335
 GACCTGACCC ->
-	 60
+	 56
 	 	 336
 ACCTGACCCT ->
-	 60
+	 56
 	 	 337
 CCTGACCCTG ->
-	 60
+	 56
 	 	 338
 CTGACCCTGA ->
-	 60
+	 56
 	 	 339
 TGACCCTGAG ->
-	 60
+	 56
 	 	 340
 GACCCTGAGT ->
-	 60
+	 56
 	 	 341
 ACCCTGAGTT ->
-	 60
+	 56
 	 	 342
 CCCTGAGTTA ->
-	 60
+	 56
 	 	 343
 CCTGAGTTAA ->
-	 60
+	 56
 	 	 344
 CTGAGTTAAA ->
-	 60
+	 56
 	 	 345
 TGAGTTAAAC ->
-	 60
+	 56
 	 	 346
 GAGTTAAACC ->
-	 60
+	 56
 	 	 347
 AGTTAAACCG ->
-	 60
+	 56
 	 	 348
 GTTAAACCGT ->
-	 60
+	 56
 	 	 349
 TTAAACCGTT ->
-	 60
+	 56
 	 	 350
 TAAACCGTTC ->
-	 60
+	 56
 	 	 351
 AAACCGTTCA ->
-	 60
+	 56
 	 	 352
 AACCGTTCAG ->
-	 60
+	 56
 	 	 353
 ACCGTTCAGG ->
-	 60
+	 56
 	 	 354
 CCGTTCAGGG ->
-	 60
+	 56
 	 	 355
 CGTTCAGGGG ->
-	 60
+	 56
 	 	 356
 GTTCAGGGGA ->
-	 60
+	 56
 	 	 357
 TTCAGGGGAG ->
-	 60
+	 56
 	 	 358
 TCAGGGGAGG ->
-	 60
+	 56
 	 	 359
 CAGGGGAGGG ->
-	 60
+	 56
 	 	 360
 AGGGGAGGGG ->
-	 60
+	 56
 	 	 361
 GGGGAGGGGC ->
-	 60
+	 56
 	 	 362
 GGGAGGGGCG ->
-	 60
+	 56
 	 	 363
 GGAGGGGCGA ->
-	 60
+	 56
 	 	 364
 GAGGGGCGAG ->
-	 60
+	 56
 	 	 365
 AGGGGCGAGG ->
-	 60
+	 56
 	 	 366
 GGGGCGAGGT ->
-	 60
+	 56
 	 	 367
 GGGCGAGGTG ->
-	 60
+	 56
 	 	 368
 GGCGAGGTGA ->
-	 60
+	 56
 	 	 369
 GCGAGGTGAC ->
-	 60
+	 56
 	 	 370
 CGAGGTGACT ->
-	 60
+	 56
 	 	 371
 GAGGTGACTC ->
-	 60
+	 56
 	 	 372
 AGGTGACTCA ->
-	 60
+	 56
 	 	 373
 GGTGACTCAT ->
-	 60
+	 56
 	 	 374
 GTGACTCATG ->
-	 60
+	 56
 	 	 375
 TGACTCATGC ->
-	 60
+	 56
 	 	 376
 GACTCATGCC ->
-	 60
+	 56
 	 	 377
 ACTCATGCCT ->
-	 60
+	 56
 	 	 378
 CTCATGCCTG ->
-	 60
+	 56
 	 	 379
 TCATGCCTGT ->
-	 60
+	 56
 	 	 380
 CATGCCTGTG ->
-	 60
+	 56
 	 	 381
 ATGCCTGTGA ->
-	 60
+	 56
 	 	 382
 TGCCTGTGAT ->
-	 60
+	 56
 	 	 383
 GCCTGTGATC ->
-	 60
+	 56
 	 	 384
 CCTGTGATCC ->
-	 60
+	 56
 	 	 385
 CTGTGATCCT ->
-	 60
+	 56
 	 	 386
 CGCACACACC ->
-	 61
+	 57
 	 	 0
 GCACACACCG ->
-	 61
+	 57
 	 	 1
 ACACCGTCGG ->
-	 61
+	 57
 	 	 5
 CACCGTCGGG ->
-	 61
+	 57
 	 	 6
 ACCGTCGGGC ->
-	 61
+	 57
 	 	 7
 CCGTCGGGCA ->
-	 61
+	 57
 	 	 8
 CGTCGGGCAC ->
-	 61
+	 57
 	 	 9
 GTCGGGCACA ->
-	 61
+	 57
 	 	 10
 TCGGGCACAC ->
-	 61
+	 57
 	 	 11
 CGGGCACACA ->
-	 61
+	 57
 	 	 12
 GGGCACACAC ->
-	 61
+	 57
 	 	 13
 TCCTGATCTC ->
-	 62
+	 58
 	 	 0
 CCTGATCTCG ->
-	 62
+	 58
 	 	 1
 CTGATCTCGT ->
-	 62
+	 58
 	 	 2
 TGATCTCGTG ->
-	 62
+	 58
 	 	 3
 GATCTCGTGA ->
-	 62
+	 58
 	 	 4
 ATCTCGTGAT ->
-	 62
+	 58
 	 	 5
 TCTCGTGATC ->
-	 62
+	 58
 	 	 6
 CTCGTGATCC ->
-	 62
+	 58
 	 	 7
 TCGTGATCCA ->
-	 62
+	 58
 	 	 8
 CGTGATCCAC ->
-	 62
+	 58
 	 	 9
 TGATCCACCT ->
-	 62
+	 58
 	 	 11
 GATCCACCTA ->
-	 62
+	 58
 	 	 12
 ATCCACCTAC ->
-	 62
+	 58
 	 	 13
 TCCACCTACG ->
-	 62
+	 58
 	 	 14
 CCACCTACGT ->
-	 62
+	 58
 	 	 15
 CACCTACGTC ->
-	 62
+	 58
 	 	 16
 ACCTACGTCG ->
-	 62
+	 58
 	 	 17
 CCTACGTCGG ->
-	 62
+	 58
 	 	 18
 CTACGTCGGC ->
-	 62
+	 58
 	 	 19
 TACGTCGGCC ->
-	 62
+	 58
 	 	 20
 ACGTCGGCCT ->
-	 62
+	 58
 	 	 21
 CGTCGGCCTC ->
-	 62
+	 58
 	 	 22
 GTCGGCCTCC ->
-	 63
+	 59
 	 	 13
 ATAAATACAT ->
-	 64
+	 60
 	 	 0
 TAAATACATT ->
-	 64
+	 60
 	 	 1
 AAATACATTT ->
-	 64
+	 60
 	 	 2
 AATACATTTA ->
-	 64
+	 60
 	 	 3
 ATACATTTAT ->
-	 64
+	 60
 	 	 4
 TACATTTATA ->
-	 64
+	 60
 	 	 5
 ACATTTATAT ->
-	 64
+	 60
 	 	 6
 CATTTATATC ->
-	 64
+	 60
 	 	 7
 ATTTATATCT ->
-	 64
+	 60
 	 	 8
 TTTATATCTT ->
-	 64
+	 60
 	 	 9
 TTATATCTTT ->
-	 64
+	 60
 	 	 10
 TATATCTTTT ->
-	 64
+	 60
 	 	 11
 ATATCTTTTT ->
-	 64
+	 60
 	 	 12
 TATCTTTTTT ->
-	 64
+	 60
 	 	 13
 ATCTTTTTTC ->
-	 64
+	 60
 	 	 14
 TCTTTTTTCA ->
-	 64
+	 60
 	 	 15
 CTTTTTTCAT ->
-	 64
+	 60
 	 	 16
 TTTTTTCATA ->
-	 64
+	 60
 	 	 17
 TTTTTCATAC ->
-	 64
+	 60
 	 	 18
 TTTTCATACC ->
-	 64
+	 60
 	 	 19
 TTTCATACCA ->
-	 64
+	 60
 	 	 20
 TTCATACCAT ->
-	 64
+	 60
 	 	 21
 TCATACCATT ->
-	 64
+	 60
 	 	 22
 CATACCATTA ->
-	 64
+	 60
 	 	 23
 ATACCATTAA ->
-	 64
+	 60
 	 	 24
 TACCATTAAA ->
-	 64
+	 60
 	 	 25
 ACCATTAAAA ->
-	 64
+	 60
 	 	 26
 CCATTAAAAA ->
-	 64
+	 60
 	 	 27
 CATTAAAAAA ->
-	 64
+	 60
 	 	 28
 ATTAAAAAAT ->
-	 64
+	 60
 	 	 29
 TTAAAAAATG ->
-	 64
+	 60
 	 	 30
 TAAAAAATGC ->
-	 64
+	 60
 	 	 31
 AAAAAATGCT ->
-	 64
+	 60
 	 	 32
 AAAAATGCTG ->
-	 64
+	 60
 	 	 33
 AAAATGCTGA ->
-	 64
+	 60
 	 	 34
 AAATGCTGAC ->
-	 64
+	 60
 	 	 35
 AATGCTGACA ->
-	 64
+	 60
 	 	 36
 ATGCTGACAT ->
-	 64
+	 60
 	 	 37
 TGCTGACATG ->
-	 64
+	 60
 	 	 38
 GCTGACATGA ->
-	 64
+	 60
 	 	 39
 CTGACATGAA ->
-	 64
+	 60
 	 	 40
 TGACATGAAC ->
-	 64
+	 60
 	 	 41
 GACATGAACA ->
-	 64
+	 60
 	 	 42
 ACATGAACAG ->
-	 64
+	 60
 	 	 43
 CATGAACAGT ->
-	 64
+	 60
 	 	 44
 ATGAACAGTT ->
-	 64
+	 60
 	 	 45
 TGAACAGTTG ->
-	 64
+	 60
 	 	 46
 GAACAGTTGG ->
-	 64
+	 60
 	 	 47
 AACAGTTGGT ->
-	 64
+	 60
 	 	 48
 ACAGTTGGTG ->
-	 64
+	 60
 	 	 49
 CAGTTGGTGT ->
-	 64
+	 60
 	 	 50
 AGTTGGTGTT ->
-	 64
+	 60
 	 	 51
 GTTGGTGTTG ->
-	 64
+	 60
 	 	 52
 TTGGTGTTGA ->
-	 64
+	 60
 	 	 53
 TGGTGTTGAA ->
-	 64
+	 60
 	 	 54
 GGTGTTGAAG ->
-	 64
+	 60
 	 	 55
 GTGTTGAAGT ->
-	 64
+	 60
 	 	 56
 TGTTGAAGTT ->
-	 64
+	 60
 	 	 57
 GTTGAAGTTA ->
-	 64
+	 60
 	 	 58
 TTGAAGTTAT ->
-	 64
+	 60
 	 	 59
 TGAAGTTATT ->
-	 64
+	 60
 	 	 60
 GAAGTTATTT ->
-	 64
+	 60
 	 	 61
 AAGTTATTTT ->
-	 64
+	 60
 	 	 62
 AGTTATTTTT ->
-	 64
+	 60
 	 	 63
 GTTATTTTTA ->
-	 64
+	 60
 	 	 64
 TTATTTTTAA ->
-	 64
+	 60
 	 	 65
 TATTTTTAAA ->
-	 64
+	 60
 	 	 66
 ATTTTTAAAC ->
-	 64
+	 60
 	 	 67
 TTTTTAAACT ->
-	 64
+	 60
 	 	 68
 TTTTAAACTG ->
-	 64
+	 60
 	 	 69
 TTTAAACTGT ->
-	 64
+	 60
 	 	 70
 TTAAACTGTA ->
-	 64
+	 60
 	 	 71
 TAAACTGTAG ->
-	 64
+	 60
 	 	 72
 AAACTGTAGC ->
-	 64
+	 60
 	 	 73
 AACTGTAGCC ->
-	 64
+	 60
 	 	 74
 ACTGTAGCCC ->
-	 64
+	 60
 	 	 75
 CTGTAGCCCA ->
-	 64
+	 60
 	 	 76
 TGTAGCCCAT ->
-	 64
+	 60
 	 	 77
 GTAGCCCATA ->
-	 64
+	 60
 	 	 78
 TAGCCCATAG ->
-	 64
+	 60
 	 	 79
 AGCCCATAGC ->
-	 64
+	 60
 	 	 80
 GCCCATAGCT ->
-	 64
+	 60
 	 	 81
 CCCATAGCTG ->
-	 64
+	 60
 	 	 82
 CCATAGCTGG ->
-	 64
+	 60
 	 	 83
 CATAGCTGGA ->
-	 64
+	 60
 	 	 84
 ATAGCTGGAA ->
-	 64
+	 60
 	 	 85
 TAGCTGGAAC ->
-	 64
+	 60
 	 	 86
 AGCTGGAACT ->
-	 64
+	 60
 	 	 87
 GCTGGAACTA ->
-	 64
+	 60
 	 	 88
 CTGGAACTAC ->
-	 64
+	 60
 	 	 89
 TGGAACTACT ->
-	 64
+	 60
 	 	 90
 GGAACTACTT ->
-	 64
+	 60
 	 	 91
 GAACTACTTT ->
-	 64
+	 60
 	 	 92
 AACTACTTTG ->
-	 64
+	 60
 	 	 93
 ACTACTTTGT ->
-	 64
+	 60
 	 	 94
 CTACTTTGTA ->
-	 64
+	 60
 	 	 95
 TACTTTGTAA ->
-	 64
+	 60
 	 	 96
 ACTTTGTAAT ->
-	 64
+	 60
 	 	 97
 CTTTGTAATT ->
-	 64
+	 60
 	 	 98
 TTTGTAATTC ->
-	 64
+	 60
 	 	 99
 TTGTAATTCC ->
-	 64
+	 60
 	 	 100
 TGTAATTCCC ->
-	 64
+	 60
 	 	 101
 GTAATTCCCA ->
-	 64
+	 60
 	 	 102
 TAATTCCCAC ->
-	 64
+	 60
 	 	 103
 AATTCCCACG ->
-	 64
+	 60
 	 	 104
 ATTCCCACGT ->
-	 64
+	 60
 	 	 105
 TTCCCACGTC ->
-	 64
+	 60
 	 	 106
 TCCCACGTCT ->
-	 64
+	 60
 	 	 107
 CCCACGTCTT ->
-	 64
+	 60
 	 	 108
 CCACGTCTTA ->
-	 64
+	 60
 	 	 109
 CACGTCTTAA ->
-	 64
+	 60
 	 	 110
 ACGTCTTAAT ->
-	 64
+	 60
 	 	 111
 CGTCTTAATG ->
-	 64
+	 60
 	 	 112
 GTCTTAATGA ->
-	 64
+	 60
 	 	 113
 TCTTAATGAA ->
-	 64
+	 60
 	 	 114
 CTTAATGAAA ->
-	 64
+	 60
 	 	 115
 TTAATGAAAA ->
-	 64
+	 60
 	 	 116
 TAATGAAAAT ->
-	 64
+	 60
 	 	 117
 AATGAAAATA ->
-	 64
+	 60
 	 	 118
 ATGAAAATAC ->
-	 64
+	 60
 	 	 119
 TGAAAATACG ->
-	 64
+	 60
 	 	 120
 GAAAATACGA ->
-	 64
+	 60
 	 	 121
 AAAATACGAA ->
-	 64
+	 60
 	 	 122
 AAATACGAAA ->
-	 64
+	 60
 	 	 123
 AATACGAAAC ->
-	 64
+	 60
 	 	 124
 ATACGAAACG ->
-	 64
+	 60
 	 	 125
 TACGAAACGA ->
-	 64
+	 60
 	 	 126
 ACGAAACGAG ->
-	 64
+	 60
 	 	 127
 CGAAACGAGC ->
-	 64
+	 60
 	 	 128
 GAAACGAGCA ->
-	 64
+	 60
 	 	 129
 AAACGAGCAT ->
-	 64
+	 60
 	 	 130
 AACGAGCATA ->
-	 64
+	 60
 	 	 131
 ACGAGCATAA ->
-	 64
+	 60
 	 	 132
 CGAGCATAAA ->
-	 64
+	 60
 	 	 133
 GAGCATAAAA ->
-	 64
+	 60
 	 	 134
 AGCATAAAAT ->
-	 64
+	 60
 	 	 135
 GCATAAAATG ->
-	 64
+	 60
 	 	 136
 CATAAAATGG ->
-	 64
+	 60
 	 	 137
 ATAAAATGGA ->
-	 64
+	 60
 	 	 138
 TAAAATGGAA ->
-	 64
+	 60
 	 	 139
 AAAATGGAAA ->
-	 64
+	 60
 	 	 140
 AAATGGAAAT ->
-	 64
+	 60
 	 	 141
 AATGGAAATT ->
-	 64
+	 60
 	 	 142
 ATGGAAATTA ->
-	 64
+	 60
 	 	 143
 TGGAAATTAA ->
-	 64
+	 60
 	 	 144
 GGAAATTAAA ->
-	 64
+	 60
 	 	 145
 GAAATTAAAA ->
-	 64
+	 60
 	 	 146
 AAATTAAAAT ->
-	 64
+	 60
 	 	 147
 AATTAAAATA ->
-	 64
+	 60
 	 	 148
 ATTAAAATAA ->
-	 64
+	 60
 	 	 149
 TTAAAATAAA ->
-	 64
+	 60
 	 	 150
 TAAAATAAAG ->
-	 64
+	 60
 	 	 151
 AAAATAAAGA ->
-	 64
+	 60
 	 	 152
 AAATAAAGAA ->
-	 64
+	 60
 	 	 153
 AATAAAGAAT ->
-	 64
+	 60
 	 	 154
 ATAAAGAATA ->
-	 64
+	 60
 	 	 155
 TAAAGAATAG ->
-	 64
+	 60
 	 	 156
 AAAGAATAGA ->
-	 64
+	 60
 	 	 157
 AAGAATAGAC ->
-	 64
+	 60
 	 	 158
 AGAATAGACC ->
-	 64
+	 60
 	 	 159
 GAATAGACCG ->
-	 64
+	 60
 	 	 160
 AATAGACCGG ->
-	 64
+	 60
 	 	 161
 ATAGACCGGT ->
-	 64
+	 60
 	 	 162
 TAGACCGGTC ->
-	 64
+	 60
 	 	 163
 AGACCGGTCG ->
-	 64
+	 60
 	 	 164
 GACCGGTCGC ->
-	 64
+	 60
 	 	 165
 ACCGGTCGCG ->
-	 64
+	 60
 	 	 166
 CCGGTCGCGG ->
-	 64
+	 60
 	 	 167
 CGGTCGCGGT ->
-	 64
+	 60
 	 	 168
 GGTCGCGGTG ->
-	 64
+	 60
 	 	 169
 GTCGCGGTGG ->
-	 64
+	 60
 	 	 170
 TCGCGGTGGC ->
-	 64
+	 60
 	 	 171
 CGCGGTGGCT ->
-	 64
+	 60
 	 	 172
 GCGGTGGCTC ->
-	 64
+	 60
 	 	 173
 CGGTGGCTCA ->
-	 64
+	 60
 	 	 174
 GGTGGCTCAC ->
-	 64
+	 60
 	 	 175
 GTGGCTCACG ->
-	 64
+	 60
 	 	 176
 TGGCTCACGC ->
-	 64
+	 60
 	 	 177
 GGCTCACGCT ->
-	 64
+	 60
 	 	 178
 GCTCACGCTT ->
-	 64
+	 60
 	 	 179
 GGTTGGCATC ->
-	 65
+	 61
 	 	 0
 GTTGGCATCA ->
-	 65
+	 61
 	 	 1
 TTGGCATCAC ->
-	 65
+	 61
 	 	 2
 TGGCATCACC ->
-	 65
+	 61
 	 	 3
 GGCATCACCG ->
-	 65
+	 61
 	 	 4
 GCATCACCGC ->
-	 65
+	 61
 	 	 5
 CATCACCGCC ->
-	 65
+	 61
 	 	 6
 ATCACCGCCG ->
-	 65
+	 61
 	 	 7
 TCACCGCCGT ->
-	 65
+	 61
 	 	 8
 CACCGCCGTC ->
-	 65
+	 61
 	 	 9
 ACCGCCGTCG ->
-	 65
+	 61
 	 	 10
 CGCCGTCGCC ->
-	 65
+	 61
 	 	 12
 GCCGTCGCCC ->
-	 65
+	 61
 	 	 13
 CCGTCGCCCC ->
-	 65
+	 61
 	 	 14
 CGTCGCCCCA ->
-	 65
+	 61
 	 	 15
 GTCGCCCCAT ->
-	 65
+	 61
 	 	 16
 TCGCCCCATG ->
-	 65
+	 61
 	 	 17
 CACACACCGC ->
-	 66
+	 62
 	 	 16
 ACACACCGCC ->
-	 66
+	 62
 	 	 17
 CACACCGCCG ->
-	 66
+	 62
 	 	 18
 ACACCGCCGT ->
-	 66
+	 62
 	 	 19
 CCGCCGTCGT ->
-	 66
+	 62
 	 	 22
 CGCCGTCGTG ->
-	 66
+	 62
 	 	 23
 GCCGTCGTGG ->
-	 66
+	 62
 	 	 24
 CCGTCGTGGA ->
-	 66
+	 62
 	 	 25
 CCGGCCGCTC ->
-	 67
+	 63
 	 	 0
 CGGCCGCTCG ->
-	 67
+	 63
 	 	 1
 GGCCGCTCGG ->
-	 67
+	 63
 	 	 2
 GCCGCTCGGA ->
-	 67
+	 63
 	 	 3
 CCGCTCGGAG ->
-	 67
+	 63
 	 	 4
 CGCTCGGAGT ->
-	 67
+	 63
 	 	 5
 GCTCGGAGTG ->
-	 67
+	 63
 	 	 6
 CTCGGAGTGC ->
-	 67
+	 63
 	 	 7
 TCGGAGTGCG ->
-	 67
+	 63
 	 	 8
 CGGAGTGCGG ->
-	 67
+	 63
 	 	 9
 GGAGTGCGGG ->
-	 67
+	 63
 	 	 10
 GAGTGCGGGG ->
-	 67
+	 63
 	 	 11
 AGTGCGGGGC ->
-	 67
+	 63
 	 	 12
 GTGCGGGGCC ->
-	 67
+	 63
 	 	 13
 TGCGGGGCCG ->
-	 67
+	 63
 	 	 14
 GCGGGGCCGC ->
-	 67
+	 63
 	 	 15
 CGGGGCCGCC ->
-	 67
+	 63
 	 	 16
 GGGGCCGCCA ->
-	 67
+	 63
 	 	 17
 GGGCCGCCAA ->
-	 67
+	 63
 	 	 18
 GGCCGCCAAG ->
-	 67
+	 63
 	 	 19
 GCCGCCAAGA ->
-	 67
+	 63
 	 	 20
 CCGCCAAGAC ->
-	 67
+	 63
 	 	 21
 CGCCAAGACC ->
-	 67
+	 63
 	 	 22
 GCCAAGACCC ->
-	 67
+	 63
 	 	 23
 CCAAGACCCC ->
-	 67
+	 63
 	 	 24
 CAAGACCCCG ->
-	 67
+	 63
 	 	 25
 AAGACCCCGC ->
-	 67
+	 63
 	 	 26
 AGACCCCGCG ->
-	 67
+	 63
 	 	 27
 GACCCCGCGC ->
-	 67
+	 63
 	 	 28
 ACCCCGCGCA ->
-	 67
+	 63
 	 	 29
 CCCCGCGCAC ->
-	 67
+	 63
 	 	 30
 CCCGCGCACC ->
-	 67
+	 63
 	 	 31
 CCGCGCACCC ->
-	 67
+	 63
 	 	 32
 CGCGCACCCG ->
-	 67
+	 63
 	 	 33
 GCGCACCCGG ->
-	 67
+	 63
 	 	 34
 CGCACCCGGA ->
-	 67
+	 63
 	 	 35
 GCACCCGGAA ->
-	 67
+	 63
 	 	 36
 CACCCGGAAC ->
-	 67
+	 63
 	 	 37
 ACCCGGAACT ->
-	 67
+	 63
 	 	 38
 CCCGGAACTC ->
-	 67
+	 63
 	 	 39
 CCGGAACTCG ->
-	 67
+	 63
 	 	 40
 CGGAACTCGC ->
-	 67
+	 63
 	 	 41
 GGAACTCGCG ->
-	 67
+	 63
 	 	 42
 GAACTCGCGC ->
-	 67
+	 63
 	 	 43
 AACTCGCGCT ->
-	 67
+	 63
 	 	 44
 ACTCGCGCTG ->
-	 67
+	 63
 	 	 45
 CTCGCGCTGG ->
-	 67
+	 63
 	 	 46
 TCGCGCTGGC ->
-	 67
+	 63
 	 	 47
 CGCGCTGGCC ->
-	 67
+	 63
 	 	 48
 TGGACACACG ->
-	 68
+	 64
 	 	 15
 	 	 31
 GGACACACGC ->
-	 68
+	 64
 	 	 16
 	 	 32
 GACACACGCC ->
-	 68
+	 64
 	 	 17
 	 	 33
 ACACACGCCA ->
-	 68
+	 64
 	 	 18
 CACACGCCAT ->
-	 68
+	 64
 	 	 19
 ACACGCCATC ->
-	 68
+	 64
 	 	 20
 CACGCCATCT ->
-	 68
+	 64
 	 	 21
 ACGCCATCTT ->
-	 68
+	 64
 	 	 22
 CGCCATCTTG ->
-	 68
+	 64
 	 	 23
 CCATCTTGGA ->
-	 68
+	 64
 	 	 25
 CATCTTGGAC ->
-	 68
+	 64
 	 	 26
 ATCTTGGACA ->
-	 68
+	 64
 	 	 27
 TCTTGGACAC ->
-	 68
+	 64
 	 	 28
 CTTGGACACA ->
-	 68
+	 64
 	 	 29
 TTGGACACAC ->
-	 68
+	 64
 	 	 30
 ACACACGCCG ->
-	 68
+	 64
 	 	 34
 CACACGCCGC ->
-	 68
+	 64
 	 	 35
 ACACGCCGCC ->
-	 68
+	 64
 	 	 36
 CACGCCGCCA ->
-	 68
+	 64
 	 	 37
 ACGCCGCCAT ->
-	 68
+	 64
 	 	 38
 CGCCGCCATC ->
-	 68
+	 64
 	 	 39
 GCCGCCATCA ->
-	 68
+	 64
 	 	 40
 CCGCCATCAT ->
-	 68
+	 64
 	 	 41
 CGCCATCATG ->
-	 68
+	 64
 	 	 42
 GCCATCATGG ->
-	 68
+	 64
 	 	 43
 CCATCATGGA ->
-	 68
+	 64
 	 	 44
 CATCATGGAC ->
-	 68
+	 64
 	 	 45
 ATCATGGACA ->
-	 68
+	 64
 	 	 46
 TCATGGACAC ->
-	 68
+	 64
 	 	 47
 CATGGACACA ->
-	 68
+	 64
 	 	 48
 ATGGACACAC ->
-	 68
+	 64
 	 	 49
 GCCGGCCGCT ->
-	 69
+	 65
 	 	 0
 GCCCCGCACT ->
-	 70
+	 66
 	 	 0
 CCCCGCACTC ->
-	 70
+	 66
 	 	 1
 CCCGCACTCC ->
-	 70
+	 66
 	 	 2
 CCGCACTCCG ->
-	 70
+	 66
 	 	 3
 CGCACTCCGA ->
-	 70
+	 66
 	 	 4
 GCACTCCGAG ->
-	 70
+	 66
 	 	 5
 CACTCCGAGC ->
-	 70
+	 66
 	 	 6
 ACTCCGAGCG ->
-	 70
+	 66
 	 	 7
 CTCCGAGCGG ->
-	 70
+	 66
 	 	 8
 TCCGAGCGGC ->
-	 70
+	 66
 	 	 9
 CCGAGCGGCC ->
-	 70
+	 66
 	 	 10
 CGAGCGGCCG ->
-	 70
+	 66
 	 	 11
 GAGCGGCCGG ->
-	 70
+	 66
 	 	 12
 AGCGGCCGGC ->
-	 70
+	 66
 	 	 13
 CACCATCCTT ->
-	 71
+	 67
 	 	 0
 ACCATCCTTC ->
-	 71
+	 67
 	 	 1
 CCATCCTTCA ->
-	 71
+	 67
 	 	 2
 CATCCTTCAG ->
-	 71
+	 67
 	 	 3
 ATCCTTCAGA ->
-	 71
+	 67
 	 	 4
 TCCTTCAGAC ->
-	 71
+	 67
 	 	 5
 CCTTCAGACC ->
-	 71
+	 67
 	 	 6
 CTTCAGACCC ->
-	 71
+	 67
 	 	 7
 TTCAGACCCC ->
-	 71
+	 67
 	 	 8
 TCAGACCCCA ->
-	 71
+	 67
 	 	 9
 CAGACCCCAG ->
-	 71
+	 67
 	 	 10
 AGACCCCAGA ->
-	 71
+	 67
 	 	 11
 GACCCCAGAG ->
-	 71
+	 67
 	 	 12
 ACCCCAGAGT ->
-	 71
+	 67
 	 	 13
 CCCCAGAGTA ->
-	 71
+	 67
 	 	 14
 CCCAGAGTAG ->
-	 71
+	 67
 	 	 15
 CCAGAGTAGA ->
-	 71
+	 67
 	 	 16
 CAGAGTAGAT ->
-	 71
+	 67
 	 	 17
 AGAGTAGATC ->
-	 71
+	 67
 	 	 18
 GAGTAGATCC ->
-	 71
+	 67
 	 	 19
 AGTAGATCCA ->
-	 71
+	 67
 	 	 20
 GTAGATCCAC ->
-	 71
+	 67
 	 	 21
 TAGATCCACC ->
-	 71
+	 67
 	 	 22
 AGATCCACCG ->
-	 71
+	 67
 	 	 23
 GATCCACCGA ->
-	 71
+	 67
 	 	 24
 ATCCACCGAC ->
-	 71
+	 67
 	 	 25
 TCCACCGACC ->
-	 71
+	 67
 	 	 26
 CCACCGACCG ->
-	 71
+	 67
 	 	 27
 CACCGACCGC ->
-	 71
+	 67
 	 	 28
 ACCGACCGCT ->
-	 71
+	 67
 	 	 29
 CCGACCGCTT ->
-	 71
+	 67
 	 	 30
 CGACCGCTTG ->
-	 71
+	 67
 	 	 31
 GACCGCTTGC ->
-	 71
+	 67
 	 	 32
 ACCGCTTGCA ->
-	 71
+	 67
 	 	 33
 CCGCTTGCAC ->
-	 71
+	 67
 	 	 34
 CGCTTGCACC ->
-	 71
+	 67
 	 	 35
 GCTTGCACCA ->
-	 71
+	 67
 	 	 36
 CTTGCACCAT ->
-	 71
+	 67
 	 	 37
 TTTTCACACT ->
-	 72
+	 68
 	 	 0
 TTTCACACTG ->
-	 72
+	 68
 	 	 1
 TTCACACTGC ->
-	 72
+	 68
 	 	 2
 TCACACTGCT ->
-	 72
+	 68
 	 	 3
 CACACTGCTA ->
-	 72
+	 68
 	 	 4
 ACACTGCTAT ->
-	 72
+	 68
 	 	 5
 CACTGCTATA ->
-	 72
+	 68
 	 	 6
 ACTGCTATAA ->
-	 72
+	 68
 	 	 7
 CTGCTATAAA ->
-	 72
+	 68
 	 	 8
 TGCTATAAAG ->
-	 72
+	 68
 	 	 9
 GCTATAAAGA ->
-	 72
+	 68
 	 	 10
 CTATAAAGAA ->
-	 72
+	 68
 	 	 11
 TATAAAGAAA ->
-	 72
+	 68
 	 	 12
 ATAAAGAAAT ->
-	 72
+	 68
 	 	 13
 TAAAGAAATT ->
-	 72
+	 68
 	 	 14
 AAAGAAATTA ->
-	 72
+	 68
 	 	 15
 AAGAAATTAA ->
-	 72
+	 68
 	 	 16
 AGAAATTAAT ->
-	 72
+	 68
 	 	 17
 GAAATTAATT ->
-	 72
+	 68
 	 	 18
 AAATTAATTA ->
-	 72
+	 68
 	 	 19
 AATTAATTAC ->
-	 72
+	 68
 	 	 20
 ATTAATTACC ->
-	 72
+	 68
 	 	 21
 TTAATTACCC ->
-	 72
+	 68
 	 	 22
 TAATTACCCA ->
-	 72
+	 68
 	 	 23
 AATTACCCAA ->
-	 72
+	 68
 	 	 24
 ATTACCCAAG ->
-	 72
+	 68
 	 	 25
 TTACCCAAGC ->
-	 72
+	 68
 	 	 26
 TACCCAAGCC ->
-	 72
+	 68
 	 	 27
 ACCCAAGCCT ->
-	 72
+	 68
 	 	 28
 CCCAAGCCTG ->
-	 72
+	 68
 	 	 29
 CCAAGCCTGA ->
-	 72
+	 68
 	 	 30
 CAAGCCTGAG ->
-	 72
+	 68
 	 	 31
 AAGCCTGAGC ->
-	 72
+	 68
 	 	 32
 AGCCTGAGCA ->
-	 72
+	 68
 	 	 33
 GCCTGAGCAG ->
-	 72
+	 68
 	 	 34
 CCTGAGCAGA ->
-	 72
+	 68
 	 	 35
 CTGAGCAGAT ->
-	 72
+	 68
 	 	 36
 TGAGCAGATT ->
-	 72
+	 68
 	 	 37
 GAGCAGATTC ->
-	 72
+	 68
 	 	 38
 AGCAGATTCA ->
-	 72
+	 68
 	 	 39
 GCAGATTCAA ->
-	 72
+	 68
 	 	 40
 CAGATTCAAG ->
-	 72
+	 68
 	 	 41
 AGATTCAAGT ->
-	 72
+	 68
 	 	 42
 GATTCAAGTG ->
-	 72
+	 68
 	 	 43
 ATTCAAGTGC ->
-	 72
+	 68
 	 	 44
 TTCAAGTGCA ->
-	 72
+	 68
 	 	 45
 TCAAGTGCAA ->
-	 72
+	 68
 	 	 46
 CAAGTGCAAT ->
-	 72
+	 68
 	 	 47
 AAGTGCAATT ->
-	 72
+	 68
 	 	 48
 AGTGCAATTG ->
-	 72
+	 68
 	 	 49
 GTGCAATTGC ->
-	 72
+	 68
 	 	 50
 TGCAATTGCC ->
-	 72
+	 68
 	 	 51
 GCAATTGCCA ->
-	 72
+	 68
 	 	 52
 CAATTGCCAT ->
-	 72
+	 68
 	 	 53
 AATTGCCATG ->
-	 72
+	 68
 	 	 54
 ATTGCCATGA ->
-	 72
+	 68
 	 	 55
 TTGCCATGAC ->
-	 72
+	 68
 	 	 56
 TGCCATGACC ->
-	 72
+	 68
 	 	 57
 GCCATGACCA ->
-	 72
+	 68
 	 	 58
 CCATGACCAT ->
-	 72
+	 68
 	 	 59
 CATGACCATT ->
-	 72
+	 68
 	 	 60
 ATGACCATTT ->
-	 72
+	 68
 	 	 61
 TGACCATTTA ->
-	 72
+	 68
 	 	 62
 GACCATTTAC ->
-	 72
+	 68
 	 	 63
 ACCATTTACA ->
-	 72
+	 68
 	 	 64
 CCATTTACAG ->
-	 72
+	 68
 	 	 65
 CATTTACAGA ->
-	 72
+	 68
 	 	 66
 ATTTACAGAT ->
-	 72
+	 68
 	 	 67
 TTTACAGATA ->
-	 72
+	 68
 	 	 68
 TTACAGATAG ->
-	 72
+	 68
 	 	 69
 TACAGATAGC ->
-	 72
+	 68
 	 	 70
 ACAGATAGCT ->
-	 72
+	 68
 	 	 71
 CAGATAGCTT ->
-	 72
+	 68
 	 	 72
 AGATAGCTTC ->
-	 72
+	 68
 	 	 73
 GATAGCTTCT ->
-	 72
+	 68
 	 	 74
 ATAGCTTCTA ->
-	 72
+	 68
 	 	 75
 TAGCTTCTAC ->
-	 72
+	 68
 	 	 76
 AGCTTCTACT ->
-	 72
+	 68
 	 	 77
 GCTTCTACTT ->
-	 72
+	 68
 	 	 78
 CTTCTACTTA ->
-	 72
+	 68
 	 	 79
 TTCTACTTAT ->
-	 72
+	 68
 	 	 80
 TCTACTTATT ->
-	 72
+	 68
 	 	 81
 CTACTTATTG ->
-	 72
+	 68
 	 	 82
 TACTTATTGA ->
-	 72
+	 68
 	 	 83
 ACTTATTGAG ->
-	 72
+	 68
 	 	 84
 CTTATTGAGC ->
-	 72
+	 68
 	 	 85
 TTATTGAGCA ->
-	 72
+	 68
 	 	 86
 TATTGAGCAT ->
-	 72
+	 68
 	 	 87
 ATTGAGCATT ->
-	 72
+	 68
 	 	 88
 TTGAGCATTT ->
-	 72
+	 68
 	 	 89
 TGAGCATTTC ->
-	 72
+	 68
 	 	 90
 GAGCATTTCT ->
-	 72
+	 68
 	 	 91
 AGCATTTCTG ->
-	 72
+	 68
 	 	 92
 GCATTTCTGT ->
-	 72
+	 68
 	 	 93
 CATTTCTGTG ->
-	 72
+	 68
 	 	 94
 ATTTCTGTGT ->
-	 72
+	 68
 	 	 95
 TTTCTGTGTA ->
-	 72
+	 68
 	 	 96
 TTCTGTGTAT ->
-	 72
+	 68
 	 	 97
 TCTGTGTATC ->
-	 72
+	 68
 	 	 98
 CTGTGTATCA ->
-	 72
+	 68
 	 	 99
 TGTGTATCAG ->
-	 72
+	 68
 	 	 100
 GTGTATCAGC ->
-	 72
+	 68
 	 	 101
 TGTATCAGCT ->
-	 72
+	 68
 	 	 102
 GTATCAGCTT ->
-	 72
+	 68
 	 	 103
 TATCAGCTTG ->
-	 72
+	 68
 	 	 104
 ATCAGCTTGT ->
-	 72
+	 68
 	 	 105
 TCAGCTTGTT ->
-	 72
+	 68
 	 	 106
 CAGCTTGTTT ->
-	 72
+	 68
 	 	 107
 AGCTTGTTTT ->
-	 72
+	 68
 	 	 108
 GCTTGTTTTA ->
-	 72
+	 68
 	 	 109
 CTTGTTTTAT ->
-	 72
+	 68
 	 	 110
 TTGTTTTATC ->
-	 72
+	 68
 	 	 111
 TGTTTTATCA ->
-	 72
+	 68
 	 	 112
 GTTTTATCAC ->
-	 72
+	 68
 	 	 113
 TTTTATCACC ->
-	 72
+	 68
 	 	 114
 TTTATCACCC ->
-	 72
+	 68
 	 	 115
 TTATCACCCC ->
-	 72
+	 68
 	 	 116
 TATCACCCCA ->
-	 72
+	 68
 	 	 117
 ATCACCCCAA ->
-	 72
+	 68
 	 	 118
 TCACCCCAAT ->
-	 72
+	 68
 	 	 119
 CACCCCAATA ->
-	 72
+	 68
 	 	 120
 ACCCCAATAA ->
-	 72
+	 68
 	 	 121
 CCCCAATAAT ->
-	 72
+	 68
 	 	 122
 CCCAATAATG ->
-	 72
+	 68
 	 	 123
 CCAATAATGC ->
-	 72
+	 68
 	 	 124
 CAATAATGCT ->
-	 72
+	 68
 	 	 125
 AATAATGCTA ->
-	 72
+	 68
 	 	 126
 ATAATGCTAT ->
-	 72
+	 68
 	 	 127
 TAATGCTATG ->
-	 72
+	 68
 	 	 128
 AATGCTATGA ->
-	 72
+	 68
 	 	 129
 ATGCTATGAG ->
-	 72
+	 68
 	 	 130
 TGCTATGAGG ->
-	 72
+	 68
 	 	 131
 GCTATGAGGT ->
-	 72
+	 68
 	 	 132
 CTATGAGGTA ->
-	 72
+	 68
 	 	 133
 TATGAGGTAA ->
-	 72
+	 68
 	 	 134
 ATGAGGTAAG ->
-	 72
+	 68
 	 	 135
 TGAGGTAAGC ->
-	 72
+	 68
 	 	 136
 GAGGTAAGCG ->
-	 72
+	 68
 	 	 137
 AGGTAAGCGG ->
-	 72
+	 68
 	 	 138
 GGTAAGCGGT ->
-	 72
+	 68
 	 	 139
 GTAAGCGGTA ->
-	 72
+	 68
 	 	 140
 TAAGCGGTAT ->
-	 72
+	 68
 	 	 141
 AAGCGGTATT ->
-	 72
+	 68
 	 	 142
 AGCGGTATTG ->
-	 72
+	 68
 	 	 143
 GCGGTATTGT ->
-	 72
+	 68
 	 	 144
 CGGTATTGTC ->
-	 72
+	 68
 	 	 145
 GGTATTGTCA ->
-	 72
+	 68
 	 	 146
 GTATTGTCAT ->
-	 72
+	 68
 	 	 147
 TATTGTCATC ->
-	 72
+	 68
 	 	 148
 ATTGTCATCC ->
-	 72
+	 68
 	 	 149
 TTGTCATCCC ->
-	 72
+	 68
 	 	 150
 TGTCATCCCT ->
-	 72
+	 68
 	 	 151
 GTCATCCCTG ->
-	 72
+	 68
 	 	 152
 TCATCCCTGC ->
-	 72
+	 68
 	 	 153
 CATCCCTGCT ->
-	 72
+	 68
 	 	 154
 ATCCCTGCTT ->
-	 72
+	 68
 	 	 155
 TCCCTGCTTT ->
-	 72
+	 68
 	 	 156
 CCCTGCTTTG ->
-	 72
+	 68
 	 	 157
 CCTGCTTTGG ->
-	 72
+	 68
 	 	 158
 CTGCTTTGGA ->
-	 72
+	 68
 	 	 159
 TGCTTTGGAA ->
-	 72
+	 68
 	 	 160
 GCTTTGGAAA ->
-	 72
+	 68
 	 	 161
 CTTTGGAAAT ->
-	 72
+	 68
 	 	 162
 TTTGGAAATG ->
-	 72
+	 68
 	 	 163
 TTGGAAATGA ->
-	 72
+	 68
 	 	 164
 TGGAAATGAA ->
-	 72
+	 68
 	 	 165
 GGAAATGAAG ->
-	 72
+	 68
 	 	 166
 GAAATGAAGA ->
-	 72
+	 68
 	 	 167
 AAATGAAGAA ->
-	 72
+	 68
 	 	 168
 AATGAAGAAG ->
-	 72
+	 68
 	 	 169
 ATGAAGAAGC ->
-	 72
+	 68
 	 	 170
 TGAAGAAGCC ->
-	 72
+	 68
 	 	 171
 GAAGAAGCCA ->
-	 72
+	 68
 	 	 172
 AAGAAGCCAA ->
-	 72
+	 68
 	 	 173
 AGAAGCCAAG ->
-	 72
+	 68
 	 	 174
 GAAGCCAAGG ->
-	 72
+	 68
 	 	 175
 AAGCCAAGGC ->
-	 72
+	 68
 	 	 176
 AGCCAAGGCT ->
-	 72
+	 68
 	 	 177
 GCCAAGGCTC ->
-	 72
+	 68
 	 	 178
 CCAAGGCTCA ->
-	 72
+	 68
 	 	 179
 CAAGGCTCAG ->
-	 72
+	 68
 	 	 180
 AAGGCTCAGA ->
-	 72
+	 68
 	 	 181
 AGGCTCAGAG ->
-	 72
+	 68
 	 	 182
 GGCTCAGAGT ->
-	 72
+	 68
 	 	 183
 GCTCAGAGTG ->
-	 72
+	 68
 	 	 184
 CTCAGAGTGA ->
-	 72
+	 68
 	 	 185
 TCAGAGTGAT ->
-	 72
+	 68
 	 	 186
 CAGAGTGATT ->
-	 72
+	 68
 	 	 187
 AGAGTGATTA ->
-	 72
+	 68
 	 	 188
 GAGTGATTAC ->
-	 72
+	 68
 	 	 189
 AGTGATTACA ->
-	 72
+	 68
 	 	 190
 GTGATTACAT ->
-	 72
+	 68
 	 	 191
 TGATTACATG ->
-	 72
+	 68
 	 	 192
 GATTACATGA ->
-	 72
+	 68
 	 	 193
 ATTACATGAA ->
-	 72
+	 68
 	 	 194
 TTACATGAAT ->
-	 72
+	 68
 	 	 195
 TACATGAATT ->
-	 72
+	 68
 	 	 196
 ACATGAATTG ->
-	 72
+	 68
 	 	 197
 CATGAATTGT ->
-	 72
+	 68
 	 	 198
 ATGAATTGTC ->
-	 72
+	 68
 	 	 199
 TGAATTGTCC ->
-	 72
+	 68
 	 	 200
 GAATTGTCCA ->
-	 72
+	 68
 	 	 201
 AATTGTCCAA ->
-	 72
+	 68
 	 	 202
 ATTGTCCAAG ->
-	 72
+	 68
 	 	 203
 TTGTCCAAGG ->
-	 72
+	 68
 	 	 204
 TGTCCAAGGT ->
-	 72
+	 68
 	 	 205
 GTCCAAGGTC ->
-	 72
+	 68
 	 	 206
 TCCAAGGTCA ->
-	 72
+	 68
 	 	 207
 CCAAGGTCAC ->
-	 72
+	 68
 	 	 208
 CAAGGTCACT ->
-	 72
+	 68
 	 	 209
 AAGGTCACTC ->
-	 72
+	 68
 	 	 210
 AGGTCACTCA ->
-	 72
+	 68
 	 	 211
 GGTCACTCAC ->
-	 72
+	 68
 	 	 212
 GTCACTCACC ->
-	 72
+	 68
 	 	 213
 TCACTCACCT ->
-	 72
+	 68
 	 	 214
 CACTCACCTA ->
-	 72
+	 68
 	 	 215
 ACTCACCTAC ->
-	 72
+	 68
 	 	 216
 CTCACCTACT ->
-	 72
+	 68
 	 	 217
 TCACCTACTA ->
-	 72
+	 68
 	 	 218
 CACCTACTAA ->
-	 72
+	 68
 	 	 219
 ACCTACTAAG ->
-	 72
+	 68
 	 	 220
 CCTACTAAGT ->
-	 72
+	 68
 	 	 221
 CTACTAAGTG ->
-	 72
+	 68
 	 	 222
 TACTAAGTGT ->
-	 72
+	 68
 	 	 223
 ACTAAGTGTC ->
-	 72
+	 68
 	 	 224
 CTAAGTGTCT ->
-	 72
+	 68
 	 	 225
 TAAGTGTCTG ->
-	 72
+	 68
 	 	 226
 AAGTGTCTGA ->
-	 72
+	 68
 	 	 227
 AGTGTCTGAA ->
-	 72
+	 68
 	 	 228
 GTGTCTGAAT ->
-	 72
+	 68
 	 	 229
 TGTCTGAATT ->
-	 72
+	 68
 	 	 230
 GTCTGAATTG ->
-	 72
+	 68
 	 	 231
 TCTGAATTGT ->
-	 72
+	 68
 	 	 232
 CTGAATTGTA ->
-	 72
+	 68
 	 	 233
 TGAATTGTAA ->
-	 72
+	 68
 	 	 234
 GAATTGTAAG ->
-	 72
+	 68
 	 	 235
 AATTGTAAGG ->
-	 72
+	 68
 	 	 236
 ATTGTAAGGT ->
-	 72
+	 68
 	 	 237
 TTGTAAGGTA ->
-	 72
+	 68
 	 	 238
 TGTAAGGTAA ->
-	 72
+	 68
 	 	 239
 GTAAGGTAAA ->
-	 72
+	 68
 	 	 240
 TAAGGTAAAT ->
-	 72
+	 68
 	 	 241
 AAGGTAAATC ->
-	 72
+	 68
 	 	 242
 AGGTAAATCC ->
-	 72
+	 68
 	 	 243
 GGTAAATCCT ->
-	 72
+	 68
 	 	 244
 GTAAATCCTG ->
-	 72
+	 68
 	 	 245
 TAAATCCTGG ->
-	 72
+	 68
 	 	 246
 AAATCCTGGA ->
-	 72
+	 68
 	 	 247
 AATCCTGGAT ->
-	 72
+	 68
 	 	 248
 ATCCTGGATT ->
-	 72
+	 68
 	 	 249
 TCCTGGATTC ->
-	 72
+	 68
 	 	 250
 CCTGGATTCT ->
-	 72
+	 68
 	 	 251
 CTGGATTCTG ->
-	 72
+	 68
 	 	 252
 TGGATTCTGG ->
-	 72
+	 68
 	 	 253
 GGATTCTGGT ->
-	 72
+	 68
 	 	 254
 GATTCTGGTG ->
-	 72
+	 68
 	 	 255
 ATTCTGGTGC ->
-	 72
+	 68
 	 	 256
 TTCTGGTGCC ->
-	 72
+	 68
 	 	 257
 TCTGGTGCCA ->
-	 72
+	 68
 	 	 258
 CTGGTGCCAC ->
-	 72
+	 68
 	 	 259
 TGGTGCCACA ->
-	 72
+	 68
 	 	 260
 GGTGCCACAG ->
-	 72
+	 68
 	 	 261
 GTGCCACAGT ->
-	 72
+	 68
 	 	 262
 TGCCACAGTG ->
-	 72
+	 68
 	 	 263
 GCCACAGTGC ->
-	 72
+	 68
 	 	 264
 CCACAGTGCT ->
-	 72
+	 68
 	 	 265
 CACAGTGCTT ->
-	 72
+	 68
 	 	 266
 ACAGTGCTTT ->
-	 72
+	 68
 	 	 267
 CAGTGCTTTG ->
-	 72
+	 68
 	 	 268
 AGTGCTTTGC ->
-	 72
+	 68
 	 	 269
 GTGCTTTGCC ->
-	 72
+	 68
 	 	 270
 TGCTTTGCCA ->
-	 72
+	 68
 	 	 271
 GCTTTGCCAG ->
-	 72
+	 68
 	 	 272
 CTTTGCCAGC ->
-	 72
+	 68
 	 	 273
 TTTGCCAGCC ->
-	 72
+	 68
 	 	 274
 TTGCCAGCCA ->
-	 72
+	 68
 	 	 275
 TGCCAGCCAT ->
-	 72
+	 68
 	 	 276
 GCCAGCCATC ->
-	 72
+	 68
 	 	 277
 CCAGCCATCT ->
-	 72
+	 68
 	 	 278
 CAGCCATCTG ->
-	 72
+	 68
 	 	 279
 AGCCATCTGT ->
-	 72
+	 68
 	 	 280
 GCCATCTGTA ->
-	 72
+	 68
 	 	 281
 CCATCTGTAT ->
-	 72
+	 68
 	 	 282
 CATCTGTATT ->
-	 72
+	 68
 	 	 283
 ATCTGTATTG ->
-	 72
+	 68
 	 	 284
 TCTGTATTGA ->
-	 72
+	 68
 	 	 285
 CTGTATTGAC ->
-	 72
+	 68
 	 	 286
 TGTATTGACT ->
-	 72
+	 68
 	 	 287
 GTATTGACTT ->
-	 72
+	 68
 	 	 288
 TATTGACTTA ->
-	 72
+	 68
 	 	 289
 ATTGACTTAC ->
-	 72
+	 68
 	 	 290
 TTGACTTACC ->
-	 72
+	 68
 	 	 291
 TGACTTACCT ->
-	 72
+	 68
 	 	 292
 GACTTACCTA ->
-	 72
+	 68
 	 	 293
 ACTTACCTAG ->
-	 72
+	 68
 	 	 294
 CTTACCTAGT ->
-	 72
+	 68
 	 	 295
 TTACCTAGTT ->
-	 72
+	 68
 	 	 296
 TACCTAGTTT ->
-	 72
+	 68
 	 	 297
 ACCTAGTTTT ->
-	 72
+	 68
 	 	 298
 CCTAGTTTTG ->
-	 72
+	 68
 	 	 299
 CTAGTTTTGT ->
-	 72
+	 68
 	 	 300
 TAGTTTTGTA ->
-	 72
+	 68
 	 	 301
 AGTTTTGTAG ->
-	 72
+	 68
 	 	 302
 GTTTTGTAGC ->
-	 72
+	 68
 	 	 303
 TTTTGTAGCC ->
-	 72
+	 68
 	 	 304
 TTTGTAGCCT ->
-	 72
+	 68
 	 	 305
 TTGTAGCCTC ->
-	 72
+	 68
 	 	 306
 TGTAGCCTCT ->
-	 72
+	 68
 	 	 307
 GTAGCCTCTG ->
-	 72
+	 68
 	 	 308
 TAGCCTCTGA ->
-	 72
+	 68
 	 	 309
 AGCCTCTGAT ->
-	 72
+	 68
 	 	 310
 GCCTCTGATT ->
-	 72
+	 68
 	 	 311
 CCTCTGATTT ->
-	 72
+	 68
 	 	 312
 CTCTGATTTT ->
-	 72
+	 68
 	 	 313
 TCTGATTTTT ->
-	 72
+	 68
 	 	 314
 CTGATTTTTC ->
-	 72
+	 68
 	 	 315
 TGATTTTTCA ->
-	 72
+	 68
 	 	 316
 GATTTTTCAT ->
-	 72
+	 68
 	 	 317
 ATTTTTCATC ->
-	 72
+	 68
 	 	 318
 TTTTTCATCT ->
-	 72
+	 68
 	 	 319
 TTTTCATCTC ->
-	 72
+	 68
 	 	 320
 TTTCATCTCA ->
-	 72
+	 68
 	 	 321
 TTCATCTCAT ->
-	 72
+	 68
 	 	 322
 TCATCTCATC ->
-	 72
+	 68
 	 	 323
 CATCTCATCC ->
-	 72
+	 68
 	 	 324
 ATCTCATCCC ->
-	 72
+	 68
 	 	 325
 TCTCATCCCC ->
-	 72
+	 68
 	 	 326
 CTCATCCCCT ->
-	 72
+	 68
 	 	 327
 TCATCCCCTC ->
-	 72
+	 68
 	 	 328
 CATCCCCTCT ->
-	 72
+	 68
 	 	 329
 ATCCCCTCTA ->
-	 72
+	 68
 	 	 330
 TCCCCTCTAT ->
-	 72
+	 68
 	 	 331
 CCCCTCTATC ->
-	 72
+	 68
 	 	 332
 CCCTCTATCT ->
-	 72
+	 68
 	 	 333
 CCTCTATCTT ->
-	 72
+	 68
 	 	 334
 CTCTATCTTT ->
-	 72
+	 68
 	 	 335
 TCTATCTTTT ->
-	 72
+	 68
 	 	 336
 CTATCTTTTG ->
-	 72
+	 68
 	 	 337
 TATCTTTTGT ->
-	 72
+	 68
 	 	 338
 ATCTTTTGTA ->
-	 72
+	 68
 	 	 339
 TCTTTTGTAC ->
-	 72
+	 68
 	 	 340
 CTTTTGTACT ->
-	 72
+	 68
 	 	 341
 TTTTGTACTA ->
-	 72
+	 68
 	 	 342
 TTTGTACTAT ->
-	 72
+	 68
 	 	 343
 TTGTACTATT ->
-	 72
+	 68
 	 	 344
 TGTACTATTA ->
-	 72
+	 68
 	 	 345
 GTACTATTAC ->
-	 72
+	 68
 	 	 346
 TACTATTACC ->
-	 72
+	 68
 	 	 347
 ACTATTACCA ->
-	 72
+	 68
 	 	 348
 CTATTACCAA ->
-	 72
+	 68
 	 	 349
 TATTACCAAA ->
-	 72
+	 68
 	 	 350
 ATTACCAAAA ->
-	 72
+	 68
 	 	 351
 TTACCAAAAT ->
-	 72
+	 68
 	 	 352
 TACCAAAATC ->
-	 72
+	 68
 	 	 353
 ACCAAAATCA ->
-	 72
+	 68
 	 	 354
 CCAAAATCAT ->
-	 72
+	 68
 	 	 355
 CAAAATCATC ->
-	 72
+	 68
 	 	 356
 AAAATCATCT ->
-	 72
+	 68
 	 	 357
 AAATCATCTT ->
-	 72
+	 68
 	 	 358
 AATCATCTTT ->
-	 72
+	 68
 	 	 359
 ATCATCTTTC ->
-	 72
+	 68
 	 	 360
 TCATCTTTCT ->
-	 72
+	 68
 	 	 361
 CATCTTTCTA ->
-	 72
+	 68
 	 	 362
 ATCTTTCTAA ->
-	 72
+	 68
 	 	 363
 TCTTTCTAAA ->
-	 72
+	 68
 	 	 364
 CTTTCTAAAA ->
-	 72
+	 68
 	 	 365
 TTTCTAAAAG ->
-	 72
+	 68
 	 	 366
 TTCTAAAAGC ->
-	 72
+	 68
 	 	 367
 TCTAAAAGCT ->
-	 72
+	 68
 	 	 368
 CTAAAAGCTG ->
-	 72
+	 68
 	 	 369
 TAAAAGCTGA ->
-	 72
+	 68
 	 	 370
 AAAAGCTGAA ->
-	 72
+	 68
 	 	 371
 AAAGCTGAAC ->
-	 72
+	 68
 	 	 372
 AAGCTGAACT ->
-	 72
+	 68
 	 	 373
 AGCTGAACTC ->
-	 72
+	 68
 	 	 374
 GCTGAACTCA ->
-	 72
+	 68
 	 	 375
 CTGAACTCAA ->
-	 72
+	 68
 	 	 376
 TGAACTCAAC ->
-	 72
+	 68
 	 	 377
 GAACTCAACA ->
-	 72
+	 68
 	 	 378
 AACTCAACAT ->
-	 72
+	 68
 	 	 379
 ACTCAACATG ->
-	 72
+	 68
 	 	 380
 CTCAACATGG ->
-	 72
+	 68
 	 	 381
 TCAACATGGT ->
-	 72
+	 68
 	 	 382
 CAACATGGTG ->
-	 72
+	 68
 	 	 383
 AACATGGTGT ->
-	 72
+	 68
 	 	 384
 ACATGGTGTC ->
-	 72
+	 68
 	 	 385
 CATGGTGTCC ->
-	 72
+	 68
 	 	 386
 ATGGTGTCCA ->
-	 72
+	 68
 	 	 387
 TGGTGTCCAT ->
-	 72
+	 68
 	 	 388
 GGTGTCCATT ->
-	 72
+	 68
 	 	 389
 GTGTCCATTT ->
-	 72
+	 68
 	 	 390
 TGTCCATTTA ->
-	 72
+	 68
 	 	 391
 GTCCATTTAC ->
-	 72
+	 68
 	 	 392
 TCCATTTACT ->
-	 72
+	 68
 	 	 393
 CCATTTACTT ->
-	 72
+	 68
 	 	 394
 CATTTACTTC ->
-	 72
+	 68
 	 	 395
 ATTTACTTCC ->
-	 72
+	 68
 	 	 396
 TTTACTTCCC ->
-	 72
+	 68
 	 	 397
 TTACTTCCCA ->
-	 72
+	 68
 	 	 398
 TACTTCCCAC ->
-	 72
+	 68
 	 	 399
 ACTTCCCACA ->
-	 72
+	 68
 	 	 400
 CTTCCCACAA ->
-	 72
+	 68
 	 	 401
 TTCCCACAAA ->
-	 72
+	 68
 	 	 402
 TCCCACAAAT ->
-	 72
+	 68
 	 	 403
 CCCACAAATA ->
-	 72
+	 68
 	 	 404
 CCACAAATAC ->
-	 72
+	 68
 	 	 405
 CACAAATACT ->
-	 72
+	 68
 	 	 406
 ACAAATACTT ->
-	 72
+	 68
 	 	 407
 CAAATACTTA ->
-	 72
+	 68
 	 	 408
 AAATACTTAA ->
-	 72
+	 68
 	 	 409
 AATACTTAAA ->
-	 72
+	 68
 	 	 410
 ATACTTAAAA ->
-	 72
+	 68
 	 	 411
 TACTTAAAAA ->
-	 72
+	 68
 	 	 412
 ACTTAAAAAA ->
-	 72
+	 68
 	 	 413
 CTTAAAAAAT ->
-	 72
+	 68
 	 	 414
 TTAAAAAATT ->
-	 72
+	 68
 	 	 415
 TAAAAAATTT ->
-	 72
+	 68
 	 	 416
 AAAAAATTTT ->
-	 72
+	 68
 	 	 417
 AAAAATTTTT ->
-	 72
+	 68
 	 	 418
 AAAATTTTTT ->
-	 72
+	 68
 	 	 419
 AAATTTTTTT ->
-	 72
+	 68
 	 	 420
 AATTTTTTTT ->
-	 72
+	 68
 	 	 421
 ATTTTTTTTT ->
-	 72
+	 68
 	 	 422
 TTTTTTTTTA ->
-	 72
+	 68
 	 	 423
 TTTTTTTTAA ->
-	 72
+	 68
 	 	 424
 TTTTTTTAAG ->
-	 72
+	 68
 	 	 425
 TTTTTTAAGT ->
-	 72
+	 68
 	 	 426
 TTTTTAAGTC ->
-	 72
+	 68
 	 	 427
 TTTTAAGTCA ->
-	 72
+	 68
 	 	 428
 TTTAAGTCAG ->
-	 72
+	 68
 	 	 429
 TTAAGTCAGA ->
-	 72
+	 68
 	 	 430
 TAAGTCAGAG ->
-	 72
+	 68
 	 	 431
 AAGTCAGAGC ->
-	 72
+	 68
 	 	 432
 AGTCAGAGCT ->
-	 72
+	 68
 	 	 433
 GTCAGAGCTA ->
-	 72
+	 68
 	 	 434
 TCAGAGCTAT ->
-	 72
+	 68
 	 	 435
 CAGAGCTATG ->
-	 72
+	 68
 	 	 436
 AGAGCTATGT ->
-	 72
+	 68
 	 	 437
 GAGCTATGTA ->
-	 72
+	 68
 	 	 438
 AGCTATGTAA ->
-	 72
+	 68
 	 	 439
 GCTATGTAAC ->
-	 72
+	 68
 	 	 440
 CTATGTAACA ->
-	 72
+	 68
 	 	 441
 TATGTAACAA ->
-	 72
+	 68
 	 	 442
 ATGTAACAAA ->
-	 72
+	 68
 	 	 443
 TGTAACAAAC ->
-	 72
+	 68
 	 	 444
 GTAACAAACC ->
-	 72
+	 68
 	 	 445
 TAACAAACCG ->
-	 72
+	 68
 	 	 446
 AACAAACCGG ->
-	 72
+	 68
 	 	 447
 ACAAACCGGA ->
-	 72
+	 68
 	 	 448
 CAAACCGGAA ->
-	 72
+	 68
 	 	 449
 AAACCGGAAC ->
-	 72
+	 68
 	 	 450
 AACCGGAACG ->
-	 72
+	 68
 	 	 451
 ACCGGAACGT ->
-	 72
+	 68
 	 	 452
 CCGGAACGTT ->
-	 72
+	 68
 	 	 453
 CGGAACGTTC ->
-	 72
+	 68
 	 	 454
 GGAACGTTCT ->
-	 72
+	 68
 	 	 455
 GAACGTTCTG ->
-	 72
+	 68
 	 	 456
 AACGTTCTGC ->
-	 72
+	 68
 	 	 457
 ACGTTCTGCA ->
-	 72
+	 68
 	 	 458
 CGTTCTGCAC ->
-	 72
+	 68
 	 	 459
 GTTCTGCACA ->
-	 72
+	 68
 	 	 460
 TTCTGCACAT ->
-	 72
+	 68
 	 	 461
 TCTGCACATG ->
-	 72
+	 68
 	 	 462
 CTGCACATGT ->
-	 72
+	 68
 	 	 463
 TTTTCCAGGC ->
-	 73
+	 69
 	 	 0
 TTTCCAGGCA ->
-	 73
+	 69
 	 	 1
 TTCCAGGCAC ->
-	 73
+	 69
 	 	 2
 TCCAGGCACA ->
-	 73
+	 69
 	 	 3
 CCAGGCACAT ->
-	 73
+	 69
 	 	 4
 CAGGCACATG ->
-	 73
+	 69
 	 	 5
 AGGCACATGG ->
-	 73
+	 69
 	 	 6
 GGCACATGGT ->
-	 73
+	 69
 	 	 7
 GCACATGGTG ->
-	 73
+	 69
 	 	 8
 CACATGGTGC ->
-	 73
+	 69
 	 	 9
 ACATGGTGCA ->
-	 73
+	 69
 	 	 10
 CATGGTGCAA ->
-	 73
+	 69
 	 	 11
 ATGGTGCAAG ->
-	 73
+	 69
 	 	 12
 TGGTGCAAGC ->
-	 73
+	 69
 	 	 13
 GGTGCAAGCG ->
-	 73
+	 69
 	 	 14
 GTGCAAGCGG ->
-	 73
+	 69
 	 	 15
 TGCAAGCGGT ->
-	 73
+	 69
 	 	 16
 GCAAGCGGTC ->
-	 73
+	 69
 	 	 17
 CAAGCGGTCG ->
-	 73
+	 69
 	 	 18
 AAGCGGTCGG ->
-	 73
+	 69
 	 	 19
 AGCGGTCGGT ->
-	 73
+	 69
 	 	 20
 GCGGTCGGTG ->
-	 73
+	 69
 	 	 21
 CGGTCGGTGG ->
-	 73
+	 69
 	 	 22
 GGTCGGTGGA ->
-	 73
+	 69
 	 	 23
 CACGCTCGTA ->
-	 74
+	 70
 	 	 0
 ACGCTCGTAG ->
-	 74
+	 70
 	 	 1
 CGCTCGTAGT ->
-	 74
+	 70
 	 	 2
 GCTCGTAGTC ->
-	 74
+	 70
 	 	 3
 CTCGTAGTCC ->
-	 74
+	 70
 	 	 4
 TCGTAGTCCC ->
-	 74
+	 70
 	 	 5
 CGTAGTCCCA ->
-	 74
+	 70
 	 	 6
 GTAGTCCCAG ->
-	 74
+	 70
 	 	 7
 TCCCAGCTAC ->
-	 74
+	 70
 	 	 11
 CCCAGCTACT ->
-	 74
+	 70
 	 	 12
 CCAGCTACTT ->
-	 74
+	 70
 	 	 13
 CAGCTACTTG ->
-	 74
+	 70
 	 	 14
 AAGTAGCTGG ->
-	 75
+	 71
 	 	 0
 AGTAGCTGGG ->
-	 75
+	 71
 	 	 1
 GTAGCTGGGA ->
-	 75
+	 71
 	 	 2
 TAGCTGGGAC ->
-	 75
+	 71
 	 	 3
 AGCTGGGACT ->
-	 75
+	 71
 	 	 4
 GCTGGGACTA ->
-	 75
+	 71
 	 	 5
 CTGGGACTAC ->
-	 75
+	 71
 	 	 6
 TGGGACTACG ->
-	 75
+	 71
 	 	 7
 GGGACTACGA ->
-	 75
+	 71
 	 	 8
 GGACTACGAG ->
-	 75
+	 71
 	 	 9
 GACTACGAGC ->
-	 75
+	 71
 	 	 10
 ACTACGAGCG ->
-	 75
+	 71
 	 	 11
 CTACGAGCGT ->
-	 75
+	 71
 	 	 12
 TACGAGCGTG ->
-	 75
+	 71
 	 	 13
 ACGAGCGTGT ->
-	 75
+	 71
 	 	 14
 CGAGCGTGTA ->
-	 75
+	 71
 	 	 15
 GAGCGTGTAC ->
-	 75
+	 71
 	 	 16
 AGCGTGTACC ->
-	 75
+	 71
 	 	 17
 GCGTGTACCA ->
-	 75
+	 71
 	 	 18
 CGTGTACCAC ->
-	 75
+	 71
 	 	 19
 GTGTACCACC ->
-	 75
+	 71
 	 	 20
 TGTACCACCA ->
-	 75
+	 71
 	 	 21
 GTACCACCAT ->
-	 75
+	 71
 	 	 22
 TACCACCATG ->
-	 75
+	 71
 	 	 23
 ACCACCATGT ->
-	 75
+	 71
 	 	 24
 CCACCATGTC ->
-	 75
+	 71
 	 	 25
 CACCATGTCA ->
-	 75
+	 71
 	 	 26
 ACCATGTCAG ->
-	 75
+	 71
 	 	 27
 CCATGTCAGG ->
-	 75
+	 71
 	 	 28
 CATGTCAGGC ->
-	 75
+	 71
 	 	 29
 ATGTCAGGCT ->
-	 75
+	 71
 	 	 30
 TGTCAGGCTA ->
-	 75
+	 71
 	 	 31
 GTCAGGCTAA ->
-	 75
+	 71
 	 	 32
 TCAGGCTAAC ->
-	 75
+	 71
 	 	 33
 CAGGCTAACT ->
-	 75
+	 71
 	 	 34
 AGGCTAACTT ->
-	 75
+	 71
 	 	 35
 GGCTAACTTT ->
-	 75
+	 71
 	 	 36
 GCTAACTTTT ->
-	 75
+	 71
 	 	 37
 TTCGGATGCA ->
-	 76
+	 72
 	 	 0
 TCGGATGCAC ->
-	 76
+	 72
 	 	 1
 CGGATGCACT ->
-	 76
+	 72
 	 	 2
 GGATGCACTC ->
-	 76
+	 72
 	 	 3
 GATGCACTCC ->
-	 76
+	 72
 	 	 4
 ATGCACTCCA ->
-	 76
+	 72
 	 	 5
 TGCACTCCAC ->
-	 76
+	 72
 	 	 6
 GCACTCCACC ->
-	 76
+	 72
 	 	 7
 CACTCCACCC ->
-	 76
+	 72
 	 	 8
 ACTCCACCCC ->
-	 76
+	 72
 	 	 9
 CTCCACCCCC ->
-	 76
+	 72
 	 	 10
 TCCACCCCCG ->
-	 76
+	 72
 	 	 11
 CCACCCCCGC ->
-	 76
+	 72
 	 	 12
 CACCCCCGCG ->
-	 76
+	 72
 	 	 13
 ACCCCCGCGG ->
-	 76
+	 72
 	 	 14
 CCCCCGCGGA ->
-	 76
+	 72
 	 	 15
 CCCCGCGGAT ->
-	 76
+	 72
 	 	 16
 CCCGCGGATC ->
-	 76
+	 72
 	 	 17
 CCGCGGATCC ->
-	 76
+	 72
 	 	 18
 CGCGGATCCG ->
-	 76
+	 72
 	 	 19
 GCGGATCCGG ->
-	 76
+	 72
 	 	 20
 CGGATCCGGT ->
-	 76
+	 72
 	 	 21
 GGATCCGGTG ->
-	 76
+	 72
 	 	 22
 GATCCGGTGG ->
-	 76
+	 72
 	 	 23
 ATCCGGTGGA ->
-	 76
+	 72
 	 	 24
 TCCGGTGGAA ->
-	 76
+	 72
 	 	 25
 CCGGTGGAAG ->
-	 76
+	 72
 	 	 26
 CGGTGGAAGC ->
-	 76
+	 72
 	 	 27
 GGTGGAAGCC ->
-	 76
+	 72
 	 	 28
 GTGGAAGCCG ->
-	 76
+	 72
 	 	 29
 TGGAAGCCGT ->
-	 76
+	 72
 	 	 30
 GGAAGCCGTG ->
-	 76
+	 72
 	 	 31
 GAAGCCGTGG ->
-	 76
+	 72
 	 	 32
 AAGCCGTGGT ->
-	 76
+	 72
 	 	 33
 AGCCGTGGTG ->
-	 76
+	 72
 	 	 34
 GCCGTGGTGC ->
-	 76
+	 72
 	 	 35
 CCGTGGTGCG ->
-	 76
+	 72
 	 	 36
 CGTGGTGCGA ->
-	 76
+	 72
 	 	 37
 GTGGTGCGAA ->
-	 76
+	 72
 	 	 38
 TGGTGCGAAG ->
-	 76
+	 72
 	 	 39
 GGTGCGAAGA ->
-	 76
+	 72
 	 	 40
 GTGCGAAGAG ->
-	 76
+	 72
 	 	 41
 TGCGAAGAGC ->
-	 76
+	 72
 	 	 42
 GCGAAGAGCT ->
-	 76
+	 72
 	 	 43
 CGAAGAGCTG ->
-	 76
+	 72
 	 	 44
 GAAGAGCTGG ->
-	 76
+	 72
 	 	 45
 AAGAGCTGGC ->
-	 76
+	 72
 	 	 46
 AGAGCTGGCT ->
-	 76
+	 72
 	 	 47
 GAGCTGGCTT ->
-	 76
+	 72
 	 	 48
 AGCTGGCTTC ->
-	 76
+	 72
 	 	 49
 GCTGGCTTCG ->
-	 76
+	 72
 	 	 50
 CTGGCTTCGT ->
-	 76
+	 72
 	 	 51
 TGGCTTCGTG ->
-	 76
+	 72
 	 	 52
 GGCTTCGTGG ->
-	 76
+	 72
 	 	 53
 GCTTCGTGGC ->
-	 76
+	 72
 	 	 54
 CTTCGTGGCC ->
-	 76
+	 72
 	 	 55
 TTCGTGGCCT ->
-	 76
+	 72
 	 	 56
 TCGTGGCCTC ->
-	 76
+	 72
 	 	 57
 CGTGGCCTCC ->
-	 76
+	 72
 	 	 58
 GTGGCCTCCC ->
-	 76
+	 72
 	 	 59
 TGGCCTCCCA ->
-	 76
+	 72
 	 	 60
 GGCCTCCCAG ->
-	 76
+	 72
 	 	 61
 GCCTCCCAGG ->
-	 76
+	 72
 	 	 62
 CCTCCCAGGT ->
-	 76
+	 72
 	 	 63
 CTCCCAGGTT ->
-	 76
+	 72
 	 	 64
 TCCCAGGTTT ->
-	 76
+	 72
 	 	 65
 CCCAGGTTTC ->
-	 76
+	 72
 	 	 66
 CCAGGTTTCG ->
-	 76
+	 72
 	 	 67
 CAGGTTTCGC ->
-	 76
+	 72
 	 	 68
 AGGTTTCGCC ->
-	 76
+	 72
 	 	 69
 GGTTTCGCCC ->
-	 76
+	 72
 	 	 70
 GTTTCGCCCT ->
-	 76
+	 72
 	 	 71
 TTTCGCCCTG ->
-	 76
+	 72
 	 	 72
 TTCGCCCTGA ->
-	 76
+	 72
 	 	 73
 TCGCCCTGAC ->
-	 76
+	 72
 	 	 74
 CGCCCTGACC ->
-	 76
+	 72
 	 	 75
 GCCCTGACCC ->
-	 76
+	 72
 	 	 76
 CCCTGACCCT ->
-	 76
+	 72
 	 	 77
 CTGACCCTGT ->
-	 76
+	 72
 	 	 79
 TGACCCTGTC ->
-	 76
+	 72
 	 	 80
 GACCCTGTCT ->
-	 76
+	 72
 	 	 81
 ACCCTGTCTG ->
-	 76
+	 72
 	 	 82
 CCCTGTCTGG ->
-	 76
+	 72
 	 	 83
 CCTGTCTGGG ->
-	 76
+	 72
 	 	 84
 CTGTCTGGGC ->
-	 76
+	 72
 	 	 85
 TGTCTGGGCT ->
-	 76
+	 72
 	 	 86
 GTCTGGGCTG ->
-	 76
+	 72
 	 	 87
 TCTGGGCTGG ->
-	 76
+	 72
 	 	 88
 CTGGGCTGGA ->
-	 76
+	 72
 	 	 89
 TGGGCTGGAC ->
-	 76
+	 72
 	 	 90
 GGGCTGGACG ->
-	 76
+	 72
 	 	 91
 AGTATTAACT ->
-	 77
+	 73
 	 	 0
 GTATTAACTC ->
-	 77
+	 73
 	 	 1
 TATTAACTCG ->
-	 77
+	 73
 	 	 2
 ATTAACTCGC ->
-	 77
+	 73
 	 	 3
 TTAACTCGCA ->
-	 77
+	 73
 	 	 4
 TAACTCGCAC ->
-	 77
+	 73
 	 	 5
 AACTCGCACG ->
-	 77
+	 73
 	 	 6
 ACTCGCACGA ->
-	 77
+	 73
 	 	 7
 CTCGCACGAT ->
-	 77
+	 73
 	 	 8
 TCGCACGATC ->
-	 77
+	 73
 	 	 9
 CGCACGATCA ->
-	 77
+	 73
 	 	 10
 GCACGATCAC ->
-	 77
+	 73
 	 	 11
 CACGATCACA ->
-	 77
+	 73
 	 	 12
 ACGATCACAA ->
-	 77
+	 73
 	 	 13
 GTGGCCGAGC ->
-	 78
+	 74
 	 	 0
 TGGCCGAGCG ->
-	 78
+	 74
 	 	 1
 GGCCGAGCGT ->
-	 78
+	 74
 	 	 2
 GCCGAGCGTA ->
-	 78
+	 74
 	 	 3
 CCGAGCGTAG ->
-	 78
+	 74
 	 	 4
 CGAGCGTAGT ->
-	 78
+	 74
 	 	 5
 GAGCGTAGTG ->
-	 78
+	 74
 	 	 6
 AGCGTAGTGG ->
-	 78
+	 74
 	 	 7
 GCGTAGTGGC ->
-	 78
+	 74
 	 	 8
 CGTAGTGGCT ->
-	 78
+	 74
 	 	 9
 GTAGTGGCTC ->
-	 78
+	 74
 	 	 10
 TAGTGGCTCA ->
-	 78
+	 74
 	 	 11
 AGTGGCTCAC ->
-	 78
+	 74
 	 	 12
 GTGGCTCACA ->
-	 78
+	 74
 	 	 13
 TGGCTCACAC ->
-	 78
+	 74
 	 	 14
 ATGTATATAT ->
-	 79
+	 75
 	 	 0
 TGTATATATG ->
-	 79
+	 75
 	 	 1
 GTATATATGG ->
-	 79
+	 75
 	 	 2
 TATATATGGA ->
-	 79
+	 75
 	 	 3
 ATATATGGAA ->
-	 79
+	 75
 	 	 4
 TATATGGAAG ->
-	 79
+	 75
 	 	 5
 ATATGGAAGG ->
-	 79
+	 75
 	 	 6
 TATGGAAGGG ->
-	 79
+	 75
 	 	 7
 ATGGAAGGGA ->
-	 79
+	 75
 	 	 8
 TGGAAGGGAG ->
-	 79
+	 75
 	 	 9
 GGAAGGGAGC ->
-	 79
+	 75
 	 	 10
 GAAGGGAGCT ->
-	 79
+	 75
 	 	 11
 AAGGGAGCTT ->
-	 79
+	 75
 	 	 12
 AGGGAGCTTA ->
-	 79
+	 75
 	 	 13
 GGGAGCTTAC ->
-	 79
+	 75
 	 	 14
 GGAGCTTACT ->
-	 79
+	 75
 	 	 15
 GAGCTTACTA ->
-	 79
+	 75
 	 	 16
 AGCTTACTAA ->
-	 79
+	 75
 	 	 17
 GCTTACTAAG ->
-	 79
+	 75
 	 	 18
 CTTACTAAGG ->
-	 79
+	 75
 	 	 19
 TTACTAAGGA ->
-	 79
+	 75
 	 	 20
 TACTAAGGAG ->
-	 79
+	 75
 	 	 21
 ACTAAGGAGA ->
-	 79
+	 75
 	 	 22
 CTAAGGAGAA ->
-	 79
+	 75
 	 	 23
 TAAGGAGAAT ->
-	 79
+	 75
 	 	 24
 AAGGAGAATT ->
-	 79
+	 75
 	 	 25
 AGGAGAATTG ->
-	 79
+	 75
 	 	 26
 GGAGAATTGA ->
-	 79
+	 75
 	 	 27
 GAGAATTGAC ->
-	 79
+	 75
 	 	 28
 AGAATTGACT ->
-	 79
+	 75
 	 	 29
 GAATTGACTC ->
-	 79
+	 75
 	 	 30
 AATTGACTCG ->
-	 79
+	 75
 	 	 31
 ATTGACTCGC ->
-	 79
+	 75
 	 	 32
 TTGACTCGCA ->
-	 79
+	 75
 	 	 33
 TGACTCGCAC ->
-	 79
+	 75
 	 	 34
 GACTCGCACG ->
-	 79
+	 75
 	 	 35
 CGATCACAAG ->
-	 79
+	 75
 	 	 43
 GATCACAAGG ->
-	 79
+	 75
 	 	 44
 ATCACAAGGT ->
-	 79
+	 75
 	 	 45
 TCACAAGGTG ->
-	 79
+	 75
 	 	 46
 CACAAGGTGA ->
-	 79
+	 75
 	 	 47
 ACAAGGTGAG ->
-	 79
+	 75
 	 	 48
 CAAGGTGAGG ->
-	 79
+	 75
 	 	 49
 AAGGTGAGGT ->
-	 79
+	 75
 	 	 50
 AGGTGAGGTC ->
-	 79
+	 75
 	 	 51
 GGTGAGGTCC ->
-	 79
+	 75
 	 	 52
 GTGAGGTCCC ->
-	 79
+	 75
 	 	 53
 AAAAACTAGC ->
-	 80
+	 76
 	 	 0
 AAAACTAGCC ->
-	 80
+	 76
 	 	 1
 AAACTAGCCG ->
-	 80
+	 76
 	 	 2
 AACTAGCCGA ->
-	 80
+	 76
 	 	 3
 ACTAGCCGAG ->
-	 80
+	 76
 	 	 4
 CTAGCCGAGC ->
-	 80
+	 76
 	 	 5
 TAGCCGAGCG ->
-	 80
+	 76
 	 	 6
 AGCCGAGCGT ->
-	 80
+	 76
 	 	 7
 CGTAGTGGCA ->
-	 80
+	 76
 	 	 14
 GTAGTGGCAT ->
-	 80
+	 76
 	 	 15
 TAGTGGCATG ->
-	 80
+	 76
 	 	 16
 AGTGGCATGC ->
-	 80
+	 76
 	 	 17
 GTGGCATGCA ->
-	 80
+	 76
 	 	 18
 TGGCATGCAC ->
-	 80
+	 76
 	 	 19
 AAAAAATTAG ->
-	 81
+	 77
 	 	 0
 AAAAATTAGC ->
-	 81
+	 77
 	 	 1
 AAAATTAGCC ->
-	 81
+	 77
 	 	 2
 AAATTAGCCG ->
-	 81
+	 77
 	 	 3
 AATTAGCCGA ->
-	 81
+	 77
 	 	 4
 ATTAGCCGAG ->
-	 81
+	 77
 	 	 5
 TTAGCCGAGC ->
-	 81
+	 77
 	 	 6
 ACAAAAATTA ->
-	 83
+	 79
 	 	 0
 CAAAAATTAG ->
-	 83
+	 79
 	 	 1
 TACAAAAAGT ->
-	 84
+	 80
 	 	 0
 ACAAAAAGTA ->
-	 84
+	 80
 	 	 1
 CAAAAAGTAG ->
-	 84
+	 80
 	 	 2
 AAAAAGTAGC ->
-	 84
+	 80
 	 	 3
 AAAAGTAGCC ->
-	 84
+	 80
 	 	 4
 AAAGTAGCCG ->
-	 84
+	 80
 	 	 5
 AAGTAGCCGA ->
-	 84
+	 80
 	 	 6
 AGTAGCCGAG ->
-	 84
+	 80
 	 	 7
 GTAGCCGAGC ->
-	 84
+	 80
 	 	 8
 GCGTAGTGGT ->
-	 84
+	 80
 	 	 16
 CGTAGTGGTG ->
-	 84
+	 80
 	 	 17
 GTAGTGGTGC ->
-	 84
+	 80
 	 	 18
 TAGTGGTGCA ->
-	 84
+	 80
 	 	 19
 AGTGGTGCAT ->
-	 84
+	 80
 	 	 20
 GTGGTGCATG ->
-	 84
+	 80
 	 	 21
 TGGTGCATGC ->
-	 84
+	 80
 	 	 22
 GGTGCATGCC ->
-	 84
+	 80
 	 	 23
 GTGCATGCCT ->
-	 84
+	 80
 	 	 24
 TGCATGCCTG ->
-	 84
+	 80
 	 	 25
 GCATGCCTGT ->
-	 84
+	 80
 	 	 26
 AAATATAAAA ->
-	 85
+	 81
 	 	 0
 AATATAAAAA ->
-	 85
+	 81
 	 	 1
 ATATAAAAAT ->
-	 85
+	 81
 	 	 2
 TATAAAAATT ->
-	 85
+	 81
 	 	 3
 ATAAAAATTA ->
-	 85
+	 81
 	 	 4
 TAAAAATTAG ->
-	 85
+	 81
 	 	 5
 CACTACGCTC ->
-	 86
+	 82
 	 	 0
 ACTACGCTCG ->
-	 86
+	 82
 	 	 1
 CTACGCTCGG ->
-	 86
+	 82
 	 	 2
 TACGCTCGGC ->
-	 86
+	 82
 	 	 3
 ACGCTCGGCT ->
-	 86
+	 82
 	 	 4
 CGCTCGGCTA ->
-	 86
+	 82
 	 	 5
 GCTCGGCTAA ->
-	 86
+	 82
 	 	 6
 CTCGGCTAAT ->
-	 86
+	 82
 	 	 7
 TCGGCTAATT ->
-	 86
+	 82
 	 	 8
 CGGCTAATTT ->
-	 86
+	 82
 	 	 9
 GGCTAATTTT ->
-	 86
+	 82
 	 	 10
 GCTAATTTTT ->
-	 86
+	 82
 	 	 11
 CTAATTTTTG ->
-	 86
+	 82
 	 	 12
 TAATTTTTGT ->
-	 86
+	 82
 	 	 13
 AATTTTTGTA ->
-	 86
+	 82
 	 	 14
 ATTTTTGTAT ->
-	 86
+	 82
 	 	 15
 TTTTTGTATT ->
-	 86
+	 82
 	 	 16
 CAAATTAGCC ->
-	 88
+	 84
 	 	 0
 CGTAGTGGTA ->
-	 89
+	 85
 	 	 14
 GTAGTGGTAT ->
-	 89
+	 85
 	 	 15
 TAGTGGTATG ->
-	 89
+	 85
 	 	 16
 AGTGGTATGT ->
-	 89
+	 85
 	 	 17
 GTGGTATGTG ->
-	 89
+	 85
 	 	 18
 TGGTATGTGC ->
-	 89
+	 85
 	 	 19
 GGTATGTGCC ->
-	 89
+	 85
 	 	 20
 GGGAGTTTAT ->
-	 90
+	 86
 	 	 0
 GGAGTTTATA ->
-	 90
+	 86
 	 	 1
 GAGTTTATAA ->
-	 90
+	 86
 	 	 2
 AGTTTATAAA ->
-	 90
+	 86
 	 	 3
 GTTTATAAAG ->
-	 90
+	 86
 	 	 4
 TTTATAAAGT ->
-	 90
+	 86
 	 	 5
 TTATAAAGTA ->
-	 90
+	 86
 	 	 6
 TATAAAGTAT ->
-	 90
+	 86
 	 	 7
 ATAAAGTATT ->
-	 90
+	 86
 	 	 8
 TAAAGTATTA ->
-	 90
+	 86
 	 	 9
 AAAGTATTAA ->
-	 90
+	 86
 	 	 10
 AAGTATTAAC ->
-	 90
+	 86
 	 	 11
 GTAGTGGCAC ->
-	 93
+	 89
 	 	 12
 TAGTGGCACA ->
-	 93
+	 89
 	 	 13
 AGTGGCACAC ->
-	 93
+	 89
 	 	 14
 GTGGCACACG ->
-	 93
+	 89
 	 	 15
 TGGCACACGC ->
-	 93
+	 89
 	 	 16
 GGCACACGCC ->
-	 93
+	 89
 	 	 17
 GCACACGCCT ->
-	 93
+	 89
 	 	 18
 CACACGCCTG ->
-	 93
+	 89
 	 	 19
 ACACGCCTGT ->
-	 93
+	 89
 	 	 20
 CTGAGTAGCT ->
-	 95
+	 91
 	 	 0
 TGAGTAGCTG ->
-	 95
+	 91
 	 	 1
 GAGTAGCTGG ->
-	 95
+	 91
 	 	 2
 AGTAGCTGGT ->
-	 95
+	 91
 	 	 3
 GTAGCTGGTA ->
-	 95
+	 91
 	 	 4
 TAGCTGGTAC ->
-	 95
+	 91
 	 	 5
 AGCTGGTACT ->
-	 95
+	 91
 	 	 6
 GCTGGTACTA ->
-	 95
+	 91
 	 	 7
 CTGGTACTAC ->
-	 95
+	 91
 	 	 8
 TGGTACTACC ->
-	 95
+	 91
 	 	 9
 GGTACTACCG ->
-	 95
+	 91
 	 	 10
 GTACTACCGG ->
-	 95
+	 91
 	 	 11
 TACTACCGGC ->
-	 95
+	 91
 	 	 12
 ACTACCGGCG ->
-	 95
+	 91
 	 	 13
 CTACCGGCGT ->
-	 95
+	 91
 	 	 14
 TACCGGCGTA ->
-	 95
+	 91
 	 	 15
 ACCGGCGTAC ->
-	 95
+	 91
 	 	 16
 CCGGCGTACA ->
-	 95
+	 91
 	 	 17
 CGGCGTACAC ->
-	 95
+	 91
 	 	 18
 GGCGTACACC ->
-	 95
+	 91
 	 	 19
 GCGTACACCA ->
-	 95
+	 91
 	 	 20
 CGTACACCAC ->
-	 95
+	 91
 	 	 21
 GTACACCACC ->
-	 95
+	 91
 	 	 22
 TACACCACCA ->
-	 95
+	 91
 	 	 23
 ACACCACCAT ->
-	 95
+	 91
 	 	 24
 CACCACCATG ->
-	 95
+	 91
 	 	 25
 ACCACCATGC ->
-	 95
+	 91
 	 	 26
 CCACCATGCC ->
-	 95
+	 91
 	 	 27
 CACCATGCCT ->
-	 95
+	 91
 	 	 28
 ACCATGCCTG ->
-	 95
+	 91
 	 	 29
 CCATGCCTGG ->
-	 95
+	 91
 	 	 30
 CATGCCTGGT ->
-	 95
+	 91
 	 	 31
 ATGCCTGGTT ->
-	 95
+	 91
 	 	 32
 TGCCTGGTTA ->
-	 95
+	 91
 	 	 33
 GCCTGGTTAA ->
-	 95
+	 91
 	 	 34
 AGCGTAGTGA ->
-	 96
+	 92
 	 	 12
 GCGTAGTGAC ->
-	 96
+	 92
 	 	 13
 CGTAGTGACG ->
-	 96
+	 92
 	 	 14
 GTAGTGACGC ->
-	 96
+	 92
 	 	 15
 TAGTGACGCA ->
-	 96
+	 92
 	 	 16
 AGTGACGCAT ->
-	 96
+	 92
 	 	 17
 GTGACGCATG ->
-	 96
+	 92
 	 	 18
 TGACGCATGC ->
-	 96
+	 92
 	 	 19
 GACGCATGCC ->
-	 96
+	 92
 	 	 20
 ACGCATGCCT ->
-	 96
+	 92
 	 	 21
 CGCATGCCTG ->
-	 96
+	 92
 	 	 22
 CATGCCTGTA ->
-	 96
+	 92
 	 	 24
 ATGCCTGTAA ->
-	 96
+	 92
 	 	 25
 GTAGTGGTGG ->
-	 98
+	 94
 	 	 13
 TAGTGGTGGG ->
-	 98
+	 94
 	 	 14
 AGTGGTGCAC ->
-	 99
+	 95
 	 	 15
 GTGGTGCACG ->
-	 99
+	 95
 	 	 16
 TGGTGCACGC ->
-	 99
+	 95
 	 	 17
 GGTGCACGCC ->
-	 99
+	 95
 	 	 18
 GTGCACGCCT ->
-	 99
+	 95
 	 	 19
 TGCACGCCTG ->
-	 99
+	 95
 	 	 20
 GCACGCCTGT ->
-	 99
+	 95
 	 	 21
 TGGGACTACC ->
-	 100
+	 96
 	 	 7
 GGGACTACCG ->
-	 100
+	 96
 	 	 8
 GGACTACCGG ->
-	 100
+	 96
 	 	 9
 GACTACCGGC ->
-	 100
+	 96
 	 	 10
 GCGTACACCG ->
-	 100
+	 96
 	 	 18
 CGTACACCGC ->
-	 100
+	 96
 	 	 19
 GTACACCGCC ->
-	 100
+	 96
 	 	 20
 TACACCGCCT ->
-	 100
+	 96
 	 	 21
 ACACCGCCTA ->
-	 100
+	 96
 	 	 22
 CACCGCCTAG ->
-	 100
+	 96
 	 	 23
 ACCGCCTAGC ->
-	 100
+	 96
 	 	 24
 CCGCCTAGCT ->
-	 100
+	 96
 	 	 25
 CGCCTAGCTT ->
-	 100
+	 96
 	 	 26
 GCCTAGCTTT ->
-	 100
+	 96
 	 	 27
 CCTAGCTTTT ->
-	 100
+	 96
 	 	 28
 CTAGCTTTTT ->
-	 100
+	 96
 	 	 29
 TAGCTTTTTT ->
-	 100
+	 96
 	 	 30
 AGCTTTTTTT ->
-	 100
+	 96
 	 	 31
 GCTTTTTTTT ->
-	 100
+	 96
 	 	 32
 CTTTTTTTTT ->
-	 100
+	 96
 	 	 33
 TTTTTTTTTT ->
-	 100
+	 96
 	 	 34
 	 	 35
 	 	 36
 	 	 37
 	 	 38
 CCAAAAATTA ->
-	 101
+	 97
 	 	 0
 GTAGTGGCAG ->
-	 104
+	 100
 	 	 12
 TAGTGGCAGG ->
-	 104
+	 100
 	 	 13
 AGTGGCAGGT ->
-	 104
+	 100
 	 	 14
 GTGGCAGGTG ->
-	 104
+	 100
 	 	 15
 TGGCAGGTGC ->
-	 104
+	 100
 	 	 16
 GGCAGGTGCC ->
-	 104
+	 100
 	 	 17
 GCAGGTGCCT ->
-	 104
+	 100
 	 	 18
 CAGGTGCCTG ->
-	 104
+	 100
 	 	 19
 AGGTGCCTGT ->
-	 104
+	 100
 	 	 20
