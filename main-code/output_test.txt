@@ -1,206 +1,2053 @@
 start to parsing each contig
-parsing windows for contig number: 0
-test: insert the contig number 0 to the right cell: True
-parsing windows for contig number: 1
-test: insert the contig number 1 to the right cell: True
-parsing windows for contig number: 2
-test: insert the contig number 2 to the right cell: True
-parsing windows for contig number: 3
-test: insert the contig number 3 to the right cell: True
-parsing windows for contig number: 4
-test: insert the contig number 4 to the right cell: True
-parsing windows for contig number: 5
-test: insert the contig number 5 to the right cell: True
-parsing windows for contig number: 6
-test: insert the contig number 6 to the right cell: True
-parsing windows for contig number: 7
-test: insert the contig number 7 to the right cell: True
-parsing windows for contig number: 8
-test: insert the contig number 8 to the right cell: True
-parsing windows for contig number: 9
-test: insert the contig number 9 to the right cell: True
-parsing windows for contig number: 11
-test: insert the contig number 10 to the right cell: True
-parsing windows for contig number: 12
-test: insert the contig number 11 to the right cell: True
-parsing windows for contig number: 13
-test: insert the contig number 12 to the right cell: True
-parsing windows for contig number: 14
-test: insert the contig number 13 to the right cell: True
-parsing windows for contig number: 15
-test: insert the contig number 14 to the right cell: True
-parsing windows for contig number: 16
-test: insert the contig number 15 to the right cell: True
-parsing windows for contig number: 17
-test: insert the contig number 16 to the right cell: True
-parsing windows for contig number: 18
-test: insert the contig number 17 to the right cell: True
-parsing windows for contig number: 19
-test: insert the contig number 18 to the right cell: True
-parsing windows for contig number: 20
-test: insert the contig number 19 to the right cell: True
-parsing windows for contig number: 21
-test: insert the contig number 20 to the right cell: True
-parsing windows for contig number: 22
-test: insert the contig number 21 to the right cell: True
-parsing windows for contig number: 23
-test: insert the contig number 22 to the right cell: True
-parsing windows for contig number: 24
-test: insert the contig number 23 to the right cell: True
-parsing windows for contig number: 25
-test: insert the contig number 24 to the right cell: True
-parsing windows for contig number: 26
-test: insert the contig number 25 to the right cell: True
-parsing windows for contig number: 27
-test: insert the contig number 26 to the right cell: True
-parsing windows for contig number: 29
-test: insert the contig number 27 to the right cell: True
-parsing windows for contig number: 30
-test: insert the contig number 28 to the right cell: True
-parsing windows for contig number: 31
-test: insert the contig number 29 to the right cell: True
-parsing windows for contig number: 32
-test: insert the contig number 30 to the right cell: True
-parsing windows for contig number: 33
-test: insert the contig number 31 to the right cell: True
-parsing windows for contig number: 34
-test: insert the contig number 32 to the right cell: True
-parsing windows for contig number: 35
-test: insert the contig number 33 to the right cell: True
-parsing windows for contig number: 36
-test: insert the contig number 34 to the right cell: True
-parsing windows for contig number: 37
-test: insert the contig number 35 to the right cell: True
-parsing windows for contig number: 38
-test: insert the contig number 36 to the right cell: True
-parsing windows for contig number: 39
-test: insert the contig number 37 to the right cell: True
-parsing windows for contig number: 40
-test: insert the contig number 38 to the right cell: True
-parsing windows for contig number: 41
-test: insert the contig number 39 to the right cell: True
-parsing windows for contig number: 42
-test: insert the contig number 40 to the right cell: True
-parsing windows for contig number: 43
-test: insert the contig number 41 to the right cell: True
-parsing windows for contig number: 44
-test: insert the contig number 42 to the right cell: True
-parsing windows for contig number: 45
-test: insert the contig number 43 to the right cell: True
-parsing windows for contig number: 46
-test: insert the contig number 44 to the right cell: True
-parsing windows for contig number: 47
-test: insert the contig number 45 to the right cell: True
-parsing windows for contig number: 48
-test: insert the contig number 46 to the right cell: True
-parsing windows for contig number: 49
-test: insert the contig number 47 to the right cell: True
-parsing windows for contig number: 50
-test: insert the contig number 48 to the right cell: True
-parsing windows for contig number: 51
-test: insert the contig number 49 to the right cell: True
-parsing windows for contig number: 52
-test: insert the contig number 50 to the right cell: True
-parsing windows for contig number: 53
-test: insert the contig number 51 to the right cell: True
-parsing windows for contig number: 55
-test: insert the contig number 52 to the right cell: True
-parsing windows for contig number: 56
-test: insert the contig number 53 to the right cell: True
-parsing windows for contig number: 57
-test: insert the contig number 54 to the right cell: True
-parsing windows for contig number: 59
-test: insert the contig number 55 to the right cell: True
-parsing windows for contig number: 60
-test: insert the contig number 56 to the right cell: True
-parsing windows for contig number: 61
-test: insert the contig number 57 to the right cell: True
-parsing windows for contig number: 62
-test: insert the contig number 58 to the right cell: True
-parsing windows for contig number: 63
-test: insert the contig number 59 to the right cell: True
-parsing windows for contig number: 64
-test: insert the contig number 60 to the right cell: True
-parsing windows for contig number: 65
-test: insert the contig number 61 to the right cell: True
-parsing windows for contig number: 66
-test: insert the contig number 62 to the right cell: True
-parsing windows for contig number: 67
-test: insert the contig number 63 to the right cell: True
-parsing windows for contig number: 68
-test: insert the contig number 64 to the right cell: True
-parsing windows for contig number: 69
-test: insert the contig number 65 to the right cell: True
-parsing windows for contig number: 70
-test: insert the contig number 66 to the right cell: True
-parsing windows for contig number: 71
-test: insert the contig number 67 to the right cell: True
-parsing windows for contig number: 72
-test: insert the contig number 68 to the right cell: True
-parsing windows for contig number: 73
-test: insert the contig number 69 to the right cell: True
-parsing windows for contig number: 74
-test: insert the contig number 70 to the right cell: True
-parsing windows for contig number: 75
-test: insert the contig number 71 to the right cell: True
-parsing windows for contig number: 76
-test: insert the contig number 72 to the right cell: True
-parsing windows for contig number: 77
-test: insert the contig number 73 to the right cell: True
-parsing windows for contig number: 78
-test: insert the contig number 74 to the right cell: True
-parsing windows for contig number: 79
-test: insert the contig number 75 to the right cell: True
-parsing windows for contig number: 80
-test: insert the contig number 76 to the right cell: True
-parsing windows for contig number: 81
-test: insert the contig number 77 to the right cell: True
-parsing windows for contig number: 82
-test: insert the contig number 78 to the right cell: True
-parsing windows for contig number: 83
-test: insert the contig number 79 to the right cell: True
-parsing windows for contig number: 84
-test: insert the contig number 80 to the right cell: True
-parsing windows for contig number: 85
-test: insert the contig number 81 to the right cell: True
-parsing windows for contig number: 86
-test: insert the contig number 82 to the right cell: True
-parsing windows for contig number: 87
-test: insert the contig number 83 to the right cell: True
-parsing windows for contig number: 88
-test: insert the contig number 84 to the right cell: True
-parsing windows for contig number: 89
-test: insert the contig number 85 to the right cell: True
-parsing windows for contig number: 90
-test: insert the contig number 86 to the right cell: True
-parsing windows for contig number: 91
-test: insert the contig number 87 to the right cell: True
-parsing windows for contig number: 92
-test: insert the contig number 88 to the right cell: True
-parsing windows for contig number: 93
-test: insert the contig number 89 to the right cell: True
-parsing windows for contig number: 94
-test: insert the contig number 90 to the right cell: True
-parsing windows for contig number: 95
-test: insert the contig number 91 to the right cell: True
-parsing windows for contig number: 96
-test: insert the contig number 92 to the right cell: True
-parsing windows for contig number: 97
-test: insert the contig number 93 to the right cell: True
-parsing windows for contig number: 98
-test: insert the contig number 94 to the right cell: True
-parsing windows for contig number: 99
-test: insert the contig number 95 to the right cell: True
-parsing windows for contig number: 100
-test: insert the contig number 96 to the right cell: True
-parsing windows for contig number: 101
-test: insert the contig number 97 to the right cell: True
-parsing windows for contig number: 102
-test: insert the contig number 98 to the right cell: True
-parsing windows for contig number: 103
-test: insert the contig number 99 to the right cell: True
-parsing windows for contig number: 104
-test: insert the contig number 100 to the right cell: True
+GATTCGCCGG already in dict
+the values of this already key are:
+- 3
+ATTCGCCGGT already in dict
+the values of this already key are:
+- 3
+TTCGCCGGTT already in dict
+the values of this already key are:
+- 3
+TCGCCGGTTC already in dict
+the values of this already key are:
+- 3
+CGCCGGTTCC already in dict
+the values of this already key are:
+- 3
+GCCGGTTCCC already in dict
+the values of this already key are:
+- 3
+CCGGTTCCCA already in dict
+the values of this already key are:
+- 3
+CGGTTCCCAC already in dict
+the values of this already key are:
+- 3
+GGTTCCCACC already in dict
+the values of this already key are:
+- 3
+GTTCCCACCA already in dict
+the values of this already key are:
+- 3
+TTCCCACCAT already in dict
+the values of this already key are:
+- 3
+TCCCACCATC already in dict
+the values of this already key are:
+- 3
+CCCACCATCC already in dict
+the values of this already key are:
+- 3
+CCCACCCCAG already in dict
+the values of this already key are:
+- 5
+CCACCCCAGA already in dict
+the values of this already key are:
+- 5
+CACCCCAGAG already in dict
+the values of this already key are:
+- 5
+ACCCCAGAGA already in dict
+the values of this already key are:
+- 5
+CCCCAGAGAA already in dict
+the values of this already key are:
+- 5
+CCCAGAGAAC already in dict
+the values of this already key are:
+- 5
+CCAGAGAACG already in dict
+the values of this already key are:
+- 5
+CAGAGAACGA already in dict
+the values of this already key are:
+- 5
+AGAGAACGAT already in dict
+the values of this already key are:
+- 5
+GAGAACGATC already in dict
+the values of this already key are:
+- 5
+AGAACGATCC already in dict
+the values of this already key are:
+- 5
+GAACGATCCG already in dict
+the values of this already key are:
+- 5
+AACGATCCGG already in dict
+the values of this already key are:
+- 5
+TTCATCCGCC already in dict
+the values of this already key are:
+- 8
+TCATCCGCCG already in dict
+the values of this already key are:
+- 8
+CATCCGCCGG already in dict
+the values of this already key are:
+- 8
+ATCCGCCGGT already in dict
+the values of this already key are:
+- 8
+TCCGCCGGTT already in dict
+the values of this already key are:
+- 8
+CCGCCGGTTC already in dict
+the values of this already key are:
+- 8
+CGCCGGTTCT already in dict
+the values of this already key are:
+- 8
+GCCGGTTCTG already in dict
+the values of this already key are:
+- 8
+CCGGTTCTGG already in dict
+the values of this already key are:
+- 8
+CGGTTCTGGA already in dict
+the values of this already key are:
+- 8
+GGTTCTGGAA already in dict
+the values of this already key are:
+- 8
+GTTCTGGAAC already in dict
+the values of this already key are:
+- 8
+TTCTGGAACC already in dict
+the values of this already key are:
+- 8
+CCAGGAGTTC already in dict
+the values of this already key are:
+- 10
+CAGGAGTTCG already in dict
+the values of this already key are:
+- 10
+AGGAGTTCGA already in dict
+the values of this already key are:
+- 10
+GGAGTTCGAC already in dict
+the values of this already key are:
+- 10
+GAGTTCGACG already in dict
+the values of this already key are:
+- 10
+AGTTCGACGT already in dict
+the values of this already key are:
+- 10
+GTTCGACGTT already in dict
+the values of this already key are:
+- 10
+TTCGACGTTG already in dict
+the values of this already key are:
+- 10
+TCGACGTTGC already in dict
+the values of this already key are:
+- 10
+CGACGTTGCA already in dict
+the values of this already key are:
+- 10
+GACGTTGCAG already in dict
+the values of this already key are:
+- 10
+ACGTTGCAGT already in dict
+the values of this already key are:
+- 10
+CGTTGCAGTG already in dict
+the values of this already key are:
+- 10
+GCTCACTGCA already in dict
+the values of this already key are:
+- 12
+CTCACTGCAA already in dict
+the values of this already key are:
+- 12
+TCACTGCAAC already in dict
+the values of this already key are:
+- 12
+CACTGCAACG already in dict
+the values of this already key are:
+- 11
+ACTGCAACGT already in dict
+the values of this already key are:
+- 11
+CTGCAACGTC already in dict
+the values of this already key are:
+- 11
+TGCAACGTCG already in dict
+the values of this already key are:
+- 11
+GCAACGTCGA already in dict
+the values of this already key are:
+- 11
+CAACGTCGAA already in dict
+the values of this already key are:
+- 11
+AACGTCGAAC already in dict
+the values of this already key are:
+- 11
+ACGTCGAACT already in dict
+the values of this already key are:
+- 11
+CGTCGAACTC already in dict
+the values of this already key are:
+- 11
+GTCGAACTCC already in dict
+the values of this already key are:
+- 11
+AGACCAGCCT already in dict
+the values of this already key are:
+- 15
+CAACGTGTCG already in dict
+the values of this already key are:
+- 18
+AACGTGTCGA already in dict
+the values of this already key are:
+- 18
+ACGTGTCGAA already in dict
+the values of this already key are:
+- 18
+CGTGTCGAAA already in dict
+the values of this already key are:
+- 18
+GTGTCGAAAC already in dict
+the values of this already key are:
+- 18
+TGTCGAAACC already in dict
+the values of this already key are:
+- 18
+GCCTGGGCAA already in dict
+the values of this already key are:
+- 18
+CCTGGGCAAC already in dict
+the values of this already key are:
+- 18
+CTGGGCAACG already in dict
+the values of this already key are:
+- 18
+TGGGCAACGT already in dict
+the values of this already key are:
+- 18
+GGGCAACGTG already in dict
+the values of this already key are:
+- 18
+GGCAACGTGT already in dict
+the values of this already key are:
+- 18
+GCAACGTGTC already in dict
+the values of this already key are:
+- 18
+CAACGTGTCG already in dict
+the values of this already key are:
+- 18
+AACGTGTCGA already in dict
+the values of this already key are:
+- 18
+ACGTGTCGAA already in dict
+the values of this already key are:
+- 18
+CGTGTCGAAA already in dict
+the values of this already key are:
+- 18
+GTGTCGAAAC already in dict
+the values of this already key are:
+- 18
+TGTCGAAACC already in dict
+the values of this already key are:
+- 18
+GTCGAAACCC already in dict
+the values of this already key are:
+- 19
+GCCTGGGCAA already in dict
+the values of this already key are:
+- 18
+CCTGGGCAAC already in dict
+the values of this already key are:
+- 18
+CTGGGCAACG already in dict
+the values of this already key are:
+- 18
+TGGGCAACGT already in dict
+the values of this already key are:
+- 18
+GGGCAACGTG already in dict
+the values of this already key are:
+- 18
+GGCAACGTGT already in dict
+the values of this already key are:
+- 18
+GCAACGTGTC already in dict
+the values of this already key are:
+- 18
+CAACGTGTCG already in dict
+the values of this already key are:
+- 18
+AACGTGTCGA already in dict
+the values of this already key are:
+- 18
+ACGTGTCGAA already in dict
+the values of this already key are:
+- 18
+CGTGTCGAAA already in dict
+the values of this already key are:
+- 18
+GTGTCGAAAC already in dict
+the values of this already key are:
+- 18
+TGTCGAAACC already in dict
+the values of this already key are:
+- 18
+GTCGAAACCC already in dict
+the values of this already key are:
+- 19
+TCGAAACCCC already in dict
+the values of this already key are:
+- 19
+CGAAACCCCG already in dict
+the values of this already key are:
+- 19
+GAAACCCCGT already in dict
+the values of this already key are:
+- 19
+AAACCCCGTC already in dict
+the values of this already key are:
+- 19
+AACCCCGTCT already in dict
+the values of this already key are:
+- 19
+ACCCCGTCTC already in dict
+the values of this already key are:
+- 19
+AGACCAGCCT already in dict
+the values of this already key are:
+- 15
+GACCAGCCTG already in dict
+the values of this already key are:
+- 18
+ACCAGCCTGG already in dict
+the values of this already key are:
+- 18
+CAACGTGTCG already in dict
+the values of this already key are:
+- 18
+AACGTGTCGA already in dict
+the values of this already key are:
+- 18
+ACGTGTCGAA already in dict
+the values of this already key are:
+- 18
+CGTGTCGAAA already in dict
+the values of this already key are:
+- 18
+GTGTCGAAAC already in dict
+the values of this already key are:
+- 18
+TGTCGAAACC already in dict
+the values of this already key are:
+- 18
+GTCGAAACCC already in dict
+the values of this already key are:
+- 19
+CCTGGCCAAC already in dict
+the values of this already key are:
+- 22
+CTGGCCAACG already in dict
+the values of this already key are:
+- 22
+TGGCCAACGT already in dict
+the values of this already key are:
+- 22
+GGCCAACGTG already in dict
+the values of this already key are:
+- 22
+GCCAACGTGT already in dict
+the values of this already key are:
+- 22
+CCAACGTGTC already in dict
+the values of this already key are:
+- 22
+CAACGTGTCG already in dict
+the values of this already key are:
+- 18
+AACGTGTCGA already in dict
+the values of this already key are:
+- 18
+ACGTGTCGAA already in dict
+the values of this already key are:
+- 18
+CGTGTCGAAA already in dict
+the values of this already key are:
+- 18
+GTGTCGAAAC already in dict
+the values of this already key are:
+- 18
+TGTCGAAACC already in dict
+the values of this already key are:
+- 18
+GTCGAAACCC already in dict
+the values of this already key are:
+- 19
+TCGAAACCCC already in dict
+the values of this already key are:
+- 19
+CGAAACCCCG already in dict
+the values of this already key are:
+- 19
+GAAACCCCGT already in dict
+the values of this already key are:
+- 19
+AAACCCCGTC already in dict
+the values of this already key are:
+- 19
+AACCCCGTCT already in dict
+the values of this already key are:
+- 19
+ACCCCGTCTC already in dict
+the values of this already key are:
+- 19
+TATCATATCA already in dict
+the values of this already key are:
+- 25
+ATCATATCAT already in dict
+the values of this already key are:
+- 25
+TCATATCATA already in dict
+the values of this already key are:
+- 25
+CATATCATAT already in dict
+the values of this already key are:
+- 25
+ATATCATATC already in dict
+the values of this already key are:
+- 25
+TATCATATCA already in dict
+the values of this already key are:
+- 25
+GGGACCCCAC already in dict
+the values of this already key are:
+- 26
+GGACCCCACT already in dict
+the values of this already key are:
+- 26
+GACCCCACTG already in dict
+the values of this already key are:
+- 26
+AAATCGGACC already in dict
+the values of this already key are:
+- 26
+AATCGGACCG already in dict
+the values of this already key are:
+- 26
+ATCGGACCGT already in dict
+the values of this already key are:
+- 26
+TCGGACCGTT already in dict
+the values of this already key are:
+- 26
+CGGACCGTTC already in dict
+the values of this already key are:
+- 26
+GGACCGTTCA already in dict
+the values of this already key are:
+- 26
+GACCGTTCAA already in dict
+the values of this already key are:
+- 26
+ACCGTTCAAC already in dict
+the values of this already key are:
+- 26
+CCGTTCAACT already in dict
+the values of this already key are:
+- 26
+CGTTCAACTC already in dict
+the values of this already key are:
+- 26
+GTTCAACTCA already in dict
+the values of this already key are:
+- 26
+TTCAACTCAC already in dict
+the values of this already key are:
+- 26
+TCAACTCACC already in dict
+the values of this already key are:
+- 26
+CGCGTACCTT already in dict
+the values of this already key are:
+- 30
+TCGGCTCACT already in dict
+the values of this already key are:
+- 12
+CGGCTCACTG already in dict
+the values of this already key are:
+- 12
+GTGAGCCGAG already in dict
+the values of this already key are:
+- 34
+TGAGCCGAGA already in dict
+the values of this already key are:
+- 34
+GAGCCGAGAT already in dict
+the values of this already key are:
+- 34
+AGCCGAGATC already in dict
+the values of this already key are:
+- 34
+GCCGAGATCG already in dict
+the values of this already key are:
+- 34
+CCGAGATCGC already in dict
+the values of this already key are:
+- 34
+CGAGATCGCG already in dict
+the values of this already key are:
+- 34
+GAGATCGCGC already in dict
+the values of this already key are:
+- 34
+AGATCGCGCT already in dict
+the values of this already key are:
+- 34
+GATCGCGCTT already in dict
+the values of this already key are:
+- 34
+ATCGCGCTTC already in dict
+the values of this already key are:
+- 34
+TCGCGCTTCT already in dict
+the values of this already key are:
+- 34
+CGCGCTTCTG already in dict
+the values of this already key are:
+- 34
+AAAGCGCGAT already in dict
+the values of this already key are:
+- 33
+AAGCGCGATC already in dict
+the values of this already key are:
+- 33
+AGCGCGATCT already in dict
+the values of this already key are:
+- 33
+GCGCGATCTC already in dict
+the values of this already key are:
+- 33
+CGCGATCTCG already in dict
+the values of this already key are:
+- 33
+GCGATCTCGG already in dict
+the values of this already key are:
+- 33
+CGATCTCGGC already in dict
+the values of this already key are:
+- 33
+GATCTCGGCT already in dict
+the values of this already key are:
+- 33
+ATCTCGGCTC already in dict
+the values of this already key are:
+- 33
+TCTCGGCTCA already in dict
+the values of this already key are:
+- 33
+CTCGGCTCAC already in dict
+the values of this already key are:
+- 33
+TCGGCTCACT already in dict
+the values of this already key are:
+- 12
+CGGCTCACTG already in dict
+the values of this already key are:
+- 12
+GGCTCACTGC already in dict
+the values of this already key are:
+- 12
+AGTGCTCCTC already in dict
+the values of this already key are:
+- 37
+GTGCTCCTCG already in dict
+the values of this already key are:
+- 37
+TGCTCCTCGT already in dict
+the values of this already key are:
+- 37
+GCTCCTCGTC already in dict
+the values of this already key are:
+- 37
+CTCCTCGTCG already in dict
+the values of this already key are:
+- 37
+TCCTCGTCGT already in dict
+the values of this already key are:
+- 37
+CCTCGTCGTC already in dict
+the values of this already key are:
+- 37
+CTCGTCGTCG already in dict
+the values of this already key are:
+- 37
+TCGTCGTCGG already in dict
+the values of this already key are:
+- 37
+CGTCGTCGGT already in dict
+the values of this already key are:
+- 37
+GTCGTCGGTG already in dict
+the values of this already key are:
+- 37
+TCGTCGGTGA already in dict
+the values of this already key are:
+- 37
+CGTCGGTGAG already in dict
+the values of this already key are:
+- 37
+GTCGGTGAGA already in dict
+the values of this already key are:
+- 37
+GGGGCGGCCA already in dict
+the values of this already key are:
+- 37
+GGGCGGCCAC already in dict
+the values of this already key are:
+- 37
+GGCGGCCACG already in dict
+the values of this already key are:
+- 37
+GCGGCCACGG already in dict
+the values of this already key are:
+- 37
+CGGCCACGGT already in dict
+the values of this already key are:
+- 37
+CTGGCCCCAG already in dict
+the values of this already key are:
+- 43
+TGGCCCCAGC already in dict
+the values of this already key are:
+- 43
+GCAGCCACAG already in dict
+the values of this already key are:
+- 24
+CGCCCTCGCG already in dict
+the values of this already key are:
+- 42
+GCCCTCGCGT already in dict
+the values of this already key are:
+- 42
+CCCTCGCGTC already in dict
+the values of this already key are:
+- 42
+CCTCGCGTCG already in dict
+the values of this already key are:
+- 42
+CTCGCGTCGG already in dict
+the values of this already key are:
+- 42
+TCGCGTCGGT already in dict
+the values of this already key are:
+- 42
+CGCGTCGGTG already in dict
+the values of this already key are:
+- 42
+GCGTCGGTGC already in dict
+the values of this already key are:
+- 42
+CGTCGGTGCG already in dict
+the values of this already key are:
+- 42
+GTCGGTGCGC already in dict
+the values of this already key are:
+- 42
+TCGGTGCGCC already in dict
+the values of this already key are:
+- 42
+CGGTGCGCCG already in dict
+the values of this already key are:
+- 42
+CGCCCTCGCG already in dict
+the values of this already key are:
+- 42
+GCCCTCGCGT already in dict
+the values of this already key are:
+- 42
+CCCTCGCGTC already in dict
+the values of this already key are:
+- 42
+CCTCGCGTCG already in dict
+the values of this already key are:
+- 42
+CTCGCGTCGG already in dict
+the values of this already key are:
+- 42
+TCGCGTCGGT already in dict
+the values of this already key are:
+- 42
+CGCGTCGGTG already in dict
+the values of this already key are:
+- 42
+GCGTCGGTGC already in dict
+the values of this already key are:
+- 42
+CGTCGGTGCG already in dict
+the values of this already key are:
+- 42
+GTCGGTGCGC already in dict
+the values of this already key are:
+- 42
+TCGGTGCGCC already in dict
+the values of this already key are:
+- 42
+CGGTGCGCCG already in dict
+the values of this already key are:
+- 42
+CGTCGCGGGT already in dict
+the values of this already key are:
+- 41
+ACGCCCTCGC already in dict
+the values of this already key are:
+- 45
+CGCCCTCGCG already in dict
+the values of this already key are:
+- 42
+GCCCTCGCGT already in dict
+the values of this already key are:
+- 42
+CCCTCGCGTC already in dict
+the values of this already key are:
+- 42
+CCTCGCGTCG already in dict
+the values of this already key are:
+- 42
+CTCGCGTCGG already in dict
+the values of this already key are:
+- 42
+TCGCGTCGGT already in dict
+the values of this already key are:
+- 42
+CGCGTCGGTG already in dict
+the values of this already key are:
+- 42
+GCGTCGGTGC already in dict
+the values of this already key are:
+- 42
+CGTCGGTGCG already in dict
+the values of this already key are:
+- 42
+GTCGGTGCGC already in dict
+the values of this already key are:
+- 42
+TCGGTGCGCC already in dict
+the values of this already key are:
+- 42
+CGGTGCGCCG already in dict
+the values of this already key are:
+- 42
+GGTGCGCCGC already in dict
+the values of this already key are:
+- 42
+ACGCCCTCGC already in dict
+the values of this already key are:
+- 45
+CGCCCTCGCG already in dict
+the values of this already key are:
+- 42
+GCCCTCGCGT already in dict
+the values of this already key are:
+- 42
+CCCTCGCGTC already in dict
+the values of this already key are:
+- 42
+CCTCGCGTCG already in dict
+the values of this already key are:
+- 42
+CTCGCGTCGG already in dict
+the values of this already key are:
+- 42
+TCGCGTCGGT already in dict
+the values of this already key are:
+- 42
+CGCGTCGGTG already in dict
+the values of this already key are:
+- 42
+GCGTCGGTGC already in dict
+the values of this already key are:
+- 42
+CGTCGGTGCG already in dict
+the values of this already key are:
+- 42
+GTCGGTGCGC already in dict
+the values of this already key are:
+- 42
+TCGGTGCGCC already in dict
+the values of this already key are:
+- 42
+CGGTGCGCCG already in dict
+the values of this already key are:
+- 42
+GGTGCGCCGC already in dict
+the values of this already key are:
+- 42
+GCGGCGCACC already in dict
+the values of this already key are:
+- 49
+CGGCGCACCG already in dict
+the values of this already key are:
+- 49
+GGCGCACCGA already in dict
+the values of this already key are:
+- 49
+GCGCACCGAC already in dict
+the values of this already key are:
+- 49
+CGCACCGACG already in dict
+the values of this already key are:
+- 49
+GCACCGACGC already in dict
+the values of this already key are:
+- 49
+CACCGACGCG already in dict
+the values of this already key are:
+- 49
+ACCGACGCGA already in dict
+the values of this already key are:
+- 49
+CCGACGCGAG already in dict
+the values of this already key are:
+- 49
+CGACGCGAGG already in dict
+the values of this already key are:
+- 49
+GACGCGAGGG already in dict
+the values of this already key are:
+- 49
+ACGCGAGGGC already in dict
+the values of this already key are:
+- 49
+CGCGAGGGCG already in dict
+the values of this already key are:
+- 49
+CAGGCGCGCA already in dict
+the values of this already key are:
+- 51
+AGGCGCGCAT already in dict
+the values of this already key are:
+- 51
+GGCGCGCATT already in dict
+the values of this already key are:
+- 51
+GCGCGCATTC already in dict
+the values of this already key are:
+- 51
+GGACACACAC already in dict
+the values of this already key are:
+- 55
+TCGTGGACAC already in dict
+the values of this already key are:
+- 55
+CGTGGACACA already in dict
+the values of this already key are:
+- 55
+GTGGACACAC already in dict
+the values of this already key are:
+- 55
+TGGACACACA already in dict
+the values of this already key are:
+- 55
+ATGGCGGAGA already in dict
+the values of this already key are:
+- 56
+TGGCGGAGAC already in dict
+the values of this already key are:
+- 56
+GGCGGAGACA already in dict
+the values of this already key are:
+- 56
+GCGGAGACAG already in dict
+the values of this already key are:
+- 56
+CGGAGACAGA already in dict
+the values of this already key are:
+- 56
+GATGGCGGAG already in dict
+the values of this already key are:
+- 56
+ATGGCGGAGA already in dict
+the values of this already key are:
+- 56
+TGGCGGAGAC already in dict
+the values of this already key are:
+- 56
+AGACCAATGG already in dict
+the values of this already key are:
+- 56
+GACCAATGGC already in dict
+the values of this already key are:
+- 56
+ACCAATGGCA already in dict
+the values of this already key are:
+- 56
+CCAATGGCAG already in dict
+the values of this already key are:
+- 56
+CAATGGCAGA already in dict
+the values of this already key are:
+- 56
+AATGGCAGAG already in dict
+the values of this already key are:
+- 56
+GTGGTGGTTG already in dict
+the values of this already key are:
+- 56
+CACACACCGT already in dict
+the values of this already key are:
+- 55
+ACACACCGTC already in dict
+the values of this already key are:
+- 55
+CACACCGTCG already in dict
+the values of this already key are:
+- 55
+GTGATCCACC already in dict
+the values of this already key are:
+- 54
+GTGATCCACC already in dict
+the values of this already key are:
+- 54
+TGATCCACCT already in dict
+the values of this already key are:
+- 58
+GATCCACCTA already in dict
+the values of this already key are:
+- 58
+ATCCACCTAC already in dict
+the values of this already key are:
+- 58
+TCCACCTACG already in dict
+the values of this already key are:
+- 58
+CCACCTACGT already in dict
+the values of this already key are:
+- 58
+CACCTACGTC already in dict
+the values of this already key are:
+- 58
+ACCTACGTCG already in dict
+the values of this already key are:
+- 58
+CCTACGTCGG already in dict
+the values of this already key are:
+- 58
+CTACGTCGGC already in dict
+the values of this already key are:
+- 58
+TACGTCGGCC already in dict
+the values of this already key are:
+- 58
+ACGTCGGCCT already in dict
+the values of this already key are:
+- 58
+CGTCGGCCTC already in dict
+the values of this already key are:
+- 58
+TCGGCCTCCC already in dict
+the values of this already key are:
+- 54
+CGGCCTCCCA already in dict
+the values of this already key are:
+- 54
+GGCCTCCCAA already in dict
+the values of this already key are:
+- 54
+GCCTCCCAAA already in dict
+the values of this already key are:
+- 54
+CCTCCCAAAG already in dict
+the values of this already key are:
+- 54
+CTCCCAAAGT already in dict
+the values of this already key are:
+- 54
+CCGCCGTCGC already in dict
+the values of this already key are:
+- 46
+ACACCGTCGT already in dict
+the values of this already key are:
+- 55
+CACCGTCGTC already in dict
+the values of this already key are:
+- 55
+ACCGTCGTCG already in dict
+the values of this already key are:
+- 55
+CCGTCGTCGT already in dict
+the values of this already key are:
+- 55
+CGTCGTCGTG already in dict
+the values of this already key are:
+- 55
+GTCGTCGTGG already in dict
+the values of this already key are:
+- 55
+TCGTCGTGGA already in dict
+the values of this already key are:
+- 55
+CGTCGTGGAC already in dict
+the values of this already key are:
+- 55
+GTCGTGGACA already in dict
+the values of this already key are:
+- 55
+TCGTGGACAC already in dict
+the values of this already key are:
+- 55
+CGTGGACACA already in dict
+the values of this already key are:
+- 55
+GTGGACACAC already in dict
+the values of this already key are:
+- 55
+TGGACACACA already in dict
+the values of this already key are:
+- 55
+GGACACACAC already in dict
+the values of this already key are:
+- 55
+GACACACACC already in dict
+the values of this already key are:
+- 55
+ACACACACCG already in dict
+the values of this already key are:
+- 55
+CACCGCCGTC already in dict
+the values of this already key are:
+- 61
+ACCGCCGTCG already in dict
+the values of this already key are:
+- 61
+CGTCGTGGAC already in dict
+the values of this already key are:
+- 55
+GTCGTGGACA already in dict
+the values of this already key are:
+- 55
+TCGTGGACAC already in dict
+the values of this already key are:
+- 55
+CACACACCGC already in dict
+the values of this already key are:
+- 62
+ACACACCGCC already in dict
+the values of this already key are:
+- 62
+CACACCGCCG already in dict
+the values of this already key are:
+- 62
+ACACCGCCGT already in dict
+the values of this already key are:
+- 62
+CACCGCCGTC already in dict
+the values of this already key are:
+- 61
+ACCGCCGTCG already in dict
+the values of this already key are:
+- 61
+CCGCCGTCGT already in dict
+the values of this already key are:
+- 62
+CGCCGTCGTG already in dict
+the values of this already key are:
+- 62
+GCCGTCGTGG already in dict
+the values of this already key are:
+- 62
+CCGTCGTGGA already in dict
+the values of this already key are:
+- 62
+CGTCGTGGAC already in dict
+the values of this already key are:
+- 55
+GTCGTGGACA already in dict
+the values of this already key are:
+- 55
+TCGTGGACAC already in dict
+the values of this already key are:
+- 55
+CGTGGACACA already in dict
+the values of this already key are:
+- 55
+GTGGACACAC already in dict
+the values of this already key are:
+- 55
+GCCATCTTGG already in dict
+the values of this already key are:
+- 3
+TGGACACACG already in dict
+the values of this already key are:
+- 64
+GGACACACGC already in dict
+the values of this already key are:
+- 64
+GACACACGCC already in dict
+the values of this already key are:
+- 64
+TGGACACACA already in dict
+the values of this already key are:
+- 55
+GGACACACAC already in dict
+the values of this already key are:
+- 55
+GACACACACC already in dict
+the values of this already key are:
+- 55
+ACACACACCG already in dict
+the values of this already key are:
+- 55
+CCGGCCGCTC already in dict
+the values of this already key are:
+- 63
+CGGCCGCTCG already in dict
+the values of this already key are:
+- 63
+GGCCGCTCGG already in dict
+the values of this already key are:
+- 63
+GCCGCTCGGA already in dict
+the values of this already key are:
+- 63
+CCGCTCGGAG already in dict
+the values of this already key are:
+- 63
+CGCTCGGAGT already in dict
+the values of this already key are:
+- 63
+GCTCGGAGTG already in dict
+the values of this already key are:
+- 63
+CTCGGAGTGC already in dict
+the values of this already key are:
+- 63
+TCGGAGTGCG already in dict
+the values of this already key are:
+- 63
+CGGAGTGCGG already in dict
+the values of this already key are:
+- 63
+GGAGTGCGGG already in dict
+the values of this already key are:
+- 63
+GAGTGCGGGG already in dict
+the values of this already key are:
+- 63
+AGTGCGGGGC already in dict
+the values of this already key are:
+- 63
+TAGTCCCAGC already in dict
+the values of this already key are:
+- 30
+AGTCCCAGCT already in dict
+the values of this already key are:
+- 30
+GTCCCAGCTA already in dict
+the values of this already key are:
+- 30
+CCTGACCCTG already in dict
+the values of this already key are:
+- 56
+ACTCGCACGA already in dict
+the values of this already key are:
+- 73
+CTCGCACGAT already in dict
+the values of this already key are:
+- 73
+TCGCACGATC already in dict
+the values of this already key are:
+- 73
+CGCACGATCA already in dict
+the values of this already key are:
+- 73
+GCACGATCAC already in dict
+the values of this already key are:
+- 73
+CACGATCACA already in dict
+the values of this already key are:
+- 73
+ACGATCACAA already in dict
+the values of this already key are:
+- 73
+GCCGAGCGTA already in dict
+the values of this already key are:
+- 74
+CCGAGCGTAG already in dict
+the values of this already key are:
+- 74
+CGAGCGTAGT already in dict
+the values of this already key are:
+- 74
+GAGCGTAGTG already in dict
+the values of this already key are:
+- 74
+AGCGTAGTGG already in dict
+the values of this already key are:
+- 74
+GCGTAGTGGC already in dict
+the values of this already key are:
+- 74
+TAGCCGAGCG already in dict
+the values of this already key are:
+- 76
+AGCCGAGCGT already in dict
+the values of this already key are:
+- 76
+GCCGAGCGTA already in dict
+the values of this already key are:
+- 74
+CCGAGCGTAG already in dict
+the values of this already key are:
+- 74
+CGAGCGTAGT already in dict
+the values of this already key are:
+- 74
+GAGCGTAGTG already in dict
+the values of this already key are:
+- 74
+AGCGTAGTGG already in dict
+the values of this already key are:
+- 74
+AAAAAATTAG already in dict
+the values of this already key are:
+- 77
+AAAAATTAGC already in dict
+the values of this already key are:
+- 77
+AAAATTAGCC already in dict
+the values of this already key are:
+- 77
+AAATTAGCCG already in dict
+the values of this already key are:
+- 77
+AATTAGCCGA already in dict
+the values of this already key are:
+- 77
+ATTAGCCGAG already in dict
+the values of this already key are:
+- 77
+TTAGCCGAGC already in dict
+the values of this already key are:
+- 77
+TAGCCGAGCG already in dict
+the values of this already key are:
+- 76
+AGCCGAGCGT already in dict
+the values of this already key are:
+- 76
+GCCGAGCGTA already in dict
+the values of this already key are:
+- 74
+CCGAGCGTAG already in dict
+the values of this already key are:
+- 74
+CGAGCGTAGT already in dict
+the values of this already key are:
+- 74
+GAGCGTAGTG already in dict
+the values of this already key are:
+- 74
+AGCGTAGTGG already in dict
+the values of this already key are:
+- 74
+AAAAATTAGC already in dict
+the values of this already key are:
+- 77
+AAAATTAGCC already in dict
+the values of this already key are:
+- 77
+AAATTAGCCG already in dict
+the values of this already key are:
+- 77
+AATTAGCCGA already in dict
+the values of this already key are:
+- 77
+ATTAGCCGAG already in dict
+the values of this already key are:
+- 77
+TTAGCCGAGC already in dict
+the values of this already key are:
+- 77
+TAGCCGAGCG already in dict
+the values of this already key are:
+- 76
+AGCCGAGCGT already in dict
+the values of this already key are:
+- 76
+GCCGAGCGTA already in dict
+the values of this already key are:
+- 74
+CCGAGCGTAG already in dict
+the values of this already key are:
+- 74
+CGAGCGTAGT already in dict
+the values of this already key are:
+- 74
+GAGCGTAGTG already in dict
+the values of this already key are:
+- 74
+TAGCCGAGCG already in dict
+the values of this already key are:
+- 76
+AGCCGAGCGT already in dict
+the values of this already key are:
+- 76
+GCCGAGCGTA already in dict
+the values of this already key are:
+- 74
+CCGAGCGTAG already in dict
+the values of this already key are:
+- 74
+CGAGCGTAGT already in dict
+the values of this already key are:
+- 74
+GAGCGTAGTG already in dict
+the values of this already key are:
+- 74
+AGCGTAGTGG already in dict
+the values of this already key are:
+- 74
+AAAAATTAGC already in dict
+the values of this already key are:
+- 77
+AAAATTAGCC already in dict
+the values of this already key are:
+- 77
+AAATTAGCCG already in dict
+the values of this already key are:
+- 77
+AATTAGCCGA already in dict
+the values of this already key are:
+- 77
+ATTAGCCGAG already in dict
+the values of this already key are:
+- 77
+TTAGCCGAGC already in dict
+the values of this already key are:
+- 77
+TAGCCGAGCG already in dict
+the values of this already key are:
+- 76
+AGCCGAGCGT already in dict
+the values of this already key are:
+- 76
+GCCGAGCGTA already in dict
+the values of this already key are:
+- 74
+CCGAGCGTAG already in dict
+the values of this already key are:
+- 74
+CGAGCGTAGT already in dict
+the values of this already key are:
+- 74
+GAGCGTAGTG already in dict
+the values of this already key are:
+- 74
+ACAAAAATTA already in dict
+the values of this already key are:
+- 79
+CAAAAATTAG already in dict
+the values of this already key are:
+- 79
+AAAAATTAGC already in dict
+the values of this already key are:
+- 77
+AAAATTAGCC already in dict
+the values of this already key are:
+- 77
+AAATTAGCCG already in dict
+the values of this already key are:
+- 77
+AATTAGCCGA already in dict
+the values of this already key are:
+- 77
+ATTAGCCGAG already in dict
+the values of this already key are:
+- 77
+TTAGCCGAGC already in dict
+the values of this already key are:
+- 77
+TAGCCGAGCG already in dict
+the values of this already key are:
+- 76
+AGCCGAGCGT already in dict
+the values of this already key are:
+- 76
+GCCGAGCGTA already in dict
+the values of this already key are:
+- 74
+CCGAGCGTAG already in dict
+the values of this already key are:
+- 74
+CGAGCGTAGT already in dict
+the values of this already key are:
+- 74
+GAGCGTAGTG already in dict
+the values of this already key are:
+- 74
+AAATTAGCCG already in dict
+the values of this already key are:
+- 77
+AATTAGCCGA already in dict
+the values of this already key are:
+- 77
+ATTAGCCGAG already in dict
+the values of this already key are:
+- 77
+TTAGCCGAGC already in dict
+the values of this already key are:
+- 77
+TAGCCGAGCG already in dict
+the values of this already key are:
+- 76
+AGCCGAGCGT already in dict
+the values of this already key are:
+- 76
+GCCGAGCGTA already in dict
+the values of this already key are:
+- 74
+CCGAGCGTAG already in dict
+the values of this already key are:
+- 74
+CGAGCGTAGT already in dict
+the values of this already key are:
+- 74
+GAGCGTAGTG already in dict
+the values of this already key are:
+- 74
+AGCGTAGTGG already in dict
+the values of this already key are:
+- 74
+GCGTAGTGGT already in dict
+the values of this already key are:
+- 80
+CGTAGTGGTG already in dict
+the values of this already key are:
+- 80
+AAAAATTAGC already in dict
+the values of this already key are:
+- 77
+AAAATTAGCC already in dict
+the values of this already key are:
+- 77
+AAATTAGCCG already in dict
+the values of this already key are:
+- 77
+AATTAGCCGA already in dict
+the values of this already key are:
+- 77
+ATTAGCCGAG already in dict
+the values of this already key are:
+- 77
+TTAGCCGAGC already in dict
+the values of this already key are:
+- 77
+TAGCCGAGCG already in dict
+the values of this already key are:
+- 76
+AGCCGAGCGT already in dict
+the values of this already key are:
+- 76
+GCCGAGCGTA already in dict
+the values of this already key are:
+- 74
+CCGAGCGTAG already in dict
+the values of this already key are:
+- 74
+CGAGCGTAGT already in dict
+the values of this already key are:
+- 74
+GAGCGTAGTG already in dict
+the values of this already key are:
+- 74
+AGCGTAGTGG already in dict
+the values of this already key are:
+- 74
+GCGTAGTGGT already in dict
+the values of this already key are:
+- 80
+AGTATTAACT already in dict
+the values of this already key are:
+- 73
+GTATTAACTC already in dict
+the values of this already key are:
+- 73
+TATTAACTCG already in dict
+the values of this already key are:
+- 73
+ATTAACTCGC already in dict
+the values of this already key are:
+- 73
+TTAACTCGCA already in dict
+the values of this already key are:
+- 73
+TAACTCGCAC already in dict
+the values of this already key are:
+- 73
+AACTCGCACG already in dict
+the values of this already key are:
+- 73
+ACTCGCACGA already in dict
+the values of this already key are:
+- 73
+CTCGCACGAT already in dict
+the values of this already key are:
+- 73
+TCGCACGATC already in dict
+the values of this already key are:
+- 73
+CGCACGATCA already in dict
+the values of this already key are:
+- 73
+GCACGATCAC already in dict
+the values of this already key are:
+- 73
+CACGATCACA already in dict
+the values of this already key are:
+- 73
+AAAAATTAGC already in dict
+the values of this already key are:
+- 77
+AAAATTAGCC already in dict
+the values of this already key are:
+- 77
+AAATTAGCCG already in dict
+the values of this already key are:
+- 77
+AATTAGCCGA already in dict
+the values of this already key are:
+- 77
+ATTAGCCGAG already in dict
+the values of this already key are:
+- 77
+TTAGCCGAGC already in dict
+the values of this already key are:
+- 77
+TAGCCGAGCG already in dict
+the values of this already key are:
+- 76
+AGCCGAGCGT already in dict
+the values of this already key are:
+- 76
+GCCGAGCGTA already in dict
+the values of this already key are:
+- 74
+CCGAGCGTAG already in dict
+the values of this already key are:
+- 74
+CGAGCGTAGT already in dict
+the values of this already key are:
+- 74
+GAGCGTAGTG already in dict
+the values of this already key are:
+- 74
+AGCGTAGTGG already in dict
+the values of this already key are:
+- 74
+GCGTAGTGGC already in dict
+the values of this already key are:
+- 74
+AAAAATTAGC already in dict
+the values of this already key are:
+- 77
+AAAATTAGCC already in dict
+the values of this already key are:
+- 77
+AAATTAGCCG already in dict
+the values of this already key are:
+- 77
+AATTAGCCGA already in dict
+the values of this already key are:
+- 77
+ATTAGCCGAG already in dict
+the values of this already key are:
+- 77
+TTAGCCGAGC already in dict
+the values of this already key are:
+- 77
+TAGCCGAGCG already in dict
+the values of this already key are:
+- 76
+AGCCGAGCGT already in dict
+the values of this already key are:
+- 76
+GCCGAGCGTA already in dict
+the values of this already key are:
+- 74
+CCGAGCGTAG already in dict
+the values of this already key are:
+- 74
+CGAGCGTAGT already in dict
+the values of this already key are:
+- 74
+GAGCGTAGTG already in dict
+the values of this already key are:
+- 74
+AGCGTAGTGG already in dict
+the values of this already key are:
+- 74
+GCGTAGTGGT already in dict
+the values of this already key are:
+- 80
+AATTAGCCGA already in dict
+the values of this already key are:
+- 77
+ATTAGCCGAG already in dict
+the values of this already key are:
+- 77
+TTAGCCGAGC already in dict
+the values of this already key are:
+- 77
+TAGCCGAGCG already in dict
+the values of this already key are:
+- 76
+AGCCGAGCGT already in dict
+the values of this already key are:
+- 76
+GCCGAGCGTA already in dict
+the values of this already key are:
+- 74
+CCGAGCGTAG already in dict
+the values of this already key are:
+- 74
+CGAGCGTAGT already in dict
+the values of this already key are:
+- 74
+GAGCGTAGTG already in dict
+the values of this already key are:
+- 74
+AGCGTAGTGG already in dict
+the values of this already key are:
+- 74
+GCGTAGTGGC already in dict
+the values of this already key are:
+- 74
+CGTAGTGGCA already in dict
+the values of this already key are:
+- 76
+AATTAGCCGA already in dict
+the values of this already key are:
+- 77
+ATTAGCCGAG already in dict
+the values of this already key are:
+- 77
+TTAGCCGAGC already in dict
+the values of this already key are:
+- 77
+TAGCCGAGCG already in dict
+the values of this already key are:
+- 76
+AGCCGAGCGT already in dict
+the values of this already key are:
+- 76
+GCCGAGCGTA already in dict
+the values of this already key are:
+- 74
+CCGAGCGTAG already in dict
+the values of this already key are:
+- 74
+CGAGCGTAGT already in dict
+the values of this already key are:
+- 74
+GAGCGTAGTG already in dict
+the values of this already key are:
+- 74
+AGCGTAGTGG already in dict
+the values of this already key are:
+- 74
+GCGTAGTGGC already in dict
+the values of this already key are:
+- 74
+CGTAGTGGCA already in dict
+the values of this already key are:
+- 76
+GTAGTGGCAC already in dict
+the values of this already key are:
+- 89
+TAGTGGCACA already in dict
+the values of this already key are:
+- 89
+AAAAATTAGC already in dict
+the values of this already key are:
+- 77
+AAAATTAGCC already in dict
+the values of this already key are:
+- 77
+AAATTAGCCG already in dict
+the values of this already key are:
+- 77
+AATTAGCCGA already in dict
+the values of this already key are:
+- 77
+ATTAGCCGAG already in dict
+the values of this already key are:
+- 77
+TTAGCCGAGC already in dict
+the values of this already key are:
+- 77
+TAGCCGAGCG already in dict
+the values of this already key are:
+- 76
+AGCCGAGCGT already in dict
+the values of this already key are:
+- 76
+GCCGAGCGTA already in dict
+the values of this already key are:
+- 74
+CCGAGCGTAG already in dict
+the values of this already key are:
+- 74
+CGAGCGTAGT already in dict
+the values of this already key are:
+- 74
+GAGCGTAGTG already in dict
+the values of this already key are:
+- 74
+GCATGCCTGT already in dict
+the values of this already key are:
+- 80
+AAAAATTAGC already in dict
+the values of this already key are:
+- 77
+AAAATTAGCC already in dict
+the values of this already key are:
+- 77
+AAATTAGCCG already in dict
+the values of this already key are:
+- 77
+AATTAGCCGA already in dict
+the values of this already key are:
+- 77
+ATTAGCCGAG already in dict
+the values of this already key are:
+- 77
+TTAGCCGAGC already in dict
+the values of this already key are:
+- 77
+TAGCCGAGCG already in dict
+the values of this already key are:
+- 76
+AGCCGAGCGT already in dict
+the values of this already key are:
+- 76
+GCCGAGCGTA already in dict
+the values of this already key are:
+- 74
+CCGAGCGTAG already in dict
+the values of this already key are:
+- 74
+CGAGCGTAGT already in dict
+the values of this already key are:
+- 74
+GAGCGTAGTG already in dict
+the values of this already key are:
+- 74
+AGCGTAGTGG already in dict
+the values of this already key are:
+- 74
+GCGTAGTGGC already in dict
+the values of this already key are:
+- 74
+AAATTAGCCG already in dict
+the values of this already key are:
+- 77
+AATTAGCCGA already in dict
+the values of this already key are:
+- 77
+ATTAGCCGAG already in dict
+the values of this already key are:
+- 77
+TTAGCCGAGC already in dict
+the values of this already key are:
+- 77
+TAGCCGAGCG already in dict
+the values of this already key are:
+- 76
+AGCCGAGCGT already in dict
+the values of this already key are:
+- 76
+GCCGAGCGTA already in dict
+the values of this already key are:
+- 74
+CCGAGCGTAG already in dict
+the values of this already key are:
+- 74
+CGAGCGTAGT already in dict
+the values of this already key are:
+- 74
+GAGCGTAGTG already in dict
+the values of this already key are:
+- 74
+AGCGTAGTGG already in dict
+the values of this already key are:
+- 74
+GCGTAGTGGT already in dict
+the values of this already key are:
+- 80
+CGTAGTGGTG already in dict
+the values of this already key are:
+- 80
+AAATTAGCCG already in dict
+the values of this already key are:
+- 77
+AATTAGCCGA already in dict
+the values of this already key are:
+- 77
+ATTAGCCGAG already in dict
+the values of this already key are:
+- 77
+TTAGCCGAGC already in dict
+the values of this already key are:
+- 77
+TAGCCGAGCG already in dict
+the values of this already key are:
+- 76
+AGCCGAGCGT already in dict
+the values of this already key are:
+- 76
+GCCGAGCGTA already in dict
+the values of this already key are:
+- 74
+CCGAGCGTAG already in dict
+the values of this already key are:
+- 74
+CGAGCGTAGT already in dict
+the values of this already key are:
+- 74
+GAGCGTAGTG already in dict
+the values of this already key are:
+- 74
+AGCGTAGTGG already in dict
+the values of this already key are:
+- 74
+GCGTAGTGGT already in dict
+the values of this already key are:
+- 80
+CGTAGTGGTG already in dict
+the values of this already key are:
+- 80
+GTAGTGGTGC already in dict
+the values of this already key are:
+- 80
+TAGTGGTGCA already in dict
+the values of this already key are:
+- 80
+GAGTAGCTGG already in dict
+the values of this already key are:
+- 91
+AGTAGCTGGG already in dict
+the values of this already key are:
+- 71
+GTAGCTGGGA already in dict
+the values of this already key are:
+- 71
+TAGCTGGGAC already in dict
+the values of this already key are:
+- 71
+AGCTGGGACT already in dict
+the values of this already key are:
+- 71
+GCTGGGACTA already in dict
+the values of this already key are:
+- 71
+CTGGGACTAC already in dict
+the values of this already key are:
+- 71
+ACTACCGGCG already in dict
+the values of this already key are:
+- 91
+CTACCGGCGT already in dict
+the values of this already key are:
+- 91
+TACCGGCGTA already in dict
+the values of this already key are:
+- 91
+ACCGGCGTAC already in dict
+the values of this already key are:
+- 91
+CCGGCGTACA already in dict
+the values of this already key are:
+- 91
+CGGCGTACAC already in dict
+the values of this already key are:
+- 91
+GGCGTACACC already in dict
+the values of this already key are:
+- 91
+TTTTTTTTTT already in dict
+the values of this already key are:
+- 96
+TTTTTTTTTT already in dict
+the values of this already key are:
+- 96
+TTTTTTTTTT already in dict
+the values of this already key are:
+- 96
+TTTTTTTTTT already in dict
+the values of this already key are:
+- 96
+CAAAAATTAG already in dict
+the values of this already key are:
+- 79
+AAAAATTAGC already in dict
+the values of this already key are:
+- 77
+AAAATTAGCC already in dict
+the values of this already key are:
+- 77
+AAATTAGCCG already in dict
+the values of this already key are:
+- 77
+AATTAGCCGA already in dict
+the values of this already key are:
+- 77
+ATTAGCCGAG already in dict
+the values of this already key are:
+- 77
+TTAGCCGAGC already in dict
+the values of this already key are:
+- 77
+TAGCCGAGCG already in dict
+the values of this already key are:
+- 76
+AGCCGAGCGT already in dict
+the values of this already key are:
+- 76
+GCCGAGCGTA already in dict
+the values of this already key are:
+- 74
+CCGAGCGTAG already in dict
+the values of this already key are:
+- 74
+CGAGCGTAGT already in dict
+the values of this already key are:
+- 74
+GAGCGTAGTG already in dict
+the values of this already key are:
+- 74
+CCAAAAATTA already in dict
+the values of this already key are:
+- 97
+CAAAAATTAG already in dict
+the values of this already key are:
+- 79
+AAAAATTAGC already in dict
+the values of this already key are:
+- 77
+AAAATTAGCC already in dict
+the values of this already key are:
+- 77
+AAATTAGCCG already in dict
+the values of this already key are:
+- 77
+AATTAGCCGA already in dict
+the values of this already key are:
+- 77
+ATTAGCCGAG already in dict
+the values of this already key are:
+- 77
+TTAGCCGAGC already in dict
+the values of this already key are:
+- 77
+TAGCCGAGCG already in dict
+the values of this already key are:
+- 76
+AGCCGAGCGT already in dict
+the values of this already key are:
+- 76
+GCCGAGCGTA already in dict
+the values of this already key are:
+- 74
+CCGAGCGTAG already in dict
+the values of this already key are:
+- 74
+CGAGCGTAGT already in dict
+the values of this already key are:
+- 74
+GAGCGTAGTG already in dict
+the values of this already key are:
+- 74
+CAAATTAGCC already in dict
+the values of this already key are:
+- 84
+AAATTAGCCG already in dict
+the values of this already key are:
+- 77
+AATTAGCCGA already in dict
+the values of this already key are:
+- 77
+ATTAGCCGAG already in dict
+the values of this already key are:
+- 77
+TTAGCCGAGC already in dict
+the values of this already key are:
+- 77
+TAGCCGAGCG already in dict
+the values of this already key are:
+- 76
+AGCCGAGCGT already in dict
+the values of this already key are:
+- 76
+GCCGAGCGTA already in dict
+the values of this already key are:
+- 74
+CCGAGCGTAG already in dict
+the values of this already key are:
+- 74
+CGAGCGTAGT already in dict
+the values of this already key are:
+- 74
+GAGCGTAGTG already in dict
+the values of this already key are:
+- 74
+AGCGTAGTGG already in dict
+the values of this already key are:
+- 74
+GCGTAGTGGT already in dict
+the values of this already key are:
+- 80
+CGTAGTGGTG already in dict
+the values of this already key are:
+- 80
+AATTAGCCGA already in dict
+the values of this already key are:
+- 77
+ATTAGCCGAG already in dict
+the values of this already key are:
+- 77
+TTAGCCGAGC already in dict
+the values of this already key are:
+- 77
+TAGCCGAGCG already in dict
+the values of this already key are:
+- 76
+AGCCGAGCGT already in dict
+the values of this already key are:
+- 76
+GCCGAGCGTA already in dict
+the values of this already key are:
+- 74
+CCGAGCGTAG already in dict
+the values of this already key are:
+- 74
+CGAGCGTAGT already in dict
+the values of this already key are:
+- 74
+GAGCGTAGTG already in dict
+the values of this already key are:
+- 74
+AGCGTAGTGG already in dict
+the values of this already key are:
+- 74
+GCGTAGTGGC already in dict
+the values of this already key are:
+- 74
+CGTAGTGGCA already in dict
+the values of this already key are:
+- 76
 
 test:
 GTTCCGTTGC ->
