@@ -1,0 +1,9 @@
+starting with opening contigs file
+number of sequences: 101
+min length of sequence: 24
+max length of sequence: 474
+avarege length of sequence: 53.633663366336634
+histogram:
+[3 1 3 1 0 0 0 0 0 0 0 0]
+bin_edges:
+[ 100  200  300  400  500 1000 2000 3000 4000 5000 6000 7000 8000]
