@@ -1,10 +1,10 @@
 from collections import defaultdict
 from Bio import SeqIO
-from build_dictionary import cellDictionary
+from build_dictionary import tissueDictionary
 
 
 helthy_cell = "sample_contigs_k24.contigs.fa"
-dictionary, contigsStorage = cellDictionary(helthy_cell).get_dictionary_and_storage()
+dictionary, contigsStorage = tissueDictionary(helthy_cell).get_dictionary_and_storage()
 print()
 print("Analysis of dictionary bucket's size:")
 lengthes_list = []

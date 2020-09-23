@@ -27,7 +27,7 @@ def parse_tumor_with_window(tumor_file, k, dictionary, healthyStorage):
 
 
 def find_overlap(healthy_seq, tumor_seq, healthy_idx, tumor_idx):
-    begin_healthy, end_healthy, begin_tumor, end_tumor = 0
+    begin_healthy = end_healthy = begin_tumor = end_tumor = 0
     # 1) Find the beginning of the overlap:
     # If one or both of the indexes is 0 - the start of the sequence, leave the indexes the same
     if tumor_idx == 0 or healthy_idx == 0:
