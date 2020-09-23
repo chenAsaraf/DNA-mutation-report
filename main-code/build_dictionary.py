@@ -33,7 +33,7 @@ class tissueDictionary:
             self.contigsStorage.append(contig.seq)
             # TODO: delete this line -> print("test: insert the contig number", counter, "to the right cell:", (contig.seq == self.contigsStorage[int(counter)]))
             # parse the windows to dictionary:
-            self.parse_window(contig, counter, self.k)
+            self.parse_window(contig, counter)
             counter = counter + 1
 
     def get_dictionary_and_storage(self):

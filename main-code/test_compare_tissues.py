@@ -1,7 +1,7 @@
 from collections import defaultdict
 from Bio import SeqIO
 from build_dictionary import tissueDictionary
-from search_alignment import find_overlap, compare_tissues
+from compare_tissues import find_overlap, compare_tissues
 
 """ Test : find_overlap:
  case 1:  If one or both of the indexes is 0
@@ -41,8 +41,18 @@ def test_3_find_overlap():
     print("The correct results?", resultA == "CTCTGGGCTAA")
 
 
-test_1_find_overlap()
+"""
+Test: compare_tissues
+"""
+def test_compare_tissues():
+    healthy = "sample_contigs_k24.contigs.fa"
+    tumor = "sample_contigs_k24.contigs.fa"
+    compare_tissues(healthy, tumor)
+
+"""test_1_find_overlap()
 print("------------")
 test_2_find_overlap()
 print("------------")
-test_3_find_overlap()
+test_3_find_overlap()"""
+
+test_compare_tissues()
