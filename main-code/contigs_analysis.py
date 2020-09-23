@@ -70,4 +70,4 @@ def find_window_size(contigs_file):
 #analyse_file("../contigs-outputs/basic_k-mer24/basic_try_k-mer24.contigs.fa")
 #analyse_file("../source_files+minia/sample_TB0001955-16933-N_R1_001.fastq", source=True)
 #analyse_file("../main-code/sample_contigs_k24.contigs.fa")
-#read_source_file("../source_files+minia/sample_TB0001955-16933-N_R1_001.fastq") 
+#read_source_file("../source_files+minia/sample_TB0001955-16933-N_R1_001.fastq")

@@ -1,4 +1,3 @@
-
 from collections import defaultdict
 from contigs_analysis import find_window_size
 from Bio import SeqIO
@@ -6,7 +5,7 @@ from Bio import SeqIO
 
 """ Build the dictionary from the healthy cell, for later use """
 
-class cellDictionary:
+class tissueDictionary:
 
     """Inner class- item object to hold the contig information in the dictionary"""
     class dictionaryItem:
@@ -19,8 +18,8 @@ class cellDictionary:
 
     def __init__(self, contigs_file):
         # find the ideal window size:
-        k = find_window_size(contigs_file)
-        print("window size (k) =", k)
+        self.k = find_window_size(contigs_file)
+        print("window size (k) =", self.k)
         # dictionary: holds the k-mer as keys and list of dictionaryItem for each k-mer.
         self.dictionary = defaultdict(list)
         records = SeqIO.parse(open(contigs_file), 'fasta')
@@ -34,22 +33,25 @@ class cellDictionary:
             self.contigsStorage.append(contig.seq)
             # TODO: delete this line -> print("test: insert the contig number", counter, "to the right cell:", (contig.seq == self.contigsStorage[int(counter)]))
             # parse the windows to dictionary:
-            self.parse_window(contig, counter, k)
+            self.parse_window(contig, counter, self.k)
             counter = counter + 1
 
     def get_dictionary_and_storage(self):
         return self.dictionary, self.contigsStorage
 
-    def parse_window(self, contig, counter_id, k):
+    def getK(self):
+        return self.k
+
+    def parse_window(self, contig, counter_id):
     # TODO: make k-mer be a parameter
     # run throw all overlaping windows of length 10 in the sequence (all 10-mer)
-        for i in range(len(str(contig.seq))-k):
+        for i in range(len(str(contig.seq))-self.k):
             # key: kmer
             # value: pairs list of (contig id, index of window)
             isExist = False
             # Check if this contig already exist in this entry:
-            if str(contig.seq)[i : i+k] in self.dictionary.keys():
-                entry = self.dictionary[str(contig.seq)[i : i+k]]
+            if str(contig.seq)[i : i+self.k] in self.dictionary.keys():
+                entry = self.dictionary[str(contig.seq)[i : i+self.k]]
                 # Iterate over all dictionaryItem of this k-mer:
                 for value in entry:
                     if value.id == int(counter_id):
@@ -58,8 +60,8 @@ class cellDictionary:
                         break
                 if not isExist:
                     newItem = self.dictionaryItem(counter_id, i)
-                    self.dictionary[str(contig.seq)[i : i+k]].append(newItem)
+                    self.dictionary[str(contig.seq)[i : i+self.k]].append(newItem)
             # Else- if this k-mer is not yet a key:
             else:
                 newItem = self.dictionaryItem(counter_id, i)
-                self.dictionary[str(contig.seq)[i : i+k]].append(newItem)
+                self.dictionary[str(contig.seq)[i : i+self.k]].append(newItem)
