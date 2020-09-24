@@ -2,10 +2,7 @@
 ##### A Tool for analysis of tumor mutation burden
 
 ## Tools we used:
-**Minia assembler**
-A short-read assembler based on a de Bruijn graph, the output is a set of contigs.
-
-see more at [Minia page](https://github.com/GATB/minia).
+**Minia assembler** - A short-read assembler based on a de Bruijn graph, the output is a set of contigs. see more at [Minia page](https://github.com/GATB/minia).
 
 minia command line we used:
 ```
