@@ -1,5 +1,5 @@
 # DNAMutationReport
-## Tool for analysis of tumor mutation burden
+## A Tool for analysis of tumor mutation burden
 
 ##### Tools we used:
 - Minia assembler: 
