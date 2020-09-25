@@ -3,7 +3,7 @@ from Bio import SeqIO
 from build_dictionary import tissueDictionary
 
 
-helthy_cell = "sample_contigs_k24.contigs.fa"
+helthy_cell = "../contigs-outputs/basic_k-mer24/basic_try_k-mer24.contigs.fa"
 dictionary, contigsStorage = tissueDictionary(helthy_cell).get_dictionary_and_storage()
 print()
 print("Analysis of dictionary bucket's size:")
