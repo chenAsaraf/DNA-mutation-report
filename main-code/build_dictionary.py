@@ -1,6 +1,7 @@
 from collections import defaultdict
 from contigs_analysis import filter_contigs_by_size
 from Bio import SeqIO
+import sys # for processing toolbar printing
 
 
 """ Build the dictionary from the healthy cell, for later use """
@@ -22,18 +23,30 @@ class tissueDictionary:
         # dictionary: holds the k-mer as keys and list of dictionaryItem for each k-mer.
         self.dictionary = defaultdict(list)
         records = SeqIO.parse(open(filtered_file), 'fasta')
+
         print("start to parsing each contig")
+        # setup toolbar
+        toolbar_width = 50
+        sys.stdout.write("[%s]" % (" " * toolbar_width))
+        sys.stdout.flush()
+        sys.stdout.write("\b" * (toolbar_width + 1))  # return to start of line, after '['
         # contigsStorage: holds the contigs sequence in the index of its id
+
         self.contigsStorage = []
         counter = 0 # this counter is the new id for the contigs. Because maby the contig's file is sample of contigs that shorter then x
         for contig in records:
-            # TODO: delete this line -> print("parsing windows for contig number:", contig.id)
-            # TODO: save the contig in BST O(logn)/Array(maby better way- O(1)!)
             self.contigsStorage.append(contig.seq)
+
+            if counter % 100000 == 0:
+                sys.stdout.write("-")
+                sys.stdout.flush()
+
             # TODO: delete this line -> print("test: insert the contig number", counter, "to the right cell:", (contig.seq == self.contigsStorage[int(counter)]))
             # parse the windows to dictionary:
             self.parse_window(contig, counter)
             counter = counter + 1
+
+        sys.stdout.write("]\n")  # this ends the progress bar
 
     def get_dictionary_and_storage(self):
         return self.dictionary, self.contigsStorage
