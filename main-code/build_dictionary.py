@@ -1,5 +1,5 @@
 from collections import defaultdict
-from contigs_analysis import find_window_size
+from contigs_analysis import filter_contigs_by_size
 from Bio import SeqIO
 
 
@@ -17,12 +17,11 @@ class tissueDictionary:
 
 
     def __init__(self, contigs_file):
-        # find the ideal window size:
-        self.k = find_window_size(contigs_file)
-        print("window size (k) =", self.k)
+        filtered_file = filter_contigs_by_size(contigs_file, 'filtered_'+contigs_file)
+        self.k = 10 # window size = 10 for catching 10% of mutations
         # dictionary: holds the k-mer as keys and list of dictionaryItem for each k-mer.
         self.dictionary = defaultdict(list)
-        records = SeqIO.parse(open(contigs_file), 'fasta')
+        records = SeqIO.parse(open(filtered_file), 'fasta')
         print("start to parsing each contig")
         # contigsStorage: holds the contigs sequence in the index of its id
         self.contigsStorage = []

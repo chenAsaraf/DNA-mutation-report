@@ -53,19 +53,20 @@ def analyse_file(file, source=False):
     #plot_histogram(np.array(list_of_length))
 
 
-def find_window_size(contigs_file):
+def filter_contigs_by_size(contigs_file, output_name):
     records = SeqIO.parse(open(contigs_file),'fasta')
+    min_length = 100
+    max_length = 1000
+    short_contigs = []
     for record in records:
         sequence_len = len(str(record.seq))
-        min_length = float('inf')
-        # find the minimum length
-        if sequence_len < min_length:
-            min_length = sequence_len
-    num_of_illumina_mistakes = math.ceil(min_length / 10)
-    print("num_of_illumina_mistakes", num_of_illumina_mistakes)
-    num_of_windows = num_of_illumina_mistakes + 1
-    bp_per_window = math.floor(min_length / num_of_windows)
-    return bp_per_window
+        # take only the contigs that are shorter then 1000bp and longer then 100bp
+        if min_length < sequence_len < max_length:
+            short_contigs.append(record)
+    SeqIO.write(short_contigs, "../main-code/"+output_name+".contigs.fa", "fasta")
+    return "../main-code/"+output_name+".contigs.fa"
+
+
 
 #analyse_file("../contigs-outputs/basic_k-mer24/basic_try_k-mer24.contigs.fa")
 #analyse_file("../source_files+minia/sample_TB0001955-16933-N_R1_001.fastq", source=True)
