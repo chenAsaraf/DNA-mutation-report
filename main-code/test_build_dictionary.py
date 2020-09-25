@@ -3,8 +3,7 @@ from Bio import SeqIO
 import time
 from build_dictionary import tissueDictionary
 
-
-helthy_cell = "sample_contigs_k24.contigs.fa"
+helthy_cell = "../contigs-outputs/basic_k-mer24/basic_try_k-mer24.contigs.fa"
 start_time_build_dict = time.time()
 dictionary, contigsStorage = tissueDictionary(helthy_cell).get_dictionary_and_storage()
 print("--- %s seconds to build dictionary ---" % (time.time() - start_time_build_dict))

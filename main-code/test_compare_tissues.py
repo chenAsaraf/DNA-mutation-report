@@ -45,8 +45,8 @@ def test_3_find_overlap():
 Test: compare_tissues
 """
 def test_compare_tissues():
-    healthy = "sample_contigs_k24.contigs.fa"
-    tumor = "sample_contigs_k24.contigs.fa"
+    healthy = "../contigs-outputs/basic_k-mer24/basic_try_k-mer24.contigs.fa"
+    tumor = "../contigs-outputs/basic_k-mer24/basic_try_k-mer24.contigs.fa"
     compare_tissues(healthy, tumor)
 
 """test_1_find_overlap()
