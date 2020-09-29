@@ -18,7 +18,8 @@ class tissueDictionary:
 
 
     def __init__(self, contigs_file):
-        filtered_file = filter_contigs_by_size(contigs_file, 'filtered_'+contigs_file)
+        filtered_file, num_contigs = filter_contigs_by_size(contigs_file, 'filtered_contigs')
+        print("number of filtered contigs:", num_contigs)
         self.k = 10 # window size = 10 for catching 10% of mutations
         # dictionary: holds the k-mer as keys and list of dictionaryItem for each k-mer.
         self.dictionary = defaultdict(list)
@@ -27,6 +28,7 @@ class tissueDictionary:
         print("start to parsing each contig")
         # setup toolbar
         toolbar_width = 50
+        eval_progress = int(num_contigs / 50)
         sys.stdout.write("[%s]" % (" " * toolbar_width))
         sys.stdout.flush()
         sys.stdout.write("\b" * (toolbar_width + 1))  # return to start of line, after '['
@@ -37,7 +39,7 @@ class tissueDictionary:
         for contig in records:
             self.contigsStorage.append(contig.seq)
 
-            if counter % 100000 == 0:
+            if counter % eval_progress == 0:
                 sys.stdout.write("-")
                 sys.stdout.flush()
 

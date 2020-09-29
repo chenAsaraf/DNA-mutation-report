@@ -2,6 +2,7 @@ from Bio import SeqIO
 import numpy as np
 import matplotlib.pyplot as plt
 import math
+import sys
 
 def plot_histogram(array_of_lengthes):
     bins = np.concatenate(([50,100,200,300,400,500,1000],np.arange(2000,9000,1000)), axis=None)
@@ -54,17 +55,30 @@ def analyse_file(file, source=False):
 
 
 def filter_contigs_by_size(contigs_file, output_name):
+    print("start to filter contigs by size...")
     records = SeqIO.parse(open(contigs_file),'fasta')
-    min_length = 100
-    max_length = 1000
+    min_length = 80
+    max_length = 500
     short_contigs = []
+    toolbar_width = 50
+    sys.stdout.write("[%s]" % (" " * toolbar_width))
+    sys.stdout.flush()
+    sys.stdout.write("\b" * (toolbar_width + 1))  # return to start of line, after '['
+    counter = 0
+    num_short = 0
     for record in records:
+        if counter % 700000 == 0:
+            sys.stdout.write("-")
+            sys.stdout.flush()
         sequence_len = len(str(record.seq))
         # take only the contigs that are shorter then 1000bp and longer then 100bp
         if min_length < sequence_len < max_length:
             short_contigs.append(record)
-    SeqIO.write(short_contigs, "../main-code/"+output_name+".contigs.fa", "fasta")
-    return "../main-code/"+output_name+".contigs.fa"
+            num_short = num_short + 1
+        counter = counter + 1
+    sys.stdout.write("]\n")  # this ends the progress bar
+    SeqIO.write(short_contigs, output_name+".contigs.fa", "fasta")
+    return "../main-code/"+output_name+".contigs.fa", num_short
 
 
 
