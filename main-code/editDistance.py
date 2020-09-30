@@ -2,6 +2,7 @@ import edit_distance
 from matplotlib import pyplot as plt
 import numpy as np
 
+#edit distance between 2 contigs
 def editDistance(str1, str2):
     # mistake = len(str1)/10
     sm = edit_distance.SequenceMatcher(a=str1, b=str2)
