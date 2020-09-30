@@ -1,4 +1,6 @@
 import edit_distance
+from matplotlib import pyplot as plt
+import numpy as np
 
 def editDistance(str1, str2):
     # mistake = len(str1)/10
@@ -33,7 +35,21 @@ def editDistance(str1, str2):
     else:
         f.write("Number of deletes: " + str(temp[2]) + ". \n ")
     f.close()
+    editDistance.counters[0] = temp[0] / len(str1)
+    editDistance.counters[1] = temp[1] / len(str1)
+    editDistance.counters[2] = temp[2] / len(str1)
+    editDistance.counters[3] = sm.matches() / len(str1)
 
-str1 = "sunday"
-str2 = "saturday"
+editDistance.counters = [0,0,0,0]
+str1 = "saturidayi"
+str2 = "saturdyj"
 editDistance(str1,str2)
+print(editDistance.counters)
+# Creating plot
+fig = plt.figure(figsize=(10, 7))
+plt.pie(editDistance.counters, labels=["inserts", "replaces", "deletes", "matches"], autopct='%1.1f%%')
+
+# show plot
+plt.show()
+
+
