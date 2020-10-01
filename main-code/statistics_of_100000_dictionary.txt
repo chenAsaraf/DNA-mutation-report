@@ -1,0 +1,12 @@
+start to filter contigs by size...
+[                                                  ]-------]
+number of filtered contigs: 100000
+start to parsing each contig
+[                                                  ]--------------------------------------------------]
+--- 791.8762187957764 seconds to build dictionary ---
+
+Analysis of dictionary bucket's size:
+--- 5.67914080619812 seconds to iterate through all the dictionary ---
+minimum number in bucket: 1
+maximum number in bucket: 8739
+average number in bucket: 22.86802932982108
