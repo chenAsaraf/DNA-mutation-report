@@ -1,6 +1,8 @@
 from collections import defaultdict
 from Bio import SeqIO
 from build_dictionary import tissueDictionary
+from matplotlib import pyplot as plt
+from mutations_distance import editDistance
 
 # 1) parse the tumor_cell with non-overlaping window and find there bucket in the dictionary
 # 2) search for each contig in the bucket-list in the BST
@@ -9,11 +11,13 @@ from build_dictionary import tissueDictionary
 
 """
 """
-def find_similar_section(tumor_file, k, dictionary, healthyStorage):
+def find_similar_section(tumor_file, k, dictionary, healthyStorage, test=False):
     # for searching the correct bucket in the dictionary
     # run throw all NON-overlaping windows of length k in the sequence (all k-mer)
-    parsed_tumor_file = SeqIO.parse(open(tumor_file), 'fasta')
-    for tumor_seq in parsed_tumor_file:
+    filtered_tumor_file, num_tumor_contigs = filter_contigs_by_size(tumor_file, 'filtered_tumor_contigs', test=test)
+    print("number of filtered tumor contigs:", num_tumor_contigs)
+    records = SeqIO.parse(open(filtered_tumor_file), 'fasta')
+    for tumor_seq in records:
         contig_len = len(str(tumor_seq.seq))
         for window in range(0, contig_len - k, k): # (last k argument - to jump k chars each step)
             if str(tumor_seq.seq)[window: window + k] in dictionary.keys():
@@ -24,7 +28,7 @@ def find_similar_section(tumor_file, k, dictionary, healthyStorage):
                     # For each alignment - find the overlapping parts and send to the Edit-Distance function
                     for healthy_idx in record.indexes:
                         healthy, tumor = find_overlap(healthy_seq, tumor_seq, healthy_idx, window)
-
+                        editDistance(tumor,healthy)
 
 def find_overlap(healthy_seq, tumor_seq, healthy_idx, tumor_idx):
     begin_healthy = end_healthy = begin_tumor = end_tumor = 0
@@ -55,8 +59,17 @@ def find_overlap(healthy_seq, tumor_seq, healthy_idx, tumor_idx):
     return healthy_seq[begin_healthy : end_healthy], tumor_seq[begin_tumor : end_tumor]
 
 
-def compare_tissues(healthy_file, tumor_file):
-    dictBuilder = tissueDictionary(healthy_file)
+def compare_tissues(healthy_file, tumor_file, test=False):
+    if test:
+        dictBuilder = tissueDictionary(healthy_file, test=True)
+    else:
+        dictBuilder = tissueDictionary(healthy_file)
     dictionary, contigsStorage = dictBuilder.get_dictionary_and_storage()
     k = dictBuilder.getK()
     find_similar_section(tumor_file, k, dictionary, contigsStorage)
+    # Creating plot
+    fig = plt.figure(figsize=(10, 7))
+    plt.pie(editDistance.counters, labels=["inserts", "replaces", "deletes", "matches"], autopct='%1.1f%%')
+
+    # save plot
+    fig.savefig('pie_Of_100000_mutations.png')

@@ -1,4 +1,0 @@
-start to parsing each contig
-window size (k) = 31
-
-test:
