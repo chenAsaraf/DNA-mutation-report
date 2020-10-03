@@ -27,8 +27,12 @@ class tissueDictionary:
 
         print("start to parsing each contig")
         # setup toolbar
-        toolbar_width = 50
-        eval_progress = int(num_contigs / 50)
+        if test_num > 50:
+            toolbar_width = 50
+            eval_progress = int(num_contigs / 50)
+        if test_num < 51:
+            toolbar_width = 10
+            eval_progress = 2
         sys.stdout.write("[%s]" % (" " * toolbar_width))
         sys.stdout.flush()
         sys.stdout.write("\b" * (toolbar_width + 1))  # return to start of line, after '['

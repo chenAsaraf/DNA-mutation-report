@@ -21,14 +21,18 @@ class PointMutation:
         self.replaces = dict.fromkeys(replace, 0)
 
     def editDistance(self, tumor, healthy):
-        max_mistakes = len(tumor)/10  # 10% of mistakes
+        max_mistakes = int(len(tumor)/11)  # 11% of mistakes
         sequence_match = edit_distance.SequenceMatcher(a=tumor, b=healthy)
         distance = sequence_match.distance()
-        matches = sequence_match.matches
+        matches = sequence_match.matches()
         # TODO: delete this lines:
+        print("--------------------------------------------------------------------------")
+        print("the strings are:")
+        print("tumor:", tumor)
+        print("healthy:", healthy)
         print("number of mistakes permitted:", max_mistakes, "from length of:", len(tumor))
-        print("edit distance is:", distance)
-        print("matches are:", matches, "is it really smaller then 10 percent?", matches < max_mistakes)
+        print("edit distance is:", distance, "is it really smaller then 10 percent?", distance < max_mistakes)
+        print("matches are:", matches)
         if sequence_match.distance() < max_mistakes:
             self.counterOfCompares += 1
             self.sumOfLength += len(tumor)
