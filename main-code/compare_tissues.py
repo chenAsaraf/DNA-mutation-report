@@ -2,7 +2,7 @@ from collections import defaultdict
 from Bio import SeqIO
 from build_dictionary import tissueDictionary
 from matplotlib import pyplot as plt
-from mutations_distance import editDistance
+from mutations_distance import PointMutation
 
 # 1) parse the tumor_cell with non-overlaping window and find there bucket in the dictionary
 # 2) search for each contig in the bucket-list in the BST
@@ -11,7 +11,7 @@ from mutations_distance import editDistance
 
 """
 """
-def find_similar_section(tumor_file, k, dictionary, healthyStorage, test=False):
+def find_similar_section(tumor_file, k, dictionary, healthyStorage, mutations, test=False):
     # for searching the correct bucket in the dictionary
     # run throw all NON-overlaping windows of length k in the sequence (all k-mer)
     filtered_tumor_file, num_tumor_contigs = filter_contigs_by_size(tumor_file, 'filtered_tumor_contigs', test=test)
@@ -28,7 +28,7 @@ def find_similar_section(tumor_file, k, dictionary, healthyStorage, test=False):
                     # For each alignment - find the overlapping parts and send to the Edit-Distance function
                     for healthy_idx in record.indexes:
                         healthy, tumor = find_overlap(healthy_seq, tumor_seq, healthy_idx, window)
-                        editDistance(tumor,healthy)
+                        mutations.editDistance(tumor,healthy)
 
 def find_overlap(healthy_seq, tumor_seq, healthy_idx, tumor_idx):
     begin_healthy = end_healthy = begin_tumor = end_tumor = 0
@@ -66,7 +66,11 @@ def compare_tissues(healthy_file, tumor_file, test=False):
         dictBuilder = tissueDictionary(healthy_file)
     dictionary, contigsStorage = dictBuilder.get_dictionary_and_storage()
     k = dictBuilder.getK()
-    find_similar_section(tumor_file, k, dictionary, contigsStorage)
+    mutations = PointMutation()
+    find_similar_section(tumor_file, k, dictionary, contigsStorage, mutations)
+    print(mutations.inserts)
+    print(mutations.replaces)
+    print(mutations.deletes)
     # Creating plot
     fig = plt.figure(figsize=(10, 7))
     plt.pie(editDistance.counters, labels=["inserts", "replaces", "deletes", "matches"], autopct='%1.1f%%')
