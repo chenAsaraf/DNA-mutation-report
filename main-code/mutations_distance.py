@@ -61,16 +61,3 @@ class PointMutation:
             self.counters[1] += counters[1] / len(tumor)
             self.counters[2] += counters[2] / len(tumor)
             self.counters[3] += detailsOfDistance.matches() / len(tumor)
-
-a = PointMutation()
-str1 = "AGCTAGCGCTCGTCGT"
-str2 = "AGCTGGGGTTTGTGAA"
-a.editDistance(str1, str2)
-print(a.counters)
-print(a.replaces)
-# # Creating plot
-# fig = plt.figure(figsize=(10, 7))
-# plt.pie(a.counters, labels=["inserts", "replaces", "deletes", "matches"], autopct='%1.1f%%')
-#
-# # show plot
-# plt.show()
