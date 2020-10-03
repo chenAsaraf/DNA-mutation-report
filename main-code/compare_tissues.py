@@ -11,11 +11,13 @@ from contigs_analysis import filter_contigs_by_size
 
 """
 """
-def find_similar_section(tumor_file, k, dictionary, healthyStorage, mutations, test=False, test_num=1000):
+def find_similar_section(tumor_file, k, dictionary, healthyStorage, test=False, test_num=1000):
     # for searching the correct bucket in the dictionary
     # run throw all NON-overlaping windows of length k in the sequence (all k-mer)
     filtered_tumor_file, num_tumor_contigs = filter_contigs_by_size(tumor_file, 'filtered_tumor_contigs', test=test, test_num=test_num)
     print("number of filtered tumor contigs:", num_tumor_contigs)
+    # initialize the object to save the mutations
+    mutations_report = PointMutation()
     records = SeqIO.parse(open(filtered_tumor_file), 'fasta')
     for tumor_seq in records:
         contig_len = len(str(tumor_seq.seq))
@@ -28,7 +30,8 @@ def find_similar_section(tumor_file, k, dictionary, healthyStorage, mutations, t
                     # For each alignment - find the overlapping parts and send to the Edit-Distance function
                     for healthy_idx in record.indexes:
                         healthy, tumor = find_overlap(healthy_seq, tumor_seq, healthy_idx, window)
-                        mutations.editDistance(tumor,healthy)
+                        mutations_report.editDistance(tumor,healthy)
+    return mutations_report
 
 def find_overlap(healthy_seq, tumor_seq, healthy_idx, tumor_idx):
     begin_healthy = end_healthy = begin_tumor = end_tumor = 0
@@ -66,16 +69,16 @@ def compare_tissues(healthy_file, tumor_file, test=False, test_num=1000):
         dictBuilder = tissueDictionary(healthy_file)
     dictionary, contigsStorage = dictBuilder.get_dictionary_and_storage()
     k = dictBuilder.getK()
-    mutations = PointMutation()
-    find_similar_section(tumor_file, k, dictionary, contigsStorage, mutations, test=test, test_num=test_num)
-    print(mutations.inserts)
-    print(mutations.replaces)
-    print(mutations.deletes)
-    print(mutations.counterOfCompares)
-    print(mutations.sumOfLength/mutations.counterOfCompares)
+
+    mutations_report = find_similar_section(tumor_file, k, dictionary, contigsStorage, test=test, test_num=test_num)
+    print(mutations_report.inserts)
+    print(mutations_report.replaces)
+    print(mutations_report.deletes)
+    print(mutations_report.counterOfCompares)
+    print(mutations_report.sumOfLength/mutations_report.counterOfCompares)
     # Creating plot
     fig = plt.figure(figsize=(10, 7))
-    plt.pie(mutations.counters, labels=["inserts", "replaces", "deletes", "matches"], autopct='%1.1f%%')
+    plt.pie(mutations_report.counters, labels=["inserts", "replaces", "deletes", "matches"], autopct='%1.1f%%')
 
     # save plot
     fig.savefig('pie_Of_100000_mutations.png')
