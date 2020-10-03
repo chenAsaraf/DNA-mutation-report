@@ -11,10 +11,10 @@ from contigs_analysis import filter_contigs_by_size
 
 """
 """
-def find_similar_section(tumor_file, k, dictionary, healthyStorage, mutations, test=True):
+def find_similar_section(tumor_file, k, dictionary, healthyStorage, mutations, test=False, test_num=1000):
     # for searching the correct bucket in the dictionary
     # run throw all NON-overlaping windows of length k in the sequence (all k-mer)
-    filtered_tumor_file, num_tumor_contigs = filter_contigs_by_size(tumor_file, 'filtered_tumor_contigs', test=test)
+    filtered_tumor_file, num_tumor_contigs = filter_contigs_by_size(tumor_file, 'filtered_tumor_contigs', test=test, test_num=test_num)
     print("number of filtered tumor contigs:", num_tumor_contigs)
     records = SeqIO.parse(open(filtered_tumor_file), 'fasta')
     for tumor_seq in records:
@@ -28,7 +28,7 @@ def find_similar_section(tumor_file, k, dictionary, healthyStorage, mutations, t
                     # For each alignment - find the overlapping parts and send to the Edit-Distance function
                     for healthy_idx in record.indexes:
                         healthy, tumor = find_overlap(healthy_seq, tumor_seq, healthy_idx, window)
-                        mutations.editDistance(str(tumor),str(healthy))
+                        mutations.editDistance(tumor,healthy)
 
 def find_overlap(healthy_seq, tumor_seq, healthy_idx, tumor_idx):
     begin_healthy = end_healthy = begin_tumor = end_tumor = 0
@@ -56,18 +56,18 @@ def find_overlap(healthy_seq, tumor_seq, healthy_idx, tumor_idx):
     else:
         end_healthy = healthy_idx + remaining_tumor
         end_tumor = tumor_idx + remaining_tumor
-    return healthy_seq[begin_healthy : end_healthy], tumor_seq[begin_tumor : end_tumor]
+    return str(healthy_seq)[begin_healthy : end_healthy], str(tumor_seq)[begin_tumor : end_tumor]
 
 
-def compare_tissues(healthy_file, tumor_file, test=False):
+def compare_tissues(healthy_file, tumor_file, test=False, test_num=1000):
     if test:
-        dictBuilder = tissueDictionary(healthy_file, test=True)
+        dictBuilder = tissueDictionary(healthy_file, test=True, test_num=test_num)
     else:
         dictBuilder = tissueDictionary(healthy_file)
     dictionary, contigsStorage = dictBuilder.get_dictionary_and_storage()
     k = dictBuilder.getK()
     mutations = PointMutation()
-    find_similar_section(tumor_file, k, dictionary, contigsStorage, mutations)
+    find_similar_section(tumor_file, k, dictionary, contigsStorage, mutations, test=test, test_num=test_num)
     print(mutations.inserts)
     print(mutations.replaces)
     print(mutations.deletes)

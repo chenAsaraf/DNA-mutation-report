@@ -54,7 +54,7 @@ def analyse_file(file, source=False):
     #plot_histogram(np.array(list_of_length))
 
 
-def filter_contigs_by_size(contigs_file, output_name, test=True):
+def filter_contigs_by_size(contigs_file, output_name, test=True, test_num=1000):
     print("start to filter contigs by size...")
     records = SeqIO.parse(open(contigs_file),'fasta')
     min_length = 100
@@ -76,8 +76,8 @@ def filter_contigs_by_size(contigs_file, output_name, test=True):
             short_contigs.append(record)
             num_short = num_short + 1
         counter = counter + 1
-        if test: # only for the test: runing up to 1000000 sampels
-            if num_short == 1000: break
+        if test: # only for the test: runing up to 'test_num' sampels
+            if num_short == test_num: break
     sys.stdout.write("]\n")  # this ends the progress bar
     SeqIO.write(short_contigs, output_name+".contigs.fa", "fasta")
     return "../main-code/"+output_name+".contigs.fa", num_short

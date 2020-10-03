@@ -17,8 +17,8 @@ class tissueDictionary:
             self.indexes = [window_index]
 
 
-    def __init__(self, contigs_file, test=False):
-        filtered_file, num_contigs = filter_contigs_by_size(contigs_file, 'filtered_contigs', test=test)
+    def __init__(self, contigs_file, test=False, test_num=1000):
+        filtered_file, num_contigs = filter_contigs_by_size(contigs_file, 'filtered_contigs', test=test, test_num=test_num)
         print("number of filtered contigs:", num_contigs)
         self.k = 10 # window size = 10 for catching 10% of mutations
         # dictionary: holds the k-mer as keys and list of dictionaryItem for each k-mer.
