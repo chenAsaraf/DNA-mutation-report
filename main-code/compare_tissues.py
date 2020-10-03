@@ -3,7 +3,7 @@ from Bio import SeqIO
 from build_dictionary import tissueDictionary
 from matplotlib import pyplot as plt
 from mutations_distance import PointMutation
-
+from contigs_analysis import filter_contigs_by_size
 # 1) parse the tumor_cell with non-overlaping window and find there bucket in the dictionary
 # 2) search for each contig in the bucket-list in the BST
 # 3) find alignment (maby another function)
@@ -11,7 +11,7 @@ from mutations_distance import PointMutation
 
 """
 """
-def find_similar_section(tumor_file, k, dictionary, healthyStorage, mutations, test=False):
+def find_similar_section(tumor_file, k, dictionary, healthyStorage, mutations, test=True):
     # for searching the correct bucket in the dictionary
     # run throw all NON-overlaping windows of length k in the sequence (all k-mer)
     filtered_tumor_file, num_tumor_contigs = filter_contigs_by_size(tumor_file, 'filtered_tumor_contigs', test=test)
@@ -28,7 +28,7 @@ def find_similar_section(tumor_file, k, dictionary, healthyStorage, mutations, t
                     # For each alignment - find the overlapping parts and send to the Edit-Distance function
                     for healthy_idx in record.indexes:
                         healthy, tumor = find_overlap(healthy_seq, tumor_seq, healthy_idx, window)
-                        mutations.editDistance(tumor,healthy)
+                        mutations.editDistance(str(tumor),str(healthy))
 
 def find_overlap(healthy_seq, tumor_seq, healthy_idx, tumor_idx):
     begin_healthy = end_healthy = begin_tumor = end_tumor = 0
@@ -71,6 +71,8 @@ def compare_tissues(healthy_file, tumor_file, test=False):
     print(mutations.inserts)
     print(mutations.replaces)
     print(mutations.deletes)
+    print(mutations.counterOfCompares)
+    print(mutations.sumOfLength/mutations.counterOfCompares)
     # Creating plot
     fig = plt.figure(figsize=(10, 7))
     plt.pie(mutations.counters, labels=["inserts", "replaces", "deletes", "matches"], autopct='%1.1f%%')

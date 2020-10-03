@@ -1,5 +1,4 @@
 import edit_distance
-from matplotlib import pyplot as plt
 import random
 
 #
@@ -18,7 +17,9 @@ class PointMutation:
 
     def editDistance(self, tumor, healthy):
         mistake = len(tumor)/10  # 10% of mistakes
+        print("mistake:" + str(mistake))
         detailsOfDistance = edit_distance.SequenceMatcher(a=tumor, b=healthy)
+        print(detailsOfDistance.distance())
         if detailsOfDistance.distance() < mistake:
             self.counterOfCompares += 1
             self.sumOfLength += len(tumor)

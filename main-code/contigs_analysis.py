@@ -77,7 +77,7 @@ def filter_contigs_by_size(contigs_file, output_name, test=True):
             num_short = num_short + 1
         counter = counter + 1
         if test: # only for the test: runing up to 1000000 sampels
-            if num_short == 100000: break
+            if num_short == 1000: break
     sys.stdout.write("]\n")  # this ends the progress bar
     SeqIO.write(short_contigs, output_name+".contigs.fa", "fasta")
     return "../main-code/"+output_name+".contigs.fa", num_short
