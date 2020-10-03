@@ -73,7 +73,7 @@ def compare_tissues(healthy_file, tumor_file, test=False):
     print(mutations.deletes)
     # Creating plot
     fig = plt.figure(figsize=(10, 7))
-    plt.pie(editDistance.counters, labels=["inserts", "replaces", "deletes", "matches"], autopct='%1.1f%%')
+    plt.pie(mutations.counters, labels=["inserts", "replaces", "deletes", "matches"], autopct='%1.1f%%')
 
     # save plot
     fig.savefig('pie_Of_100000_mutations.png')
