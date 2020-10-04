@@ -259,7 +259,7 @@ def edit_distance(seq1, seq2, action_function=lowest_cost_action, test=operator.
             else:
                 raise Exception('Invalid dynamic programming option returned!')
             # Additional condition: stop if the distance is higher then some threshold
-            if v1[j] > max_error : return v1[j], -1
+            # if v1[j] > max_error : return v1[j], -1
         # Copy the columns over
         for k in range(0, n + 1):
             v0[k] = v1[k]
