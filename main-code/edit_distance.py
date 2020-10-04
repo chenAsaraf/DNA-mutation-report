@@ -218,6 +218,7 @@ def edit_distance(seq1, seq2, action_function=lowest_cost_action, test=operator.
     """
     m = len(seq1)
     n = len(seq2)
+    count = 0
     # Special, easy cases:
     if seq1 == seq2:
         return 0, n
@@ -250,15 +251,16 @@ def edit_distance(seq1, seq2, action_function=lowest_cost_action, test=operator.
             if action in [EQUAL, REPLACE]:
                 v1[j] = sub_cost
                 m1[j] = sub_match
+                if action == REPLACE:
+                    count = count + 1
             elif action == INSERT:
                 v1[j] = ins_cost
                 m1[j] = ins_match
+                count = count + 1
             elif action == DELETE:
                 v1[j] = del_cost
                 m1[j] = del_match
-            elif action == DELETE:
-                v1[j] = del_cost
-                m1[j] = del_match
+                count = count + 1
             else:
                 raise Exception('Invalid dynamic programming option returned!')
             # Additional condition: stop if the distance is higher then some threshold
