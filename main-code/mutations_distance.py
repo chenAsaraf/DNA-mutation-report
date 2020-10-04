@@ -33,25 +33,25 @@ class PointMutation:
         print("number of mistakes permitted:", max_mistakes, "from length of:", len(tumor))
         print("edit distance is:", distance, "is it really smaller then 10 percent?", distance < max_mistakes)
         print("matches are:", matches)
-        if sequence_match.distance() < max_mistakes:
+        if distance < max_mistakes:
             self.counterOfCompares += 1
             self.sumOfLength += len(tumor)
             counters = [0, 0, 0]  # counters of: inserts, replaces and deletes
             theChanges = ["The inserts are: ", "The replaces are: ", "The deletes are: "]  # the changes of the Mutations
-            for i in sequence_match.get_opcodes():
-                if i[0] == "insert":
+            for opcode in sequence_match.get_opcodes(): # Return list of 5-tuples describing how to turn a into b
+                if opcode[0] == "insert":
                     counters[0] += 1
-                    theChanges[0] = theChanges[0] + healthy[i[3]:i[4]] + ", "
-                    self.inserts[healthy[i[3]:i[4]]] = self.inserts[healthy[i[3]:i[4]]] + 1
-                if i[0] == "replace":
+                    theChanges[0] = theChanges[0] + healthy[opcode[3]:opcode[4]] + ", "
+                    self.inserts[healthy[opcode[3]:opcode[4]]] = self.inserts[healthy[opcode[3]:opcode[4]]] + 1
+                if opcode[0] == "replace":
                     counters[1] += 1
-                    theChanges[1] = theChanges[1] + healthy[i[3]:i[4]] + "->" + tumor[i[1]:i[2]] + ", "
-                    temp = healthy[i[3]:i[4]] + tumor[i[1]:i[2]]
+                    theChanges[1] = theChanges[1] + healthy[opcode[3]:opcode[4]] + "->" + tumor[opcode[1]:opcode[2]] + ", "
+                    temp = healthy[opcode[3]:opcode[4]] + tumor[opcode[1]:opcode[2]]
                     self.replaces[temp] = self.replaces[temp] + 1
-                if i[0] == "delete":
+                if opcode[0] == "delete":
                     counters[2] += 1
-                    theChanges[2] = theChanges[2] + tumor[i[1]:i[2]] + ", "
-                    temp = str(tumor[i[1]:i[2]])
+                    theChanges[2] = theChanges[2] + tumor[opcode[1]:opcode[2]] + ", "
+                    temp = str(tumor[opcode[1]:opcode[2]])
                     self.deletes[temp] = self.deletes[temp] + 1
             if random.choice(range(1, 101)) > 90:  # take 1/10 from the Mutations to the report
                 f = open("similarContigs.txt", "a")
