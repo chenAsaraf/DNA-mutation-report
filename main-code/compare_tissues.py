@@ -31,7 +31,7 @@ def find_similar_section(tumor_file, k, dictionary, healthyStorage, test=False, 
                     # For each alignment - find the overlapping parts and send to the Edit-Distance function
                     for healthy_idx in record.indexes:
                         healthy, tumor = find_overlap(str(healthy_seq), str(tumor_seq.seq), healthy_idx, window)
-                        mutations_report.editDistance(tumor,healthy)
+                        mutations_report.editDistance(tumor, healthy)
     return mutations_report
 
 def find_overlap(healthy_seq, tumor_seq, healthy_idx, tumor_idx):

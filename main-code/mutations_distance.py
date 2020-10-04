@@ -1,5 +1,6 @@
 import edit_distance
 import random
+import math
 
 """
 This modulo is based on the 'edit_distance' library, that implements the Levenshtein distance.
@@ -21,8 +22,8 @@ class PointMutation:
         self.replaces = dict.fromkeys(replace, 0)
 
     def editDistance(self, tumor, healthy):
-        max_mistakes = int(len(tumor)/11)  # 11% of mistakes
-        sequence_match = edit_distance.SequenceMatcher(a=tumor, b=healthy)
+        errors_precent = math.ceil(len(tumor)/10)  # 10% of mistakes
+        sequence_match = edit_distance.SequenceMatcher(a=tumor, b=healthy, max_error=errors_precent)
         distance = sequence_match.distance()
         matches = sequence_match.matches()
         # TODO: delete this lines:
@@ -30,10 +31,13 @@ class PointMutation:
         print("the strings are:")
         print("tumor:", tumor)
         print("healthy:", healthy)
-        print("number of mistakes permitted:", max_mistakes, "from length of:", len(tumor))
-        print("edit distance is:", distance, "is it really smaller then 10 percent?", distance < max_mistakes)
-        print("matches are:", matches)
-        if distance < max_mistakes:
+
+        print("number of mistakes permitted:", errors_precent, "from length of:", len(tumor))
+
+        print("edit distance is:", distance, ". It's larger then 10 precent?", distance > errors_precent)
+
+        # print("matches are:", matches)
+        if distance < errors_precent:
             self.counterOfCompares += 1
             self.sumOfLength += len(tumor)
             counters = [0, 0, 0]  # counters of: inserts, replaces and deletes
