@@ -124,6 +124,11 @@ def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_nu
     # Creating plot
     fig = plt.figure(figsize=(10, 7))
     plt.pie([inserts_amount, replaces_amount, deletes_amount], labels=["inserts", "replaces", "deletes"], autopct='%1.1f%%')
-
     # save plot
-    fig.savefig(output_prefix + ".png")
+    fig.savefig(output_prefix + "-total.png")
+    plt.pie([mutations_report.inserts["A"], mutations_report.inserts["C"], mutations_report.inserts["G"], mutations_report.inserts["T"]], labels=["A", "C", "G", "T"], autopct='%1.1f%%')
+    fig.savefig(output_prefix + "-inserts.png")
+    plt.pie([mutations_report.deletes["A"], mutations_report.deletes["C"], mutations_report.deletes["G"], mutations_report.deletes["T"]], labels=["A", "C", "G", "T"], autopct='%1.1f%%')
+    fig.savefig(output_prefix + "-deletes.png")
+    
+    
