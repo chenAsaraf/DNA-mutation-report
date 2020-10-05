@@ -13,7 +13,7 @@ within Python. And could probably be much faster if implemented in C.
 """
 
 class PointMutation:
-    def __init__(self):
+    def __init__(self, output_prefix):
         self.counters = [0, 0, 0, 0]  # counters for each mutation types: inserts, replaces, deletes and matches
         self.counterOfCompares = 0  # number of compared contigs
         self.sumOfLength = 0  # sum length of all the compared contigs (for avg)
