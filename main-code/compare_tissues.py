@@ -77,43 +77,53 @@ def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_nu
     else:
         dictBuilder = tissueDictionary(healthy_file)
 
+    print()
     print("---------------------------------------")
     print("%s seconds to BUILD dictionary " % (time.time() - start_time_build_dict))
     print("---------------------------------------")
+    print()
     dictionary, contigsStorage = dictBuilder.get_dictionary_and_storage()
     k = dictBuilder.getK()
 
     start_time_compare = time.time()
-
+    print()
     print("start to compare tissues...")
 
     mutations_report, avg_compares_statistics = find_similar_section(tumor_file, output_prefix, k, dictionary, contigsStorage, test=test, test_num=test_num)
+    print()
     print("---------------------------------------")
     print("%s seconds to COMPARE all tissues " % (time.time() - start_time_compare))
     print("---------------------------------------")
+    print()
+
+    print("statistic of contigs comparison per one: ", avg_compares_statistics)
+
     inserts_amount = 0
-    for char, number in mutations_report.inserts:
+    for char, number in mutations_report.inserts.items():
         inserts_amount = inserts_amount + number
     replaces_amount = 0
-    for chars, number in mutations_report.replaces:
+    for chars, number in mutations_report.replaces.items():
         replaces_amount = replaces_amount + number
     deletes_amount = 0
-    for char, number in mutations_report.deletes:
+    for char, number in mutations_report.deletes.items():
         deletes_amount = deletes_amount + number
 
-    print()
     print(" ~ Mutations Report ~ ")
     print()
-    print("Of the cancerous tissue from: ", tumor_file)
-    print("And the noraml tissue from:", healthy_file)
-    print("Inserts Amount:", inserts_amount, "Percentage:", int(inserts_amount/mutations_report.sumOfLength), "%", mutations_report.inserts)
-    print("Replaces Amount:", replaces_amount, "Percentage:", int(replaces_amount/mutations_report.sumOfLength), "%", mutations_report.replaces)
-    print("Deletes Amount:", deletes_amount, "Percentage:", int(deletes_amount/mutations_report.sumOfLength), "%",mutations_report.deletes)
-    print("Number of contigs compared:", mutations_report.counterOfCompares)
+    print("The cancerous tissue from: ", tumor_file)
+    print("The noraml tissue from:", healthy_file)
+    print()
+    print("~ Inserts Amount:", inserts_amount, ", Percentage:", ((float(inserts_amount)/float(mutations_report.sumOfLengths)) * 100), "%")
+    print("\t \t", mutations_report.inserts)
+    print("~ Replaces Amount:", replaces_amount, ", Percentage:", ((float(replaces_amount)/float(mutations_report.sumOfLengths))*100), "%")
+    print("\t \t", mutations_report.replaces)
+    print("~ Deletes Amount:", deletes_amount, ", Percentage:", ((float(deletes_amount)/float(mutations_report.sumOfLengths))*100), "%")
+    print("\t \t",mutations_report.deletes)
+    print("~ Number of contigs compared:", mutations_report.counterOfComparisons)
 
     # Creating plot
     fig = plt.figure(figsize=(10, 7))
-    plt.pie(mutations_report.counters[0:3], labels=["inserts", "replaces", "deletes"], autopct='%1.1f%%')
+    # plt.pie(mutations_report.counters[0:3], labels=["inserts", "replaces", "deletes"], autopct='%1.1f%%')
 
     # save plot
     fig.savefig(output_prefix + ".png")

@@ -22,7 +22,6 @@ class PointMutation:
 
     def __init__(self, output_prefix):
         self.output_prefix = output_prefix
-        # self.counters = [0, 0, 0, 0]  # counters for each mutation types: inserts, replaces, deletes and matches
         self.counterOfComparisons = 0  # number of compared contigs
         self.sumOfLengths = 0  # sum lengths of all the compared contigs (for avg)
         # the keys for the Dictionary of inserts and deletes:
@@ -94,7 +93,3 @@ class PointMutation:
                 else:
                     f.write("Deletes Amount: " + str(counters_for_mutations[DELETES]) + ". \n")
                 f.close()
-            self.counters[0] += counters_for_mutations[0]  # Add the part of inserts in the contig
-            self.counters[1] += counters_for_mutations[1]  # Add the part of replaces in the contig
-            self.counters[2] += counters_for_mutations[2]  # Add the part of deletes from the contig
-            self.counters[3] += matches  # Add the part of matches between the contigs
