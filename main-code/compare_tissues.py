@@ -90,12 +90,14 @@ def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_nu
     print("NUMBER OF CONTIGS WHERE COMPARED:", mutations_report.counterOfCompares)
     avg_length_of_contig = mutations_report.sumOfLength/mutations_report.counterOfCompares
     print("AVG LENGTH OF CONTIG:", avg_length_of_contig)
-    print("AVG NUMBER OF INSERTS:", mutations_report.counters[0]/mutations_report.counterOfCompares)
-    print("AVG NUMBER OF REPLACES:", mutations_report.counters[1]/mutations_report.counterOfCompares)
-    print("AVG NUMBER OF DELETES:", mutations_report.counters[2]/mutations_report.counterOfCompares)
+    sum_types = sum(mutations_report.counters)
+    print("TOTAL NUMBER OF INSERTS:", mutations_report.counters[0], " PERCENTAGE: ", mutations_report.counters[0]/sum_types*100, "%")
+    print("TOTAL NUMBER OF REPLACES:", mutations_report.counters[1], " PERCENTAGE: ", mutations_report.counters[1]/sum_types*100, "%")
+    print("TOTAL NUMBER OF DELETES:", mutations_report.counters[2], " PERCENTAGE: ", mutations_report.counters[2]/sum_types*100, "%")
+    print("TOTAL NUMBER OF MATCHES:", mutations_report.counters[3], " PERCENTAGE: ", mutations_report.counters[3]/sum_types*100, "%") 
     # Creating plot
     fig = plt.figure(figsize=(10, 7))
-    plt.pie(mutations_report.counters, labels=["inserts", "replaces", "deletes", "matches"], autopct='%1.1f%%')
+    plt.pie(mutations_report.counters[0:3], labels=["inserts", "replaces", "deletes"], autopct='%1.1f%%')
 
     # save plot
     fig.savefig(output_prefix + ".png")
