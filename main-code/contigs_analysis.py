@@ -57,8 +57,8 @@ def analyse_file(file, source=False):
 def filter_contigs_by_size(contigs_file, output_name, test=True, test_num=1000):
     print("start to filter contigs by size...")
     records = SeqIO.parse(open(contigs_file),'fasta')
-    min_length = 100
-    max_length = 500
+    min_length = 0
+    max_length = 1000
     short_contigs = []
     toolbar_width = 50
     sys.stdout.write("[%s]" % (" " * toolbar_width))
