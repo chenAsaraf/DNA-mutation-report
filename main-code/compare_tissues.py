@@ -12,13 +12,13 @@ import time
 
 """
 """
-def find_similar_section(tumor_file, k, dictionary, healthyStorage, test=False, test_num=1000):
+def find_similar_section(tumor_file, output_prefix, k, dictionary, healthyStorage, test=False, test_num=1000):
     # for searching the correct bucket in the dictionary
     # run throw all NON-overlaping windows of length k in the sequence (all k-mer)
     filtered_tumor_file, num_tumor_contigs = filter_contigs_by_size(tumor_file, 'filtered_tumor_contigs', test=test, test_num=test_num)
     print("number of filtered tumor contigs:", num_tumor_contigs)
     # initialize the object to save the mutations
-    mutations_report = PointMutation()
+    mutations_report = PointMutation(output_prefix)
     records = SeqIO.parse(open(filtered_tumor_file), 'fasta')
     for tumor_seq in records:
         contig_len = len(str(tumor_seq.seq))
@@ -63,7 +63,7 @@ def find_overlap(healthy_seq, tumor_seq, healthy_idx, tumor_idx):
     return healthy_seq[begin_healthy : end_healthy], tumor_seq[begin_tumor : end_tumor]
 
 
-def compare_tissues(healthy_file, tumor_file, test=False, test_num=1000):
+def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_num=1000):
     start_time_build_dict = time.time()
 
     if test:
@@ -78,7 +78,7 @@ def compare_tissues(healthy_file, tumor_file, test=False, test_num=1000):
 
     start_time_compare = time.time()
 
-    mutations_report = find_similar_section(tumor_file, k, dictionary, contigsStorage, test=test, test_num=test_num)
+    mutations_report = find_similar_section(tumor_file, output_prefix, k, dictionary, contigsStorage, test=test, test_num=test_num)
 
     print("--- %s seconds to COMPARE all tissues ---" % (time.time() - start_time_compare))
 
