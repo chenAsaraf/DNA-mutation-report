@@ -5,6 +5,7 @@ from matplotlib import pyplot as plt
 from mutations_distance import PointMutation
 from contigs_analysis import filter_contigs_by_size
 import time
+import numpy as np
 
 # 1) parse the tumor_cell with non-overlaping window and find there bucket in the dictionary
 # 2) search for each contig in the bucket-list in the BST
@@ -68,6 +69,17 @@ def find_overlap(healthy_seq, tumor_seq, healthy_idx, tumor_idx):
         end_healthy = healthy_idx + remaining_tumor
         end_tumor = tumor_idx + remaining_tumor
     return healthy_seq[begin_healthy : end_healthy], tumor_seq[begin_tumor : end_tumor]
+
+
+def plot_distance_histogram(array_of_lengthes, prefix, title="Histogram"):
+    fig = plt.figure()
+    plt.hist(array_of_lengthes, facecolor='g')
+    plt.title(title)
+    plt.xlabel('Edit Distance')
+    plt.ylabel('Quantity')
+    # plt.grid(True)
+    fig.savefig(prefix+'.png')
+
 
 
 def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_num=1000):
@@ -140,5 +152,8 @@ def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_nu
     inserts.savefig(output_prefix + "-inserts.png")
     replaces.savefig(output_prefix + "-replaces.png")
     deletes.savefig(output_prefix + "-deletes.png")
-    
-    
+
+    # Create Histogram of all distances for optimizations
+    title = "Histogram of all comparisons distances"
+    plot_distance_histogram(np.array(mutations_report.listOfDistances), "distances-histogram", title)
+
