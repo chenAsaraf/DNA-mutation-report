@@ -7,8 +7,8 @@ Test: compare_tissues
 """
 def test_compare_tissues():
 
-    healthy = "sample_contigs_k24.contigs.fa"
-    tumor = "sample_contigs_k24_tumor.contigs.fa"
+    healthy = "../../contigs-outputs/healthy/basic_k-mer24/basic_try_k-mer24.contigs.fa"
+    tumor = "../../contigs-outputs/tumor/basic_k-mer24_T/basic_k-mer24_T.contigs.fa"
     argvlen = len(sys.argv)
 
     if argvlen > 1:
