@@ -88,10 +88,14 @@ def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_nu
     print("REPLACES:", mutations_report.replaces)
     print("DELETES:", mutations_report.deletes)
     print("NUMBER OF CONTIGS WHERE COMPARED:", mutations_report.counterOfCompares)
-    print("AVG LENGTH OF CONTIG:", mutations_report.sumOfLength/mutations_report.counterOfCompares)
+    avg_length_of_contig = mutations_report.sumOfLength/mutations_report.counterOfCompares
+    print("AVG LENGTH OF CONTIG:", avg_length_of_contig)
+    print("AVG NUMBER OF INSERTS:", mutations_report.counters[0]/mutations_report.counterOfCompares)
+    print("AVG NUMBER OF REPLACES:", mutations_report.counters[1]/mutations_report.counterOfCompares)
+    print("AVG NUMBER OF DELETES:", mutations_report.counters[2]/mutations_report.counterOfCompares)
     # Creating plot
     fig = plt.figure(figsize=(10, 7))
     plt.pie(mutations_report.counters, labels=["inserts", "replaces", "deletes", "matches"], autopct='%1.1f%%')
 
     # save plot
-    fig.savefig('pie_Of_1000_mutations.png')
+    fig.savefig(output_prefix + ".png")
