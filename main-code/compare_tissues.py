@@ -20,7 +20,9 @@ def find_similar_section(tumor_file, output_prefix, k, dictionary, healthyStorag
     # initialize the object to save the mutations
     mutations_report = PointMutation(output_prefix)
     records = SeqIO.parse(open(filtered_tumor_file), 'fasta')
+    statistics = []
     for tumor_seq in records:
+        statistics_of_compares = 0
         contig_len = len(str(tumor_seq.seq))
         for window in range(0, contig_len - k, k): # (last k argument - to jump k chars each step)
             if str(tumor_seq.seq)[window: window + k] in dictionary.keys():
@@ -30,9 +32,13 @@ def find_similar_section(tumor_file, output_prefix, k, dictionary, healthyStorag
                     healthy_seq = healthyStorage[record.id]
                     # For each alignment - find the overlapping parts and send to the Edit-Distance function
                     for healthy_idx in record.indexes:
+                        # Increase the number of compared contigs (For later analysing)
+                        statistics_of_compares = statistics_of_compares + 1
                         healthy, tumor = find_overlap(str(healthy_seq), str(tumor_seq.seq), healthy_idx, window)
                         mutations_report.editDistance(tumor, healthy)
-    return mutations_report
+        statistics.append(statistics_of_compares)
+    avg_compares_per_tumor_seq = sum(statistics)/len(statistics)
+    return mutations_report, avg_compares_per_tumor_seq
 
 def find_overlap(healthy_seq, tumor_seq, healthy_idx, tumor_idx):
     begin_healthy = end_healthy = begin_tumor = end_tumor = 0
@@ -71,30 +77,40 @@ def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_nu
     else:
         dictBuilder = tissueDictionary(healthy_file)
 
-    print("--- %s seconds to BUILD dictionary ---" % (time.time() - start_time_build_dict))
-
+    print("---------------------------------------")
+    print("%s seconds to BUILD dictionary " % (time.time() - start_time_build_dict))
+    print("---------------------------------------")
     dictionary, contigsStorage = dictBuilder.get_dictionary_and_storage()
     k = dictBuilder.getK()
 
     start_time_compare = time.time()
 
-    mutations_report = find_similar_section(tumor_file, output_prefix, k, dictionary, contigsStorage, test=test, test_num=test_num)
+    print("start to compare tissues...")
 
-    print("--- %s seconds to COMPARE all tissues ---" % (time.time() - start_time_compare))
+    mutations_report, avg_compares_statistics = find_similar_section(tumor_file, output_prefix, k, dictionary, contigsStorage, test=test, test_num=test_num)
+    print("---------------------------------------")
+    print("%s seconds to COMPARE all tissues " % (time.time() - start_time_compare))
+    print("---------------------------------------")
+    inserts_amount = 0
+    for char, number in mutations_report.inserts:
+        inserts_amount = inserts_amount + number
+    replaces_amount = 0
+    for chars, number in mutations_report.replaces:
+        replaces_amount = replaces_amount + number
+    deletes_amount = 0
+    for char, number in mutations_report.deletes:
+        deletes_amount = deletes_amount + number
 
     print()
-    print("MUTATIONS REPORT:")
-    print("INSERTS:", mutations_report.inserts)
-    print("REPLACES:", mutations_report.replaces)
-    print("DELETES:", mutations_report.deletes)
-    print("NUMBER OF CONTIGS WHERE COMPARED:", mutations_report.counterOfCompares)
-    avg_length_of_contig = mutations_report.sumOfLength/mutations_report.counterOfCompares
-    print("AVG LENGTH OF CONTIG:", avg_length_of_contig)
-    sum_types = sum(mutations_report.counters)
-    print("TOTAL NUMBER OF INSERTS:", mutations_report.counters[0], " PERCENTAGE: ", mutations_report.counters[0]/sum_types*100, "%")
-    print("TOTAL NUMBER OF REPLACES:", mutations_report.counters[1], " PERCENTAGE: ", mutations_report.counters[1]/sum_types*100, "%")
-    print("TOTAL NUMBER OF DELETES:", mutations_report.counters[2], " PERCENTAGE: ", mutations_report.counters[2]/sum_types*100, "%")
-    print("TOTAL NUMBER OF MATCHES:", mutations_report.counters[3], " PERCENTAGE: ", mutations_report.counters[3]/sum_types*100, "%") 
+    print(" ~ Mutations Report ~ ")
+    print()
+    print("Of the cancerous tissue from: ", tumor_file)
+    print("And the noraml tissue from:", healthy_file)
+    print("Inserts Amount:", inserts_amount, "Percentage:", int(inserts_amount/mutations_report.sumOfLength), "%", mutations_report.inserts)
+    print("Replaces Amount:", replaces_amount, "Percentage:", int(replaces_amount/mutations_report.sumOfLength), "%", mutations_report.replaces)
+    print("Deletes Amount:", deletes_amount, "Percentage:", int(deletes_amount/mutations_report.sumOfLength), "%",mutations_report.deletes)
+    print("Number of contigs compared:", mutations_report.counterOfCompares)
+
     # Creating plot
     fig = plt.figure(figsize=(10, 7))
     plt.pie(mutations_report.counters[0:3], labels=["inserts", "replaces", "deletes"], autopct='%1.1f%%')
