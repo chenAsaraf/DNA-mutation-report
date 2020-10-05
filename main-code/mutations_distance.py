@@ -2,7 +2,6 @@ import edit_distance
 import random
 import math
 from Bio import pairwise2
-from enum import Enum
 
 """
 This modulo is based on the 'edit_distance' library, that implements the Levenshtein distance.
@@ -14,6 +13,8 @@ within Python. And could probably be much faster if implemented in C.
 We used the following documentation:
 https://docs.python.org/2/library/difflib.html
 """
+
+
 INSERTS = 0
 REPLACES = 1
 DELETES = 2
@@ -24,6 +25,7 @@ class PointMutation:
         self.output_prefix = output_prefix
         self.counterOfComparisons = 0  # number of compared contigs
         self.sumOfLengths = 0  # sum lengths of all the compared contigs (for avg)
+        self.listOfDistances = [] # list of all the comparisons resulsts
         # the keys for the Dictionary of inserts and deletes:
         bases = ('A', 'C', 'G', 'T')
         # the keys for the Dictionary of replaces
@@ -40,7 +42,7 @@ class PointMutation:
         # The second string (i.e 'b') does not change.
         sequence_match = edit_distance.SequenceMatcher(a=healthy, b=tumor)
         distance = sequence_match.distance()  # the edit distance between the contigs
-
+        self.listOfDistances.append(distance)
         if distance < errors_precent:
             self.counterOfComparisons += 1
             self.sumOfLengths += len(tumor)
