@@ -2,6 +2,7 @@ from collections import defaultdict
 from Bio import SeqIO
 from build_dictionary import tissueDictionary
 from compare_tissues import find_overlap, compare_tissues
+import sys
 
 """ Test : find_overlap:
  case 1:  If one or both of the indexes is 0
@@ -47,7 +48,9 @@ Test: compare_tissues
 def test_compare_tissues():
     healthy = "sample_contigs_k24.contigs.fa"
     tumor = "sample_contigs_k24_T.contigs.fa"
-    compare_tissues(healthy, tumor, test=True, test_num=1000)
+    output_prefix = sys.argv[2]
+    test_num = int(sys.argv[1])
+    compare_tissues(healthy, tumor, output_prefix, test=True, test_num=test_num)
 
 """test_1_find_overlap()
 print("------------")
