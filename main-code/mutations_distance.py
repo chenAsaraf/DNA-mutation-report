@@ -34,17 +34,17 @@ class PointMutation:
         self.replaces = dict.fromkeys(replace, 0)
 
     def editDistance(self, healthy, tumor):
-        errors_precent = math.ceil(len(tumor)/10)  # 10% of mistakes
+        # We assume less than 15 percent of the distance for being the same tissue:
+        errors_precent = math.ceil(len(tumor) * 0.15)
         # The first string (i.e 'a') is the one that is compared to the second.
         # The second string (i.e 'b') does not change.
         sequence_match = edit_distance.SequenceMatcher(a=healthy, b=tumor)
-        distance = sequence_match.distance()  # distance between the contigs
-        matches = sequence_match.matches()  # the matches (the same chars) between the contigs
+        distance = sequence_match.distance()  # the edit distance between the contigs
 
         if distance < errors_precent:
             self.counterOfComparisons += 1
             self.sumOfLengths += len(tumor)
-            # counters of: inserts, replaces and deletes
+            # Counters of: inserts, replaces and deletes
             counters_for_mutations = [0, 0, 0]
             # Strings for later printed samples:
             TheInserts = "Actual inserts: "
@@ -72,14 +72,14 @@ class PointMutation:
                     TheDeletes = TheDeletes + deleted_char + ", "
                     # Increase the chars-entry in the dictionary
                     self.deletes[deleted_char] += 1
-            if random.choice(range(1, 101)) > 90 and distance > 0:  # Take 1/10 from the compared contigs to the sampling report in term that there are at least 1 mutation between them
+            # One in 100 contigs enters a report that prints the comparable sections themselves:
+            if random.choice(range(1, 101)) > 90 and distance > 0:
                 f = open(self.output_prefix + ".txt", "a")  # The sampling report
                 f.write("\n============================================================================\n")
+                # Print the comparable sectoin with alignment:
                 alignment = pairwise2.align.globalxx(tumor, healthy)
                 f.write(pairwise2.format_alignment(*alignment[0]))
-                # f.write("Edit Distance: " + str(distance) + "\n")
-                # f.write("The matches of this contigs: " + str(sequence_match.matches()) + "\n")
-                # For each mutation type, check if there are mutations like this type and add to the sampling report with the mutations themselves
+                # Print the mutations of each type:
                 if counters_for_mutations[INSERTS] > 0:
                     f.write("Inserts Amount: " + str(counters_for_mutations[INSERTS]) + ". " + TheInserts + "\n")
                 else:

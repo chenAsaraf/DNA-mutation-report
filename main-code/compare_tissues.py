@@ -5,6 +5,7 @@ from matplotlib import pyplot as plt
 from mutations_distance import PointMutation
 from contigs_analysis import filter_contigs_by_size
 import time
+
 # 1) parse the tumor_cell with non-overlaping window and find there bucket in the dictionary
 # 2) search for each contig in the bucket-list in the BST
 # 3) find alignment (maby another function)
@@ -14,7 +15,7 @@ import time
 """
 def find_similar_section(tumor_file, output_prefix, k, dictionary, healthyStorage, test=False, test_num=1000):
     # for searching the correct bucket in the dictionary
-    # run throw all NON-overlaping windows of length k in the sequence (all k-mer)
+    # run throw all non-overlaping windows of length k in the sequence (all k-mer)
     filtered_tumor_file, num_tumor_contigs = filter_contigs_by_size(tumor_file, 'filtered_tumor_contigs', test=test, test_num=test_num)
     print("number of filtered tumor contigs:", num_tumor_contigs)
     # initialize the object to save the mutations
@@ -38,7 +39,7 @@ def find_similar_section(tumor_file, output_prefix, k, dictionary, healthyStorag
                         mutations_report.editDistance(tumor, healthy)
         statistics.append(statistics_of_compares)
     avg_compares_per_tumor_seq = sum(statistics)/len(statistics)
-    return mutations_report, avg_compares_per_tumor_seq
+    return mutations_report, statistics
 
 def find_overlap(healthy_seq, tumor_seq, healthy_idx, tumor_idx):
     begin_healthy = end_healthy = begin_tumor = end_tumor = 0
@@ -89,13 +90,16 @@ def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_nu
     print()
     print("start to compare tissues...")
 
-    mutations_report, avg_compares_statistics = find_similar_section(tumor_file, output_prefix, k, dictionary, contigsStorage, test=test, test_num=test_num)
+    mutations_report, statistics = find_similar_section(tumor_file, output_prefix, k, dictionary, contigsStorage, test=test, test_num=test_num)
     print()
     print("---------------------------------------")
     print("%s seconds to COMPARE all tissues " % (time.time() - start_time_compare))
     print("---------------------------------------")
     print()
 
+    sum_comparisons = sum(statistics)
+    avg_compares_statistics = sum_comparisons/len(statistics)
+    print("number of all comparison:", sum_comparisons)
     print("statistic of contigs comparison per one: ", avg_compares_statistics)
 
     inserts_amount = 0
@@ -113,17 +117,28 @@ def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_nu
     print("The cancerous tissue from: ", tumor_file)
     print("The noraml tissue from:", healthy_file)
     print()
-    print("~ Inserts Amount:", inserts_amount, ", Percentage:", ((float(inserts_amount)/float(mutations_report.sumOfLengths)) * 100), "%")
+    print("~ Inserts Amount:", inserts_amount, ", Percentage of all characters:", ((float(inserts_amount)/float(mutations_report.sumOfLengths)) * 100), "%")
     print("\t \t", mutations_report.inserts)
-    print("~ Replaces Amount:", replaces_amount, ", Percentage:", ((float(replaces_amount)/float(mutations_report.sumOfLengths))*100), "%")
+    print("~ Replaces Amount:", replaces_amount, ", Percentage of all characters:", ((float(replaces_amount)/float(mutations_report.sumOfLengths))*100), "%")
     print("\t \t", mutations_report.replaces)
-    print("~ Deletes Amount:", deletes_amount, ", Percentage:", ((float(deletes_amount)/float(mutations_report.sumOfLengths))*100), "%")
+    print("~ Deletes Amount:", deletes_amount, ", Percentage of all characters:", ((float(deletes_amount)/float(mutations_report.sumOfLengths))*100), "%")
     print("\t \t",mutations_report.deletes)
-    print("~ Number of contigs compared:", mutations_report.counterOfComparisons)
+    print("~ Number of comparisons actually entered into the report:", mutations_report.counterOfComparisons)
 
     # Creating plot
-    fig = plt.figure(figsize=(10, 7))
-    # plt.pie(mutations_report.counters[0:3], labels=["inserts", "replaces", "deletes"], autopct='%1.1f%%')
-
+    total = plt.figure(figsize=(10, 7))
+    plt.pie([inserts_amount, replaces_amount, deletes_amount], labels=["inserts", "replaces", "deletes"], autopct='%1.1f%%')
+    inserts = plt.figure(figsize=(10, 7))
+    plt.pie(list(mutations_report.inserts.values()), labels=list(mutations_report.inserts.keys()), autopct='%1.1f%%')
+    replaces = plt.figure(figsize=(10, 7))
+    plt.pie(list(mutations_report.replaces.values()), labels=list(mutations_report.replaces.keys()), autopct='%1.1f%%')
+    deletes = plt.figure(figsize=(10, 7))
+    plt.pie(list(mutations_report.deletes.values()), labels=list(mutations_report.deletes.keys()), autopct='%1.1f%%')
+    
     # save plot
-    fig.savefig(output_prefix + ".png")
+    total.savefig(output_prefix + "-total.png")
+    inserts.savefig(output_prefix + "-inserts.png")
+    replaces.savefig(output_prefix + "-replaces.png")
+    deletes.savefig(output_prefix + "-deletes.png")
+    
+    
