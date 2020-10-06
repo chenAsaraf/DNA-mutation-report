@@ -80,7 +80,7 @@ class PointMutation:
                 f.write("\n============================================================================\n")
                 # Print the comparable sectoin with alignment:
                 alignment = pairwise2.align.globalxx(tumor, healthy)
-                f.write(alignment[0].seqA + "\n" + alignment[0].seqB + "\n")  # Add the contigs to the file
+                f.write("The Tumor Tissue: \n" + alignment[0].seqA + "\nThe Healthy Tissue:\n" + alignment[0].seqB + "\n")  # Add the contigs to the file
                 # Print the mutations of each type:
                 if counters_for_mutations[INSERTS] > 0:
                     f.write("Inserts Amount: " + str(counters_for_mutations[INSERTS]) + ". " + TheInserts[0:len(TheInserts)-2] + "\n")
