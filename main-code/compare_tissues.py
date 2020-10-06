@@ -138,12 +138,15 @@ def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_nu
     print("~ Number of comparisons actually entered into the report:", mutations_report.counterOfComparisons)
 
     # Creating plot of mutation types and save it
-    plt.bar(["inserts", "replaces", "deletes"], [inserts_amount, replaces_amount, deletes_amount], align='center', alpha=0.5)
-    plt.ylabel('appearance')
+    names = ["inserts", "replaces", "deletes"]
+    numbers = [inserts_amount, replaces_amount, deletes_amount]
+    plt.bar(names, numbers, align='center', alpha=0.5)
     plt.title('Mutation types')
-    for i in range(len(list(keys))):
-        plt.text(x=i, y=list(values)[i] + 0.1, s=list(values)[i])
-    total.savefig(output_prefix + "-total.png")
+    plt.ylabel('Appearance')
+    plt.xlabel('Types')
+    for i in range(len(names)):
+        plt.text(x=i, y=numbers[i] + 0.1, s=numbers[i])
+    plt.savefig(output_prefix + "-total.png")
     
     
 #     plt.pie([inserts_amount, replaces_amount, deletes_amount], labels=["inserts", "replaces", "deletes"], autopct='%1.1f%%')
