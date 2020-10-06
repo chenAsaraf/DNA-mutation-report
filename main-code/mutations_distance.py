@@ -80,18 +80,18 @@ class PointMutation:
                 f.write("\n============================================================================\n")
                 # Print the comparable sectoin with alignment:
                 alignment = pairwise2.align.globalxx(tumor, healthy)
-                f.write(pairwise2.format_alignment(*alignment[0]))
+                f.write(alignment[0].seqA + "\n" + alignment[0].seqB + "\n")  # Add the contigs to the file
                 # Print the mutations of each type:
                 if counters_for_mutations[INSERTS] > 0:
-                    f.write("Inserts Amount: " + str(counters_for_mutations[INSERTS]) + ". " + TheInserts + "\n")
+                    f.write("Inserts Amount: " + str(counters_for_mutations[INSERTS]) + ". " + TheInserts[0:len(TheInserts)-2] + "\n")
                 else:
                     f.write("Inserts Amount: " + str(counters_for_mutations[INSERTS]) + ". \n")
                 if counters_for_mutations[REPLACES] > 0:
-                    f.write("Replaces Amount: " + str(counters_for_mutations[REPLACES]) + ". " + TheReplaces + "\n")
+                    f.write("Replaces Amount: " + str(counters_for_mutations[REPLACES]) + ". " + TheReplaces[0:len(TheReplaces)-2] + "\n")
                 else:
                     f.write("Replaces Amount: " + str(counters_for_mutations[REPLACES]) + ". \n")
                 if counters_for_mutations[DELETES] > 0:
-                    f.write("Deletes Amount: " + str(counters_for_mutations[DELETES]) + ". " + TheDeletes + "\n")
+                    f.write("Deletes Amount: " + str(counters_for_mutations[DELETES]) + ". " + TheDeletes[0:len(TheDeletes)-2] + "\n")
                 else:
                     f.write("Deletes Amount: " + str(counters_for_mutations[DELETES]) + ". \n")
                 f.close()
