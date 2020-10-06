@@ -147,20 +147,38 @@ def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_nu
     for i in range(len(names)):
         plt.text(x=i, y=numbers[i] + 0.1, s=numbers[i])
     plt.savefig(output_prefix + "-total.png")
+    plt.close()
     
+    # Creating plot of the inserts types and save it
+    plt.bar(list(mutations_report.inserts.keys()), list(mutations_report.inserts.values()), align='center', alpha=0.5)
+    plt.title('Inserts')
+    plt.ylabel('Number Of Inserts')
+    plt.xlabel('Bases Inserted')
+    for i in range(len(list(mutations_report.inserts.keys()))):
+        plt.text(x=i, y=list(mutations_report.inserts.values())[i] + 0.1, s=list(mutations_report.inserts.values())[i])
+    plt.savefig(output_prefix + "-inserts.png")
+    plt.close()
     
-#     plt.pie([inserts_amount, replaces_amount, deletes_amount], labels=["inserts", "replaces", "deletes"], autopct='%1.1f%%')
-#     inserts = plt.figure(figsize=(10, 7))
-#     plt.pie(list(mutations_report.inserts.values()), labels=list(mutations_report.inserts.keys()), autopct='%1.1f%%')
-#     replaces = plt.figure(figsize=(10, 7))
-#     plt.pie(list(mutations_report.replaces.values()), labels=list(mutations_report.replaces.keys()), autopct='%1.1f%%')
-#     deletes = plt.figure(figsize=(10, 7))
-#     plt.pie(list(mutations_report.deletes.values()), labels=list(mutations_report.deletes.keys()), autopct='%1.1f%%')
+    # Creating plot of the replaces types and save it
+    plt.bar(list(mutations_report.replaces.keys()), list(mutations_report.replaces.values()), align='center', alpha=0.5)
+    plt.title('Replaces')
+    plt.ylabel('Number Of Replaces')
+    plt.xlabel('Replacement Bases')
+    for i in range(len(list(mutations_report.replaces.keys()))):
+        plt.text(x=i, y=list(mutations_report.replaces.values())[i] + 0.1, s=list(mutations_report.replaces.values())[i])
+    plt.savefig(output_prefix + "-replaces.png")
+    plt.close()
     
-#     total.savefig(output_prefix + "-total.png")
-#     inserts.savefig(output_prefix + "-inserts.png")
-#     replaces.savefig(output_prefix + "-replaces.png")
-#     deletes.savefig(output_prefix + "-deletes.png")
+    # Creating plot of the deletes types and save it
+    plt.bar(list(mutations_report.deletes.keys()), list(mutations_report.deletes.values()), align='center', alpha=0.5)
+    plt.title('Deletes')
+    plt.ylabel('Number Of Deletes')
+    plt.xlabel('Bases Deleted')
+    for i in range(len(list(mutations_report.deletes.keys()))):
+        plt.text(x=i, y=list(mutations_report.deletes.values())[i] + 0.1, s=list(mutations_report.deletes.values())[i])
+    plt.savefig(output_prefix + "-deletes.png")
+    plt.close()
+    
 
     # Create Histogram of all distances for optimizations
     title = "Histogram of all comparisons distances"
