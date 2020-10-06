@@ -92,7 +92,7 @@ def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_nu
 
     print()
     print("---------------------------------------")
-    print("%s seconds to BUILD dictionary " % (time.time() - start_time_build_dict))
+    print("%.2f seconds to BUILD dictionary " % (time.time() - start_time_build_dict))
     print("---------------------------------------")
     print()
     dictionary, contigsStorage = dictBuilder.get_dictionary_and_storage()
@@ -105,7 +105,7 @@ def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_nu
     mutations_report, statistics = find_similar_section(tumor_file, output_prefix, k, dictionary, contigsStorage, test=test, test_num=test_num)
     print()
     print("---------------------------------------")
-    print("%s seconds to COMPARE all tissues " % (time.time() - start_time_compare))
+    print("%.2f seconds to COMPARE all tissues " % (time.time() - start_time_compare))
     print("---------------------------------------")
     print()
 
@@ -129,11 +129,11 @@ def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_nu
     print("The cancerous tissue from: ", tumor_file)
     print("The noraml tissue from:", healthy_file)
     print()
-    print("~ Inserts Amount:", inserts_amount, ", Percentage of all characters:", ((float(inserts_amount)/float(mutations_report.sumOfLengths)) * 100), "%")
+    print("~ Inserts Amount:", inserts_amount, ", Percentage of all characters: %.2f " % ((float(inserts_amount)/float(mutations_report.sumOfLengths)) * 100), "%")
     print("\t \t", mutations_report.inserts)
-    print("~ Replaces Amount:", replaces_amount, ", Percentage of all characters:", ((float(replaces_amount)/float(mutations_report.sumOfLengths))*100), "%")
+    print("~ Replaces Amount:", replaces_amount, ", Percentage of all characters: %.2f " % ((float(replaces_amount)/float(mutations_report.sumOfLengths))*100), "%")
     print("\t \t", mutations_report.replaces)
-    print("~ Deletes Amount:", deletes_amount, ", Percentage of all characters:", ((float(deletes_amount)/float(mutations_report.sumOfLengths))*100), "%")
+    print("~ Deletes Amount:", deletes_amount, ", Percentage of all characters: %.2f" % ((float(deletes_amount)/float(mutations_report.sumOfLengths))*100), "%")
     print("\t \t",mutations_report.deletes)
     print("~ Number of comparisons actually entered into the report:", mutations_report.counterOfComparisons)
 
@@ -155,5 +155,5 @@ def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_nu
 
     # Create Histogram of all distances for optimizations
     title = "Histogram of all comparisons distances"
-    plot_distance_histogram(np.array(mutations_report.listOfDistances), "distances-histogram", title)
+    plot_distance_histogram(np.array(mutations_report.listOfDistances), "distances-histogram-" + output_prefix, title)
 
