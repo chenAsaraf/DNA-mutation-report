@@ -1,6 +1,6 @@
 from collections import defaultdict
 from Bio import SeqIO
-from build_dictionary import tissueDictionary
+from build_dictionary import TissueDictionaryBuilder
 from matplotlib import pyplot as plt
 from mutations_distance import PointMutation
 from contigs_analysis import filter_contigs_by_size
@@ -86,9 +86,9 @@ def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_nu
     start_time_build_dict = time.time()
 
     if test:
-        dictBuilder = tissueDictionary(healthy_file, test=True, test_num=test_num)
+        dictBuilder = TissueDictionaryBuilder(healthy_file, test=True, test_num=test_num)
     else:
-        dictBuilder = tissueDictionary(healthy_file)
+        dictBuilder = TissueDictionaryBuilder(healthy_file)
 
     print()
     print("---------------------------------------")
@@ -96,7 +96,7 @@ def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_nu
     print("---------------------------------------")
     print()
     dictionary, contigsStorage = dictBuilder.get_dictionary_and_storage()
-    k = dictBuilder.getK()
+    k = dictBuilder.get_k()
 
     start_time_compare = time.time()
     print()
