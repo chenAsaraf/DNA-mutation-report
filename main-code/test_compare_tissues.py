@@ -12,14 +12,16 @@ def test_compare_tissues():
     argvlen = len(sys.argv)
 
     if argvlen > 1:
-        test_num = int(sys.argv[1])
+        output_prefix = sys.argv[1]
     else:
-        test_num = 100
         output_prefix = "output"
+        test_num = 100
     if argvlen > 2:
-        output_prefix = sys.argv[2]
-    else: output_prefix = "output"
+        test_num = sys.argv[2]
+    else:
+        test_num = None
 
-    compare_tissues(healthy, tumor, output_prefix, test=True, test_num=test_num)
+
+    compare_tissues(healthy, tumor, output_prefix, test=False, test_num=test_num)
 
 test_compare_tissues()
