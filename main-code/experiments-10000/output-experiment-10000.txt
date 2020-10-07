@@ -1,0 +1,34 @@
+start to filter contigs by size...
+[                                                  ]-]
+number of filtered contigs: 10000
+start to parsing each contig
+[                                                  ]--------------------------------------------------]
+
+---------------------------------------
+2.6466290950775146 seconds to BUILD dictionary 
+---------------------------------------
+
+
+start to compare tissues...
+start to filter contigs by size...
+[                                                  ]-]
+number of filtered tumor contigs: 10000
+
+---------------------------------------
+3598.1637930870056 seconds to COMPARE all tissues 
+---------------------------------------
+
+number of all comparison: 290571
+statistic of contigs comparison per one:  29.0571
+ ~ Mutations Report ~ 
+
+The cancerous tissue from:  ../../contigs-outputs/tumor/basic_k-mer24_T/basic_k-mer24_T.contigs.fa
+The noraml tissue from: ../../contigs-outputs/healthy/basic_k-mer24/basic_try_k-mer24.contigs.fa
+
+~ Inserts Amount: 5769 , Percentage of all characters: 0.19934305595772783 %
+	 	 {'A': 1543, 'C': 1411, 'G': 1562, 'T': 1253}
+~ Replaces Amount: 141557 , Percentage of all characters: 4.891385850616758 %
+	 	 {'AC': 9359, 'AG': 18605, 'AT': 6105, 'CA': 9221, 'CG': 9533, 'CT': 17711, 'GA': 22062, 'GC': 8907, 'GT': 7164, 'TA': 6665, 'TC': 19678, 'TG': 6547}
+~ Deletes Amount: 5769 , Percentage of all characters: 0.19934305595772783 %
+	 	 {'A': 1829, 'C': 1444, 'G': 1184, 'T': 1312}
+~ Number of comparisons actually entered into the report: 95846
