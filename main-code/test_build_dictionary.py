@@ -1,11 +1,11 @@
 from collections import defaultdict
 from Bio import SeqIO
 import time
-from build_dictionary import tissueDictionary
+from build_dictionary import TissueDictionaryBuilder
 
 helthy_cell = "../../contigs-outputs/basic_k-mer24/basic_try_k-mer24.contigs.fa"
 start_time_build_dict = time.time()
-dictionary, contigsStorage = tissueDictionary(helthy_cell, test=True).get_dictionary_and_storage()
+dictionary, contigsStorage = TissueDictionaryBuilder(helthy_cell, test=True).get_dictionary_and_storage()
 print("--- %s seconds to build dictionary ---" % (time.time() - start_time_build_dict))
 print()
 print("Analysis of dictionary bucket's size:")
