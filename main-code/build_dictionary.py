@@ -64,7 +64,6 @@ class TissueDictionaryBuilder:
         """
         def __init__(self, contig_id, window_index):
             """
-
             :param contig_id: int
             :param window_index: int
             """
