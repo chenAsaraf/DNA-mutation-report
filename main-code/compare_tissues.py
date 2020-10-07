@@ -96,7 +96,7 @@ def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_nu
     print("---------------------------------------")
     print()
     dictionary, contigsStorage = dictBuilder.get_dictionary_and_storage()
-    k = dictBuilder.getK()
+    k = dictBuilder.get_k()
 
     start_time_compare = time.time()
     print()

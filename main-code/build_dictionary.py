@@ -3,30 +3,6 @@ from Bio import SeqIO
 import sys # for processing toolbar printing
 from contigs_analysis import filter_contigs_by_size
 
-"""
- 
-This class builds a dictionary based on the contigs file (FASTA format) from the healthy tissue.
-
-Construction process:
-    Stage 1: Filter contigs by size -  
-       We select the contigs from the healthy tissue in a certain length range as an initial implementation
-       and based on a histogram of lengths that we extracted in advance from the file analysis.
-       This should be improved in future versions to be capable analyse a wider range of lengths.
-    Stage 2: For each contig in the filtered file:
-                2.1: Append the contig to the contigsStorage -
-                     we use Python's List to store all the sequences of the contigs.
-                     The index of the contig in the list is its ID, and thus later in the program it will
-                     allow quick access to each contig by the "[]" operator.
-                2.2: Window parsing of the contig sequence:
-                     A moving window of 10 chars move along the sequence, inserts the index of the sequence into
-                     the dictionary. The content of the window become the key and the value is id.
-                     
-                     
-How to use:
-   dictionary, contigsStorage =  tissueDictionary(helthy_contigs_file).get_dictionary_and_storage()
-   
-"""
-
 
 class TissueDictionaryBuilder:
     """
@@ -75,18 +51,30 @@ class TissueDictionaryBuilder:
     """
 
     class DictionaryItem:
-        """ Inner class- item object to hold the contig information in the dictionary
+        """
+        Inner class- item object to hold the contig information in the dictionary
 
-                self.id : holds the contig id
-                self.indexes : holds list of starting indexes of the k-mer
-                              (the key of this entry, the window) in the contig
+        Attributes
+        ----------
+        id : int
+            holds the contig id
+        indexes : list(int)
+            holds list of starting indexes of the k-mer
+            (the key of this entry, the window) in the contig
         """
         def __init__(self, contig_id, window_index):
+            """
+
+            :param contig_id: int
+            :param window_index: int
+            """
             self.id = int(contig_id)
             self.indexes = [window_index]
 
+
     def __init__(self, contigs_file, test=False, test_num=1000):
         """
+
         :param contigs_file: 'FASTA' file
                     healthy tissue contigs file from which to build
                     the dictionary
@@ -134,36 +122,38 @@ class TissueDictionaryBuilder:
 
         sys.stdout.write("]\n")  # this ends the progress bar
 
-    def get_dictionary_and_storage(self):
-        return self.dictionary, self.contigsStorage
-
-    def getK(self):
-        return self.k
-
-    """
-    Window parsing of the contig sequence:
-    A moving window of 10 chars move along the sequence, inserts the index of the sequence into
-    the dictionary. The content of the window become the key and the value is id.
-    """
     def __parse_window(self, contig, counter_id):
-    # run throw all overlaping windows of length 10 in the sequence (all 10-mer)
+        """ Move the window along the contig sequence and enter the
+         contig information at the appropriate entries in the dictionary
+
+
+        :param contig: SeqRecord object
+            biopython object - hold the contig sequence and identifiers
+        :param counter_id: int
+        """
+        # Run throw all overlapping windows of length 10 in the sequence (all 10-mer)
         for i in range(len(str(contig.seq))-self.k):
-            # key: kmer
-            # value: pairs list of (contig id, index of window)
-            isExist = False
             # Check if this contig already exist in this entry:
+            is_exist = False
             if str(contig.seq)[i : i+self.k] in self.dictionary.keys():
                 entry = self.dictionary[str(contig.seq)[i : i+self.k]]
-                # Iterate over all dictionaryItem of this k-mer:
+                # Iterate over all DictionaryItem of this k-mer:
                 for value in entry:
                     if value.id == int(counter_id):
                         value.indexes.append(i)
-                        isExist = True
+                        is_exist = True
                         break
-                if not isExist:
-                    newItem = self.DictionaryItem(counter_id, i)
-                    self.dictionary[str(contig.seq)[i : i+self.k]].append(newItem)
+                if not is_exist:
+                    new_item = self.DictionaryItem(counter_id, i)
+                    self.dictionary[str(contig.seq)[i : i+self.k]].append(new_item)
             # Else- if this k-mer is not yet a key:
             else:
-                newItem = self.DictionaryItem(counter_id, i)
-                self.dictionary[str(contig.seq)[i : i+self.k]].append(newItem)
+                new_item = self.DictionaryItem(counter_id, i)
+                self.dictionary[str(contig.seq)[i : i+self.k]].append(new_item)
+
+    def get_dictionary_and_storage(self):
+        return self.dictionary, self.contigsStorage
+
+    def get_k(self):
+        return self.k
+
