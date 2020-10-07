@@ -58,7 +58,7 @@ def filter_contigs_by_size(contigs_file, output_name, test=True, test_num=1000):
     print("start to filter contigs by size...")
     records = SeqIO.parse(open(contigs_file),'fasta')
     min_length = 0
-    max_length = 1000
+    max_length = 500
     short_contigs = []
     toolbar_width = 50
     sys.stdout.write("[%s]" % (" " * toolbar_width))
@@ -87,4 +87,4 @@ def filter_contigs_by_size(contigs_file, output_name, test=True, test_num=1000):
 #analyse_file("../contigs-outputs/basic_k-mer24/basic_try_k-mer24.contigs.fa")
 #analyse_file("../source_files+minia/sample_TB0001955-16933-N_R1_001.fastq", source=True)
 #analyse_file("../main-code/sample_contigs_k24.contigs.fa")
-#read_source_file("../source_files+minia/sample_TB0001955-16933-N_R1_001.fastq")
+
