@@ -1,48 +1,89 @@
-from collections import defaultdict
 from Bio import SeqIO
-from matplotlib import pyplot as plt
 import time
 import numpy as np
+from collections import defaultdict
+from matplotlib import pyplot as plt
 from build_dictionary import TissueDictionaryBuilder
 from mutations_distance import PointMutation
 from contigs_analysis import filter_contigs_by_size
 import plot_diagrams as diagrams
 
+"""Main file contains the main functions to run the program
 
-# 1) parse the tumor_cell with non-overlaping window and find there bucket in the dictionary
-# 2) search for each contig in the bucket-list in the BST
-# 3) find alignment (maby another function)
-# 4) send to another function that find the mutation by edit distance
+The main function is 'compare_tissues'.
+The program stages:
+    1) Parse the healthy tissue contigs and store their pointer in the
+        dictionary with TissueDictionaryBuilder object
+    2) For each contig from the tumor tissue contigs:
+        parse the sequence with non-overlapping window and find their entries
+        in the dictionary (find_similar_section function)
+        3) For each contig pointer in the each entry: 
+            4) Find the alignment between the tumor sequence to the healthy
+                sequence, and cut only the overlapping part (find_overlap)
+            5) Calculate the Edit-Distance between the overlapping part 
+                with PointMutation object
+"""
 
-"""
-"""
-def find_similar_section(tumor_file, output_prefix, k, dictionary, healthyStorage, test=False, test_num=1000):
-    # for searching the correct bucket in the dictionary
-    # run throw all non-overlaping windows of length k in the sequence (all k-mer)
-    filtered_tumor_file, num_tumor_contigs = filter_contigs_by_size(tumor_file, 'filtered_tumor_contigs', test=test, test_num=test_num)
+
+def find_similar_section(tumor_file, output_prefix, k, dictionary, healthy_storage,
+                         test=False, test_num=1000):
+    """ For each contig in the tumor file move the window along the sequence and
+        find the similar contig from the healthy file. then compare their
+        overlapping parts with edit distance
+
+        :param tumor_file: 'FASTA' file
+                    tumor tissue contigs file
+        :param output_prefix: string
+                    prefix of the output files
+        :param k: int
+                    the window size (k-mer) of the dictionary-builder
+        :param dictionary:  defaultdict(list)
+                    holds the k-mer as keys and list of dictionaryItem
+                    as values
+        :param healthy_storage: list
+                     holds the healthy tissue contigs sequence in
+                     the index of their id
+        :param test: boolean (optional, default = False)
+                    a variable designed to assist in the software
+                    development process. If test=True then the
+                    software will only run up to test_num contigs.
+        :param test_num: int (optional, default = 1000)
+                    this parameter used only in case test=True
+        :return mutations_report: PointMutation object
+        :return statistics: list
+                    list of comparisons number for each tumor contig
+    """
+    # Select the contigs from the tumor tissue in a certain length range
+    filtered_tumor_file, num_tumor_contigs = filter_contigs_by_size(
+        tumor_file, 'filtered_tumor_contigs', test=test, test_num=test_num)
     print("number of filtered tumor contigs:", num_tumor_contigs)
-    # initialize the object to save the mutations
+    # Initialize object to save the mutations
     mutations_report = PointMutation(output_prefix)
+    # Open the filtered tumor contigs file
     records = SeqIO.parse(open(filtered_tumor_file), 'fasta')
+    # Statistic of comparisons for each sequence in tumor tissue:
     statistics = []
     for tumor_seq in records:
         statistics_of_compares = 0
         contig_len = len(str(tumor_seq.seq))
-        for window in range(0, contig_len - k, k): # (last k argument - to jump k chars each step)
+        # Move the window along the contig sequence
+        for window in range(0, contig_len - k, k):
             if str(tumor_seq.seq)[window: window + k] in dictionary.keys():
-                # Go through all the strings of the healthy tissue in this bucket
                 healthy_tissue_records = dictionary[str(tumor_seq.seq)[window: window + k]]
+                # Go through the list of all contigs of the healthy tissue in this bucket
                 for record in healthy_tissue_records:
-                    healthy_seq = healthyStorage[record.id]
-                    # For each alignment - find the overlapping parts and send to the Edit-Distance function
+                    healthy_seq = healthy_storage[record.id]
+                    # For each index of the window in the healthy contig -
                     for healthy_idx in record.indexes:
                         # Increase the number of compared contigs (For later analysing)
                         statistics_of_compares = statistics_of_compares + 1
+                        # Find the overlapping parts
                         healthy, tumor = find_overlap(str(healthy_seq), str(tumor_seq.seq), healthy_idx, window)
+                        # Send to the Edit-Distance function
                         mutations_report.editDistance(tumor, healthy)
         statistics.append(statistics_of_compares)
-
     return mutations_report, statistics
+
 
 def find_overlap(healthy_seq, tumor_seq, healthy_idx, tumor_idx):
     begin_healthy = end_healthy = begin_tumor = end_tumor = 0
