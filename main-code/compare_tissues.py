@@ -88,7 +88,7 @@ def find_similar_section(tumor_file, output_prefix, k, dictionary, healthy_stora
                         # Find the overlapping parts
                         healthy, tumor = find_overlap(str(healthy_seq), str(tumor_seq.seq), healthy_idx, window)
                         # Send to the Edit-Distance function
-                        mutations_report.editDistance(tumor, healthy)
+                        mutations_report.tissues_edit_distance(tumor, healthy)
         statistics.append(statistics_of_compares)
     return mutations_report, statistics
 
@@ -160,7 +160,7 @@ def calc_mutations_amount(mutations_report):
 
 def calculate_percentages(mutations_report, inserts_amount, replaces_amount, deletes_amount):
     """Calculate for each mutation type the percentage of characters that changed
-    out of all the characters of the diseased tissue we tested
+    out of all the characters of the tumor tissue we tested
 
     :param mutations_report: PointMutation object
     :param inserts_amount: int
