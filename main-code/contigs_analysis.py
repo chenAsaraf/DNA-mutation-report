@@ -5,13 +5,13 @@ import math
 import sys
 
 def plot_histogram(array_of_lengthes):
-    bins = np.concatenate(([50,100,200,300,400,500,1000],np.arange(2000,9000,1000)), axis=None)
+    bins = np.arange(0,100,10)
     fig = plt.figure()
     plt.hist(array_of_lengthes, bins=bins, density=True, facecolor='g')
     plt.title("Histogram of Normal Cell Contigs (kmer:24)")
     plt.xlabel('Length (bp)')
     plt.grid(True)
-    fig.savefig('histogram-normal-contigs-k24_1.png')
+    fig.savefig('histogram-normal-contigs-k24_between_0_to_100.png')
 
 
 def analyse_file(file, source=False):
@@ -45,13 +45,13 @@ def analyse_file(file, source=False):
     print("min length of sequence:", min_length)
     print("max length of sequence:", max_length)
     print("avarege length of sequence:", avg)
-    bins = np.concatenate(([100,200,300,400,500,1000],np.arange(2000,9000,1000)), axis=None)
+    bins = np.arange(0,100,10)
     hist, bin_edges = np.histogram(np.array(list_of_length), bins=bins)
     print("histogram:")
     print(hist)
     print("bin_edges:")
     print(bin_edges)
-    #plot_histogram(np.array(list_of_length))
+    plot_histogram(np.array(list_of_length))
 
 
 def filter_contigs_by_size(contigs_file, output_name, test=True, test_num=1000):
