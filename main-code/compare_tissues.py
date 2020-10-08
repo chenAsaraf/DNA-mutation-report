@@ -11,6 +11,14 @@ import plot_diagrams as diagrams
 """Main file contains the main functions to run the program
 
 The main function is 'compare_tissues'.
+Program results are:
+    - Diagrams: for each mutations type and a distances histogram for 
+            analysing in developing process
+    - 'txt' file of sample strings from the contigs with farther details
+    - PointMutation object, contains the results, and print to stdout 
+            its fields
+            
+            
 The program stages:
     1) Parse the healthy tissue contigs and store their pointer in the
         dictionary with TissueDictionaryBuilder object
@@ -86,9 +94,22 @@ def find_similar_section(tumor_file, output_prefix, k, dictionary, healthy_stora
 
 
 def find_overlap(healthy_seq, tumor_seq, healthy_idx, tumor_idx):
-    begin_healthy = end_healthy = begin_tumor = end_tumor = 0
+    """Find the overlapping parts of the contigs sequences
+
+    :param healthy_seq: string
+                the contig sequence from the healthy tissue
+    :param tumor_seq: string
+                the contig sequence from the tumor tissue
+    :param healthy_idx: int
+                the starting index of the window in the healthy tissue
+    :param tumor_idx:
+                the starting index of the window in the tumor tissue
+    :return: 2 strings in the same length from the both tissues
+                represents the overlapping parts
+    """
     # 1) Find the beginning of the overlap:
-    # If one or both of the indexes is 0 - the start of the sequence, leave the indexes the same
+    #   if one or both of the indexes is 0 - the start of the sequence,
+    #   leave the indexes the same
     if tumor_idx == 0 or healthy_idx == 0:
         begin_healthy = healthy_idx
         begin_tumor = tumor_idx
@@ -111,12 +132,20 @@ def find_overlap(healthy_seq, tumor_seq, healthy_idx, tumor_idx):
     else:
         end_healthy = healthy_idx + remaining_tumor
         end_tumor = tumor_idx + remaining_tumor
-    return healthy_seq[begin_healthy : end_healthy], tumor_seq[begin_tumor : end_tumor]
+    return healthy_seq[begin_healthy: end_healthy], tumor_seq[begin_tumor: end_tumor]
 
 
 def calc_mutations_amount(mutations_report):
-    """ Sum all the characters that changed per mutation type """
+    """Sum all the characters that changed per mutation type
 
+    :param mutations_report: PointMutation object
+    :return inserts_amount: int
+                total inserts in the report
+    :return replaces_amount: int
+                total replaces in the report
+    :return deletes_amount:
+                total deletes in the report
+    """
     inserts_amount = 0
     for char, number in mutations_report.inserts.items():
         inserts_amount = inserts_amount + number
@@ -130,19 +159,45 @@ def calc_mutations_amount(mutations_report):
 
 
 def calculate_percentages(mutations_report, inserts_amount, replaces_amount, deletes_amount):
-    """ Calculate for each mutation type the percentage of characters that changed
-    out of all the characters of the diseased tissue we tested"""
+    """Calculate for each mutation type the percentage of characters that changed
+    out of all the characters of the diseased tissue we tested
 
+    :param mutations_report: PointMutation object
+    :param inserts_amount: int
+                total inserts in the report
+    :param replaces_amount:int
+                total replaces in the report
+    :param deletes_amount:int
+                total deletes in the report
+    """
     mutations_report.set_in_percentages(
-        (float(inserts_amount) / float(mutations_report.sumOfLengths)) * 100 )
+        (float(inserts_amount) / float(mutations_report.sumOfLengths)) * 100)
     mutations_report.set_rep_percentages(
-        (float(replaces_amount) / float(mutations_report.sumOfLengths)) * 100 )
+        (float(replaces_amount) / float(mutations_report.sumOfLengths)) * 100)
     mutations_report.set_del_percentages(
-        (float(deletes_amount) / float(mutations_report.sumOfLengths)) * 100 )
+        (float(deletes_amount) / float(mutations_report.sumOfLengths)) * 100)
 
 
 def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_num=1000):
-    """ Main Function """
+    """  Main Function - generate diagrams for each mutations type,
+    a 'txt' file of sample strings from the contigs with farther details
+    and print to stdout the results
+
+    :param healthy_file: 'FASTA' file
+                healthy tissue contigs file
+    :param tumor_file: 'FASTA' file
+                tumor tissue contigs file
+    :param output_prefix: string
+                prefix of the output files
+    :param test: boolean (optional, default = False)
+                a variable designed to assist in the software
+                development process. If test=True then the
+                software will only run up to test_num contigs.
+    :param test_num: int (optional, default = 1000)
+                this parameter used only in case test=True
+    :return: mutations_report: PointMutation object
+                contains the final results
+    """
 
     # To measure program times:
     start_time_build_dict = time.time()
@@ -203,4 +258,4 @@ def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_nu
     # Create Histogram of all distances for optimizations
     title = "Histogram of all comparisons distances"
     diagrams.distance_histogram(np.array(mutations_report.listOfDistances), "distances-histogram-" + output_prefix, title)
-
+    return mutations_report
