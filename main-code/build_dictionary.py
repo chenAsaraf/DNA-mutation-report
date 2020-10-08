@@ -37,7 +37,7 @@ class TissueDictionaryBuilder:
     dictionary : defaultdict(list)
         holds the k-mer as keys and list of dictionaryItem as values
     contigsStorage : list
-        holds the contigs sequence in the index of its id
+        holds the contigs sequence in the index of their id
 
 
     Methods
@@ -64,13 +64,11 @@ class TissueDictionaryBuilder:
         """
         def __init__(self, contig_id, window_index):
             """
-
             :param contig_id: int
             :param window_index: int
             """
             self.id = int(contig_id)
             self.indexes = [window_index]
-
 
     def __init__(self, contigs_file, test=False, test_num=1000):
         """
@@ -125,7 +123,6 @@ class TissueDictionaryBuilder:
     def __parse_window(self, contig, counter_id):
         """ Move the window along the contig sequence and enter the
          contig information at the appropriate entries in the dictionary
-
 
         :param contig: SeqRecord object
             biopython object - hold the contig sequence and identifiers

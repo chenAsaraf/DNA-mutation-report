@@ -34,6 +34,8 @@ class PointMutation:
         self.inserts = dict.fromkeys(bases, 0)
         self.deletes = dict.fromkeys(bases, 0)
         self.replaces = dict.fromkeys(replace, 0)
+        self.in_percentages = 0
+        self.del_percentages = self.rep_percentages = 0
 
     def editDistance(self, healthy, tumor):
         # We assume less than 15 percent of the distance for being the same tissue:
@@ -95,3 +97,12 @@ class PointMutation:
                 else:
                     f.write("Deletes Amount: " + str(counters_for_mutations[DELETES]) + ". \n")
                 f.close()
+
+    def set_in_percentages(self, perc):
+        self.in_percentages = perc
+
+    def set_del_percentages(self, perc):
+        self.del_percentages = perc
+
+    def set_rep_percentages(self, perc):
+        self.rep_percentages = perc
