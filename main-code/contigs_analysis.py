@@ -5,7 +5,7 @@ import math
 import sys
 
 def plot_histogram(array_of_lengthes):
-    bins = np.concatenate(([0,100,200,300,400,500,1000],np.arange(2000,10000,1000)), axis=None)
+    bins = np.arange(0,101,10)
     fig = plt.figure()
     plt.hist(array_of_lengthes, bins=bins, density=True, facecolor='g')
     plt.title("Histogram of Normal Cell Contigs (kmer:24)")
@@ -45,7 +45,7 @@ def analyse_file(file, source=False):
     print("min length of sequence:", min_length)
     print("max length of sequence:", max_length)
     print("avarege length of sequence:", avg)
-    bins = np.concatenate(([0,100,200,300,400,500,1000],np.arange(2000,10000,1000)), axis=None)
+    bins = np.arange(0,101,10)
     hist, bin_edges = np.histogram(np.array(list_of_length), bins=bins)
     print("histogram:")
     print(hist)
