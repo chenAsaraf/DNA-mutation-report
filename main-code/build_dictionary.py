@@ -46,7 +46,7 @@ class TissueDictionaryBuilder:
         :return self.dictionary, self.contigsStorage
 
     get_k()
-    :return self.k
+        :return self.k
 
     """
 
