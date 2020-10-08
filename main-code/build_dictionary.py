@@ -70,7 +70,6 @@ class TissueDictionaryBuilder:
             self.id = int(contig_id)
             self.indexes = [window_index]
 
-
     def __init__(self, contigs_file, test=False, test_num=1000):
         """
 

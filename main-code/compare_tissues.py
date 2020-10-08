@@ -1,11 +1,13 @@
 from collections import defaultdict
 from Bio import SeqIO
-from build_dictionary import TissueDictionaryBuilder
 from matplotlib import pyplot as plt
-from mutations_distance import PointMutation
-from contigs_analysis import filter_contigs_by_size
 import time
 import numpy as np
+from build_dictionary import TissueDictionaryBuilder
+from mutations_distance import PointMutation
+from contigs_analysis import filter_contigs_by_size
+import plot_diagrams as diagrams
+
 
 # 1) parse the tumor_cell with non-overlaping window and find there bucket in the dictionary
 # 2) search for each contig in the bucket-list in the BST
@@ -39,7 +41,7 @@ def find_similar_section(tumor_file, output_prefix, k, dictionary, healthyStorag
                         healthy, tumor = find_overlap(str(healthy_seq), str(tumor_seq.seq), healthy_idx, window)
                         mutations_report.editDistance(tumor, healthy)
         statistics.append(statistics_of_compares)
-    avg_compares_per_tumor_seq = sum(statistics)/len(statistics)
+
     return mutations_report, statistics
 
 def find_overlap(healthy_seq, tumor_seq, healthy_idx, tumor_idx):
@@ -71,48 +73,8 @@ def find_overlap(healthy_seq, tumor_seq, healthy_idx, tumor_idx):
     return healthy_seq[begin_healthy : end_healthy], tumor_seq[begin_tumor : end_tumor]
 
 
-def plot_distance_histogram(array_of_lengthes, prefix, title="Histogram"):
-    fig = plt.figure()
-    plt.hist(array_of_lengthes, facecolor='g')
-    plt.title(title)
-    plt.xlabel('Edit Distance')
-    plt.ylabel('Quantity')
-    # plt.grid(True)
-    fig.savefig(prefix+'.png')
-
-
-
-def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_num=1000):
-    start_time_build_dict = time.time()
-
-    if test:
-        dictBuilder = TissueDictionaryBuilder(healthy_file, test=True, test_num=test_num)
-    else:
-        dictBuilder = TissueDictionaryBuilder(healthy_file)
-
-    print()
-    print("---------------------------------------")
-    print("%.2f seconds to BUILD dictionary " % (time.time() - start_time_build_dict))
-    print("---------------------------------------")
-    print()
-    dictionary, contigsStorage = dictBuilder.get_dictionary_and_storage()
-    k = dictBuilder.get_k()
-
-    start_time_compare = time.time()
-    print()
-    print("start to compare tissues...")
-
-    mutations_report, statistics = find_similar_section(tumor_file, output_prefix, k, dictionary, contigsStorage, test=test, test_num=test_num)
-    print()
-    print("---------------------------------------")
-    print("%.2f seconds to COMPARE all tissues " % (time.time() - start_time_compare))
-    print("---------------------------------------")
-    print()
-
-    sum_comparisons = sum(statistics)
-    avg_compares_statistics = sum_comparisons/len(statistics)
-    print("number of all comparison:", sum_comparisons)
-    print("statistic of contigs comparison per one: ", avg_compares_statistics)
+def calc_mutations_amount(mutations_report):
+    """ Sum all the characters that changed per mutation type """
 
     inserts_amount = 0
     for char, number in mutations_report.inserts.items():
@@ -123,64 +85,81 @@ def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_nu
     deletes_amount = 0
     for char, number in mutations_report.deletes.items():
         deletes_amount = deletes_amount + number
+    return inserts_amount, replaces_amount, deletes_amount
 
+
+def calculate_percentages(mutations_report, inserts_amount, replaces_amount, deletes_amount):
+    """ Calculate for each mutation type the percentage of characters that changed
+    out of all the characters of the diseased tissue we tested"""
+
+    mutations_report.set_in_percentages(
+        (float(inserts_amount) / float(mutations_report.sumOfLengths)) * 100 )
+    mutations_report.set_rep_percentages(
+        (float(replaces_amount) / float(mutations_report.sumOfLengths)) * 100 )
+    mutations_report.set_del_percentages(
+        (float(deletes_amount) / float(mutations_report.sumOfLengths)) * 100 )
+
+
+def compare_tissues(healthy_file, tumor_file, output_prefix, test=False, test_num=1000):
+    """ Main Function """
+
+    # To measure program times:
+    start_time_build_dict = time.time()
+    # Build the dictionary from the healthy tissue file
+    if test:  # While writing the program we will run with the 'test'=True parameter
+        dict_builder = TissueDictionaryBuilder(healthy_file, test=True, test_num=test_num)
+    else:
+        dict_builder = TissueDictionaryBuilder(healthy_file)
+    # Prints to stdout for indication of program progress
+    print()
+    print("---------------------------------------")
+    print("%.2f seconds to BUILD dictionary " % (time.time() - start_time_build_dict))
+    print("---------------------------------------")
+    print()
+    # Get the dictionary and the contigs storage
+    dictionary, contigs_storage = dict_builder.get_dictionary_and_storage()
+    k = dict_builder.get_k()  # The dictionary window size
+    start_time_compare = time.time()
+    print()
+    print("start to compare tissues...")
+    # Compare the healthy tissue to the tumor tissue, and return the report
+    mutations_report, statistics = find_similar_section(tumor_file, output_prefix, k, dictionary, contigs_storage, test=test, test_num=test_num)
+    print()
+    print("---------------------------------------")
+    print("%.2f seconds to COMPARE all tissues " % (time.time() - start_time_compare))
+    print("---------------------------------------")
+    print()
+    # Calculate statistics of comparisons:
+    sum_comparisons = sum(statistics)
+    avg_compares_statistics = sum_comparisons/len(statistics)
+    print("number of all comparison:", sum_comparisons)
+    print("statistic of contigs comparison per one: ", avg_compares_statistics)
+    # Calculate statistics per mutation type:
+    inserts_amount, replaces_amount, deletes_amount = calc_mutations_amount(mutations_report)
+    calculate_percentages(mutations_report, inserts_amount, replaces_amount, deletes_amount)
+    # Print results to the screen:
     print(" ~ Mutations Report ~ ")
     print()
     print("The cancerous tissue from: ", tumor_file)
     print("The noraml tissue from:", healthy_file)
     print()
-    print("~ Inserts Amount:", inserts_amount, ", Percentage of all characters: %.2f " % ((float(inserts_amount)/float(mutations_report.sumOfLengths)) * 100), "%")
+    print("~ Inserts Amount:", inserts_amount,
+          ", Percentage of all characters: %.2f " % mutations_report.in_percentages, "%")
     print("\t \t", mutations_report.inserts)
-    print("~ Replaces Amount:", replaces_amount, ", Percentage of all characters: %.2f " % ((float(replaces_amount)/float(mutations_report.sumOfLengths))*100), "%")
+    print("~ Replaces Amount:", replaces_amount,
+          ", Percentage of all characters: %.2f " % mutations_report.rep_percentages, "%")
     print("\t \t", mutations_report.replaces)
-    print("~ Deletes Amount:", deletes_amount, ", Percentage of all characters: %.2f" % ((float(deletes_amount)/float(mutations_report.sumOfLengths))*100), "%")
-    print("\t \t",mutations_report.deletes)
-    print("~ Number of comparisons actually entered into the report:", mutations_report.counterOfComparisons)
-
-    # Creating plot of mutation types and save it
-    names = ["inserts", "replaces", "deletes"]
-    numbers = [inserts_amount, replaces_amount, deletes_amount]
-    plt.bar(names, numbers, align='center', alpha=0.5)
-    plt.title('Mutation types')
-    plt.ylabel('Appearance')
-    plt.xlabel('Types')
-    for i in range(len(names)):
-        plt.text(x=i, y=numbers[i] + 0.1, s=numbers[i])
-    plt.savefig(output_prefix + "-total.png")
-    plt.close()
-    
-    # Creating plot of the inserts types and save it
-    plt.bar(list(mutations_report.inserts.keys()), list(mutations_report.inserts.values()), align='center', alpha=0.5)
-    plt.title('Inserts')
-    plt.ylabel('Number Of Inserts')
-    plt.xlabel('Bases Inserted')
-    for i in range(len(list(mutations_report.inserts.keys()))):
-        plt.text(x=i, y=list(mutations_report.inserts.values())[i] + 0.1, s=list(mutations_report.inserts.values())[i])
-    plt.savefig(output_prefix + "-inserts.png")
-    plt.close()
-    
-    # Creating plot of the replaces types and save it
-    plt.bar(list(mutations_report.replaces.keys()), list(mutations_report.replaces.values()), align='center', alpha=0.5)
-    plt.title('Replaces')
-    plt.ylabel('Number Of Replaces')
-    plt.xlabel('Replacement Bases')
-    for i in range(len(list(mutations_report.replaces.keys()))):
-        plt.text(x=i, y=list(mutations_report.replaces.values())[i] + 0.1, s=list(mutations_report.replaces.values())[i])
-    plt.savefig(output_prefix + "-replaces.png")
-    plt.close()
-    
-    # Creating plot of the deletes types and save it
-    plt.bar(list(mutations_report.deletes.keys()), list(mutations_report.deletes.values()), align='center', alpha=0.5)
-    plt.title('Deletes')
-    plt.ylabel('Number Of Deletes')
-    plt.xlabel('Bases Deleted')
-    for i in range(len(list(mutations_report.deletes.keys()))):
-        plt.text(x=i, y=list(mutations_report.deletes.values())[i] + 0.1, s=list(mutations_report.deletes.values())[i])
-    plt.savefig(output_prefix + "-deletes.png")
-    plt.close()
-    
-
+    print("~ Deletes Amount:", deletes_amount,
+          ", Percentage of all characters: %.2f" % mutations_report.del_percentages, "%")
+    print("\t \t", mutations_report.deletes)
+    print("~ Number of comparisons actually entered into the report:",
+          mutations_report.counterOfComparisons)
+    # Create diagrams:
+    diagrams.general_diagram(inserts_amount, replaces_amount, deletes_amount, output_prefix)
+    diagrams.inserts_diagram(mutations_report, output_prefix)
+    diagrams.replaces_diagram(mutations_report, output_prefix)
+    diagrams.deletes_diagram(mutations_report, output_prefix)
     # Create Histogram of all distances for optimizations
     title = "Histogram of all comparisons distances"
-    plot_distance_histogram(np.array(mutations_report.listOfDistances), "distances-histogram-" + output_prefix, title)
+    diagrams.distance_histogram(np.array(mutations_report.listOfDistances), "distances-histogram-" + output_prefix, title)
 
