@@ -5,7 +5,7 @@ import math
 import sys
 
 def plot_histogram(array_of_lengthes):
-    bins = np.arange(0,100,10)
+    bins = np.concatenate(([0,100,200,300,400,500,1000],np.arange(2000,10000,1000)), axis=None)
     fig = plt.figure()
     plt.hist(array_of_lengthes, bins=bins, density=True, facecolor='g')
     plt.title("Histogram of Normal Cell Contigs (kmer:24)")
@@ -45,7 +45,7 @@ def analyse_file(file, source=False):
     print("min length of sequence:", min_length)
     print("max length of sequence:", max_length)
     print("avarege length of sequence:", avg)
-    bins = np.arange(0,100,10)
+    bins = np.concatenate(([0,100,200,300,400,500,1000],np.arange(2000,10000,1000)), axis=None)
     hist, bin_edges = np.histogram(np.array(list_of_length), bins=bins)
     print("histogram:")
     print(hist)
@@ -84,7 +84,7 @@ def filter_contigs_by_size(contigs_file, output_name, test=True, test_num=1000):
 
 
 
-#analyse_file("../contigs-outputs/basic_k-mer24/basic_try_k-mer24.contigs.fa")
+analyse_file("../../contigs-outputs/healthy/basic_k-mer24/basic_try_k-mer24.contigs.fa")
 #analyse_file("../source_files+minia/sample_TB0001955-16933-N_R1_001.fastq", source=True)
 #analyse_file("../main-code/sample_contigs_k24.contigs.fa")
 
