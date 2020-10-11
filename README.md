@@ -36,9 +36,9 @@ The parameters are:
 ## Results:
 The program outputs three reports:
 1. An object of mutation_distance containing quantities of point-mutations divided according to their types and nucleotides, in addition to the percentage of mutation per strings’ length.
-2. Diagrams per mutation type
-3. Sampling file that is a collection of already compared strings and the distance between them to illustrate mutations that were found in the genome.
+2. Diagrams per mutation type (png files)
+3. Sampling file that is a collection of already compared strings and the distance between them to illustrate mutations that were found in the genome (txt file).
 
 ![results for example](https://github.com/chenAsaraf/DNAMutationReport/blob/master/results_eample.JPG)
-
+![results diagrams](https://github.com/chenAsaraf/DNAMutationReport/blob/master/main-code/experiments-10000/10000-exp-chen-replaces.png)
 
