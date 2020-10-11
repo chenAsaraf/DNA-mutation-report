@@ -18,3 +18,17 @@ The main parameters are:
   4. output_prefix – any prefix string to store output contigs as well as temporary files for this assembly
 
 * **edit-distance** - Python module for computing edit distances and alignments between sequences. see more at [edit-distancw page](https://github.com/belambert/edit-distance).
+
+## How to Use:
+
+in 'main-code' folder run:
+```
+python3.6 run_compare_tissues helathy_file_path tumor_file_path output_prefix(optional) test(optional) test_num(optional)
+```
+The parameters are:
+*helathy_file_path, tumor_file_path - contigs file in FASTA format
+*test - this variable designed to assist in the software
+         development process. If 'test' argument exist then the
+         software will only run up to test_num contigs.
+*test_num - int (optional) this parameter used only in case 'test' argument 
+               exist
