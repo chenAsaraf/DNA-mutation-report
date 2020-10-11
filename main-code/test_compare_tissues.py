@@ -6,9 +6,13 @@ def run_compare_tissues():
     """run compare_tissues
     
     used:
-    python3.6 compare_tissues helathy_file_path tumor_file_path output_prefix (optional) test_num (optional)
+    python3.6 run_compare_tissues helathy_file_path tumor_file_path output_prefix (optional) test (optional) test_num (optional)
     helathy_file_path, tumor_file_path - contigs file in FASTA format
-    test_num 
+    test - this variable designed to assist in the software
+             development process. If 'test' argument exist then the
+             software will only run up to test_num contigs.
+    test_num - int (optional) this parameter used only in case 'test' argument 
+               exist
     
     """
 
@@ -25,10 +29,13 @@ def run_compare_tissues():
     else: 
         output_prefix = "output"
     if argvlen > 4:
-        test_num = sys.argv[4]
+        if sys.argv[4] == 'test':
+            test = True
+            test_num = sys.argv[5]
     else:
+        test = False
         test_num = None
 
-    compare_tissues(healthy, tumor, output_prefix, test=False, test_num=test_num)
+    compare_tissues(healthy, tumor, output_prefix, test=test, test_num=test_num)
 
-test_compare_tissues()
+run_compare_tissues()
