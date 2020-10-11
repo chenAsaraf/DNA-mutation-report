@@ -40,5 +40,8 @@ The program outputs three reports:
 3. Sampling file that is a collection of already compared strings and the distance between them to illustrate mutations that were found in the genome (txt file).
 
 ![results for example](https://github.com/chenAsaraf/DNAMutationReport/blob/master/results_eample.JPG)
+
+For example - the replaces diagram as retulted in experiment on 10,000 contigs. The string 'AC' represents that 'A' was in the healthy tissue and was replaced
+with 'C' in the tumor tissue and so on.
 ![results diagrams](https://github.com/chenAsaraf/DNAMutationReport/blob/master/main-code/experiments-10000/10000-exp-chen-replaces.png)
 
