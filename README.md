@@ -26,9 +26,13 @@ in 'main-code' folder run:
 python3.6 run_compare_tissues helathy_file_path tumor_file_path output_prefix(optional) test(optional) test_num(optional)
 ```
 The parameters are:
-*helathy_file_path, tumor_file_path - contigs file in FASTA format
-*test - this variable designed to assist in the software
+* helathy_file_path, tumor_file_path - contigs file in FASTA format
+* test - this variable designed to assist in the software
          development process. If 'test' argument exist then the
          software will only run up to test_num contigs.
-*test_num - int (optional) this parameter used only in case 'test' argument 
+* test_num - int (optional) this parameter used only in case 'test' argument 
                exist
+               
+## Results:
+
+
