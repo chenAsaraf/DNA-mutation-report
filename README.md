@@ -5,16 +5,16 @@ We present here the program and the results of our research for constructing a f
 The algorithm uses the reads to partially assemble the genome, with the help of an external existing de-novo assembly program. Once the reads are mapped into longer sequences, called ‘contigs’, the algorithm uses a dictionary type data-structure to reduce the number of comparisons between them.
 
 ## Tools we used:
-**Minia assembler** - A short-read assembler based on a de Bruijn graph, the output is a set of contigs. see more at [Minia page](https://github.com/GATB/minia).
+* **Minia assembler** - A short-read assembler based on a de Bruijn graph, the output is a set of contigs. see more at [Minia page](https://github.com/GATB/minia).
 
 minia command line we used:
 ```
 ./minia -in reads.fa -kmer-size 24 -abundance-min 3 -out output_prefix
 ```
 The main parameters are:
-  1. **reads.fa** – the input file(s)
-  2. **kmer-size 24** – k-mer length (integer), the number may vary depending on user choice
-  3. **abundance-min 3** - hard cut-off to remove likely erroneous, low-abundance k-mers
-  4. **output_prefix** – any prefix string to store output contigs as well as temporary files for this assembly
+  1. reads.fa* – the input file(s)
+  2. kmer-size 24 – k-mer length (integer), the number may vary depending on user choice
+  3. abundance-min 3 - hard cut-off to remove likely erroneous, low-abundance k-mers
+  4. output_prefix – any prefix string to store output contigs as well as temporary files for this assembly
 
-**edit-distance** - Python module for computing edit distances and alignments between sequences. see more at [edit-distancw page](https://github.com/belambert/edit-distance).
+* **edit-distance** - Python module for computing edit distances and alignments between sequences. see more at [edit-distancw page](https://github.com/belambert/edit-distance).
